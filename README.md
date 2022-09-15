@@ -37,6 +37,13 @@ When it comes to hosting services and applications, I think it makes sense to ho
 
 Mostly, this will be done to allow greater localized control of the actual applications and services they host, which may require additional storage for more sensitive information like billing, payments and personnel data. They should also be empowered to modify and extend their software as befits their particular needs. Likewise, they should be granted a high level of local autonomy in determining how costs are shared, how prices are set, and how the overall governance of their regional platform is administered. However, they will still benefit from services and resources that are shared nationally and globally, such as Solid pod storage. By the same token, they will also be obliged to contribute finances or resources globally and abide by the terms set by those broader governing bodies, though ideally any restrictions would be kept minimal and enforcement rarely called for in practice.
 
+### Why Solid?
+From the Solid Project's ["Vocabularies Overview"](https://solidproject.org/developers/vocabularies):
+
+> One of the core ideas behind solid is to make __data__ independent from __applications__, so that one can be in control of his/her own data and share it with the apps of his/her choice. For this to be possible, the same piece of data must be understood __consistently__ from one app to another. This requires agreeing on the meaning of the data, as conveyed by its description. Therefore, to make data reusable, it should be described with vocabularies that are widely used and known. This section of the documentation aims to help you navigate through the main concepts of using vocabularies to describe your data, and to build applications on top of that.
+
+Thanks, @paul121, for highlighting this!
+
 ## User stories
 Based on their different needs and business models, it may be helpful to think about the different user stories for Jess Hudson and Tianna Kennedy, as well as the people they need to communicate with.
 
