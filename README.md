@@ -11,7 +11,7 @@ Concerning infrastructure, these platforms must fulfill two primary responsibili
 1. Storing data in [Solid](https://solidproject.org/) ["pods"](https://solidproject.org/users/get-a-pod) and managing their underlying databases for the various types of food producers, distributors and consumers.
 2. Hosting the web-based applications and other software that can use the data in those pods to provide a variety of services, like aggregation, sales, auditing, etc.
 
-To start off, we will provide a simple hosting service for farmers to store their crop plans and production data as it pertains to certain user scenarios. These scenarios will be selected for the purposes of prototyping specific solutions — e.g., surveys to asses whether the farms in a food hub are on target to match anticipated sales volumes — so that we can we can illustrate the need for such solutions, while simultaneously delivering the applications that meet the most immediate of those needs, and also testing the underlying architecture and services that can support them.
+To start off, we will provide a simple hosting service for farmers to store their crop plans and production data as it pertains to certain user scenarios. These scenarios will be selected for the purposes of prototyping specific solutions — e.g., surveys to asses whether the farms in a food hub are on target to match anticipated sales volumes — so that we can illustrate the need for such solutions, while simultaneously delivering the applications that meet the most immediate of those needs, and also testing the underlying architecture and services that can support them.
 
 From the very beginning, this data will be conformant with both the [farmOS Data Model](https://farmos.org/model/), as well as the [Solid Protocol](https://solidproject.org/TR/protocol), so that even if we're unable to maintain this service long-term, users will have an easy migration path to a farmOS or Solid hosting provider (such as [Farmier](https://farmier.com/) or [Inrupt](https://start.inrupt.com/), respectively).
 
@@ -31,18 +31,17 @@ All of this necessitates that care is taken when drafting the Terms of Service (
 other considerations...
 - one person, one pod?
 - use of homomorphic encryption and synthetic data?
-
-## Distributed, Federated Services & Applications
-When it comes to hosting services and applications, I think it makes sense to host and operate that software on a smaller, regional scale and in a more distributed manner, compared to how data for that software will be hosted and stored. This is the second of the "primary responsibilities" listed above.
-
-Mostly, this will be done to allow greater localized control of the actual applications and services they host, which may require additional storage for more sensitive information like billing, payments and personnel data. They should also be empowered to modify and extend their software as befits their particular needs. Likewise, they should be granted a high level of local autonomy in determining how costs are shared, how prices are set, and how the overall governance of their regional platform is administered. However, they will still benefit from services and resources that are shared nationally and globally, such as Solid pod storage. By the same token, they will also be obliged to contribute finances or resources globally and abide by the terms set by those broader governing bodies, though ideally any restrictions would be kept minimal and enforcement rarely called for in practice.
+- auth flows
 
 ### Why Solid?
 From the Solid Project's ["Vocabularies Overview"](https://solidproject.org/developers/vocabularies):
 
 > One of the core ideas behind solid is to make __data__ independent from __applications__, so that one can be in control of his/her own data and share it with the apps of his/her choice. For this to be possible, the same piece of data must be understood __consistently__ from one app to another. This requires agreeing on the meaning of the data, as conveyed by its description. Therefore, to make data reusable, it should be described with vocabularies that are widely used and known. This section of the documentation aims to help you navigate through the main concepts of using vocabularies to describe your data, and to build applications on top of that.
 
-Thanks, @paul121, for highlighting this!
+## Distributed, Federated Services & Applications
+When it comes to hosting services and applications, I think it makes sense to host and operate that software on a smaller, regional scale and in a more distributed manner, compared to how data for that software will be hosted and stored. This is the second of the "primary responsibilities" listed above.
+
+Mostly, this will be done to allow greater localized control of the actual applications and services they host, which may require additional storage for more sensitive information like billing, payments and personnel data. They should also be empowered to modify and extend their software as befits their particular needs. Likewise, they should be granted a high level of local autonomy in determining how costs are shared, how prices are set, and how the overall governance of their regional platform is administered. However, they will still benefit from services and resources that are shared nationally and globally, such as Solid pod storage. By the same token, they will also be obliged to contribute finances or resources globally and abide by the terms set by those broader governing bodies, though ideally any restrictions would be kept minimal and enforcement rarely called for in practice.
 
 ## User stories
 Based on their different needs and business models, it may be helpful to think about the different user stories for Jess Hudson and Tianna Kennedy, as well as the people they need to communicate with.
