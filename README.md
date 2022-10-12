@@ -22,8 +22,33 @@ It probably makes sense to have one centralized Solid server for storing farm- a
 
 This covers the first of the "primary responsibilities" above, which I originally considered to be the sole concern of smaller, regional platforms, collocated with their software services. As I thought about it more, however, I realized that doesn't make a lot of sense, since the storage needs will be fairly generalized without much need for specialization. So long as each platform can be authorized to create and manage the Solid pods of individual farmers on their behalf, and so long as each farmer is allowed to opt out of that management policy at any time, there is no need to distribute the responsibility over pod storage.
 
+### Pod Provisioning
 It may also be helpful to structure storage costs in a way that a platform or service on a platform can provision a block of storage for multiple users on a Solid server, so they can build that cost into their own fees and/or shared costs.
 
+This is actually quite similar to how [use.id](https://get.use.id/business) designs their [Provisioning API](https://forum.use.id/t/design-of-the-provisioning-api-feedback-welcome/40):
+
+```http
+# @name provisioning
+#
+# Registers a new WebID, if it does not already exist, and creates a new WebID profile for it.
+# Value for Slug is used for creating the WebID -- here: https://dev.use.id/tom
+#
+# Responds with 201 Created, a Location header to the new WebID, and the contents of the WebID profile as a body.
+# Responds with 409 Conflict if the WebID already exists.
+#
+POST https://dev.use.id/provision HTTP/1.1
+Authorization: DPoP <api-token>
+DPoP: <dpop-proof>
+Content-Type: application/json
+Slug: tom
+
+{
+    "email": "tom-stevens@email.com",
+    "password": "passwd1234"
+}
+```
+
+Further in that forum post it states that "`<api-token>` is an access token, retrieved from the [client credentials flow](https://forum.use.id/t/how-to-access-use-ids-api-with-your-apps-webid/62)" and that [`<dpop-proof>`](https://forum.use.id/t/how-to-create-a-dpop-proof-header/63) is unique per request". Sending passwords is temporary while passwordless flow is implemented, but as of April 2022, none of the system is quite ready for testing.
 
 ### Terms of Service
 All of this necessitates that care is taken when drafting the Terms of Service (ToS), both between storage providers and regional platforms, and between regional platforms and individual users.
