@@ -68,6 +68,10 @@ When it comes to hosting services and applications, I think it makes sense to ho
 
 Mostly, this will be done to allow greater localized control of the actual applications and services they host, which may require additional storage for more sensitive information like billing, payments and personnel data. They should also be empowered to modify and extend their software as befits their particular needs. Likewise, they should be granted a high level of local autonomy in determining how costs are shared, how prices are set, and how the overall governance of their regional platform is administered. However, they will still benefit from services and resources that are shared nationally and globally, such as Solid pod storage. By the same token, they will also be obliged to contribute finances or resources globally and abide by the terms set by those broader governing bodies, though ideally any restrictions would be kept minimal and enforcement rarely called for in practice.
 
+It might be helpful to illustrate this with a stack diagram, like the ones used for illustrating architecture of the Linux kernel and similar technology systems:
+
+![Stack diagram of the Linux kernel](https://upload.wikimedia.org/wikipedia/commons/9/99/Linux_kernel_and_OpenGL_video_games.svg)
+
 ## User stories
 Based on their different needs and business models, it may be helpful to think about the different user stories for Jess Hudson and Tianna Kennedy, as well as the people they need to communicate with.
 
