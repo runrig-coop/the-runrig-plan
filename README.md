@@ -27,7 +27,7 @@ It may also be helpful to structure storage costs in a way that a platform or se
 
 This is actually quite similar to how [use.id](https://get.use.id/business) designs their [Provisioning API](https://forum.use.id/t/design-of-the-provisioning-api-feedback-welcome/40):
 
-```http
+```
 # @name provisioning
 #
 # Registers a new WebID, if it does not already exist, and creates a new WebID profile for it.
@@ -36,7 +36,10 @@ This is actually quite similar to how [use.id](https://get.use.id/business) desi
 # Responds with 201 Created, a Location header to the new WebID, and the contents of the WebID profile as a body.
 # Responds with 409 Conflict if the WebID already exists.
 #
-POST https://dev.use.id/provision HTTP/1.1
+```
+```http
+POST /provision HTTP/1.1
+Host: https://dev.use.id
 Authorization: DPoP <api-token>
 DPoP: <dpop-proof>
 Content-Type: application/json
