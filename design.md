@@ -10,3 +10,6 @@ In Tianna's case, the people she's communicating with are farmers in 607 CSA, wh
 The basic registration, authentication and authorization processes will be of paramount interest to these work flows: What does the login/sign-up screen look like? Is there a single URL they go to? How is it different for Jess and Tianna versus the farmers and customers they're working with? How does it connect with whatever sales platform(s) the customers use? How do we balance the need to maintain each user's data sovereignty while also providing a seamless, simple and secure user experience?
 
 These authentication and security concerns will be especially insightful while making decisions about the hosting architecture and data storage.
+
+## Abolish the import/export button!
+![George Costanza: "He's and importer-exporter. Okay?"](https://y.yarn.co/ff1904ad-370e-4bd3-9722-d10854b637da_text.gif)
