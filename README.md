@@ -5,7 +5,8 @@ _Locally. Regionally. Globally._
 
 ## Contents
 - [OVERVIEW](overview.md)
-  - Primary Goals & Responsibilities
+  - Purpose
+  - Three Layers of Autonomy
   - Unique Advantages
 - [ARCHITECTURE](architecture.md)
   - Collective, Centralized Hosting & Storage
