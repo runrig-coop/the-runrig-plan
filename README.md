@@ -7,6 +7,9 @@ This is a draft proposal for a communal technology platform and _libre_ software
 - [OVERVIEW](overview.md)
   - Purpose
   - Three Layers of Autonomy
+    - The Data Provider
+    - Service Platforms
+    - Local-first Applications
   - Unique Advantages
 - [ARCHITECTURE](architecture.md)
   - Collective, Centralized Hosting & Storage
