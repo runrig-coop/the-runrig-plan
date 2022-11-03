@@ -10,7 +10,6 @@ Runrig differs from other approaches by coordinating the pooled capabilities of 
 1. A single, collectively owned data storage provider, or "pod"[^7] provider.
 2. Many federated cooperative service platforms.
 3. Local-first[^8], end user applications (optional).
-<!-- TODO: Is this third layer necessary? -->
 
 ### The Data Provider
 The first layer is a global commons, providing networked data storage to all its members as a shared service, while diffusing the costs and responsibilities of managing the underlying databases and hosting services such a system entails. This layer corresponds to the data category of digital assets, as outlined above, and should be relatively indifferent to the shape of that data or how it's intended to be used.
@@ -27,7 +26,9 @@ This second layer, regardless of the particular platform or service, is also the
 Ultimately, the service platforms only mediate the exchange between the data provider and the user, both in terms of the actual data exchange, as well as the service level agreements between all three parties. That is not to say that power users are prevented from interacting directly with the data provider, especially if they have programming knowledge; they just don't _have_ to do so directly. They don't have to be aware how those data transactions work, or that the data provider even exists, although hopefully they will appreciate that regardless of what service platform they use, they retain certain rights over both their data and how the storage of it is administered.
 
 ### Local-first Applications
-The third layer, applications that individual users can run and store locally on their personal devices, is not strictly necessary, and may only appeal to certain power users, but it emerges quite naturally from the distributed nature of the overall framework, and affords some interesting potentialities for peer-to-peer scenarios. (more on that...)
+Local-first applications, which individual users can install on their personal desktop and mobile devices, comprise the third layer. These are not strictly necessary, however, and may only appeal to certain  users at first. The other two layers are perfectly capable of providing fully featured web-based applications on their own, without the need to install and maintain purely local instances. Yet the possibility emerges quite spontaneously from the other two layers due to their intrinsically distributed nature. This affords the potential for additional peer-to-peer features and decentralized functionality, which could provide greater resilience to the overall network while also granting more freedom to individual users outside of those networks.
+
+The details of this are still less critical to Runrig's initial development, but will be further explicated in the ["Architecture"](architecture.md) section of this proposal.
 
 ## Unique Advantages
 To be sure, these are grand ambitions, for not just a single technology platform, but an entire ecology of interconnected platforms. Fortunately, there has been a great deal of prior work to establish the standards and infrastructure necessary to make it all possible, and because it takes advantage of free software and collaborative methodologies, there is a lot that can be done merely by snapping together off-the-shelf components.
