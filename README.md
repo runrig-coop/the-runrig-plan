@@ -10,7 +10,9 @@ This is a draft proposal for a communal technology platform and _libre_ software
     - The Data Provider
     - Service Platforms
     - Local-first Applications
-  - Unique Advantages
+  - Strategy
+    - Part of a Larger Ecosystem
+    - Unique Advantages
 - [ARCHITECTURE](architecture.md)
   - Collective, Centralized Hosting & Storage
     - Pod Provisioning
