@@ -1,4 +1,8 @@
 # Architecture
+As described in Solid Project's [documentation](https://solidproject.org/developers/vocabularies):
+
+> One of the core ideas behind [Solid] is to make __data__ independent from __applications__, so that one can be in control of his/her own data and share it with the apps of his/her choice. For this to be possible, the same piece of data must be understood __consistently__ from one app to another. This requires agreeing on the meaning of the data, as conveyed by its description. Therefore, to make data reusable, it should be described with vocabularies that are widely used and known.
+
 ## Collective, Centralized Hosting & Storage
 It probably makes sense to have one centralized Solid server for storing farm- and food-related data, since the Solid protocol by its very nature allows a great deal of autonomy to individual users as it is. It's also intended to be hosted and operated by "providers", which in this case, could be some kind of collectively governed coop or non-profit, operating on a national or global scale.
 
