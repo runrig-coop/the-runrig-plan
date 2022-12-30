@@ -14,6 +14,7 @@ This is a draft proposal for a communal technology platform and _libre_ software
     - Part of a Larger Ecosystem
     - Unique Advantages
     - Ecology over Architecture
+  - Conclusions
 - [ARCHITECTURE](architecture.md)
   - Collective, Centralized Hosting & Storage
     - Pod Provisioning
