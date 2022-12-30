@@ -1,94 +1,393 @@
 # Overview
 ## Purpose
-In its broadest sense, Runrig is a technology framework for the communal management of the digital assets of a foodshed, as well as networks of cooperating foodsheds. To the degree that such information may control the flow of actual material resources, it may be viewed as a tool for the democratic management of food, labor, land and other resources that such information represents. In today's paradigm of "platform capitalism", technology companies derive their wealth and power by mediating interactions between users and capturing a portion of the value exchanged in the process. That portion only grows over time, even when the platform is no longer needed to mediate such an exchange.[^1] By recognizing this, and reclaiming common ownership of the technologies that mediate relations between farmers, distributors, drivers, wholesalers, retailers, commercial buyers and end consumers, Runrig aspires to nothing less than the total redistribution of that value, giving control of the wealth and power it creates back to the people who created it.
+In its broadest sense, Runrig is a technology framework for the communal
+management of the digital assets of a foodshed, as well as networks of
+cooperating foodsheds. To the degree that such information may control the flow
+of actual material resources, it may be viewed as a tool for the democratic
+management of food, labor, land and other resources that such information
+represents. In today's paradigm of "platform capitalism", technology companies
+derive their wealth and power by mediating interactions between users and
+capturing a portion of the value exchanged in the process. That portion only
+grows over time, even when the platform is no longer needed to mediate such an
+exchange.[^1] By recognizing this, and reclaiming common ownership of the
+technologies that mediate relations between farmers, distributors, drivers,
+wholesalers, retailers, commercial buyers and end consumers, Runrig aspires to
+nothing less than the total redistribution of that value, giving control of the
+wealth and power it creates back to the people who created it.
 
 ## Three Layers of Autonomy
-To understand what Runrig is, we can start by examining what kind of digital assets it is intended to manage. Partly for explanatory purposes, but also for reasons that will be made clear later on, let's separate assets into two very broad categories: the data itself, and the software programs that capture, process and generally make use of such data. Free software proponents and privacy advocates have spilt a good deal of ink advancing the argument that true autonomy in computing requires control of both the data and the software, not to mention the hardware the whole system runs on.[^2] [^3] [^4] As the old saying goes: "There is no cloud, just someone else's computer."[^5] Efforts to achieve computational autonomy, however, rarely exceed a vision for _individual_ autonomy, and so are inevitably limited by individual _capabilities_. These solutions generally fall short in one of two ways: either they must curtail the range of functionality users have come to expect from so-called "Software-as-a-Service" (SaaS) platforms; or they foist the burdens of administering and maintaining those systems onto users who lack the capability to do so. As Luis Villa observes, if free software and open source advocates focus too narrowly on licensing and sharing source code, while overlooking the actual capabilities this provides their users, then at best they can only offer _permissive freedom_, not _effective freedom_ — that is, they've granted the user permission, hypothetically, but not the actual capability to use the software freely.[^6]
+To understand what Runrig is, we can start by examining what kind of digital
+assets it is intended to manage. Partly for explanatory purposes, but also for
+reasons that will be made clear later on, let's separate assets into two very
+broad categories: the data itself, and the software programs that capture,
+process and generally make use of such data. Free software proponents and
+privacy advocates have spilt a good deal of ink advancing the argument that true
+autonomy in computing requires control of both the data and the software, not to
+mention the hardware the whole system runs on.[^2] [^3] [^4] As the old saying
+goes: "There is no cloud, just someone else's computer."[^5] Efforts to achieve
+computational autonomy, however, rarely exceed a vision for _individual_
+autonomy, and so are inevitably limited by individual _capabilities_. These
+solutions generally fall short in one of two ways: either they must curtail the
+range of functionality users have come to expect from so-called
+"Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
+administering and maintaining those systems onto users who lack the capability
+to do so. As Luis Villa observes, if free software and open source advocates
+focus too narrowly on licensing and sharing source code, while overlooking the
+actual capabilities this provides their users, then at best they can only offer
+_permissive freedom_, not _effective freedom_ — that is, they've granted the
+user permission, hypothetically, but not the actual capability to use the
+software freely.[^6]
 
-Runrig differs from other approaches by coordinating the pooled capabilities of a community under democratic and cooperativist principles of governance. This way, ownership and control of both the data and the software can be shared collectively by all participants in a foodshed, while preserving the rights of individual users. To achieve this, Runrig comprises three functional layers:
+Runrig differs from other approaches by coordinating the pooled capabilities of
+a community under democratic and cooperativist principles of governance. This
+way, ownership and control of both the data and the software can be shared
+collectively by all participants in a foodshed, while preserving the rights of
+individual users. To achieve this, Runrig comprises three functional layers:
 
 1. A single, collectively owned data storage provider, or "pod"[^7] provider.
 2. Many federated cooperative service platforms.
 3. Local-first[^8], end user applications (optional).
 
 ### The Data Provider
-The first layer is a global commons, providing networked data storage to all its members as a shared service, while diffusing the costs and responsibilities of managing the underlying databases and hosting services such a system entails. This layer corresponds to the data category of digital assets, as outlined above, and should be relatively indifferent to the shape of that data or how it's intended to be used.
+The first layer is a global commons, providing networked data storage to all its
+members as a shared service, while diffusing the costs and responsibilities of
+managing the underlying databases and hosting services such a system entails.
+This layer corresponds to the data category of digital assets, as outlined
+above, and should be relatively indifferent to the shape of that data or how
+it's intended to be used.
 
-This data provider can be thought of as a kind of cloud-based file system, like Dropbox or Google Drive, accessible from anywhere with an Internet connection, but with two key differences. First, it is collectively owned by all its members, not some corporation and its shareholders. So while it may not be each user's private computer, it is still _their computer_ in a very real sense, with full governance rights over the infrastructure hosting their data, in addition to individual protections under the terms of service. Secondly, while it could in fact be used as a file system, it holds even greater potential as a source of structured data, like an SQL database or even more modern low-code databases like Airtable. This gives it the power to integrate more readily with a myriad of existing services via its API.
+This data provider can be thought of as a kind of cloud-based file system, like
+Dropbox or Google Drive, accessible from anywhere with an Internet connection,
+but with two key differences. First, it is collectively owned by all its
+members, not some corporation and its shareholders. So while it may not be each
+user's private computer, it is still _their computer_ in a very real sense, with
+full governance rights over the infrastructure hosting their data, in addition
+to individual protections under the terms of service. Secondly, while it could
+in fact be used as a file system, it holds even greater potential as a source of
+structured data, like an SQL database or even more modern low-code databases
+like Airtable. This gives it the power to integrate more readily with a myriad
+of existing services via its API.
 
 ### Service Platforms
-The second layer is a federation of platform cooperatives[^9], which can run the gamut of web-based applications and other software services, like the ones we're all accustomed to today. This layer corresponds to the software category of digital assets. Services might include consumer-facing ecommerce sites or wholesale buying clubs, crop management software and record keeping, logistical and fleet management, bookkeeping, timesharing for certified kitchen space, etc. Also, a platform is not limited to providing a single service, and it can have separate websites set up for each. For example, there may be one site where retail customers place orders and another site where farmers track inventory through a different service. Critically, however, the two systems would still be integrated, sharing infrastructure, operating costs, and a unity of purpose.
+The second layer is a federation of platform cooperatives[^9], which can run the
+gamut of web-based applications and other software services, like the ones we're
+all accustomed to today. This layer corresponds to the software category of
+digital assets. Services might include consumer-facing ecommerce sites or
+wholesale buying clubs, crop management software and record keeping, logistical
+and fleet management, bookkeeping, timesharing for certified kitchen space, etc.
+Also, a platform is not limited to providing a single service, and it can have
+separate websites set up for each. For example, there may be one site where
+retail customers place orders and another site where farmers track inventory
+through a different service. Critically, however, the two systems would still be
+integrated, sharing infrastructure, operating costs, and a unity of purpose.
 
-Each of these service-oriented platform coops would function best within a geographically contiguous region, or what we loosely call a "foodshed". This way they can curate the services provided on their platform in order to best suit the needs of their members. They can even tailor the configuration and features of specific services as they choose. For example, if a platform wants to add a service for aggregating CSA orders, they can do so easily. If they need a specialized feature for a citrus CSA and one exists, they can enable it. If it doesn't already exist, they can sponsor its development and contribute the open source feature back to the commons. Meanwhile, other platforms could add features for a flower CSA instead, or omit the CSA service entirely. In this way, geographic regions offer a sensible criterion for bounding a platform's scope of functionality, since some services might make sense in one region or climate but not another. It also keeps governance more manageable, when not trying to accommodate the needs of a larger and more dispersed membership. In theory nothing prevents a platform from being as small or large as desired, but each platform will require some combination of time, expertise and money to maintain, so the distribution of those costs should be balanced with the desire for more localized control. Nevertheless, it shouldn't be necessary to impose strict boundaries on any one platform's range of coverage, and users would be free to join more than one platform if available and desirable. It may also prove useful to cover a more dispersed geographic area, for niche sectors of production or distribution, like pasture-raised meats or high-value crops. These are tradeoffs that should be left to the thoughtful deliberation of the constituents of each platform, so they can strike the right balance to meet their own goals given their unique circumstances.
+Each of these service-oriented platform coops would function best within a
+geographically contiguous region, or what we loosely call a "foodshed". This way
+they can curate the services provided on their platform in order to best suit
+the needs of their members. They can even tailor the configuration and features
+of specific services as they choose. For example, if a platform wants to add a
+service for aggregating CSA orders, they can do so easily. If they need a
+specialized feature for a citrus CSA and one exists, they can enable it. If it
+doesn't already exist, they can sponsor its development and contribute the open
+source feature back to the commons. Meanwhile, other platforms could add
+features for a flower CSA instead, or omit the CSA service entirely. In this
+way, geographic regions offer a sensible criterion for bounding a platform's
+scope of functionality, since some services might make sense in one region or
+climate but not another. It also keeps governance more manageable, when not
+trying to accommodate the needs of a larger and more dispersed membership. In
+theory nothing prevents a platform from being as small or large as desired, but
+each platform will require some combination of time, expertise and money to
+maintain, so the distribution of those costs should be balanced with the desire
+for more localized control. Nevertheless, it shouldn't be necessary to impose
+strict boundaries on any one platform's range of coverage, and users would be
+free to join more than one platform if available and desirable. It may also
+prove useful to cover a more dispersed geographic area, for niche sectors of
+production or distribution, like pasture-raised meats or high-value crops. These
+are tradeoffs that should be left to the thoughtful deliberation of the
+constituents of each platform, so they can strike the right balance to meet
+their own goals given their unique circumstances.
 
-This second layer, regardless of the particular platform or service, is also the layer that users will typically interact with. It will be the service platform's website where most users sign-up for an account, assuming they've been approved for membership in the cooperative that operates and governs that platform. In the same stroke, they will gain membership to the global data provider as well. They will be given a data pod that belongs exclusively to them, designated by a unique address, so that the first layer will also serve as an identity provider, much like an email address. The technical process can remain invisible to the user, but they can feel assured that their data is theirs to control. This is backed up by the fact that they hold a share in the governance of how the data provider stores their data, as well as a share in how any service platform they join is allowed to use it. If at any time they wish to join a different service or leave entirely, they can more easily bring their data along with them, because portability is a fundamental aspect of the design.
+This second layer, regardless of the particular platform or service, is also the
+layer that users will typically interact with. It will be the service platform's
+website where most users sign-up for an account, assuming they've been approved
+for membership in the cooperative that operates and governs that platform. In
+the same stroke, they will gain membership to the global data provider as well.
+They will be given a data pod that belongs exclusively to them, designated by a
+unique address, so that the first layer will also serve as an identity provider,
+much like an email address. The technical process can remain invisible to the
+user, but they can feel assured that their data is theirs to control. This is
+backed up by the fact that they hold a share in the governance of how the data
+provider stores their data, as well as a share in how any service platform they
+join is allowed to use it. If at any time they wish to join a different service
+or leave entirely, they can more easily bring their data along with them,
+because portability is a fundamental aspect of the design.
 
-Ultimately, the service platforms only mediate the exchange between the data provider and the user, both in terms of the actual data exchange, as well as the service level agreements between all three parties. That is not to say that power users are prevented from interacting directly with the data provider, especially if they have programming knowledge; they just don't _have_ to do so directly. They don't have to be aware how those data transactions work, or that the data provider even exists, although hopefully they will appreciate that regardless of what service platform they use, they retain certain rights over both their data and how the storage of it is administered.
+Ultimately, the service platforms only mediate the exchange between the data
+provider and the user, both in terms of the actual data exchange, as well as the
+service level agreements between all three parties. That is not to say that
+power users are prevented from interacting directly with the data provider,
+especially if they have programming knowledge; they just don't _have_ to do so
+directly. They don't have to be aware how those data transactions work, or that
+the data provider even exists, although hopefully they will appreciate that
+regardless of what service platform they use, they retain certain rights over
+both their data and how the storage of it is administered.
 
 ### Local-first Applications
-Local-first applications, which individual users can install on their personal desktop and mobile devices, comprise the third layer. These are not strictly necessary, however, and may only appeal to certain  users at first. The other two layers are perfectly capable of providing fully featured web-based applications on their own, without the need to install and maintain purely local instances. Yet the possibility emerges quite spontaneously from the other two layers due to their intrinsically distributed nature. This affords the potential for additional peer-to-peer features and decentralized functionality, which could provide greater resilience to the overall network while also granting more freedom to individual users outside of those networks.
+Local-first applications, which individual users can install on their personal
+desktop and mobile devices, comprise the third layer. These are not strictly
+necessary, however, and may only appeal to certain  users at first. The other
+two layers are perfectly capable of providing fully featured web-based
+applications on their own, without the need to install and maintain purely local
+instances. Yet the possibility emerges quite spontaneously from the other two
+layers due to their intrinsically distributed nature. This affords the potential
+for additional peer-to-peer features and decentralized functionality, which
+could provide greater resilience to the overall network while also granting more
+freedom to individual users outside of those networks.
 
-The details of this are still less critical to Runrig's initial development, but will be further explicated in the ["Architecture"](architecture.md) section of this proposal.
+The details of this are still less critical to Runrig's initial development, but
+will be further explicated in the ["Architecture"](architecture.md) section of
+this proposal.
 
 ## Strategy
 ### Part of a Larger Ecosystem
-Brought to its fullest potential, Runrig goes far beyond what a single software project or platform can achieve. Its main value proposition is that it opens up new ways for complex, distributed networks of groups and individuals to collaborate freely and productively. It would be arrogance to presume that we could bootstrap an inherently collaborative, widespread network from the ground up, in a few short development cycles with only a handful of engineers, designers and agriculturalists. Fortunately, that is not our task; we draw upon a rich substratum of prior work that has already established the necessary standards, technical infrastructure, methodologies and other essential building blocks that make Runrig possible.
+Brought to its fullest potential, Runrig goes far beyond what a single software
+project or platform can achieve. Its main value proposition is that it opens up
+new ways for complex, distributed networks of groups and individuals to
+collaborate freely and productively. It would be arrogance to presume that we
+could bootstrap an inherently collaborative, widespread network from the ground
+up, in a few short development cycles with only a handful of engineers,
+designers and agriculturalists. Fortunately, that is not our task; we draw upon
+a rich substratum of prior work that has already established the necessary
+standards, technical infrastructure, methodologies and other essential building
+blocks that make Runrig possible.
 
-Food standards and ontologies have been pioneered by such groups as the [Data Food Consortium](https://www.datafoodconsortium.org/en/our-standard/), stewarded as an international collaboration by the [Open Food Network](https://openfoodnetwork.org). There also exists a [full suite of agricultural tools from OpenTEAM](https://openteam.community/access-tools-and-support/), including the [farmOS Data Model](https://farmos.org/model), which enjoy the continued support ofhe USDA, the [Foundation for Food and Agricultural Research](https://foundationfar.org/) and other public and private partners.
+Food standards and ontologies have been pioneered by such groups as the [Data
+Food Consortium](https://www.datafoodconsortium.org/en/our-standard/), stewarded
+as an international collaboration by the [Open Food
+Network](https://openfoodnetwork.org). There also exists a [full suite of
+agricultural tools from
+OpenTEAM](https://openteam.community/access-tools-and-support/), including the
+[farmOS Data Model](https://farmos.org/model), which enjoy the continued support
+ofhe USDA, the [Foundation for Food and Agricultural
+Research](https://foundationfar.org/) and other public and private partners.
 
-These foundational projects, too, are part of a broader ecosystem of recent technological advancements. Over the last two decades or more, Tim Berners-Lee and the W3C have spearheaded the drive for a [Semantic Web](https://www.w3.org/standards/semanticweb/), which has made tremendous strides in just the last few years. Numerous practical implementations of the [Solid Protocol](https://solidproject.org/TR/protocol) and [WebID](https://webid.info/spec/) have now reached production, and could prove instrumental in Runrig's success. Parallel developments like [ActivityPub](https://activitypub.rocks/), while not strictly applicable to food and agriculture, provide a template for how standards and shared toolchains can evolve by methods of open innovation and collaboration. It is a model Runrig hopes to emulate.
+These foundational projects, too, are part of a broader ecosystem of recent
+technological advancements. Over the last two decades or more, Tim Berners-Lee
+and the W3C have spearheaded the drive for a [Semantic
+Web](https://www.w3.org/standards/semanticweb/), which has made tremendous
+strides in just the last few years. Numerous practical implementations of the
+[Solid Protocol](https://solidproject.org/TR/protocol) and
+[WebID](https://webid.info/spec/) have now reached production, and could prove
+instrumental in Runrig's success. Parallel developments like
+[ActivityPub](https://activitypub.rocks/), while not strictly applicable to food
+and agriculture, provide a template for how standards and shared toolchains can
+evolve by methods of open innovation and collaboration. It is a model Runrig
+hopes to emulate.
 
-By taking advantage of these open standards and tools, there is a lot that can be done by essentially snapping together off-the-shelf components. Combining that with the collaborative methodologies that have become all but customary in these communities, Runrig can enjoy a degree of near-term stability and long-term sustainability that are rarely found among early-stage startups.
+By taking advantage of these open standards and tools, there is a lot that can
+be done by essentially snapping together off-the-shelf components. Combining
+that with the collaborative methodologies that have become all but customary in
+these communities, Runrig can enjoy a degree of near-term stability and
+long-term sustainability that are rarely found among early-stage startups.
 
 ### Unique Advantages
-Runrig's greatest strength, however, is how it not only takes advantage of the standards, tools and methodologies of these open ecosystems, but how it can build directly on top of the networks of those systems themselves, along with their infrastructure and all the data they provide.
+Runrig's greatest strength, however, is how it not only takes advantage of the
+standards, tools and methodologies of these open ecosystems, but how it can
+build directly on top of the networks of those systems themselves, along with
+their infrastructure and all the data they provide.
 
-This is where the separation between the data and software layers, as outlined above, proves so decisive. Because the service platforms are decoupled from the data source, they can be adapted to send and receive data to and from preexisting platforms based on compatible _libre_ software systems, with very little additional overhead. This is not for the purpose of supplanting those platforms; rather, Runrig can complement their range of functionality and open up new avenues of potential development within the entire ecosystem.
+This is where the separation between the data and software layers, as outlined
+above, proves so decisive. Because the service platforms are decoupled from the
+data source, they can be adapted to send and receive data to and from
+preexisting platforms based on compatible _libre_ software systems, with very
+little additional overhead. This is not for the purpose of supplanting those
+platforms; rather, Runrig can complement their range of functionality and open
+up new avenues of potential development within the entire ecosystem.
 
-The full value of this separation of concerns is best demonstrated by the way Runrig can prototype novel solutions that satisfy edge cases and fill critical gaps in the feature offerings of other _libre_ software platforms. There will always be features that either fall outside the scope of more mature platforms, prove too costly to develop due to particular implementation details or accrued technical debt, or that merely get deprioritized in the context of more pressing concerns. These costs and other hindrances shrink to almost nothing, however, when an independent service can take full advantage of the existing platform's network and data storage, while still enjoying effective greenfield project status, unconstrained by previous design choices.
+The full value of this separation of concerns is best demonstrated by the way
+Runrig can prototype novel solutions that satisfy edge cases and fill critical
+gaps in the feature offerings of other _libre_ software platforms. There will
+always be features that either fall outside the scope of more mature platforms,
+prove too costly to develop due to particular implementation details or accrued
+technical debt, or that merely get deprioritized in the context of more pressing
+concerns. These costs and other hindrances shrink to almost nothing, however,
+when an independent service can take full advantage of the existing platform's
+network and data storage, while still enjoying effective greenfield project
+status, unconstrained by previous design choices.
 
-For example, one prototype we've discussed in the [Skywoman MAIA Project](https://github.com/skywoman/multifarm-aggregation-info-arch) is a post-planting survey for a producer coop to audit its member-farms and asses whether they are on target to match anticipated sales volumes. The coop manager only needs to send the survey out once or twice per season to about a dozen farms, but it could save her a lot of precious time otherwise spent on site visits. Runrig could host the data, structured as farmOS [plans](https://farmos.org/model/type/plan), [assets](https://farmos.org/model/type/asset), and [logs](https://farmos.org/model/type/log), while also being compatible with the Solid protocol. This could be done with a [self-hosted Solid Server](https://communitysolidserver.github.io/) or even just a simple JSON document which could be transformed to a spreadsheet once the responses were collected; for this proof-of-concept, at least, the data requirements are miniscule. The survey itself could be created using [SurveyStack](https://www.surveystack.io/), a low-code solution provided by Our Sci and OpenTEAM, with integrations already available with the farmOS Data Model.
+For example, one prototype we've discussed in the [Skywoman MAIA
+Project](https://github.com/skywoman/multifarm-aggregation-info-arch) is a
+post-planting survey for a producer coop to audit its member-farms and asses
+whether they are on target to match anticipated sales volumes. The coop manager
+only needs to send the survey out once or twice per season to about a dozen
+farms, but it could save her a lot of precious time otherwise spent on site
+visits. Runrig could host the data, structured as farmOS
+[plans](https://farmos.org/model/type/plan),
+[assets](https://farmos.org/model/type/asset), and
+[logs](https://farmos.org/model/type/log), while also being compatible with the
+Solid protocol. This could be done with a [self-hosted Solid
+Server](https://communitysolidserver.github.io/) or even just a simple JSON
+document which could be transformed to a spreadsheet once the responses were
+collected; for this proof-of-concept, at least, the data requirements are
+miniscule. The survey itself could be created using
+[SurveyStack](https://www.surveystack.io/), a low-code solution provided by Our
+Sci and OpenTEAM, with integrations already available with the farmOS Data
+Model.
 
-While solutions like this have a payoff about on par with a Google Form plus a spreadsheet, the costs of developing and maintaining them with Runrig are still very low. Spreadsheets may be easier to develop, but often prove much harder to maintain in the long-run. And what costs exist are not sunk costs; if the results aren't totally satisfactory, they can stick to the spreadsheets from then on, without losing that data or needing to export it from a third-party system. Maybe they like the concept, but want something more "off the shelf" like farmOS or Inrupt, in which case the data is easily ported there. And of course if they're happy enough with the system as it is, or want to continue building its potential to meet their unique circumstances, development can continue apace with Runrig. Best of all, none of these options are mutually exclusive, and in fact, the coop could keep on using the latter two options in parallel, getting the best of both worlds, without any serious costs associated with keeping the two redundant data sources synchronized.
+While solutions like this have a payoff about on par with a Google Form plus a
+spreadsheet, the costs of developing and maintaining them with Runrig are still
+very low. Spreadsheets may be easier to develop, but often prove much harder to
+maintain in the long-run. And what costs exist are not sunk costs; if the
+results aren't totally satisfactory, they can stick to the spreadsheets from
+then on, without losing that data or needing to export it from a third-party
+system. Maybe they like the concept, but want something more "off the shelf"
+like farmOS or Inrupt, in which case the data is easily ported there. And of
+course if they're happy enough with the system as it is, or want to continue
+building its potential to meet their unique circumstances, development can
+continue apace with Runrig. Best of all, none of these options are mutually
+exclusive, and in fact, the coop could keep on using the latter two options in
+parallel, getting the best of both worlds, without any serious costs associated
+with keeping the two redundant data sources synchronized.
 
-That's where Runrig can most benefit other platforms in the ecosystem, by catching the spillover of feature creep that inevitably besets older software projects, while accommodating users for whom the lack of those features would otherwise be a deal breaker. A synergy arises between Runrig and other free software platforms, expanding the user base for each, which wouldn't be possible if Runrig's data and service layers were more tightly coupled.
+That's where Runrig can most benefit other platforms in the ecosystem, by
+catching the spillover of feature creep that inevitably besets older software
+projects, while accommodating users for whom the lack of those features would
+otherwise be a deal breaker. A synergy arises between Runrig and other free
+software platforms, expanding the user base for each, which wouldn't be possible
+if Runrig's data and service layers were more tightly coupled.
 
 ### Ecology Over Architecture
-Runrig intends to center ecological design over any specific technological architecture. Ecology, in this sense, encompasses not only the technological but also the social and biotic aspects of design. Accordingly, we strive to make those designs adaptive to the whole, rather than prescriptive in the particular.
+Runrig intends to center ecological design over any specific technological
+architecture. Ecology, in this sense, encompasses not only the technological but
+also the social and biotic aspects of design. Accordingly, we strive to make
+those designs adaptive to the whole, rather than prescriptive in the particular.
 
-In a practical sense, this grants us greater freedom to experiment — to _play_ — with these technologies. The example of the auditing survey mentioned above is a prime example. The solution is small, almost trifling, and it risks very little; however, it can have very real benefits, meeting the most immediate, material concerns of its users. While it can be tossed aside if it proves unhelpful, it could just as well form the kernel of a much larger system. In that sense, it's hardly even fair to call it a prototype. This is yet another direct consequence of separating the data provider from the services, an intrinsic element of the overall design that can be achieved from the start, without temporary expedients. In this way, the eventual contours of the superstructure are imprinted at the very laying of its foundations.
+In a practical sense, this grants us greater freedom to experiment — to _play_ —
+with these technologies. The example of the auditing survey mentioned above is a
+prime example. The solution is small, almost trifling, and it risks very little;
+however, it can have very real benefits, meeting the most immediate, material
+concerns of its users. While it can be tossed aside if it proves unhelpful, it
+could just as well form the kernel of a much larger system. In that sense, it's
+hardly even fair to call it a prototype. This is yet another direct consequence
+of separating the data provider from the services, an intrinsic element of the
+overall design that can be achieved from the start, without temporary
+expedients. In this way, the eventual contours of the superstructure are
+imprinted at the very laying of its foundations.
 
-This design would give Runrig some rather attractive scaling properties, but "scale" alone is grossly inadequate for describing the full benefits. The continued ability for experimentation and free play, _jeu libre_, throughout the lifespan of the project, and the potential it yields cannot be understated. The design choice to enable the collective stewardship of data, together with the free and open sharing of the software, is as much a principle of social design as it is a technological one. It imparts a vitality and iterative quality to the project, akin to the Agile methodology but extending well beyond mere product development. The evolution of the software system is only one factor in the evolution of the broader social and natural systems in which it is embedded. Experiments, whether they succeed or fail; ad hoc solutions, whether they can be adapted to general uses or not; shared techniques and information, whether that sharing is reciprocated or not — all of these outcomes will be metabolized just the same within an open system of communal ownership, and so their lessons and shared progress always nurture the whole.
+This design would give Runrig some rather attractive scaling properties, but
+"scale" alone is grossly inadequate for describing the full benefits. The
+continued ability for experimentation and free play, _jeu libre_, throughout the
+lifespan of the project, and the potential it yields cannot be understated. The
+design choice to enable the collective stewardship of data, together with the
+free and open sharing of the software, is as much a principle of social design
+as it is a technological one. It imparts a vitality and iterative quality to the
+project, akin to the Agile methodology but extending well beyond mere product
+development. The evolution of the software system is only one factor in the
+evolution of the broader social and natural systems in which it is embedded.
+Experiments, whether they succeed or fail; ad hoc solutions, whether they can be
+adapted to general uses or not; shared techniques and information, whether that
+sharing is reciprocated or not — all of these outcomes will be metabolized just
+the same within an open system of communal ownership, and so their lessons and
+shared progress always nurture the whole.
 
-We should be careful here to point out that the separation between the data and service layers is by no means absolute, lest we fail to heed our own admonition against prescriptive design. The services will always have some data which they persist themselves, and there's obviously no way the data provider could provide data if it were not a service itself. The key abstraction is more social than technical in nature, intended to deconstruct the prevailing notion that both data and services must be centralized with strict top-down control, as well at the countervailing notion that our best alternative is strict decentralization, where data and services are still co-located in discreet instances. The aim is to empower new, imaginative configurations that instead emphasize the freedom of users, both individual and collective, to determine the location and flow of their data and how it is used. Tight coupling of the two layers restricts that movement, stifling the health of the overall ecosystem, to say nothing of what that means for the effective freedom of the individuals within it.
+We should be careful here to point out that the separation between the data and
+service layers is by no means absolute, lest we fail to heed our own admonition
+against prescriptive design. The services will always have some data which they
+persist themselves, and there's obviously no way the data provider could provide
+data if it were not a service itself. The key abstraction is more social than
+technical in nature, intended to deconstruct the prevailing notion that both
+data and services must be centralized with strict top-down control, as well at
+the countervailing notion that our best alternative is strict decentralization,
+where data and services are still co-located in discreet instances. The aim is
+to empower new, imaginative configurations that instead emphasize the freedom of
+users, both individual and collective, to determine the location and flow of
+their data and how it is used. Tight coupling of the two layers restricts that
+movement, stifling the health of the overall ecosystem, to say nothing of what
+that means for the effective freedom of the individuals within it.
 
-Technology can be far more than an extension of the greater capitalist apparatus, alienating us a little more each day from the living world and from each other; it can be reclaimed as a vital part of human life. To invite ecological characteristics back into our technologies and design is to reintegrate them with the natural and social worlds.
+Technology can be far more than an extension of the greater capitalist
+apparatus, alienating us a little more each day from the living world and from
+each other; it can be reclaimed as a vital part of human life. To invite
+ecological characteristics back into our technologies and design is to
+reintegrate them with the natural and social worlds.
 
 ## Conclusions
-We've come to believe what we're told about data standards and shared ontologies: that they are great in theory, but in the real world things are too complex and you either end up having a standard that's too specific and opinionated that it doesn't work for everyone, or too broad and generalized that it's just not very useful. The Semantic Web itself has endured a great deal of criticism along these lines over it's 20-year history.
+We've come to believe what we're told about data standards and shared
+ontologies: that they are great in theory, but in the real world things are too
+complex and you either end up having a standard that's too specific and
+opinionated that it doesn't work for everyone, or too broad and generalized that
+it's just not very useful. The Semantic Web itself has endured a great deal of
+criticism along these lines over it's 20-year history.
 
 ![standards](https://imgs.xkcd.com/comics/standards.png)
 
-But the unspoken assumption here is that those standards have to survive "trial by market", where the kind of close coordination required to produce and maintain a practicable, living standard is all but prohibited by the profit-seeking, competitive demands of the market. Even as proprietary software giants like Microsoft and Oracle become cozier with open source technologies and a general appreciation of the "commons" pervades the industry, control of the actual data and services generated by those open source tools remains heavily restricted and privatized. After all, without the privatized control of some utility or the enclosure of some asset, where would the capital accumulation come from?
+But the unspoken assumption here is that those standards have to survive "trial
+by market", where the kind of close coordination required to produce and
+maintain a practicable, living standard is all but prohibited by the
+profit-seeking, competitive demands of the market. Even as proprietary software
+giants like Microsoft and Oracle become cozier with open source technologies and
+a general appreciation of the "commons" pervades the industry, control of the
+actual data and services generated by those open source tools remains heavily
+restricted and privatized. After all, without the privatized control of some
+utility or the enclosure of some asset, where would the capital accumulation
+come from?
 
-Attempts to take back ownership and control of "Software-as-a-Service" have largely struggled, I would argue, because we've sought too narrowly to redistribute those rights piecemeal to individual users, rather than seeking _common ownership_. Certainly, there are great benefits to individual control in many contexts, but we handicap our projects by limiting ourselves to those alternatives exclusively. Taken to the extreme, this would necessitate everyone have their own server rack in the garage (or at least a Raspberry Pi in the closet), each of us rolling our own servers independently from one another. 
+Attempts to take back ownership and control of "Software-as-a-Service" have
+largely struggled, I would argue, because we've sought too narrowly to
+redistribute those rights piecemeal to individual users, rather than seeking
+_common ownership_. Certainly, there are great benefits to individual control in
+many contexts, but we handicap our projects by limiting ourselves to those
+alternatives exclusively. Taken to the extreme, this would necessitate everyone
+have their own server rack in the garage (or at least a Raspberry Pi in the
+closet), each of us rolling our own servers independently from one another. 
 
-My fear, however, is that if we're too predisposed to self-hosting, we will needlessly alienate people who may not want to use a particular piece of software or hardware, but may wish to participate in the social and economic activities that such software and hardware facilitate. We would do well to regard Ivan Illich's criteria for "convivial" tools:
+My fear, however, is that if we're too predisposed to self-hosting, we will
+needlessly alienate people who may not want to use a particular piece of
+software or hardware, but may wish to participate in the social and economic
+activities that such software and hardware facilitate. We would do well to
+regard Ivan Illich's criteria for "convivial" tools:
 
-> Tools foster conviviality to the extent to which they can be easily used, by anybody, as often or as seldom as desired, for the accomplishment of a purpose chosen by the user. The use of such tools by one person does not restrain another from using them equally. They do not require previous certification of the user. Their existence does not impose any obligation to use them. They allow the user to express his meaning in action. (22)
+> Tools foster conviviality to the extent to which they can be easily used, by
+> anybody, as often or as seldom as desired, for the accomplishment of a purpose
+> chosen by the user. The use of such tools by one person does not restrain
+> another from using them equally. They do not require previous certification of
+> the user. Their existence does not impose any obligation to use them. They
+> allow the user to express his meaning in action. (22)
 
-While promising new paradigms like software "appliances"[^101] might eventually offer the option of plug-and-play personal servers, achieving both autonomous _and ubiquitous_ computing in the same stroke, they would still leave critical issues unaddressed. The data and computing capabilities of several billion humans are today at the whim of just a few dozen technocratic billionaires. Any serious challenge to these proprietary platforms, and all the coercive force at their disposal, must come from a base of organized, community-driven political power, built around shared resources. Now is not the time to retreat into isolation, each of us behind our own firewall.
+While promising new paradigms like software "appliances"[^101] might eventually
+offer the option of plug-and-play personal servers, achieving both autonomous
+_and ubiquitous_ computing in the same stroke, they would still leave critical
+issues unaddressed. The data and computing capabilities of several billion
+humans are today at the whim of just a few dozen technocratic billionaires. Any
+serious challenge to these proprietary platforms, and all the coercive force at
+their disposal, must come from a base of organized, community-driven political
+power, built around shared resources. Now is not the time to retreat into
+isolation, each of us behind our own firewall.
 
-Common ownership of our platforms is a far more effective means towards that end, but also an end in itself...
+Common ownership of our platforms is a far more effective means towards that
+end, but also an end in itself...
 
 
-[^1]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital Future from Big Tech_. p. 14-15.
-[^2]: Stallman, Richard. ["Who does that server really serve?"](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html)
-[^3]: Tisne, Martin. ["It’s time for a Bill of Data Rights"](https://www.technologyreview.com/2018/12/14/138615/its-time-for-a-bill-of-data-rights/)
-[^4]: Cyphers, Bennett and Cory Doctorow. ["Privacy Without Monopoly: Data Protection and Interoperability"](https://www.eff.org/wp/interoperability-and-privacy). Feb 12, 2021.
-[^5]: Watterson, Chris. ["The Success Of My 'There Is No Cloud' Sticker"](https://www.chriswatterston.com/article/success-of-my-there-is-no-cloud-sticker).
-[^6]: Villa, Luis. ["Free as in...?"](https://lu.is/blog/2016/03/23/free-as-in-my-libreplanet-2016-talk/)
+[^1]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital Future
+    from Big Tech_. p. 14-15.
+[^2]: Stallman, Richard. ["Who does that server really
+    serve?"](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html)
+[^3]: Tisne, Martin. ["It’s time for a Bill of Data
+    Rights"](https://www.technologyreview.com/2018/12/14/138615/its-time-for-a-bill-of-data-rights/)
+[^4]: Cyphers, Bennett and Cory Doctorow. ["Privacy Without Monopoly: Data
+    Protection and
+    Interoperability"](https://www.eff.org/wp/interoperability-and-privacy). Feb
+    12, 2021.
+[^5]: Watterson, Chris. ["The Success Of My 'There Is No Cloud'
+    Sticker"](https://www.chriswatterston.com/article/success-of-my-there-is-no-cloud-sticker).
+[^6]: Villa, Luis. ["Free as
+    in...?"](https://lu.is/blog/2016/03/23/free-as-in-my-libreplanet-2016-talk/)
 [^7]: Solid Project. ["Get a Pod"](https://solidproject.org/users/get-a-pod).
-[^8]: Kleppmann, Martin et al. ["Local-first software: You own your data, in spite of the cloud"](https://www.inkandswitch.com/local-first/). _Ink & Switch_.
-[^9]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate Sharing Economy_](https://rosalux.nyc/pslatform-cooperativism-2/).
-[^101]: https://www.redhat.com/en/blog/what-is-a-software-appliance
+[^8]: Kleppmann, Martin et al. ["Local-first software: You own your data, in
+    spite of the cloud"](https://www.inkandswitch.com/local-first/). _Ink &
+    Switch_.
+[^9]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate
+    Sharing Economy_](https://rosalux.nyc/pslatform-cooperativism-2/).
+[^101]: Congden, Lee. ["What is a Software
+    Appliance?"](https://www.redhat.com/en/blog/what-is-a-software-appliance)
+    _The Red Hat Blog_. Jan 25, 2008.
