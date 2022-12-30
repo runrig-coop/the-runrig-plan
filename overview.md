@@ -9,7 +9,7 @@ represents. In today's paradigm of "platform capitalism", technology companies
 derive their wealth and power by mediating interactions between users and
 capturing a portion of the value exchanged in the process. That portion only
 grows over time, even when the platform is no longer needed to mediate such an
-exchange.[^1] By recognizing this, and reclaiming common ownership of the
+exchange.[^Muldoon] By recognizing this, and reclaiming common ownership of the
 technologies that mediate relations between farmers, distributors, drivers,
 wholesalers, retailers, commercial buyers and end consumers, Runrig aspires to
 nothing less than the total redistribution of that value, giving control of the
@@ -23,20 +23,20 @@ broad categories: the data itself, and the software programs that capture,
 process and generally make use of such data. Free software proponents and
 privacy advocates have spilt a good deal of ink advancing the argument that true
 autonomy in computing requires control of both the data and the software, not to
-mention the hardware the whole system runs on.[^2] [^3] [^4] As the old saying
-goes: "There is no cloud, just someone else's computer."[^5] Efforts to achieve
-computational autonomy, however, rarely exceed a vision for _individual_
-autonomy, and so are inevitably limited by individual _capabilities_. These
-solutions generally fall short in one of two ways: either they must curtail the
-range of functionality users have come to expect from so-called
-"Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
+mention the hardware the whole system runs on.[^Stallman] [^Tisne] [^EFF] As the
+old saying goes: "There is no cloud, just someone else's computer."[^cloud]
+Efforts to achieve computational autonomy, however, rarely exceed a vision for
+_individual_ autonomy, and so are inevitably limited by individual
+_capabilities_. These solutions generally fall short in one of two ways: either
+they must curtail the range of functionality users have come to expect from
+so-called "Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
 administering and maintaining those systems onto users who lack the capability
 to do so. As Luis Villa observes, if free software and open source advocates
 focus too narrowly on licensing and sharing source code, while overlooking the
 actual capabilities this provides their users, then at best they can only offer
 _permissive freedom_, not _effective freedom_ — that is, they've granted the
 user permission, hypothetically, but not the actual capability to use the
-software freely.[^6]
+software freely.[^Villa]
 
 Runrig differs from other approaches by coordinating the pooled capabilities of
 a community under democratic and cooperativist principles of governance. This
@@ -44,9 +44,9 @@ way, ownership and control of both the data and the software can be shared
 collectively by all participants in a foodshed, while preserving the rights of
 individual users. To achieve this, Runrig comprises three functional layers:
 
-1. A single, collectively owned data storage provider, or "pod"[^7] provider.
+1. A single, collectively owned data storage provider, or "pod"[^pod] provider.
 2. Many federated cooperative service platforms.
-3. Local-first[^8], end user applications (optional).
+3. Local-first[^Kleppmann], end user applications (optional).
 
 ### The Data Provider
 The first layer is a global commons, providing networked data storage to all its
@@ -69,17 +69,18 @@ like Airtable. This gives it the power to integrate more readily with a myriad
 of existing services via its API.
 
 ### Service Platforms
-The second layer is a federation of platform cooperatives[^9], which can run the
-gamut of web-based applications and other software services, like the ones we're
-all accustomed to today. This layer corresponds to the software category of
-digital assets. Services might include consumer-facing ecommerce sites or
-wholesale buying clubs, crop management software and record keeping, logistical
-and fleet management, bookkeeping, timesharing for certified kitchen space, etc.
-Also, a platform is not limited to providing a single service, and it can have
-separate websites set up for each. For example, there may be one site where
-retail customers place orders and another site where farmers track inventory
-through a different service. Critically, however, the two systems would still be
-integrated, sharing infrastructure, operating costs, and a unity of purpose.
+The second layer is a federation of platform cooperatives[^Scholz], which can
+run the gamut of web-based applications and other software services, like the
+ones we're all accustomed to today. This layer corresponds to the software
+category of digital assets. Services might include consumer-facing ecommerce
+sites or wholesale buying clubs, crop management software and record keeping,
+logistical and fleet management, bookkeeping, timesharing for certified kitchen
+space, etc. Also, a platform is not limited to providing a single service, and
+it can have separate websites set up for each. For example, there may be one
+site where retail customers place orders and another site where farmers track
+inventory through a different service. Critically, however, the two systems
+would still be integrated, sharing infrastructure, operating costs, and a unity
+of purpose.
 
 Each of these service-oriented platform coops would function best within a
 geographically contiguous region, or what we loosely call a "foodshed". This way
@@ -145,8 +146,7 @@ could provide greater resilience to the overall network while also granting more
 freedom to individual users outside of those networks.
 
 The details of this are still less critical to Runrig's initial development, but
-will be further explicated in the ["Architecture"](architecture.md) section of
-this proposal.
+will be further explicated in the ["Architecture"] section of this proposal.
 
 ## Strategy
 ### Part of a Larger Ecosystem
@@ -161,26 +161,21 @@ a rich substratum of prior work that has already established the necessary
 standards, technical infrastructure, methodologies and other essential building
 blocks that make Runrig possible.
 
-Food standards and ontologies have been pioneered by such groups as the [Data
-Food Consortium](https://www.datafoodconsortium.org/en/our-standard/), stewarded
-as an international collaboration by the [Open Food
-Network](https://openfoodnetwork.org). There also exists a [full suite of
-agricultural tools from
-OpenTEAM](https://openteam.community/access-tools-and-support/), including the
-[farmOS Data Model](https://farmos.org/model), which enjoy the continued support
-ofhe USDA, the [Foundation for Food and Agricultural
-Research](https://foundationfar.org/) and other public and private partners.
+Food standards and ontologies have been pioneered by such groups as the Data
+Food Consortium[^DFC], stewarded as an international collaboration by the Open
+Food Network. There also exists a full suite of agricultural tools from
+OpenTEAM[^OpenTEAM], including the farmOS Data Model[^farmOS], which enjoy the
+continued support of the USDA, the Foundation for Food and Agricultural Research
+and other public and private partners.
 
 These foundational projects, too, are part of a broader ecosystem of recent
 technological advancements. Over the last two decades or more, Tim Berners-Lee
-and the W3C have spearheaded the drive for a [Semantic
-Web](https://www.w3.org/standards/semanticweb/), which has made tremendous
-strides in just the last few years. Numerous practical implementations of the
-[Solid Protocol](https://solidproject.org/TR/protocol) and
-[WebID](https://webid.info/spec/) have now reached production, and could prove
-instrumental in Runrig's success. Parallel developments like
-[ActivityPub](https://activitypub.rocks/), while not strictly applicable to food
-and agriculture, provide a template for how standards and shared toolchains can
+and the W3C have spearheaded the drive for a Semantic Web,[^W3C] which has made
+tremendous strides in just the last few years. Numerous practical
+implementations of the Solid Protocol and WebID have now reached
+production,[^Solid] and could prove instrumental in Runrig's success. Parallel
+developments like ActivityPub, while not strictly applicable to food and
+agriculture, provide a template for how standards and shared toolchains can
 evolve by methods of open innovation and collaboration. It is a model Runrig
 hopes to emulate.
 
@@ -215,24 +210,19 @@ when an independent service can take full advantage of the existing platform's
 network and data storage, while still enjoying effective greenfield project
 status, unconstrained by previous design choices.
 
-For example, one prototype we've discussed in the [Skywoman MAIA
-Project](https://github.com/skywoman/multifarm-aggregation-info-arch) is a
+For example, one prototype we've discussed in the Skywoman MAIA Project is a
 post-planting survey for a producer coop to audit its member-farms and asses
 whether they are on target to match anticipated sales volumes. The coop manager
 only needs to send the survey out once or twice per season to about a dozen
 farms, but it could save her a lot of precious time otherwise spent on site
-visits. Runrig could host the data, structured as farmOS
-[plans](https://farmos.org/model/type/plan),
-[assets](https://farmos.org/model/type/asset), and
-[logs](https://farmos.org/model/type/log), while also being compatible with the
-Solid protocol. This could be done with a [self-hosted Solid
-Server](https://communitysolidserver.github.io/) or even just a simple JSON
+visits.[^MAIA] Runrig could host the data, structured as farmOS plans, assets
+and logs,[^farmOS] while also being compatible with the Solid protocol. This
+could be done with a self-hosted Solid Server[^CSS] or even just a simple JSON
 document which could be transformed to a spreadsheet once the responses were
 collected; for this proof-of-concept, at least, the data requirements are
-miniscule. The survey itself could be created using
-[SurveyStack](https://www.surveystack.io/), a low-code solution provided by Our
-Sci and OpenTEAM, with integrations already available with the farmOS Data
-Model.
+miniscule. The survey itself could be created using SurveyStack, a low-code
+solution provided by Our Sci and OpenTEAM, with integrations already available
+with the farmOS Data Model.[^SurveyStack]
 
 While solutions like this have a payoff about on par with a Google Form plus a
 spreadsheet, the costs of developing and maintaining them with Runrig are still
@@ -354,40 +344,57 @@ regard Ivan Illich's criteria for "convivial" tools:
 > the user. Their existence does not impose any obligation to use them. They
 > allow the user to express his meaning in action. (22)
 
-While promising new paradigms like software "appliances"[^101] might eventually
-offer the option of plug-and-play personal servers, achieving both autonomous
-_and ubiquitous_ computing in the same stroke, they would still leave critical
-issues unaddressed. The data and computing capabilities of several billion
-humans are today at the whim of just a few dozen technocratic billionaires. Any
-serious challenge to these proprietary platforms, and all the coercive force at
-their disposal, must come from a base of organized, community-driven political
-power, built around shared resources. Now is not the time to retreat into
-isolation, each of us behind our own firewall.
+While promising new paradigms like software "appliances"[^RedHat] might
+eventually offer the option of plug-and-play personal servers, achieving both
+autonomous _and ubiquitous_ computing in the same stroke, they would still leave
+critical issues unaddressed. The data and computing capabilities of several
+billion humans are today at the whim of just a few dozen technocratic
+billionaires. Any serious challenge to these proprietary platforms, and all the
+coercive force at their disposal, must come from a base of organized,
+community-driven political power, built around shared resources. Now is not the
+time to retreat into isolation, each of us behind our own firewall.
 
 Common ownership of our platforms is a far more effective means towards that
 end, but also an end in itself...
 
-
-[^1]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital Future
-    from Big Tech_. p. 14-15.
-[^2]: Stallman, Richard. ["Who does that server really
+## References
+[^Muldoon]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital
+    Future from Big Tech_. p. 14-15.
+[^Stallman]: Stallman, Richard. ["Who does that server really
     serve?"](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html)
-[^3]: Tisne, Martin. ["It’s time for a Bill of Data
+[^Tisne]: Tisne, Martin. ["It’s time for a Bill of Data
     Rights"](https://www.technologyreview.com/2018/12/14/138615/its-time-for-a-bill-of-data-rights/)
-[^4]: Cyphers, Bennett and Cory Doctorow. ["Privacy Without Monopoly: Data
+[^EFF]: Cyphers, Bennett and Cory Doctorow. ["Privacy Without Monopoly: Data
     Protection and
     Interoperability"](https://www.eff.org/wp/interoperability-and-privacy). Feb
     12, 2021.
-[^5]: Watterson, Chris. ["The Success Of My 'There Is No Cloud'
+[^cloud]: Watterson, Chris. ["The Success Of My 'There Is No Cloud'
     Sticker"](https://www.chriswatterston.com/article/success-of-my-there-is-no-cloud-sticker).
-[^6]: Villa, Luis. ["Free as
+[^Villa]: Villa, Luis. ["Free as
     in...?"](https://lu.is/blog/2016/03/23/free-as-in-my-libreplanet-2016-talk/)
-[^7]: Solid Project. ["Get a Pod"](https://solidproject.org/users/get-a-pod).
-[^8]: Kleppmann, Martin et al. ["Local-first software: You own your data, in
-    spite of the cloud"](https://www.inkandswitch.com/local-first/). _Ink &
-    Switch_.
-[^9]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate
+[^pod]: Solid Project. ["Get a Pod"](https://solidproject.org/users/get-a-pod).
+[^Kleppmann]: Kleppmann, Martin et al. ["Local-first software: You own your
+    data, in spite of the cloud"](https://www.inkandswitch.com/local-first/).
+    _Ink & Switch_.
+[^Scholz]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate
     Sharing Economy_](https://rosalux.nyc/pslatform-cooperativism-2/).
-[^101]: Congden, Lee. ["What is a Software
+[^DFC]: Data Food Consortium. ["Our
+    Standard"](https://www.datafoodconsortium.org/en/our-standard/).
+[^OpenTEAM]: OpenTEAM. ["Access Tools and
+    Support"](https://openteam.community/access-tools-and-support/).
+[^farmOS]: farmOS. [farmOS Data Model](https://farmos.org/model).
+[^W3C]: The World Wide Web Consortium. ["Semantic
+    Web"](https://www.w3.org/standards/semanticweb/).
+[^Solid]: Solid Project. ["Solid Technical
+    Reports"](https://solidproject.org/TR/).
+[^MAIA]: Skywoman MAIA Project. ["OSU Microfarm Project & Richland
+    Gro-Op"](https://github.com/skywoman/multifarm-aggregation-info-arch/tree/main/interviews/2022_08_12--Kip_Curtis_and_Richland_Gro_Op)
+[^CSS]: Solid Project. ["Running your own Solid
+    server"](https://solidproject.org/self-hosting/css).
+[^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
+    community knowledge."](https://www.surveystack.io/)
+[^RedHat]: Congden, Lee. ["What is a Software
     Appliance?"](https://www.redhat.com/en/blog/what-is-a-software-appliance)
     _The Red Hat Blog_. Jan 25, 2008.
+
+["Architecture"]: (architecture.md)
