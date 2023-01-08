@@ -1,13 +1,14 @@
 # Runrig: A Communal Platform for Food & Data Sovereignty
 ___Locally. Regionally. Globally.___
 
-This is a draft proposal for a communal technology platform and _libre_ software
-project, ~~tentatively~~ named Runrig,[^wiki] with the aim of achieving
-collective sovereignty over our food, the labor that raises it, the land and
-living things that support it, and the data connecting it all. It is not
-intended as a technological solution to a political problem, if such a thing
-even exists. Rather it is a matter of intentional design, and a moral choice to
-use technology as befits our political will.
+Runrig[^wiki] is a _libre_ software project, a communal technology platform and
+a plan for socio-ecological design. It aims to achieve collective sovereignty
+over not just our food, but also the labor that raises it, the land and living
+things that support it, and the data connecting it all. It is not intended as a
+purely technological solution to a political problem, if such a thing even
+exists; rather, it proposes a method for intentional design that can realize our
+political will, while affirming our moral obligation to adopt technologies that
+are appropriate, just, and that advance the well-being of all.
 
 ## Contents
 - [OVERVIEW](overview.md)
