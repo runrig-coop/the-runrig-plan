@@ -1,7 +1,7 @@
 # Overview
 ## Purpose
-In its broadest sense, Runrig is a technology framework for the communal
-management of the digital assets of a foodshed, as well as networks of
+In its narrowest sense, Runrig is a technology framework for the communal
+management of a foodshed's digital assets, potentially spanning a network of
 cooperating foodsheds. To the degree that such information may control the flow
 of actual material resources, it may be viewed as a tool for the democratic
 management of food, labor, land and other resources that such information
@@ -16,9 +16,9 @@ nothing less than the total redistribution of that value, giving control of the
 wealth and power it creates back to the people who created it.
 
 ## Three Layers of Autonomy
-To understand what Runrig is, we can start by examining what kind of digital
+To understand what Runrig does, we can start by examining what kind of digital
 assets it is intended to manage. Partly for explanatory purposes, but also for
-reasons that will be made clear later on, let's separate assets into two very
+reasons that will become clear later on, let's separate assets into two very
 broad categories: the data itself, and the software programs that capture,
 process and generally make use of such data. Free software proponents and
 privacy advocates have spilt a good deal of ink advancing the argument that true
@@ -31,30 +31,34 @@ _capabilities_. These solutions generally fall short in one of two ways: either
 they must curtail the range of functionality users have come to expect from
 so-called "Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
 administering and maintaining those systems onto users who lack the capability
-to do so. As Luis Villa observes, if free software and open source advocates
-focus too narrowly on licensing and sharing source code, while overlooking the
-actual capabilities this provides their users, then at best they can only offer
-_permissive freedom_, not _effective freedom_ — that is, they've granted the
-user permission, hypothetically, but not the actual capability to use the
-software freely.[^Villa]
+to do so. Telling average users, who seek an alternative to predatory cloud
+platforms, that they can just spin up their own server on a VPS provider, then
+forevermore install updates, run backups and maintain it, is tantamount to
+playing "Hears and Flowers" on the world's smallest violin.[^Bob] As Luis Villa
+observes, if free software and open source advocates focus too narrowly on
+licensing and sharing source code, while overlooking the actual capabilities
+this affords their users, then at best they can only offer _permissive freedom_,
+not _effective freedom_ — that is, they've granted people permission to use the
+software freely, hypothetically, but not the actual capability to use it in any
+practical sense.[^Villa]
 
 Runrig differs from other approaches by coordinating the pooled capabilities of
 a community under democratic and cooperativist principles of governance. This
 way, ownership and control of both the data and the software can be shared
 collectively by all participants in a foodshed, while preserving the rights of
-individual users. To achieve this, Runrig comprises three functional layers:
+individual users. To achieve this, Runrig comprises 2 - 3 functional layers:
 
 1. A single, collectively owned data storage provider, or "pod"[^pod] provider.
 2. Many federated cooperative service platforms.
-3. Local-first[^Kleppmann], end user applications (optional).
+3. Local-first[^Kleppmann] and self-hosted applications (optional).
 
 ### The Data Provider
 The first layer is a global commons, providing networked data storage to all its
 members as a shared service, while diffusing the costs and responsibilities of
-managing the underlying databases and hosting services such a system entails.
-This layer corresponds to the data category of digital assets, as outlined
-above, and should be relatively indifferent to the shape of that data or how
-it's intended to be used.
+managing the underlying databases and infrastructure such a system entails. This
+layer corresponds to the data category of digital assets, as outlined above, and
+should be relatively indifferent to the shape of that data or how it's intended
+to be used.
 
 This data provider can be thought of as a kind of cloud-based file system, like
 Dropbox or Google Drive, accessible from anywhere with an Internet connection,
@@ -65,30 +69,34 @@ full governance rights over the infrastructure hosting their data, in addition
 to individual protections under the terms of service. Secondly, while it could
 in fact be used as a file system, it holds even greater potential as a source of
 structured data, like an SQL database or even more modern low-code databases
-like Airtable. This gives it the power to integrate more readily with a myriad
-of existing services via its API.
+like NocoDB, a _libre_ alternative to Airtable. This gives it the power to
+integrate more readily with a myriad of existing services via its API.
 
 ### Service Platforms
 The second layer is a federation of platform cooperatives[^Scholz], which can
 run the gamut of web-based applications and other software services, like the
 ones we're all accustomed to today. This layer corresponds to the software
-category of digital assets. Services might include consumer-facing ecommerce
-sites or wholesale buying clubs, crop management software and record keeping,
-logistical and fleet management, bookkeeping, timesharing for certified kitchen
-space, etc. Also, a platform is not limited to providing a single service, and
-it can have separate websites set up for each. For example, there may be one
-site where retail customers place orders and another site where farmers track
-inventory through a different service. Critically, however, the two systems
-would still be integrated, sharing infrastructure, operating costs, and a unity
-of purpose.
+category of digital assets, but it draws its core data from the first layer, the
+data provider, linking the two layers programmatically as well as contractually.
+Services might include consumer-facing ecommerce sites or wholesale buying
+clubs, crop management software and record keeping, logistical and fleet
+management, bookkeeping, timesharing for certified kitchen space, etc. A
+platform is not limited to providing a single service, and it can have separate
+websites set up for separate services, or integrated as one. For example, there
+may be one site where retail customers place orders and another site where
+farmers track inventory through a different service. Critically, however, the
+two systems would still be integrated, sharing infrastructure, operating costs,
+and a unity of purpose. Users would also enjoy a seamless "single sign-on"
+between services, because the data provider can double as a secure identity
+provider as well.
 
 Each of these service-oriented platform coops would function best within a
-geographically contiguous region, or what we loosely call a "foodshed". This way
-they can curate the services provided on their platform in order to best suit
-the needs of their members. They can even tailor the configuration and features
-of specific services as they choose. For example, if a platform wants to add a
-service for aggregating CSA orders, they can do so easily. If they need a
-specialized feature for a citrus CSA and one exists, they can enable it. If it
+geographically contiguous region, what we loosely call a foodshed or bioregion.
+This way they can curate the services provided on their platform in order to
+best suit the needs of their members. They can even tailor the configuration and
+features of specific services as they choose. For example, if a platform wants
+to add a service for aggregating CSA orders, they can do so easily. If they need
+a specialized feature for a citrus CSA and one exists, they can enable it. If it
 doesn't already exist, they can sponsor its development and contribute the open
 source feature back to the commons. Meanwhile, other platforms could add
 features for a flower CSA instead, or omit the CSA service entirely. In this
@@ -133,11 +141,12 @@ the data provider even exists, although hopefully they will appreciate that
 regardless of what service platform they use, they retain certain rights over
 both their data and how the storage of it is administered.
 
-### Local-first Applications
-Local-first applications, which individual users can install on their personal
-desktop and mobile devices, comprise the third layer. These are not strictly
-necessary, however, and may only appeal to certain  users at first. The other
-two layers are perfectly capable of providing fully featured web-based
+### Local-first & Self-hosted Applications
+The third layer is comprised of local-first applications, which individual users
+can install on their personal desktop and mobile devices, as well as self-hosted
+services, where the more technically savvy users are so inclined. These are not
+strictly necessary, however, and will only appeal to certain users at first. The
+other two layers are perfectly capable of providing fully featured web-based
 applications on their own, without the need to install and maintain purely local
 instances. Yet the possibility emerges quite spontaneously from the other two
 layers due to their intrinsically distributed nature. This affords the potential
@@ -150,7 +159,7 @@ will be further explicated in the ["Architecture"] section of this proposal.
 
 ## Strategy
 ### Part of a Larger Ecosystem
-Brought to its fullest potential, Runrig goes far beyond what a single software
+Brought to its full potential, Runrig goes far beyond what a single software
 project or platform can achieve. Its main value proposition is that it opens up
 new ways for complex, distributed networks of groups and individuals to
 collaborate freely and productively. It would be arrogance to presume that we
@@ -168,16 +177,17 @@ OpenTEAM[^OpenTEAM], including the farmOS Data Model[^farmOS], which enjoy the
 continued support of the USDA, the Foundation for Food and Agricultural Research
 and other public and private partners.
 
-These foundational projects, too, are part of a broader ecosystem of recent
-technological advancements. Over the last two decades or more, Tim Berners-Lee
-and the W3C have spearheaded the drive for a Semantic Web,[^W3C] which has made
-tremendous strides in just the last few years. Numerous practical
-implementations of the Solid Protocol and WebID have now reached
-production,[^Solid] and could prove instrumental in Runrig's success. Parallel
-developments like ActivityPub, while not strictly applicable to food and
-agriculture, provide a template for how standards and shared toolchains can
-evolve by methods of open innovation and collaboration. It is a model Runrig
-hopes to emulate.
+These foundational projects are themselves part of a broader groundswell of
+technological advancements, particularly within the field of federated and
+peer-to-peer systems. Over the last two decades or more, Tim Berners-Lee and the
+W3C have spearheaded the drive for a Semantic Web,[^W3C] which has made
+tremendous strides in just the last few years. Practical implementations of the
+Solid Protocol and WebID have now reached production, and community-supported
+servers are free to join or can be deployed independently as a testbed for
+Runrig's data provider.[^Solid] [^pod] [^CSS] Parallel developments like
+ActivityPub, while not strictly applicable to food and agriculture, provide a
+template for how standards and shared toolchains can evolve by methods of open
+innovation and collaboration.[^ActivityPub] [^ActivityPub_FSF]
 
 By taking advantage of these open standards and tools, there is a lot that can
 be done by essentially snapping together off-the-shelf components. Combining
@@ -186,10 +196,13 @@ these communities, Runrig can enjoy a degree of near-term stability and
 long-term sustainability that are rarely found among early-stage startups.
 
 ### Unique Advantages
-Runrig's greatest strength, however, is how it not only takes advantage of the
-standards, tools and methodologies of these open ecosystems, but how it can
-build directly on top of the networks of those systems themselves, along with
-their infrastructure and all the data they provide.
+These open source methodologies, free software libraries and proven models for
+standards development will all be instrumental in building our own network of
+service platforms for food production and distribution; however, Runrig's
+greatest advantage is how it can build directly on top of existing networks to
+deploy practical solutions today, while the larger technical infrastructure can
+grow incrementally, along with the networks of trust and social infrastructure
+undergirding the technical aspects.
 
 This is where the separation between the data and software layers, as outlined
 above, proves so decisive. Because the service platforms are decoupled from the
@@ -247,14 +260,15 @@ software platforms, expanding the user base for each, which wouldn't be possible
 if Runrig's data and service layers were more tightly coupled.
 
 ### Ecology Over Architecture
-Runrig intends to center ecological design over any specific technological
-architecture. Ecology, in this sense, encompasses not only the technological but
-also the social and biotic aspects of design. Accordingly, we strive to make
-those designs adaptive to the whole, rather than prescriptive in the particular.
+Runrig will center ecological design over any specific technological
+architecture. Ecology, in this sense, encompasses the technological, social and
+biotic aspects of design, together and all at once. Accordingly, we strive to
+make those designs adaptive to the whole, rather than prescriptive in the
+particular.
 
-In a practical sense, this grants us greater freedom to experiment — to _play_ —
-with these technologies. The example of the auditing survey mentioned above is a
-prime example. The solution is small, almost trifling, and it risks very little;
+In a practical sense, this grants us greater freedom to experiment with these
+technologies. The example of the auditing survey mentioned above is a prime
+example. The solution is small, almost trifling, and it risks very little;
 however, it can have very real benefits, meeting the most immediate, material
 concerns of its users. While it can be tossed aside if it proves unhelpful, it
 could just as well form the kernel of a much larger system. In that sense, it's
@@ -271,7 +285,7 @@ lifespan of the project, and the potential it yields cannot be understated. The
 design choice to enable the collective stewardship of data, together with the
 free and open sharing of the software, is as much a principle of social design
 as it is a technological one. It imparts a vitality and iterative quality to the
-project, akin to the Agile methodology but extending well beyond mere product
+project, akin to the Agile methodology, but extending well beyond mere product
 development. The evolution of the software system is only one factor in the
 evolution of the broader social and natural systems in which it is embedded.
 Experiments, whether they succeed or fail; ad hoc solutions, whether they can be
@@ -280,20 +294,21 @@ sharing is reciprocated or not — all of these outcomes will be metabolized jus
 the same within an open system of communal ownership, and so their lessons and
 shared progress always nurture the whole.
 
-We should be careful here to point out that the separation between the data and
-service layers is by no means absolute, lest we fail to heed our own admonition
-against prescriptive design. The services will always have some data which they
-persist themselves, and there's obviously no way the data provider could provide
-data if it were not a service itself. The key abstraction is more social than
-technical in nature, intended to deconstruct the prevailing notion that both
-data and services must be centralized with strict top-down control, as well at
-the countervailing notion that our best alternative is strict decentralization,
+It should be pointed out that the separation between the data and service layers
+is by no means absolute; again, such prescriptiveness is to be avoided. The
+services will always have some data which they persist themselves, and there's
+obviously no way the data provider could provide data if it were not itself
+acting as a service. The key abstraction is more social than technical in
+nature, intended to deconstruct the prevailing notion that both data and
+services must be centralized with strict top-down control, as well as the
+countervailing notion that our best alternative is strict decentralization,
 where data and services are still co-located in discreet instances. The aim is
 to empower new, imaginative configurations that instead emphasize the freedom of
-users, both individual and collective, to determine the location and flow of
-their data and how it is used. Tight coupling of the two layers restricts that
-movement, stifling the health of the overall ecosystem, to say nothing of what
-that means for the effective freedom of the individuals within it.
+users, both as individuals and collectively, to determine the location of their
+data, how it is used and in what directions it flows. Tight coupling of the two
+layers restricts that movement, stifling the health of the overall ecosystem, to
+say nothing of what that means for the effective freedom of the people within
+it.
 
 Technology can be far more than an extension of the greater capitalist
 apparatus, alienating us a little more each day from the living world and from
@@ -370,6 +385,7 @@ end, but also an end in itself...
     12, 2021.
 [^cloud]: Watterson, Chris. ["The Success Of My 'There Is No Cloud'
     Sticker"](https://www.chriswatterston.com/article/success-of-my-there-is-no-cloud-sticker).
+[^Bob]: ["Fault-tolerance"](http://howfuckedismydatabase.com/nosql/).
 [^Villa]: Villa, Luis. ["Free as
     in...?"](https://lu.is/blog/2016/03/23/free-as-in-my-libreplanet-2016-talk/)
 [^pod]: Solid Project. ["Get a Pod"](https://solidproject.org/users/get-a-pod).
@@ -387,10 +403,15 @@ end, but also an end in itself...
     Web"](https://www.w3.org/standards/semanticweb/).
 [^Solid]: Solid Project. ["Solid Technical
     Reports"](https://solidproject.org/TR/).
-[^MAIA]: Skywoman MAIA Project. ["OSU Microfarm Project & Richland
-    Gro-Op"](https://github.com/skywoman/multifarm-aggregation-info-arch/tree/main/interviews/2022_08_12--Kip_Curtis_and_Richland_Gro_Op)
 [^CSS]: Solid Project. ["Running your own Solid
     server"](https://solidproject.org/self-hosting/css).
+[^ActivityPub]: Lemmer Webber, Christine. ["ActivityPub is a W3C
+    Recommendation"](http://dustycloud.org/blog/activitypub-is-a-w3c-recommendation/).
+[^ActivityPub_FSF]: Lemmer Webber, Christine. ["Victory for libre networks:
+    ActivityPub is now a W3C recommended
+    standard"](https://www.fsf.org/blogs/community/victory-for-libre-networks-activitypub-is-now-a-w3c-recommended-standard).
+[^MAIA]: Skywoman MAIA Project. ["OSU Microfarm Project & Richland
+    Gro-Op"](https://github.com/skywoman/multifarm-aggregation-info-arch/tree/main/interviews/2022_08_12--Kip_Curtis_and_Richland_Gro_Op)
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 [^RedHat]: Congden, Lee. ["What is a Software
