@@ -26,31 +26,38 @@ autonomy in computing requires control of both the data and the software, not to
 mention the hardware the whole system runs on.[^Stallman] [^Tisne] [^EFF] As the
 old saying goes: "There is no cloud, just someone else's computer."[^cloud]
 Efforts to achieve computational autonomy, however, rarely exceed a vision for
-_individual_ autonomy, and so are inevitably limited by individual
-_capabilities_. These solutions generally fall short in one of two ways: either
-they must curtail the range of functionality users have come to expect from
-so-called "Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
+_individual autonomy_, and so are inevitably limited by _individual capability_.
+These solutions generally fall short in one of two ways: either they must
+curtail the range of functionality users have come to expect from so-called
+"Software-as-a-Service" (SaaS) platforms; or they foist the burdens of
 administering and maintaining those systems onto users who lack the capability
 to do so. Telling average users, who seek an alternative to predatory cloud
-platforms, that they can just spin up their own server on a VPS provider, then
-forevermore install updates, run backups and maintain it, is tantamount to
-playing "Hears and Flowers" on the world's smallest violin.[^Bob] As Luis Villa
-observes, if free software and open source advocates focus too narrowly on
-licensing and sharing source code, while overlooking the actual capabilities
-this affords their users, then at best they can only offer _permissive freedom_,
-not _effective freedom_ — that is, they've granted people permission to use the
-software freely, hypothetically, but not the actual capability to use it in any
-practical sense.[^Villa]
+platforms, that they can just spin up a service on their own server rack or VPS
+(then run backups and install updates all by themselves forevermore) is no
+better than playing the world's smallest violin for them.[^Bob] If free software
+and open source advocates focus too narrowly on licensing and sharing source
+code, while overlooking the actual capabilities this affords their users, then
+at best they can only offer _permissive freedom_, not _effective freedom_, as
+Louis Villa observes.[^Villa] In other words, they've granted permission to
+freely use the software, in a purely hypothetical sense, but not the real
+capability to use it in any practical or meaningful sense.
 
-Runrig differs from other approaches by coordinating the pooled capabilities of
-a community under democratic and cooperativist principles of governance. This
-way, ownership and control of both the data and the software can be shared
-collectively by all participants in a foodshed, while preserving the rights of
-individual users. To achieve this, Runrig comprises 2 - 3 functional layers:
+Runrig differs from other open source methodologies by coordinating the pooled
+capabilities of a community under democratic and cooperativist principles of
+governance. This way, ownership and control of both the data and the software
+can be shared collectively by all participants in a foodshed, while preserving
+the rights of individual users. To achieve this, Runrig comprises 2 - 3
+functional layers:
 
 1. A single, collectively owned data storage provider, or "pod"[^pod] provider.
 2. Many federated cooperative service platforms.
 3. Local-first[^Kleppmann] and self-hosted applications (optional).
+
+With sufficient investment, the server racks, network infrastructure,
+brick-and-mortar facilities and other physical assets required to run these
+systems could be cooperatively owned as well. For now, however, Runrig restricts
+itself to the digital assets, since their storage and management can be
+cooperativized much more cheaply.
 
 ### The Data Provider
 The first layer is a global commons, providing networked data storage to all its
@@ -67,7 +74,7 @@ members, not some corporation and its shareholders. So while it may not be each
 user's private computer, it is still _their computer_ in a very real sense, with
 full governance rights over the infrastructure hosting their data, in addition
 to individual protections under the terms of service. Secondly, while it could
-in fact be used as a file system, it holds even greater potential as a source of
+in fact be used as a file system, its true potential lies in being a source of
 structured data, like an SQL database or even more modern low-code databases
 like NocoDB, a _libre_ alternative to Airtable. This gives it the power to
 integrate more readily with a myriad of existing services via its API.
