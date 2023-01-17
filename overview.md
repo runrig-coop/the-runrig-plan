@@ -98,30 +98,30 @@ between services, because the data provider can double as a secure identity
 provider as well.
 
 Each of these service-oriented platform coops would function best within a
-geographically contiguous region, what we loosely call a foodshed or bioregion.
-This way they can curate the services provided on their platform in order to
-best suit the needs of their members. They can even tailor the configuration and
-features of specific services as they choose. For example, if a platform wants
-to add a service for aggregating CSA orders, they can do so easily. If they need
-a specialized feature for a citrus CSA and one exists, they can enable it. If it
-doesn't already exist, they can sponsor its development and contribute the open
-source feature back to the commons. Meanwhile, other platforms could add
-features for a flower CSA instead, or omit the CSA service entirely. In this
-way, geographic regions offer a sensible criterion for bounding a platform's
-scope of functionality, since some services might make sense in one region or
-climate but not another. It also keeps governance more manageable, when not
-trying to accommodate the needs of a larger and more dispersed membership. In
-theory nothing prevents a platform from being as small or large as desired, but
-each platform will require some combination of time, expertise and money to
-maintain, so the distribution of those costs should be balanced with the desire
-for more localized control. Nevertheless, it shouldn't be necessary to impose
-strict boundaries on any one platform's range of coverage, and users would be
-free to join more than one platform if available and desirable. It may also
-prove useful to cover a more dispersed geographic area, for niche sectors of
-production or distribution, like pasture-raised meats or high-value crops. These
-are tradeoffs that should be left to the thoughtful deliberation of the
-constituents of each platform, so they can strike the right balance to meet
-their own goals given their unique circumstances.
+geographically contiguous region, what we loosely call a foodshed, food
+zone[^zone] or bioregion. This way they can curate the services provided on
+their platform in order to best suit the needs of their members. They can even
+tailor the configuration and features of specific services as they choose. For
+example, if a platform wants to add a service for aggregating CSA orders, they
+can do so easily. If they need a specialized feature for a citrus CSA and one
+exists, they can enable it. If it doesn't already exist, they can sponsor its
+development and contribute the open source feature back to the commons.
+Meanwhile, other platforms could add features for a flower CSA instead, or omit
+the CSA service entirely. In this way, geographic regions offer a sensible
+criterion for bounding a platform's scope of functionality, since some services
+might make sense in one region or climate but not another. It also keeps
+governance more manageable, when not trying to accommodate the needs of a larger
+and more dispersed membership. In theory nothing prevents a platform from being
+as small or large as desired, but each platform will require some combination of
+time, expertise and money to maintain, so the distribution of those costs should
+be balanced with the desire for more localized control. Nevertheless, it
+shouldn't be necessary to impose strict boundaries on any one platform's range
+of coverage, and users would be free to join more than one platform if available
+and desirable. It may also prove useful to cover a more dispersed geographic
+area, for niche sectors of production or distribution, like pasture-raised meats
+or high-value crops. These are tradeoffs that should be left to the thoughtful
+deliberation of the constituents of each platform, so they can strike the right
+balance to meet their own goals given their unique circumstances.
 
 This second layer, regardless of the particular platform or service, is also the
 layer that users will typically interact with. It will be the service platform's
@@ -401,6 +401,7 @@ end, but also an end in itself...
     _Ink & Switch_.
 [^Scholz]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate
     Sharing Economy_](https://rosalux.nyc/pslatform-cooperativism-2/).
+[^zone]: ["The Food Zones Explained"](https://betterfoodtraders.org/why-it-matters/the-food-zones/)
 [^DFC]: Data Food Consortium. ["Our
     Standard"](https://www.datafoodconsortium.org/en/our-standard/).
 [^OpenTEAM]: OpenTEAM. ["Access Tools and
