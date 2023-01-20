@@ -57,7 +57,7 @@ With sufficient investment, the server racks, network infrastructure,
 brick-and-mortar facilities and other physical assets required to run these
 systems could be cooperatively owned as well. For now, however, Runrig restricts
 itself to the digital assets, since their storage and management can be
-cooperativized much more cheaply.
+cooperativized at a much lower upfront cost.
 
 ### The Data Provider
 The first layer is a global commons, providing networked data storage to all its
@@ -246,7 +246,7 @@ with the farmOS Data Model.[^SurveyStack]
 
 While solutions like this have a payoff about on par with a Google Form plus a
 spreadsheet, the costs of developing and maintaining them with Runrig are still
-very low. Spreadsheets may be easier to develop, but often prove much harder to
+very low. Spreadsheets may be easier to create, but often prove much harder to
 maintain in the long-run. And what costs exist are not sunk costs; if the
 results aren't totally satisfactory, they can stick to the spreadsheets from
 then on, without losing that data or needing to export it from a third-party
@@ -318,7 +318,7 @@ say nothing of what that means for the effective freedom of the people within
 it.
 
 Technology can be far more than an extension of the greater capitalist
-apparatus, alienating us a little more each day from the living world and from
+apparatus, alienating us more and more each day from the living world and from
 each other; it can be reclaimed as a vital part of human life. To invite
 ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
