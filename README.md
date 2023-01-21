@@ -21,7 +21,7 @@ are appropriate, just, and that advance the well-being of all.
     - Part of a Larger Ecosystem
     - Unique Advantages
     - Ecology over Architecture
-  - Conclusions
+  - Next Steps
 - [ARCHITECTURE](architecture.md)
   - Collective, Centralized Hosting & Storage
     - Pod Provisioning
