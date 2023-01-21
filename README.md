@@ -10,6 +10,8 @@ exists; rather, it proposes a method for intentional design that can realize our
 political will, while affirming our moral obligation to adopt technologies that
 are appropriate, just, and that advance the well-being of all.
 
+_NOTE: This plan is currently in draft._
+
 ## Contents
 - [OVERVIEW](overview.md)
   - Purpose
