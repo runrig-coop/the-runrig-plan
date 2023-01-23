@@ -370,4 +370,4 @@ reintegrate them with the natural and social worlds.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-["Architecture"]: (architecture.md)
+["Architecture"]: ./architecture.md
