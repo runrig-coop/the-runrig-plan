@@ -1,0 +1,21 @@
+{
+  "name": "runrig-plan",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "site:dev": "vitepress dev .",
+    "site:build": "vitepress build .",
+    "site:preview": "vitepress preview .",
+    "start": "npm run site:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it-footnote": "^3.0.3",
+    "vitepress": "^1.0.0-alpha.40",
+    "vue": "^3.2.45"
+  }
+}
