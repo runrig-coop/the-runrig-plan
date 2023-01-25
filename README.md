@@ -14,30 +14,16 @@ _NOTE: This plan is currently in draft._
 
 ## Contents
 - [OVERVIEW](overview.md)
-  - Purpose
-  - Three Layers of Autonomy
+  - [Purpose](overview.md#purpose)
+  - [Three Layers of Autonomy](overview.md#three-layers-of-autonomy)
     - The Data Provider
     - Service Platforms
     - Local-first Applications
-  - Strategy
+  - [Strategy](overview.md#strategy)
     - Part of a Larger Ecosystem
     - Unique Advantages
     - Ecology over Architecture
-  - Next Steps
-- [ARCHITECTURE](architecture.md)
-  - Collective, Centralized Hosting & Storage
-    - Pod Provisioning
-    - Terms of Service
-    - Why Solid?
-  - Distributed, Federated Services & Applications
-- [DESIGN](design.md)
-  - User Journeys
-  - Single Sign-On
-  - Abolish the import/export button!
-- [ECOLOGY](ecology.md)
-  - ecology over architecture
-  - service-level agreements
-  - software licensing
+  - [Next Steps](overview.md#next-steps)
 
 ## References
 [^wiki]: Wikipedia. ["Run rig"](https://en.wikipedia.org/wiki/Run_rig).
