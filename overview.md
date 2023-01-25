@@ -324,6 +324,8 @@ ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
 
 ## Next Steps
+More details on next steps will be forthcoming in this section, as well as two planned appendices on ["Ecology"](https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md) and ["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md) that are already in draft, and hopefully another appendix addressing "Design" specifically.
+
 ...
 
 ## References
