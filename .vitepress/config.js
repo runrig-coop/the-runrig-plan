@@ -9,6 +9,7 @@ export default defineConfig({
     siteTitle: 'Runrig',
     nav: [
       { text: 'Overview', link: '/overview' },
+      { text: 'Ecology', link: '/ecology' },
     ],
   },
   markdown: {

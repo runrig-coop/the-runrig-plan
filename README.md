@@ -24,6 +24,7 @@ _NOTE: This plan is currently in draft._
     - Unique Advantages
     - Ecology over Architecture
   - [Next Steps](overview.md#next-steps)
+- [APPENDIX: Ecology](ecology.md)
 
 ## References
 [^wiki]: Wikipedia. ["Run rig"](https://en.wikipedia.org/wiki/Run_rig).

@@ -378,5 +378,4 @@ draft, and hopefully another appendix addressing "Design" specifically.
 
 ["Architecture"]:
     https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md
-["Ecology"]:
-    https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md
+["Ecology"]: ./ecology.md
