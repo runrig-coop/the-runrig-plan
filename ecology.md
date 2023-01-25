@@ -1,7 +1,17 @@
 # Ecology
-- ecology over architecture
-- service-level agreements
-- software licensing
+_Provisional outline for "Ecology" page:_
+
+- Intellectual Usufruct Rights
+  - Service-level agreements
+  - Copyfair licensing
+  - Fiduciary obligations
+  - Grant/revoke proxy rights
+- Economic model
+  - Storage provisioning
+  - Sliding-scale hosting & services
+- Governance & Methodology
+  - Data cooperatives
+  - ...
 
 ## Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
