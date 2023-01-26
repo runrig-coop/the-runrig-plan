@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf .cache dist",
     "site:dev": "node .vitepress/prepare.js && vitepress dev .",
     "site:build": "node .vitepress/prepare.js && vitepress build .",
     "site:preview": "vitepress preview .",
