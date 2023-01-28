@@ -38,7 +38,7 @@ better than playing the world's smallest violin for them.[^Bob] If free software
 and open source advocates focus too narrowly on licensing and sharing source
 code, while overlooking the actual capabilities this affords their users, then
 at best they can only offer _permissive freedom_, not _effective freedom_, as
-Louis Villa observes.[^Villa] In other words, they've granted permission to
+Luis Villa observes.[^Villa] In other words, they've granted permission to
 freely use the software, in a purely hypothetical sense, but not the real
 capability to use it in any practical or meaningful sense.
 
@@ -162,14 +162,16 @@ could provide greater resilience to the overall network while also granting more
 freedom to individual users outside of those networks.
 
 The details of this are still less critical to Runrig's initial development, but
-will be further explicated in the ["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md) section of this proposal, though it is still in draft.
+will be further explicated in the
+["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md)
+section of this proposal, though it is still in draft.
 
 ## Strategy
 ### Part of a Larger Ecosystem
 Brought to its full potential, Runrig goes far beyond what a single software
 project or platform can achieve. Its main value proposition is that it opens up
 new ways for complex, distributed networks of groups and individuals to
-collaborate freely and productively. It would be arrogance to presume that we
+collaborate freely and productively. It would be arrogant to presume that we
 could bootstrap an inherently collaborative, widespread network from the ground
 up, in a few short development cycles with only a handful of engineers,
 designers and agriculturalists. Fortunately, that is not our task; we draw upon
@@ -324,7 +326,13 @@ ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
 
 ## Next Steps
-More details on next steps will be forthcoming in this section, as well as two planned appendices on ["Ecology"](https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md) and ["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md) that are already in draft, and hopefully another appendix addressing "Design" specifically.
+More details on next steps will be forthcoming in this section, as well as two
+planned appendices on
+["Ecology"](https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md)
+and
+["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md)
+that are already in draft, and hopefully another appendix addressing "Design"
+specifically.
 
 ...
 
@@ -350,7 +358,8 @@ More details on next steps will be forthcoming in this section, as well as two p
     _Ink & Switch_.
 [^Scholz]: Scholz, Trebor. [_Platform Cooperativism: Challenging the Corporate
     Sharing Economy_](https://rosalux.nyc/pslatform-cooperativism-2/).
-[^zone]: ["The Food Zones Explained"](https://betterfoodtraders.org/why-it-matters/the-food-zones/)
+[^zone]: ["The Food Zones
+    Explained"](https://betterfoodtraders.org/why-it-matters/the-food-zones/)
 [^DFC]: Data Food Consortium. ["Our
     Standard"](https://www.datafoodconsortium.org/en/our-standard/).
 [^OpenTEAM]: OpenTEAM. ["Access Tools and
