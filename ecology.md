@@ -16,7 +16,13 @@ _Provisional outline for "Ecology" page:_
 ## Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
 
-...like collective land management, but for network infrastructure and compute resources; or water rights, but for the flow of data; _ejidos electrónicos_.
+___ejidos electrónicos___  
+...like water rights, but for the flow of data; or collective land management, but for network infrastructure and compute resources. 
+
+__What are the main legal entities involved in Runrig?__ (possibly):
+- Non-profit and/or coop that holds license to Runrig's code, and possibly legal custody of the main data provider's servers. Some aspects of this role could also be fulfilled by a conservancy, such as the Software Freedom Conservancy or the Commons Conservancy, while others could be delegated to the worker coop, described next.
+- Worker coop of engineers, designers and administrators. This coop develops, maintains and administers the core systems running on the main data provider. It is also responsible for the free libraries, API's and other integrations used by the service platforms, possibly even the application software they use. They are also available on contract to develop custom, sponsored software at the request of one or several service platforms, though ultimately those solutions be contributed back to the commons and made free to all. Hosting and other backend services could also be provided to the service platforms at preferred rates.
+- Service platform coops, situated in regional foodsheds and serving more localized needs, which may vary widely in scope, purpose and membership.
 
 ## Data Cooperatives & Fiduciary Obligations (from earlier notes)
 In [an article](https://coop.exchange/blog/430124ff-621a-11ea-b711-06ceb0bf34bd/data-co-ops-4-examples-and-new-ideas) from Coop Exchange about data coops, they describe the [Driver's Seat Cooperative](https://driversseat.co/)'s mission:
