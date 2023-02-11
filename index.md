@@ -25,7 +25,9 @@ _NOTE: This plan is currently in draft._
     - Ecology over Architecture
   - [Next Steps](overview.md#next-steps)
 - [APPENDIX: Ecology](ecology.md)
-  - [The Core Challenge](ecology.md#the-core-challenge)
+  - [Reframing Production & Consumption as Metabolic Exchange](ecology.md#reframing-production--consumption-as-metabolic-exchange)
+  - [Economic Models & Planning](ecology.md#economic-models--planning)
+    - The Core Challenge
   - [Legal Rights & Agreements](ecology.md#legal-rights--agreements)
   - [Community Governance & Methodology](ecology.md#community-governance--methodology)
 

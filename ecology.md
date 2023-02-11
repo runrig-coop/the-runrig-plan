@@ -1,5 +1,14 @@
 # Ecology
-## The Core Challenge
+## Economic Models & Planning
+```md
+**DRAFT NOTES**  
+Provisional outline:
+- Funding etc...
+- Sliding-scale hosting & services
+- Storage provisioning
+```
+
+### The Core Challenge
 Prior to the launch of Skywoman's MAIA Project, I argued it's not only
 preferable to build farm software by open and cooperative methods, but if we are
 sincere in our intentions to aid food sovereignty with appropriate technologies,
@@ -84,15 +93,6 @@ approximations:
 These can only serve as crude standbys for the full dynamic range of a
 functioning ecology, but we hope even the staunchest dollars-and-cents
 pragmatist can appreciate their need for attention.
-
-## Economic Models & Planning
-```md
-**DRAFT NOTES**  
-Provisional outline:
-- Funding etc...
-- Sliding-scale hosting & services
-- Storage provisioning
-```
 
 ## Legal Rights & Agreements
 ```md
