@@ -1,4 +1,28 @@
 # Ecology
+## Reframing Production & Consumption as Metabolic Exchange
+As we first addressed in the ["Overview"] and will further detail in ["Appendix:
+Architecture"], Runrig makes certain architectural and design choices in order
+to accommodate complexity while distributing the costs  incrementally over time
+and across a greater number of stakeholders. But it cannot achieve those ends by
+architecture alone, as the motto ["ecology over architecture"] is meant to
+convey. Loosely speaking, the ecology we refer to here includes the various
+social and biotic relations that comprise a food shed. Put another way, it is
+the total process undergone by the constituents of that food shed whereby their
+shared energy and material move throughout the system, abiding by those
+relations. Rather than alternately producing and consuming, as a commodities
+market would, _an ecology always and only ever metabolizes_.
+
+For the purposes of this document, we will consider ecology by means of three
+approximations:
+
+- Economic Models & Planning
+- Legal Rights & Agreements
+- Community Governance & Methodology
+
+These can only serve as crude standbys for the full dynamic range of a
+functioning ecology, but we hope even the staunchest dollars-and-cents
+pragmatist can appreciate their need for attention.
+
 ## Economic Models & Planning
 ```md
 **DRAFT NOTES**  
@@ -70,29 +94,6 @@ to avoid further exploitation by private software platforms, we continue to live
 under the artificial scarcities of capitalism, so how do we manage what scarce
 resources we have left — amidst all other competing demands on them — to sustain
 communally owned alternatives?
-
-As we first addressed in the ["Overview"] and will further detail in ["Appendix:
-Architecture"], Runrig makes certain architectural and design choices in order
-to accommodate complexity while distributing the costs  incrementally over time
-and across a greater number of stakeholders. But it cannot achieve those ends by
-architecture alone, as the motto ["ecology over architecture"] is meant to
-convey. Loosely speaking, the ecology we refer to here includes the various
-social and biotic relations that comprise a food shed. Put another way, it is
-the total process undergone by the constituents of that food shed whereby their
-shared energy and material move throughout the system, abiding by those
-relations. Rather than alternately producing and consuming, as a commodities
-market would, _an ecology always and only ever metabolizes_.
-
-For the purposes of this document, we will consider ecology by means of three
-approximations:
-
-- Economic Models & Planning
-- Legal Rights & Agreements
-- Community Governance & Methodology
-
-These can only serve as crude standbys for the full dynamic range of a
-functioning ecology, but we hope even the staunchest dollars-and-cents
-pragmatist can appreciate their need for attention.
 
 ## Legal Rights & Agreements
 ```md
