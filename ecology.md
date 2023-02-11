@@ -260,6 +260,5 @@ end, but also an end in itself...
 
 
 ["Overview"]: ./overview.md
-["Appendix: Architecture"]:
-    https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md
+["Appendix: Architecture"]: ./architecture.md
 ["ecology over architecture"]: ./overview.md#ecology-over-architecture

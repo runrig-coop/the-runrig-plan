@@ -30,6 +30,7 @@ _NOTE: This plan is currently in draft._
     - The Core Challenge
   - [Legal Rights & Agreements](ecology.md#legal-rights--agreements)
   - [Community Governance & Methodology](ecology.md#community-governance--methodology)
+- [APPENDIX: Architecture](architecture.md)
 
 ## References
 [^wiki]: Wikipedia. ["Run rig"](https://en.wikipedia.org/wiki/Run_rig).

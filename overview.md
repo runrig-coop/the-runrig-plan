@@ -376,6 +376,5 @@ draft, and hopefully another appendix addressing "Design" specifically.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-["Architecture"]:
-    https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md
+["Architecture"]: ./architecture.md
 ["Ecology"]: ./ecology.md

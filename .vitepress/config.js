@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Overview', link: '/overview' },
       { text: 'Ecology', link: '/ecology' },
+      { text: 'Architecture', link: '/architecture' },
     ],
   },
   markdown: {
