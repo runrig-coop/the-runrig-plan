@@ -162,9 +162,8 @@ could provide greater resilience to the overall network while also granting more
 freedom to individual users outside of those networks.
 
 The details of this are still less critical to Runrig's initial development, but
-will be further explicated in the
-["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md)
-section of this proposal, though it is still in draft.
+will be further explicated in the ["Architecture"] section of this proposal,
+though it is still in draft.
 
 ## Strategy
 ### Part of a Larger Ecosystem
@@ -327,12 +326,8 @@ reintegrate them with the natural and social worlds.
 
 ## Next Steps
 More details on next steps will be forthcoming in this section, as well as two
-planned appendices on
-["Ecology"](https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md)
-and
-["Architecture"](https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md)
-that are already in draft, and hopefully another appendix addressing "Design"
-specifically.
+planned appendices on ["Ecology"] and ["Architecture"] that are already in
+draft, and hopefully another appendix addressing "Design" specifically.
 
 ...
 
@@ -380,3 +375,8 @@ specifically.
     Gro-Op"](https://github.com/skywoman/multifarm-aggregation-info-arch/tree/main/interviews/2022_08_12--Kip_Curtis_and_Richland_Gro_Op)
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
+
+["Architecture"]:
+    https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md
+["Ecology"]:
+    https://github.com/runrig-coop/draft-proposal/tree/ecology/ecology.md
