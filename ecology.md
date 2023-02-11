@@ -1,19 +1,4 @@
 # Ecology
-_Provisional outline for "Ecology" page:_
-
-- Economic model
-  - Funding etc...
-  - Sliding-scale hosting & services
-  - Storage provisioning
-- Intellectual Usufruct Rights
-  - Service-level agreements
-  - Copyfair licensing
-  - Fiduciary obligations
-  - Grant/revoke proxy rights
-- Governance & Methodology
-  - Data cooperatives
-  - ...
-
 ## The Core Challenge
 Prior to the launch of Skywoman's MAIA Project, I argued it's not only
 preferable to build farm software by open and cooperative methods, but if we are
@@ -100,18 +85,40 @@ These can only serve as crude standbys for the full dynamic range of a
 functioning ecology, but we hope even the staunchest dollars-and-cents
 pragmatist can appreciate their need for attention.
 
-## Intellectual Usufruct Rights
+## Economic Models & Planning
+```md
+**DRAFT NOTES**  
+Provisional outline:
+- Funding etc...
+- Sliding-scale hosting & services
+- Storage provisioning
+```
+
+## Legal Rights & Agreements
+```md
+**DRAFT NOTES**  
+Provisional outline:
+- Intellectual Usufruct Rights
+- Service-level agreements
+- Copyfair licensing
+- Fiduciary obligations
+- Grant/revoke proxy rights
+```
+
+### Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
 
-___ejidos electrónicos___  
+___ejidos electrónicos___
+
 ...like water rights, but for the flow of data; or collective land management, but for network infrastructure and compute resources. 
 
+### Service-level Agreements
 __What are the main legal entities involved in Runrig?__ (possibly):
 - Non-profit and/or coop that holds license to Runrig's code, and possibly legal custody of the main data provider's servers. Some aspects of this role could also be fulfilled by a conservancy, such as the Software Freedom Conservancy or the Commons Conservancy, while others could be delegated to the worker coop, described next.
 - Worker coop of engineers, designers and administrators. This coop develops, maintains and administers the core systems running on the main data provider. It is also responsible for the free libraries, API's and other integrations used by the service platforms, possibly even the application software they use. They are also available on contract to develop custom, sponsored software at the request of one or several service platforms, though ultimately those solutions be contributed back to the commons and made free to all. Hosting and other backend services could also be provided to the service platforms at preferred rates.
 - Service platform coops, situated in regional foodsheds and serving more localized needs, which may vary widely in scope, purpose and membership.
 
-## Data Cooperatives & Fiduciary Obligations (from earlier notes)
+### Data Cooperatives & Fiduciary Obligations (from earlier notes)
 In [an article](https://coop.exchange/blog/430124ff-621a-11ea-b711-06ceb0bf34bd/data-co-ops-4-examples-and-new-ideas) from Coop Exchange about data coops, they describe the [Driver's Seat Cooperative](https://driversseat.co/)'s mission:
 
 > Drivers Seat Data Cooperative allows drivers using platforms like Uber or Lyft to track their driving and pay to figure out the optimal times to make money based on their schedule, where they should drive when it is slow, etc. They can choose to share the data with city agencies to help with transportation planning. The drivers own the cooperative and it enables them to get more money for work they are already doing.
@@ -135,7 +142,20 @@ The article even goes into some specifics on the technical architecture and how 
 
 The references section is also a goldmine, with several other articles by the same authors. Also among those references is a pretty good article from UC Davis on the legal aspects of information fiduciaries in general, coops or not, titled ["Information Fiduciaries and the First Amendment"](https://lawreview.law.ucdavis.edu/issues/49/4/Lecture/49-4_Balkin.pdf).
 
-## Standards and Tools
+## Community Governance & Methodology
+```md
+**DRAFT NOTES**  
+Provisional outline:
+- Data cooperatives
+- Standards & Tools
+```
+
+### Standards and Tools
+```md
+**DRAFT NOTES**  
+Much of this section seems like a poorly focused rehashing of the "Economic Challenges" above. Most of it can probably be scrapped, but see what portions actually pertain to governance & methodology and could be salvaged.
+```
+
 We've come to believe what we're told about data standards and shared
 ontologies: that they are great in theory, but in the real world things are too
 complex and you either end up having a standard that's too specific and
