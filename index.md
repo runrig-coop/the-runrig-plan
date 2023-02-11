@@ -25,6 +25,9 @@ _NOTE: This plan is currently in draft._
     - Ecology over Architecture
   - [Next Steps](overview.md#next-steps)
 - [APPENDIX: Ecology](ecology.md)
+  - [Economic Models & Planning](ecology.md#the-core-challenge)
+  - [Legal Rights & Agreements](ecology.md#legal-rights--agreements)
+  - [Community Governance & Methodology](ecology.md#community-governance--methodology)
 
 ## References
 [^wiki]: Wikipedia. ["Run rig"](https://en.wikipedia.org/wiki/Run_rig).

@@ -14,7 +14,7 @@ _Provisional outline for "Ecology" page:_
   - Data cooperatives
   - ...
 
-## Economic Challenges
+## The Core Challenge
 Prior to the launch of Skywoman's MAIA Project, I argued it's not only
 preferable to build farm software by open and cooperative methods, but if we are
 sincere in our intentions to aid food sovereignty with appropriate technologies,
@@ -34,46 +34,71 @@ insufficient to the task:
 > social and ecological cooperation baked right into the design and methodology
 > of the system itself.[^platform-coop]
 
-But software costs money. While we should reject the reductionist view that
-dollars and cents are all that matters here, we still need to acknowledge that
-certain economic barriers must be surmounted if we wish to take any of this
-beyond mere theory. Specifically, software development requires compensation for
-the time of engineers and designers who can otherwise fetch 6-figure salaries or
-more for their expertise.[^skilled-labor] That can drive costs quite high, and
-rather quickly too. As much as we seek to conserve the essential complexity of
-the natural systems our software hopes to model,[^Brooks] as software complexity
-increases, those costs can truly explode. Tremendous experience is required just
-to reliably estimate the final costs of an extended, complex project, let alone
-to keep everything on budget through to completion.
+But software costs money. While we should reject the narrow view that dollars
+and cents are all that matter here, we still need to acknowledge that certain
+economic barriers must be surmounted if we wish to take any of this beyond mere
+theory. Specifically, software development requires compensating engineers and
+designers, who can otherwise fetch 6-figure salaries or more for their
+expertise.[^skilled-labor] That can drive costs quite high, and rather quickly
+too. As much as we seek to conserve the essential complexity of the natural
+systems our software hopes to model, as software complexity increases, those
+costs can truly explode.[^Brooks] Tremendous experience is required just to
+reliably estimate the final costs of an extended, complex project, let alone to
+keep everything on budget all the way to completion.
 
 Being familiar with these realities from both the farmer's and the engineer's
 side of the table, Chris Newman addresses the complaint of a another farmer who
 has worked first-hand with proprietary software companies. They relate a common
-experience where the so-called "solutions experts" insinuate that the complexity
-of their operations is itself to blame for the failure of the software to meet
-their needs. As he writes,
+experience where the "solutions experts" insinuated that the complexity of the
+farm's operation was itself to blame for the failure of the software to meet the
+farm's needs. As he writes,
 
 > Software companies are not in the food business, they don't have any business
 > telling you how to run yours, and if they do, they're deliberately attempting
 > to throttle what works for you in order to make you work for them.[^ERP]
 
 One could interpret this as venture capital imposing _legibility_ upon the
-social and ecological diversity of a community, to borrow a term from James C.
-Scott.[^Scott] The compulsion to simplify their operations is not meant to aid
-how that community farms and feeds itself in accordance to its own cultural and
-environmental concerns; it is meant to render the labor and collective resources
-of that community more suitable for mass consumption and capital accumulation.
-Any costs associated with adapting inherently complex natural and social systems
-to simpler value forms, ready for consumption, are of course deflected onto the
-community, rather than investors.
+social and ecological diversity of a community, to borrow anarchist
+terminology,[^Scott] or what Marxists would recognize as _commodity fetishism_.
+The compulsion to simplify their operations is not meant to facilitate the
+existing ways a community farms and feeds itself, in accordance to its own
+cultural and environmental concerns; it is meant to render the labor, knowledge
+and matériel of that community more suitable for mass consumption and capital
+accumulation. Any costs associated with adapting inherently complex natural and
+social systems to simpler commodity forms, ready for consumption, are of course
+deflected onto the community, rather than investors.
 
-But the core challenge remains: how can diverse food communities bring their
-full resources to bear upon the creation of free and appropriate technologies
-that meet their material needs and reflect their collective values?
+The core challenge, however, still remains: how can diverse food communities
+bring their full capacities to bear upon the creation of free and appropriate
+technologies that meet their material needs and reflect their collective values?
+More to the point, how do we manage the costs of the software? While we strive
+to avoid further exploitation by private software platforms, we continue to live
+under the artificial scarcities of capitalism, so how do we manage what scarce
+resources we have left — amidst all other competing demands on them — to sustain
+communally owned alternatives?
 
-As first addressed in the ["Overview"] and further detailed in ["Appendix:
-Architecture"], Runrig makes certain design choices to mitigate that complexity
-and allow for...
+As we first addressed in the ["Overview"] and will further detail in ["Appendix:
+Architecture"], Runrig makes certain architectural and design choices in order
+to accommodate complexity while distributing the costs  incrementally over time
+and across a greater number of stakeholders. But it cannot achieve those ends by
+architecture alone, as the motto ["ecology over architecture"] is meant to
+convey. Loosely speaking, the ecology we refer to here includes the various
+social and biotic relations that comprise a food shed. Put another way, it is
+the total process undergone by the constituents of that food shed whereby their
+shared energy and material move throughout the system, abiding by those
+relations. Rather than alternately producing and consuming, as a commodities
+market would, _an ecology always and only ever metabolizes_.
+
+For the purposes of this document, we will consider ecology by means of three
+approximations:
+
+- Economic Models & Planning
+- Legal Rights & Agreements
+- Community Governance & Methodology
+
+These can only serve as crude standbys for the full dynamic range of a
+functioning ecology, but we hope even the staunchest dollars-and-cents
+pragmatist can appreciate their need for attention.
 
 ## Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
@@ -168,11 +193,46 @@ end, but also an end in itself...
 
 
 ## References
-[^platform-coop]: Gaehring, Jamie. ["Toward a Platform Cooperative for Food Sovereignty"](https://jgaehring.com/blog/platform-coop). August 05, 2022.
-[^ERP]: Newman, Chris. ["Choosing Software: The Case for Using ERP/CRM/SCM to Scale Farms"](https://www.skywoman.community/post/choosing-software-the-case-for-using-erp-crm-scm-to-scale-farms). Jan 3, 2023.
-[^Scott]: Scott, James C. [_Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed_](https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state).
-[^skilled-labor]: Bound up in the problem of software costs is the ill-founded distinction between skilled and unskilled labor, and it must be addressed when considering an industry like agriculture where wages are routinely stolen and rarely meet the standard of a true living wage. We should aim to counteract such tendencies as much as possible through transparent pay scales, explicit limits on compensation, and other measures, even if that means less competitive salary offerings for technical workers. However, discretion should always be applied here. Tech workers will and ought to be mindful of the opportunity costs associated with accepting a lower paying position, even if they see the higher purpose, while also weighing that with any educational debt they may have accrued, or how their salary history may effect future offerings. It should never be incumbent upon these workers alone to fix the societal error of assigning higher absolute skill-level to any one form of labor over another.
-[^Brooks]: Since at least 1986, with the publication of Fred Brooks' paper, "No Silver Bullet — Essence and Accidents of Software Engineering", engineers and designers have been trained to distinguish two forms of complexity: essential and accidental. _Essential complexity_ is inherent to the problem at-hand, what is called the domain or business logic; it exists prior to the introduction of the software tool and cannot be reduced by engineering alone. Accidental complexity, on the other hand, derives from the use of software in its own right, like the complexity of handling network latencies; it may be unavoidable to some degree, but it is the only form of complexity that the software engineer can rightly try to eliminate.
+[^platform-coop]: Gaehring, Jamie. ["Toward a Platform Cooperative for Food
+    Sovereignty"](https://jgaehring.com/blog/platform-coop). August 05, 2022.
+[^skilled-labor]: Bound up in the problem of software costs is the ill-founded
+    distinction between skilled and unskilled labor, and it must be addressed
+    when considering an industry like agriculture where wages are routinely
+    stolen and rarely meet the standard of a true living wage. We should aim to
+    counteract such tendencies as much as possible through transparent pay
+    scales, explicit limits on compensation, and other measures, even if that
+    means less competitive salary offerings for technical workers. However,
+    discretion should always be applied here. Tech workers will and ought to be
+    mindful of the opportunity costs associated with accepting a lower paying
+    position, even if they see the higher purpose, while also weighing that with
+    any educational debt they may have accrued, or how their salary history may
+    effect future offerings. It should never be incumbent upon these workers
+    alone to fix the societal error of assigning higher absolute skill-level to
+    any one form of labor over another.
+[^Brooks]: Since at least 1986, with the publication of Fred Brooks' paper, "No
+    Silver Bullet — Essence and Accidents of Software Engineering", engineers
+    and designers have been trained to distinguish two forms of complexity:
+    essential and accidental. _Essential complexity_ is inherent to the problem
+    at-hand, what is called the domain or business logic; it exists prior to the
+    introduction of the software tool and cannot be reduced by engineering
+    alone. Accidental complexity, on the other hand, derives from the use of
+    software in its own right, like the complexity of handling network latencies
+    or multithreading; it may be unavoidable to some degree, but it is the only
+    form of complexity that the software engineer can rightly try to eliminate.
+    As a rule of thumb, the greater the complexity of the software, in either
+    form, the greater its costs in both time and money. While it may be
+    appropriate for the domain experts (ie, the business managers, workers and
+    end users of the software) to reduce the essential complexity of the real
+    system the software represents, any attempt by the software developers to
+    forgo aspects of essential complexity can only represent a flaw of omission
+    in their modeling.
+[^ERP]: Newman, Chris. ["Choosing Software: The Case for Using ERP/CRM/SCM to
+    Scale
+    Farms"](https://www.skywoman.community/post/choosing-software-the-case-for-using-erp-crm-scm-to-scale-farms).
+    Jan 3, 2023.
+[^Scott]: Scott, James C. [_Seeing Like a State: How Certain Schemes to Improve
+    the Human Condition Have
+    Failed_](https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state).
 [^RedHat]: Congden, Lee. ["What is a Software
     Appliance?"](https://www.redhat.com/en/blog/what-is-a-software-appliance)
     _The Red Hat Blog_. Jan 25, 2008.
@@ -181,3 +241,4 @@ end, but also an end in itself...
 ["Overview"]: ./overview.md
 ["Appendix: Architecture"]:
     https://github.com/runrig-coop/draft-proposal/tree/architecture/architecture.md
+["ecology over architecture"]: ./overview.md#ecology-over-architecture
