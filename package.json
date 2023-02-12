@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",
-    "vitepress": "^1.0.0-alpha.40",
+    "vitepress": "^1.0.0-alpha.45",
     "vue": "^3.2.45"
   }
 }
