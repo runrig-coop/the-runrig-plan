@@ -24,14 +24,6 @@ functioning ecology, but we hope even the staunchest dollars-and-cents
 pragmatist can appreciate their need for attention.
 
 ## Economic Models & Planning
-```md
-**DRAFT NOTES**  
-Provisional outline:
-- Funding etc...
-- Sliding-scale hosting & services
-- Storage provisioning
-```
-
 ### The Core Challenge
 Prior to the launch of Skywoman's MAIA Project, I argued it's not only
 preferable to build farm software by open and cooperative methods, but if we are
@@ -95,16 +87,26 @@ under the artificial scarcities of capitalism, so how do we manage what scarce
 resources we have left — amidst all other competing demands on them — to sustain
 communally owned alternatives?
 
+:::warning DRAFT NOTE
+
+This rest of this section is still in draft. Provisional outline:
+- Funding etc...
+- Sliding-scale hosting & services
+- Storage provisioning
+
+:::
+
 ## Legal Rights & Agreements
-```md
-**DRAFT NOTES**  
-Provisional outline:
+:::warning DRAFT NOTE
+
+This section is entirely in draft and comprised mostly of notes. Provisional outline:
 - Intellectual Usufruct Rights
 - Service-level agreements
 - Copyfair licensing
 - Fiduciary obligations
 - Grant/revoke proxy rights
-```
+
+:::
 
 ### Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
@@ -123,12 +125,18 @@ __What are the main legal entities involved in Runrig?__ (possibly):
 - Worker coop of engineers, designers and administrators. This coop develops, maintains and administers the core systems running on the main data provider. It is also responsible for the free libraries, API's and other integrations used by the service platforms, possibly even the application software they use. They are also available on contract to develop custom, sponsored software at the request of one or several service platforms, though ultimately those solutions be contributed back to the commons and made free to all. Hosting and other backend services could also be provided to the service platforms at preferred rates.
 - Service platform coops, situated in regional foodsheds and serving more localized needs, which may vary widely in scope, purpose and membership.
 
-### Data Cooperatives & Fiduciary Obligations (from earlier notes)
+### Data Cooperatives & Fiduciary Obligations
+:::warning DRAFT NOTE
+
+These are taken straight from an earlier set of personal notes, and so need to be rewritten entirely. And while the legal aspect of fiduciary agreements should be discussed here, the specifics of data coop governance should probably wait until the next section.
+
+:::
+
 In [an article](https://coop.exchange/blog/430124ff-621a-11ea-b711-06ceb0bf34bd/data-co-ops-4-examples-and-new-ideas) from Coop Exchange about data coops, they describe the [Driver's Seat Cooperative](https://driversseat.co/)'s mission:
 
 > Drivers Seat Data Cooperative allows drivers using platforms like Uber or Lyft to track their driving and pay to figure out the optimal times to make money based on their schedule, where they should drive when it is slow, etc. They can choose to share the data with city agencies to help with transportation planning. The drivers own the cooperative and it enables them to get more money for work they are already doing.
 
-This got me to think again about the whole concept, especially as it relates to Rohan Clarke and [Regen Farmers Mutual](https://regenfarmersmutual.com/). Looking on [the Wikipedia page](https://en.wikipedia.org/wiki/Data_cooperative), it had a great little diagram:
+This got me to think again about the whole concept, especially as it relates to [Regen Farmers Mutual](https://regenfarmersmutual.com/). Looking on [the Wikipedia page](https://en.wikipedia.org/wiki/Data_cooperative), it had a great little diagram:
 
 ![Data Cooperative Key Aspects](https://upload.wikimedia.org/wikipedia/commons/4/42/Data_Cooperative_Key_Aspects_2.0.png)
 Follwing some references from the same Wikipedia article, I found a couple of good scholarly articles. Chief among them, ["Data Cooperatives: Towards a Foundation for Decentralized Personal Data Management"](https://arxiv.org/abs/1905.08819) by Thomas Hardjono and Alex Pentland is most pertinent to the fiduciary obligations of data coops specifically, as the abstract indicates:
@@ -148,18 +156,21 @@ The article even goes into some specifics on the technical architecture and how 
 The references section is also a goldmine, with several other articles by the same authors. Also among those references is a pretty good article from UC Davis on the legal aspects of information fiduciaries in general, coops or not, titled ["Information Fiduciaries and the First Amendment"](https://lawreview.law.ucdavis.edu/issues/49/4/Lecture/49-4_Balkin.pdf).
 
 ## Community Governance & Methodology
-```md
-**DRAFT NOTES**  
-Provisional outline:
-- Data cooperatives
-- Standards & Tools
-```
+:::warning DRAFT NOTE
+
+This is just a placeholder for a section that needs drafting. Provisional outline:
+- Data cooperatives (split this out from the fiduciary discussion above?)
+- Distribution of voting shares
+- Standards & Tools (might delete)
+
+:::
 
 ### Standards and Tools
-```md
-**DRAFT NOTES**  
+:::warning DRAFT NOTE
+
 Much of this section seems like a poorly focused rehashing of the "Economic Challenges" above. Most of it can probably be scrapped, but see what portions actually pertain to governance & methodology and could be salvaged.
-```
+
+:::
 
 We've come to believe what we're told about data standards and shared
 ontologies: that they are great in theory, but in the real world things are too

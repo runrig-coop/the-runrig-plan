@@ -1,13 +1,14 @@
 # Architecture
-```md
-**DRAFT NOTES**  
+:::warning DRAFT NOTE
+
+This page is still in a _very_ early stage of draft, mostly scattered notes, links and references.
+
 Provisional outline:
 - Data Provider
 - Service Platforms
 - Local-fist & Self-hosted Applications
 
-This page is still in a very early stage of draft, mostly scattered notes, links and references.
-```
+:::
 
 ## Data Provider
 ### Storage Provisioning
