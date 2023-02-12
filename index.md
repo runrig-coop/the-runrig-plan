@@ -31,6 +31,10 @@ _NOTE: This plan is currently in draft._
   - [Legal Rights & Agreements](ecology.md#legal-rights--agreements)
   - [Community Governance & Methodology](ecology.md#community-governance--methodology)
 - [APPENDIX: Architecture](architecture.md)
+  - Data Provider
+  - Service Platforms
+    - [Storage Provisioning](architecture.md#storage-provisioning)
+  - Local-first & Self-hosted Applications
 
 ## References
 [^wiki]: Wikipedia. ["Run rig"](https://en.wikipedia.org/wiki/Run_rig).

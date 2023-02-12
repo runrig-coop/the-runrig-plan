@@ -1,23 +1,16 @@
 # Architecture
-## Collective, Centralized Hosting & Storage
-It probably makes sense to have one centralized Solid server for storing farm-
-and food-related data, since the Solid protocol by its very nature allows a
-great deal of autonomy to individual users as it is. It's also intended to be
-hosted and operated by "providers", which in this case, could be some kind of
-collectively governed coop or non-profit, operating on a national or global
-scale.
+```md
+**DRAFT NOTES**  
+Provisional outline:
+- Data Provider
+- Service Platforms
+- Local-fist & Self-hosted Applications
 
-This covers the first of the "primary responsibilities" above, which I
-originally considered to be the sole concern of smaller, regional platforms,
-collocated with their software services. As I thought about it more, however, I
-realized that doesn't make a lot of sense, since the storage needs will be
-fairly generalized without much need for specialization. So long as each
-platform can be authorized to create and manage the Solid pods of individual
-farmers on their behalf, and so long as each farmer is allowed to opt out of
-that management policy at any time, there is no need to distribute the
-responsibility over pod storage.
+This page is still in a very early stage of draft, mostly scattered notes, links and references.
+```
 
-### Pod Provisioning
+## Data Provider
+### Storage Provisioning
 It may also be helpful to structure storage costs in a way that a platform or
 service on a platform can provision a block of storage for multiple users on a
 Solid server, so they can build that cost into their own fees and/or shared
@@ -50,11 +43,6 @@ Slug: tom
 }
 ```
 
-### Terms of Service
-All of this necessitates that care is taken when drafting the Terms of Service
-(ToS), both between storage providers and regional platforms, and between
-regional platforms and individual users.
-
 other considerations...
 - one person, one pod?
 - use of homomorphic encryption and synthetic data?
@@ -72,7 +60,8 @@ documentation:
 > Therefore, to make data reusable, it should be described with vocabularies
 > that are widely used and known.[^vocabularies]
 
-## Distributed, Federated Services & Applications
+## Service Platforms
+### Distributed, Federated Services & Applications
 When it comes to hosting services and applications, I think it makes sense to
 host and operate that software on a smaller, regional scale and in a more
 distributed manner, compared to how data for that software will be hosted and

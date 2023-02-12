@@ -114,6 +114,10 @@ ___ejidos electrónicos___
 ...like water rights, but for the flow of data; or collective land management, but for network infrastructure and compute resources. 
 
 ### Service-level Agreements
+All of this necessitates that care is taken when drafting the terms of service
+and other service-level agreements, both between storage providers and regional
+platforms, and between regional platforms and individual users.
+
 __What are the main legal entities involved in Runrig?__ (possibly):
 - Non-profit and/or coop that holds license to Runrig's code, and possibly legal custody of the main data provider's servers. Some aspects of this role could also be fulfilled by a conservancy, such as the Software Freedom Conservancy or the Commons Conservancy, while others could be delegated to the worker coop, described next.
 - Worker coop of engineers, designers and administrators. This coop develops, maintains and administers the core systems running on the main data provider. It is also responsible for the free libraries, API's and other integrations used by the service platforms, possibly even the application software they use. They are also available on contract to develop custom, sponsored software at the request of one or several service platforms, though ultimately those solutions be contributed back to the commons and made free to all. Hosting and other backend services could also be provided to the service platforms at preferred rates.
