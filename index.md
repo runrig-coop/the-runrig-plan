@@ -16,6 +16,8 @@ exists; rather, it proposes a method for intentional design that can realize our
 political will, while affirming our moral obligation to adopt technologies that
 are appropriate, just, and that advance the well-being of all.
 
+![Plan for mediaeval manor](public/Plan_mediaeval_manor.jpg "Early 20th century diagram of a medieval manor, depicting the open-field system as it existed in England around the fourteenth century.")
+
 ## Contents
 - [OVERVIEW]
   - [Purpose]
