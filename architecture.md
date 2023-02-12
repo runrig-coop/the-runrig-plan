@@ -19,7 +19,7 @@ costs.
 This is actually quite similar to how the private Solid provider, use.id,
 designs their Provisioning API:[^use.id] [^provisioning]
 
-```
+```http
 # @name provisioning
 #
 # Registers a new WebID, if it does not already exist, and creates a new WebID profile for it.
@@ -28,8 +28,6 @@ designs their Provisioning API:[^use.id] [^provisioning]
 # Responds with 201 Created, a Location header to the new WebID, and the contents of the WebID profile as a body.
 # Responds with 409 Conflict if the WebID already exists.
 #
-```
-```http
 POST /provision HTTP/1.1
 Host: https://dev.use.id
 Authorization: DPoP <api-token>
