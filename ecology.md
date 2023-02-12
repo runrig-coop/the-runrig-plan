@@ -163,6 +163,12 @@ This is just a placeholder for a section that needs drafting. Provisional outlin
 - Distribution of voting shares
 - Standards & Tools (might delete)
 
+Follow-up on this research on data governance by UK non-profit Nesta, via Muldoon:
+
+- Mulgan, Geoff and Vincent Straub. ["The new ecosystem of trust"](https://www.nesta.org.uk/blog/new-ecosystem-trust/), _Nesta_, 21 February 2019.
+- Borkin, Simon. ["Platform co-operatives – solving the capital conundrum"](https://media.nesta.org.uk/documents/Nesta_Platform_Report_FINAL-WEB_b1qZGj7.pdf), _Nesta_, February 2019.
+- Bass, Theo and Rosalyn Old, ["Common Knowledge: Citizen-Led Data Governance for Better Cities"](https://media.nesta.org.uk/documents/DECODE_Common_Knowledge_Citizen_led_data_governance_for_better_cities_Jan_2020.pdf), _Nesta_, January 2020. 
+
 :::
 
 ### Standards and Tools
