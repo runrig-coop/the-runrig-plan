@@ -5,6 +5,7 @@ export default defineConfig({
   srcDir: './',
   cacheDir: './.cache',
   outDir: './dist',
+  title: 'Runrig',
   themeConfig: {
     siteTitle: 'Runrig',
     nav: [
