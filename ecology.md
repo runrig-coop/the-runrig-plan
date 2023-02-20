@@ -111,7 +111,7 @@ This section is entirely in draft and comprised mostly of notes. Provisional out
 ### Intellectual Usufruct Rights
 There is prevalent yet false impression about data, that it is a form of intellectual property, and that ownership or certain legal entitlements pertain to data the same way they do to creative works, software and real property. Feist v Rural Telephone, GDPR, etc, etc.
 
-___ejidos electrónicos___
+___ejidos digitales___
 
 ...like water rights, but for the flow of data; or collective land management, but for network infrastructure and compute resources. 
 
