@@ -68,15 +68,15 @@ farm's needs. As he writes,
 > to throttle what works for you in order to make you work for them.[^ERP]
 
 One could interpret this as venture capital imposing _legibility_ upon the
-social and ecological diversity of a community, to borrow anarchist
-terminology,[^Scott] or what Marxists would recognize as _commodity fetishism_.
-The compulsion to simplify their operations is not meant to facilitate the
-existing ways a community farms and feeds itself, in accordance to its own
-cultural and environmental concerns; it is meant to render the labor, knowledge
-and matériel of that community more suitable for mass consumption and capital
-accumulation. Any costs associated with adapting inherently complex natural and
-social systems to simpler commodity forms, ready for consumption, are of course
-deflected onto the community, rather than investors.
+social and ecological diversity of a community, to borrow an anarchist turn of
+phrase,[^Scott] or what Marxists would term _commodity fetishism_.[^Muldoon] The
+compulsion to simplify their operations is not meant to facilitate the existing
+ways a community farms and feeds itself, in accordance to its own cultural and
+environmental concerns; it is meant to render the labor, knowledge and matériel
+of that community more suitable for mass consumption and capital accumulation.
+Any costs associated with adapting inherently complex natural and social systems
+to simpler commodity forms, ready for consumption, are of course deflected onto
+the community itself, rather than investors.
 
 The core challenge, however, still remains: how can diverse food communities
 bring their full capacities to bear upon the creation of free and appropriate
@@ -304,6 +304,12 @@ end, but also an end in itself...
 [^Scott]: Scott, James C. [_Seeing Like a State: How Certain Schemes to Improve
     the Human Condition Have
     Failed_](https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state).
+[^Muldoon]: James Muldoon and others extend Marx's concept to what they call
+    _data commodity fetishism_, which he defines as "the perception of certain
+    digital relationships between people (especially for communication and
+    exchange) as having their value based not on the social relationships
+    themselves but on the data they produce." See Muldoon, _Platform Socialism_,
+    p. 18.
 [^RedHat]: Congden, Lee. ["What is a Software
     Appliance?"](https://www.redhat.com/en/blog/what-is-a-software-appliance)
     _The Red Hat Blog_. Jan 25, 2008.
