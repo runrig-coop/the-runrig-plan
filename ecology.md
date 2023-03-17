@@ -121,17 +121,17 @@ and other service-level agreements, both between storage providers and regional
 platforms, and between regional platforms and individual users.
 
 ### Main Legal Entities Constituting the Runrig System
-1. A data cooperative, likely incorporated as a non-profit, whose members are
-   users of the global data provider. They can join through a service platform
-   authorized to provision that storage on the user's behalf, or by directly
-   provisioning space on the data provider themselves. The data coop will have
-   legal custody of the data provider's main servers, but may contract the
-   administration and maintenance of those servers to the worker coop (described
-   in #2 below). It may also hold the licenses to Runrig's core software
-   modules, trademarks, etc., though that could also be delegated to a
+1. A __data cooperative__, likely incorporated as a non-profit, whose members
+   are users of the global data provider. They can join through a service
+   platform authorized to provision that storage on the user's behalf, or by
+   directly provisioning space on the data provider themselves. The data coop
+   will have legal custody of the data provider's main servers, but may contract
+   the administration and maintenance of those servers to the worker coop
+   (described in #2 below). It may also hold the licenses to Runrig's core
+   software modules, trademarks, etc., though that could also be delegated to a
    conservancy, such as the Software Freedom Conservancy or the Commons
    Conservancy.
-2. A worker cooperative of engineers, designers and system administrators,
+2. A __worker cooperative__ of engineers, designers and system administrators,
    responsible for the main data provider and core services, under contract to
    the data cooperative. It is also responsible for maintaining the free
    libraries, API's and other integrations used by the service platforms,
@@ -143,16 +143,16 @@ platforms, and between regional platforms and individual users.
    service platforms at preferred rates. In the beginning this may be more
    loosely structured as more of a freelancer's coop, while there may not be
    much in the way of significant revenues to sustain fulltime worker-owners.
-3. Service platform coops, situated in regional foodsheds and serving more
-   localized needs, which may vary widely in scope, purpose and membership. The
-   specifics will be more up to the constituents of those platforms themselves,
-   but there should be some criteria for what platforms are permitted to join
-   the data provider and provision storage on behalf of its users. It is
-   conceivable that they need not be a cooperative, strictly speaking, but it
-   may be desireable place some restrictions on non-cooperative for-profit
-   business, while also including some kind of statement of shared values in any
-   agreements, and possibly provide discounts or other incentives to coops and
-   non-profits.
+3. __Service platform cooperatives__, situated in regional foodsheds and serving
+   more localized needs, which may vary widely in scope, purpose and membership.
+   The specifics will be more up to the constituents of those platforms
+   themselves, but there should be some criteria for what platforms are
+   permitted to join the data provider and provision storage on behalf of its
+   users. It is conceivable that they need not be a cooperative, strictly
+   speaking, but it may be desireable place some restrictions on non-cooperative
+   for-profit business, while also including some kind of statement of shared
+   values in any agreements, and possibly provide discounts or other incentives
+   to coops and non-profits.
 
 ### Data Cooperatives & Fiduciary Obligations
 :::warning DRAFT NOTE
