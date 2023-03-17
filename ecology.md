@@ -154,6 +154,12 @@ platforms, and between regional platforms and individual users.
    values in any agreements, and possibly provide discounts or other incentives
    to coops and non-profits.
 
+### Membership Classes
+1. __Data Members:__ Individuals, farms, collectives or traditional companies who have some amount of their own data stored on the data provider, via a service platform(s) or with a direct membership account. The set of data members should be coterminous with the set of storage user accounts.
+2. __Service Members:__ Platform coops and other service platforms who can join the data cooperative with the right to broker agreements with data members and provision storage for them on the data provider, granting them status of data members in the process. Note that service membership is distinct from any form of membership that entities might hold with a service platform itself, for those platforms which confer any form of membership status; such status is managed by the platforms and not with the purview of the Runrig system. It may be possible, however, for an entity to hold dual membership as both a service member and a data member. if a service member wishes to have storage on the data provider, separate from its constituent userss.
+3. __Worker Members:__ Engineers, designers, etc who develop and maintain the software and underlying infrastructure. Unlike the other membership classes, these are members of separate worker cooperative, not the data cooperative.
+4. __Community Members:__ Trusted supporters and advisors from the community, who may wish to participate in member assemblies and activities, but no voting rights or other privileges, so more symbolic than anything else.
+
 ### Data Cooperatives & Fiduciary Obligations
 :::warning DRAFT NOTE
 
