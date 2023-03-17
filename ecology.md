@@ -81,11 +81,11 @@ the community itself, rather than investors.
 The core challenge, however, still remains: how can diverse food communities
 bring their full capacities to bear upon the creation of free and appropriate
 technologies that meet their material needs and reflect their collective values?
-More to the point, how do we manage the costs of the software? While we strive
+More to the point, how do we manage all the associated costs? While we strive
 to avoid further exploitation by private software platforms, we continue to live
 under the artificial scarcities of capitalism, so how do we manage what scarce
 resources we have left — amidst all other competing demands on them — to sustain
-communally owned alternatives?
+communally owned software alternatives?
 
 :::warning DRAFT NOTE
 
