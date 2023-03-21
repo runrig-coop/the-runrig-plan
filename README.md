@@ -7,7 +7,7 @@ This plan is currently in draft. I'm sharing it for the purpose of gathering fee
 
 :::
 
-Runrig[^wiki] is a _libre_ software project, a communal technology platform and
+Runrig[^wiki] is a communal technology platform, a _libre_ software project and
 a plan for socio-ecological design. It aims to achieve collective sovereignty
 over not just our food, but also the labor that raises it, the land and living
 things that support it, and the data connecting it all. It is not intended as a
