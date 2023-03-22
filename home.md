@@ -1,5 +1,9 @@
 <!-- SECTION 1 -->
 # Runrig
+:::warning Draft Note
+This is a new landing page to eventually replace the README page. Layout, styles and content are still in a very early stage of draft, but the general outline and some key language has been established.
+:::
+
 Runrig is a communal technology platform, a _libre_ software project and a
 method of socio-ecological design. It is a tool for gaining collective
 sovereignty over not just our food, but also the labor that raises it, the land
