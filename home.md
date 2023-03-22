@@ -41,6 +41,10 @@ The evolution of a software system is only one factor in the evolution of the br
 
 <!-- SECTION 5 -->
 ## What's next?
+:::warning TODO
+Provide a brief description of ongoing and planned events and activities.
+:::
+
 <!-- Repeat the Call-to-Action -->
 - [Read the proposal](overview.md)
 - [Get involved](contact.md)
