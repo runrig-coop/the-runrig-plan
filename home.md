@@ -27,13 +27,11 @@ Three functional layers:
 2. Many federated cooperative service platforms.
 3. Local-first and self-hosted applications (optional).
 
-:::warning Draft Note
+:::warning TODO
+Add more explanation and a stack diagram of the 3 layers, like this one from the OpenStack website:
 
-Add a stack diagram of the 3 layers here.
-
+![OpenStack diagram](https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-dev/learn/software-overview-diagram-new.svg)
 :::
-
-
 
 <!-- SECTION 4 -->
 ## Ecology over architecture
