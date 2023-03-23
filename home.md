@@ -5,9 +5,9 @@ This is a new landing page to eventually replace the README page. Layout, styles
 :::
 
 Runrig is a communal technology platform, a _libre_ software project and a
-method of socio-ecological design. It is a tool for gaining collective
-sovereignty over not just our food, but also the labor that raises it, the land
-and living things that support it, and the data connecting it all.
+method of socio-ecological design. It aims for the collective sovereignty over
+not just our food, but also the labor that raises it, the land and living things
+that support it, and the data connecting it all.
 
 ___Locally. Regionally. Globally.___
 
@@ -19,7 +19,7 @@ ___Locally. Regionally. Globally.___
 
 <!-- SECTION 2 -->
 ## More than just a software commons
-Free & open source software is a vital commons in need of further expansion, but it is a commons of information only. It is a starting point, not the destination. Real autonomy requires control of the underlying infrastructure, something beyond the capacity of most individuals. Runrig is a plan for the collective ownership of the system as a whole, because no software user is free until all users are free.
+Free & open source software is a vital commons in today's digital world. It is, however, a commons of _information only_ — it is a starting point, not the destination. Real autonomy requires control of the underlying infrastructure, something beyond the capacity of most individuals. Runrig is a plan for the collective ownership of the system as a whole, because no software user is free until all users are free.
 
 
 
