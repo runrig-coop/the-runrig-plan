@@ -59,8 +59,8 @@ architecture. Rather than creating an independent, greenfield alternative to the
 software platforms already available today, we seek out targeted interventions
 that can multiply the impact of those existing tools, while laying the
 groundwork for more resilient infrastructure in the future. Runrig aims to be
-the mortar joining these technological building blocks together, while adding to
-the overall strength and definition to the greater superstructure.
+the mortar joining these technological building blocks together, while
+reinforcing and helping to define the overarching superstructure.
 
 
 
