@@ -4,10 +4,9 @@ import DefaultTheme from 'vitepress/theme';
 import RRSection from './RRSection.vue';
 
 const { Layout } = DefaultTheme;
-const { frontmatter: fm } = useData();
+const { frontmatter: fm, isDark } = useData();
 
 const tractorImage = '/tractor.svg';
-const openFieldImage = '/open_field_system--transparent.png';
 const stackImage = 'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-dev/learn/software-overview-diagram-new.svg';
 
 const ctaButtons = [
@@ -41,7 +40,7 @@ const ctaButtons = [
           <p class="tagline">Locally. Regionally. Globally.</p>
         </template>
       </RRSection>
-      <RRSection id="commons" :image="openFieldImage">
+      <RRSection id="commons" :class="{ 'is-dark': isDark }" class="align-right">
         <template #section-info>
           <h2 class="name">
             <span class="clip">More than just a software commons</span>
@@ -107,5 +106,78 @@ const ctaButtons = [
 }
 .rr-home section {
   min-height: 65vh;
+}
+
+.align-right .name,
+.align-right .text {
+  text-align: right;
+  margin-inline-start: auto;
+  white-space: pre-line;
+}
+
+#commons .container {
+  padding-top: 50vw;
+}
+#commons .main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -65vw;
+  left: -25vw;
+  height: 85vw;
+  width: 100vw;
+  z-index: -100;
+  background:
+    radial-gradient(
+      ellipse 95% 75% at 55% 35%,
+      #ffffff55 10%,
+      var(--vp-c-white) 45%
+    ),
+    url('/open_field_system--transparent.png');
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  background-size: 100%;
+}
+#commons.is-dark .main::before {
+  background:
+    radial-gradient(
+      ellipse 95% 75% at 55% 35%,
+      #1e1e2055 10%,
+      var(--vp-c-bg) 45%
+    ),
+    url('/open_field_system--transparent.png');
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  background-size: 100%;
+}
+@media (min-width: 640px) {
+  #commons .container {
+    padding-top: 60vw;
+  }
+}
+@media (min-width: 960px) {
+  #commons .container {
+    padding-top: 35vw;
+  }
+  #commons .main::before {
+    top: -60vw;
+    left: -25vw;
+    height: 85vw;
+    width: 100vw;
+  }
+}
+@media (min-width: 1200px) {
+  #commons .main::before {
+    top: -55vw;
+    left: -25vw;
+    max-height: 1020px;
+    max-width: 1200;
+  }
+}
+@media (min-width: 1400px) {
+  #commons .main::before {
+    top: -45vw;
+    left: -40vw;
+  }
 }
 </style>
