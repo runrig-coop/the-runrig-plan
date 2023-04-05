@@ -7,7 +7,7 @@ const { Layout } = DefaultTheme;
 const { frontmatter: fm } = useData();
 
 const tractorImage = '/tractor.svg';
-const openFieldImage = '/Plan_mediaeval_manor.jpg';
+const openFieldImage = '/open_field_system--transparent.png';
 const stackImage = 'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-dev/learn/software-overview-diagram-new.svg';
 
 const ctaButtons = [
