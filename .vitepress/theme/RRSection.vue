@@ -67,18 +67,18 @@ const props = defineProps({
     padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 80px) 64px 64px;
   }
 }
-.container {
+.home-section .container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 1152px;
 }
 @media (min-width: 960px) {
-  .container {
+  .home-section .container {
     flex-direction: row;
   }
 }
-.main {
+.home-section .main {
   position: relative;
   z-index: 10;
   order: 2;
@@ -94,7 +94,7 @@ const props = defineProps({
   }
 }
 @media (min-width: 960px) {
-  .main {
+  .home-section .main {
     order: 1;
     width: calc((100% / 3) * 2);
   }
@@ -102,7 +102,7 @@ const props = defineProps({
     max-width: 592px;
   }
 }
-.name {
+.home-section .name {
   max-width: 392px;
   letter-spacing: -0.4px;
   line-height: 40px;
@@ -113,24 +113,24 @@ const props = defineProps({
 .home-section.has-image .name {
   margin: 0 auto;
 }
-.name {
+.home-section .name {
   color: var(--vp-home-hero-name-color);
 }
-.clip {
+.home-section .clip {
   background: var(--vp-home-hero-name-background);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: var(--vp-home-hero-name-color);
 }
 @media (min-width: 640px) {
-  .name {
+  .home-section .name {
     max-width: 576px;
     line-height: 56px;
     font-size: 48px;
   }
 }
 @media (min-width: 960px) {
-  .name{
+  .home-section .name{
     line-height: 64px;
     font-size: 56px;
   }
@@ -138,7 +138,7 @@ const props = defineProps({
     margin: 0;
   }
 }
-.tagline {
+.home-section .tagline {
   padding-top: 8px;
   max-width: 392px;
   line-height: 28px;
@@ -151,7 +151,7 @@ const props = defineProps({
   margin: 0 auto;
 }
 @media (min-width: 640px) {
-  .tagline {
+  .home-section .tagline {
     padding-top: 12px;
     max-width: 576px;
     line-height: 32px;
@@ -159,7 +159,7 @@ const props = defineProps({
   }
 }
 @media (min-width: 960px) {
-  .tagline {
+  .home-section .tagline {
     line-height: 36px;
     font-size: 24px;
   }
@@ -167,7 +167,7 @@ const props = defineProps({
     margin: 0;
   }
 }
-.actions {
+.home-section .actions {
   display: flex;
   flex-wrap: wrap;
   margin: -6px;
@@ -177,7 +177,7 @@ const props = defineProps({
   justify-content: center;
 }
 @media (min-width: 640px) {
-  .actions {
+  .home-section .actions {
     padding-top: 32px;
   }
 }
@@ -186,41 +186,41 @@ const props = defineProps({
     justify-content: flex-start;
   }
 }
-.action {
+.home-section .action {
   flex-shrink: 0;
   padding: 6px;
 }
-.image {
+.home-section .image {
   order: 1;
   margin: -76px -24px -48px;
 }
 @media (min-width: 640px) {
-  .image {
+  .home-section .image {
     margin: -108px -24px -48px;
   }
 }
 @media (min-width: 960px) {
-  .image {
+  .home-section .image {
     flex-grow: 1;
     order: 2;
     margin: 0;
     min-height: 100%;
   }
 }
-.image-container {
+.home-section .image-container {
   position: relative;
   margin: 0 auto;
   width: 320px;
   height: 320px;
 }
 @media (min-width: 640px) {
-  .image-container {
+  .home-section .image-container {
     width: 392px;
     height: 392px;
   }
 }
 @media (min-width: 960px) {
-  .image-container {
+  .home-section .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,7 +230,7 @@ const props = defineProps({
     transform: translate(-32px, -32px);
   }
 }
-.image-bg {
+.home-section .image-bg {
   position: absolute;
   top: 50%;
   /*rtl:ignore*/
@@ -244,13 +244,13 @@ const props = defineProps({
   transform: translate(-50%, -50%);
 }
 @media (min-width: 640px) {
-  .image-bg {
+  .home-section .image-bg {
     width: 256px;
     height: 256px;
   }
 }
 @media (min-width: 960px) {
-  .image-bg {
+  .home-section .image-bg {
     width: 320px;
     height: 320px;
   }
