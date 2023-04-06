@@ -1,6 +1,7 @@
 <script setup>
 import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
+import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue';
 import RRSection from './RRSection.vue';
 
 const { Layout } = DefaultTheme;
@@ -26,8 +27,11 @@ const ctaButtons = [
 <template>
   <Layout :class="{ 'rr-home': fm.layout === 'home' }">
     <template #home-hero-after>
-      <RRSection id="runrig-hero" :image="tractorImage" :actions="ctaButtons">
+      <RRSection id="runrig-hero" :actions="ctaButtons">
         <template #section-info>
+          <div class="tractor-container">
+            <VPImage class="tractor-svg" image="/emoji_u1f69c.svg"/>
+          </div>
           <h1 class="name">
             <span class="clip">Runrig</span>
           </h1>
@@ -102,10 +106,10 @@ const ctaButtons = [
 
 <style>
 .rr-home .text {
-  max-width: 45em;
+  max-width: 48em;
 }
 .rr-home section {
-  min-height: 65vh;
+  min-height: 64vh;
 }
 
 .align-right .name,
@@ -113,6 +117,40 @@ const ctaButtons = [
   text-align: right;
   margin-inline-start: auto;
   white-space: pre-line;
+}
+
+section#runrig-hero {
+  padding-top: 256px;
+  margin-bottom: 128px;
+}
+#runrig-hero .tractor-container {
+  position: absolute;
+  height: 128px;
+  width: 128px;
+  left: calc(min(100%, 48em) - 128px);
+  top: calc(40px - 128px);
+}
+#runrig-hero .tractor-svg {
+  display: inline-block;
+  /* transform: scaleX(-1); */
+}
+@media (min-width: 640px) {
+  section#runrig-hero {
+    padding-top: 512px;
+    margin-bottom: 256px;
+  }
+  #runrig-hero .tractor-container {
+    height: 256px;
+    width: 256px;
+    left: calc(min(100%, 48em) - 256px);
+    top: calc(56px - 256px);
+  }
+}
+@media (min-width: 960px) {
+  #runrig-hero .tractor-container {
+    left: calc(48em - 256px);
+    top: calc(64px - 256px);
+  }
 }
 
 #commons .container {
