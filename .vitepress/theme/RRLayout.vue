@@ -6,7 +6,7 @@ import RRSection from './RRSection.vue';
 const { Layout } = DefaultTheme;
 const { frontmatter: fm, isDark } = useData();
 
-const tractorImage = '/tractor.svg';
+const tractorImage = '/emoji_u1f69c.svg';
 const stackImage = 'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-dev/learn/software-overview-diagram-new.svg';
 
 const ctaButtons = [
