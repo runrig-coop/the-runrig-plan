@@ -50,13 +50,15 @@ const ctaButtons = [
             <span class="clip">More than just a software commons</span>
           </h2>
           <p class="text">
-            Free &amp; open source software is a vital commons in today's digital world. It is,
-            however, a commons of <em>information only</em> &mdash; it is a starting point, not the
-            destination. Real autonomy requires control of the underlying infrastructure,
-            something beyond the capacity of most individuals. Runrig is a plan for the
-            collective ownership of the system as a whole, because no software user is free
-            until all users are free.
+            Free &amp; open source software is a starting point, but not the destination.
+            Full autonomy requires control of the underlying infrastructure, something beyond
+            the capacity of most individuals. Runrig redistributes control of the entire
+            system back to the users, collectively.
           </p>
+          <blockquote class="quote">
+            "Nobody's free until everybody's free."
+          </blockquote>
+          <cite>~ Fannie Lou Hamer</cite>
         </template>
       </RRSection>
       <RRSection id="autonomy" :image="stackImage">
