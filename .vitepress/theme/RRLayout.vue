@@ -220,4 +220,22 @@ section#runrig-hero {
     left: -40vw;
   }
 }
+#commons .quote {
+  margin-top: 48px;
+  line-height: 32px;
+  font-size: 24px;
+  color: var(--vp-c-yellow);
+  font-weight: 700;
+  font-style: italic;
+}
+@media (min-width: 960px) {
+  #commons .quote {
+    margin-top: 56px;
+    line-height: 40px;
+    font-size: 32px;
+  }
+}
+section#commons {
+  margin-bottom: 256px;
+}
 </style>
