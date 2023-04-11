@@ -4,11 +4,14 @@ import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue';
 import RRSection from './RRSection.vue';
+import RRHomeBG from './RRHomeBG.vue';
 
 const { Layout } = DefaultTheme;
 const { frontmatter: fm, isDark } = useData();
 
 onMounted(() => {
+  // Create a custom CSS property, var(--scroll), for scroll animations,
+  // such as the home page background image.
   window.addEventListener('scroll', () => {
     const position = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
     document.body.style.setProperty('--scroll', position);
@@ -35,14 +38,7 @@ const ctaButtons = [
 <template>
   <Layout v-if="fm.layout === 'home'" :class="{ 'rr-home': fm.layout === 'home' }">
     <template #layout-top>
-      <div class="rr-home-bg-img-container">
-        <div class="rr-home-bg-img">
-          <div class="quadrant-northwest"></div>
-          <div class="quadrant-northeast"></div>
-          <div class="quadrant-southeast"></div>
-          <div class="quadrant-southwest"></div>
-        </div>
-      </div>
+      <RRHomeBG/>
     </template>
     <template #home-hero-after>
       <RRSection id="runrig-hero" :actions="ctaButtons">
@@ -130,233 +126,6 @@ const ctaButtons = [
 </template>
 
 <style>
-.rr-home {
-  --bg-img-height: 1748px;
-  --bg-img-width: 1407px;
-  --max-content-width: 1152px;
-  --max-content-margin: calc(calc(100vw - var(--max-content-width)) * .5);
-}
-
-.rr-home-bg-img-container {
-  position: fixed;
-  width: 100%;
-  margin-top: var(--vp-nav-height);
-}
-
-@keyframes scroll-bg-img {
-  15% {
-    transform: translate(0, -25%);
-  }
-  30% {
-    transform: translate(-50%, -20%);
-  }
-  40% {
-    transform: translate(-50%, -40%);
-  }
-  50% {
-    transform: translate(20%, -10%) scale(.5);
-  }
-  60% {
-    transform: translate(20%, -25%) scale(.5);
-    opacity: 1;
-  }
-  68% {
-    opacity: 0;
-  }
-  100% {
-    transform: translate(20%, -110%) scale(.5);
-    opacity: 0;
-  }
-}
-.rr-home-bg-img {
-  position: absolute;
-  left: calc(var(--max-content-margin) + 256px);
-  top: 128px;
-  height: calc(.75 * var(--bg-img-height));
-  width: calc(.75 * var(--bg-img-width));
-  animation: scroll-bg-img 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-
-@keyframes scroll-quadrant-northwest {
-  0% {
-    opacity: 0;
-  }
-  15% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-    transform-origin: center;
-    transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
-  }
-  63% {
-    transform-origin: 25% 25%;
-    box-shadow: none;
-  }
-  70% {
-    transform: translate(-80%, -40%) rotate(45deg);
-  }
-  90% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes scroll-quadrant-northeast {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-    transform-origin: center;
-    transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
-  }
-  63% {
-    transform-origin: 75% 25%;
-    box-shadow: none;
-  }
-  70% {
-    transform: translate(80%, -40%) rotate(-45deg);
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes scroll-quadrant-southeast {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: .5;
-  }
-  20% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-    transform-origin: center;
-    transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
-  }
-  63% {
-    transform-origin: 75% 75%;
-    box-shadow: none;
-  }
-  70% {
-    transform: translate(80%, 40%) rotate(45deg);
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes scroll-quadrant-southwest {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-    transform-origin: center;
-    transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
-  }
-  63% {
-    transform-origin: 25% 75%;
-    box-shadow: none;
-  }
-  70% {
-    transform: translate(-80%, 40%) rotate(-45deg);
-  }
-  90% {
-    opacity: 1;
-  }
-}
-.quadrant-northwest,
-.quadrant-northeast,
-.quadrant-southeast,
-.quadrant-southwest {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-x: 0;
-  background-position-y: 0;
-  box-shadow: inset 0 0 8px 8px white;
-}
-.quadrant-northwest {
-  background-image: url('/open_field_system_quadrant_northwest.png');
-  opacity: 0;
-  animation: scroll-quadrant-northwest 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-northeast {
-  background-image: url('/open_field_system_quadrant_northeast.png');
-  opacity: 1;
-  animation: scroll-quadrant-northeast 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-southeast {
-  background-image: url('/open_field_system_quadrant_southeast.png');
-  opacity: 0;
-  animation: scroll-quadrant-southeast 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-southwest {
-  background-image: url('/open_field_system_quadrant_southwest.png');
-  opacity: 0;
-  animation: scroll-quadrant-southwest 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-
 .rr-home .text {
   max-width: 42em;
 }
