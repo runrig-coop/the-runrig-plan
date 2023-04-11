@@ -111,7 +111,7 @@ const ctaButtons = [
 
 <style>
 .rr-home .text {
-  max-width: 48em;
+  max-width: 42em;
 }
 .rr-home section {
   min-height: 64vh;
@@ -132,7 +132,7 @@ section#runrig-hero {
   position: absolute;
   height: 128px;
   width: 128px;
-  left: calc(min(100%, 48em) - 128px);
+  left: calc(min(100%, 42em) - 128px);
   top: calc(40px - 128px);
 }
 #runrig-hero .tractor-svg {
@@ -147,13 +147,13 @@ section#runrig-hero {
   #runrig-hero .tractor-container {
     height: 256px;
     width: 256px;
-    left: calc(min(100%, 48em) - 256px);
+    left: calc(min(100%, 42em) - 256px);
     top: calc(56px - 256px);
   }
 }
 @media (min-width: 960px) {
   #runrig-hero .tractor-container {
-    left: calc(48em - 256px);
+    left: calc(42em - 256px);
     top: calc(64px - 256px);
   }
 }
