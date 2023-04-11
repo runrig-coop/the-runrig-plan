@@ -25,7 +25,7 @@ const ctaButtons = [
 </script>
 
 <template>
-  <Layout :class="{ 'rr-home': fm.layout === 'home' }">
+  <Layout v-if="fm.layout === 'home'" :class="{ 'rr-home': fm.layout === 'home' }">
     <template #home-hero-after>
       <RRSection id="runrig-hero" :actions="ctaButtons">
         <template #section-info>
@@ -104,6 +104,7 @@ const ctaButtons = [
       </RRSection>
     </template>
   </Layout>
+  <Layout v-else/>
 </template>
 
 <style>
