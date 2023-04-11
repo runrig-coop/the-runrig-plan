@@ -70,6 +70,8 @@ const ctaButtons = [
             Three functional layers:
             <ol>
               <li>A single, collectively owned data storage provider.</li>
+              <li>Many federated cooperative service platforms.</li>
+              <li>Local-first and self-hosted applications (optional).</li>
             </ol>
           </p>
         </template>
@@ -238,5 +240,10 @@ section#runrig-hero {
 }
 section#commons {
   margin-bottom: 256px;
+}
+
+#autonomy ol {
+  list-style: auto;
+  margin-left: 1em;
 }
 </style>
