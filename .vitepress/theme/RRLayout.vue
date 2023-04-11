@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted } from 'vue';
 import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue';
@@ -6,6 +7,13 @@ import RRSection from './RRSection.vue';
 
 const { Layout } = DefaultTheme;
 const { frontmatter: fm, isDark } = useData();
+
+onMounted(() => {
+  window.addEventListener('scroll', () => {
+    const position = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
+    document.body.style.setProperty('--scroll', position);
+  }, false);
+});
 
 const tractorImage = '/emoji_u1f69c.svg';
 const stackImage = 'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-dev/learn/software-overview-diagram-new.svg';
@@ -26,6 +34,16 @@ const ctaButtons = [
 
 <template>
   <Layout v-if="fm.layout === 'home'" :class="{ 'rr-home': fm.layout === 'home' }">
+    <template #layout-top>
+      <div class="rr-home-bg-img-container">
+        <div class="rr-home-bg-img">
+          <div class="quadrant-northwest"></div>
+          <div class="quadrant-northeast"></div>
+          <div class="quadrant-southeast"></div>
+          <div class="quadrant-southwest"></div>
+        </div>
+      </div>
+    </template>
     <template #home-hero-after>
       <RRSection id="runrig-hero" :actions="ctaButtons">
         <template #section-info>
@@ -112,6 +130,167 @@ const ctaButtons = [
 </template>
 
 <style>
+.rr-home {
+  --bg-img-height: 1748px;
+  --bg-img-width: 1407px;
+  --max-content-width: 1152px;
+  --max-content-margin: calc(calc(100vw - var(--max-content-width)) * .5);
+}
+
+.rr-home-bg-img-container {
+  position: fixed;
+  width: 100%;
+  margin-top: var(--vp-nav-height);
+}
+
+@keyframes scroll-bg-img {
+  15% {
+    transform: translate(0, -25%);
+  }
+  30% {
+    transform: translate(-50%, -20%);
+  }
+  40% {
+    transform: translate(-50%, -40%);
+  }
+  60% {
+    transform: translate(-50%, -90%);
+  }
+  100% {
+    transform: translate(-50%, -190%);
+  }
+}
+.rr-home-bg-img {
+  position: absolute;
+  left: calc(var(--max-content-margin) + 256px);
+  top: 128px;
+  height: calc(.75 * var(--bg-img-height));
+  width: calc(.75 * var(--bg-img-width));
+  animation: scroll-bg-img 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes scroll-quadrant-northwest {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  90% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes scroll-quadrant-northeast {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes scroll-quadrant-southeast {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: .5;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scroll-quadrant-southwest {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+.quadrant-northwest,
+.quadrant-northeast,
+.quadrant-southeast,
+.quadrant-southwest {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 0;
+  background-position-y: 0;
+  box-shadow: inset 0 0 8px 8px white;
+}
+.quadrant-northwest {
+  background-image: url('/open_field_system_quadrant_northwest.png');
+  opacity: 0;
+  animation: scroll-quadrant-northwest 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.quadrant-northeast {
+  background-image: url('/open_field_system_quadrant_northeast.png');
+  opacity: 1;
+  animation: scroll-quadrant-northeast 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.quadrant-southeast {
+  background-image: url('/open_field_system_quadrant_southeast.png');
+  opacity: 0;
+  animation: scroll-quadrant-southeast 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.quadrant-southwest {
+  background-image: url('/open_field_system_quadrant_southwest.png');
+  opacity: 0;
+  animation: scroll-quadrant-southwest 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
 .rr-home .text {
   max-width: 42em;
 }
@@ -161,71 +340,6 @@ section#runrig-hero {
   }
 }
 
-#commons .container {
-  padding-top: 50vw;
-}
-#commons .main::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -65vw;
-  left: -25vw;
-  height: 85vw;
-  width: 100vw;
-  z-index: -100;
-  background:
-    radial-gradient(
-      ellipse 95% 75% at 55% 35%,
-      #ffffff55 10%,
-      var(--vp-c-white) 45%
-    ),
-    url('/open_field_system--transparent.png');
-  background-repeat: no-repeat;
-  background-position: 90% 25%;
-  background-size: 100%;
-}
-#commons.is-dark .main::before {
-  background:
-    radial-gradient(
-      ellipse 95% 75% at 55% 35%,
-      #1e1e2055 10%,
-      var(--vp-c-bg) 45%
-    ),
-    url('/open_field_system--transparent.png');
-  background-repeat: no-repeat;
-  background-position: 90% 25%;
-  background-size: 100%;
-}
-@media (min-width: 640px) {
-  #commons .container {
-    padding-top: 60vw;
-  }
-}
-@media (min-width: 960px) {
-  #commons .container {
-    padding-top: 35vw;
-  }
-  #commons .main::before {
-    top: -60vw;
-    left: -25vw;
-    height: 85vw;
-    width: 100vw;
-  }
-}
-@media (min-width: 1200px) {
-  #commons .main::before {
-    top: -55vw;
-    left: -25vw;
-    max-height: 1020px;
-    max-width: 1200;
-  }
-}
-@media (min-width: 1400px) {
-  #commons .main::before {
-    top: -45vw;
-    left: -40vw;
-  }
-}
 #commons .quote blockquote {
   margin-top: 48px;
   line-height: 32px;
@@ -242,7 +356,7 @@ section#runrig-hero {
   }
 }
 section#commons {
-  margin-bottom: 256px;
+  margin-bottom: 512px;
 }
 
 #autonomy ol {
