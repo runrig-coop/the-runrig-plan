@@ -55,10 +55,12 @@ const ctaButtons = [
             the capacity of most individuals. Runrig redistributes control of the entire
             system back to the users, collectively.
           </p>
-          <blockquote class="quote">
-            "Nobody's free until everybody's free."
-          </blockquote>
-          <cite>~ Fannie Lou Hamer</cite>
+          <figure class="quote">
+            <blockquote>
+              "Nobody's free until everybody's free."
+            </blockquote>
+            <cite>~ Fannie Lou Hamer</cite>
+          </figure>
         </template>
       </RRSection>
       <RRSection id="autonomy" :image="stackImage">
@@ -118,6 +120,7 @@ const ctaButtons = [
 }
 
 .align-right .name,
+.align-right .quote,
 .align-right .text {
   text-align: right;
   margin-inline-start: auto;
@@ -223,7 +226,7 @@ section#runrig-hero {
     left: -40vw;
   }
 }
-#commons .quote {
+#commons .quote blockquote {
   margin-top: 48px;
   line-height: 32px;
   font-size: 24px;
@@ -232,7 +235,7 @@ section#runrig-hero {
   font-style: italic;
 }
 @media (min-width: 960px) {
-  #commons .quote {
+  #commons .quote blockquote {
     margin-top: 56px;
     line-height: 40px;
     font-size: 32px;
