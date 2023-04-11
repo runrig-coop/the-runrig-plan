@@ -81,21 +81,6 @@ const ctaButtons = [
           </figure>
         </template>
       </RRSection>
-      <RRSection id="autonomy" :image="stackImage">
-        <template #section-info>
-          <h2 class="name">
-            <span class="clip">Autonomy by design</span>
-          </h2>
-          <p class="text">
-            Three functional layers:
-            <ol>
-              <li>A single, collectively owned data storage provider.</li>
-              <li>Many federated cooperative service platforms.</li>
-              <li>Local-first and self-hosted applications (optional).</li>
-            </ol>
-          </p>
-        </template>
-      </RRSection>
       <RRSection id="ecology">
         <template #section-info>
           <h2 class="name">
@@ -111,6 +96,21 @@ const ctaButtons = [
             groundwork for more resilient infrastructure in the future. Runrig aims to be
             the mortar joining these technological building blocks together, while
             reinforcing and helping to define the overarching superstructure.
+          </p>
+        </template>
+      </RRSection>
+      <RRSection id="autonomy" :image="stackImage">
+        <template #section-info>
+          <h2 class="name">
+            <span class="clip">Autonomy by design</span>
+          </h2>
+          <p class="text">
+            Three functional layers:
+            <ol>
+              <li>A single, collectively owned data storage provider.</li>
+              <li>Many federated cooperative service platforms.</li>
+              <li>Local-first and self-hosted applications (optional).</li>
+            </ol>
           </p>
         </template>
       </RRSection>
