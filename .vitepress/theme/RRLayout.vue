@@ -153,11 +153,19 @@ const ctaButtons = [
   40% {
     transform: translate(-50%, -40%);
   }
+  50% {
+    transform: translate(20%, -10%) scale(.5);
+  }
   60% {
-    transform: translate(-50%, -90%);
+    transform: translate(20%, -25%) scale(.5);
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
   }
   100% {
-    transform: translate(-50%, -190%);
+    transform: translate(20%, -110%) scale(.5);
+    opacity: 0;
   }
 }
 .rr-home-bg-img {
@@ -186,6 +194,19 @@ const ctaButtons = [
   60% {
     opacity: 1;
   }
+  62.5% {
+    opacity: 1;
+    transform-origin: center;
+    transform: translate(0, 0);
+    box-shadow: inset 0 0 8px 8px white;
+  }
+  63% {
+    transform-origin: 25% 25%;
+    box-shadow: none;
+  }
+  70% {
+    transform: translate(-80%, -40%) rotate(45deg);
+  }
   90% {
     opacity: .5;
   }
@@ -203,8 +224,27 @@ const ctaButtons = [
   20% {
     opacity: 0;
   }
-  100% {
+  40% {
     opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+    transform-origin: center;
+    transform: translate(0, 0);
+    box-shadow: inset 0 0 8px 8px white;
+  }
+  63% {
+    transform-origin: 75% 25%;
+    box-shadow: none;
+  }
+  70% {
+    transform: translate(80%, -40%) rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes scroll-quadrant-southeast {
@@ -223,6 +263,19 @@ const ctaButtons = [
   40% {
     opacity: 1;
   }
+  62.5% {
+    opacity: 1;
+    transform-origin: center;
+    transform: translate(0, 0);
+    box-shadow: inset 0 0 8px 8px white;
+  }
+  63% {
+    transform-origin: 75% 75%;
+    box-shadow: none;
+  }
+  70% {
+    transform: translate(80%, 40%) rotate(45deg);
+  }
   100% {
     opacity: 1;
   }
@@ -236,6 +289,19 @@ const ctaButtons = [
   }
   20% {
     opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+    transform-origin: center;
+    transform: translate(0, 0);
+    box-shadow: inset 0 0 8px 8px white;
+  }
+  63% {
+    transform-origin: 25% 75%;
+    box-shadow: none;
+  }
+  70% {
+    transform: translate(-80%, 40%) rotate(-45deg);
   }
   90% {
     opacity: 1;
@@ -356,7 +422,7 @@ section#runrig-hero {
   }
 }
 section#commons {
-  margin-bottom: 512px;
+  margin-bottom: 384px;
 }
 
 #autonomy ol {
