@@ -167,10 +167,6 @@ section#runrig-hero {
   section#runrig-hero .text {
     max-width: 42em;
   }
-  section#runrig-hero {
-    padding-top: 512px;
-    margin-bottom: 256px;
-  }
 }
 
 #commons .quote blockquote {

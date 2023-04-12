@@ -469,7 +469,7 @@
     height: calc(.75 * var(--bg-img-height));
     width: calc(.75 * var(--bg-img-width));
     left: calc(var(--max-content-margin) + 256px);
-    top: 128px;
+    top: 0;
     animation: scroll-bg-img-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -512,13 +512,13 @@
 
 @keyframes scroll-bg-img-1152 {
   15% {
-    transform: translate(0, -25%);
+    transform: translate(0, -10%);
   }
   30% {
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -10%);
   }
   40% {
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -25%);
   }
   50% {
     transform: translate(20%, -10%) scale(.5);
@@ -538,12 +538,15 @@
 
 @keyframes scroll-quadrant-northwest-1152 {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
-  15% {
+  5% {
     opacity: 0;
   }
   20% {
+    opacity: 0;
+  }
+  25% {
     opacity: 1;
   }
   60% {
@@ -573,7 +576,7 @@
   0% {
     opacity: 1;
   }
-  10% {
+  15% {
     opacity: 1;
   }
   20% {
@@ -607,7 +610,7 @@
     opacity: 1;
   }
   10% {
-    opacity: .5;
+    opacity: 0;
   }
   20% {
     opacity: 0;
@@ -639,10 +642,10 @@
   0% {
     opacity: 0;
   }
-  10% {
+  15% {
     opacity: 0;
   }
-  20% {
+  25% {
     opacity: 1;
   }
   62.5% {
