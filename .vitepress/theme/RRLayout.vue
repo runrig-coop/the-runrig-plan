@@ -91,7 +91,7 @@ const ctaButtons = [
           </p>
         </template>
       </RRSection>
-      <RRSection id="autonomy" :image="stackImage">
+      <RRSection id="autonomy">
         <template #section-info>
           <h2 class="name">
             <span class="clip">Autonomy by design</span>
@@ -104,6 +104,7 @@ const ctaButtons = [
               <li>Local-first and self-hosted applications (optional).</li>
             </ol>
           </p>
+          <VPImage class="image-src" :image="stackImage" />
         </template>
       </RRSection>
       <RRSection id="next" :actions="ctaButtons">
