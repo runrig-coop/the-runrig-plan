@@ -1,14 +1,13 @@
 <script setup>
 import { inject } from 'vue'
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue';
 
 const props = defineProps({
   name: String,
   text: String,
   tagline: String,
   actions: Array,
-  image: String||Object,
+  image: String,
 });
 
 </script>
@@ -43,7 +42,7 @@ const props = defineProps({
           <div class="image-container">
             <div class="image-bg" />
             <slot name="home-hero-image">
-              <VPImage v-if="image" class="image-src" :image="image" />
+              <img v-if="image" class="image-src" :src="image" />
             </slot>
           </div>
         </div>

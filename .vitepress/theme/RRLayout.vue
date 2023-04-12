@@ -2,7 +2,6 @@
 import { onMounted } from 'vue';
 import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
-import VPImage from 'vitepress/dist/client/theme-default/components/VPImage.vue';
 import RRSection from './RRSection.vue';
 import RRHomeBG from './RRHomeBG.vue';
 
@@ -91,7 +90,7 @@ const ctaButtons = [
             reinforcing and helping to define the overarching superstructure.
           </p>
           <div id="open-field-system">
-            <VPImage id="open-field-img" class="image-src" :image="openFieldImage" />
+            <img id="open-field-img" class="image-src" :src="openFieldImage">
           </div>
         </template>
       </RRSection>
@@ -108,7 +107,7 @@ const ctaButtons = [
               <li>Local-first and self-hosted applications (optional).</li>
             </ol>
           </p>
-          <VPImage class="image-src" :image="stackImage" />
+          <img class="image-src" :src="stackImage">
         </template>
       </RRSection>
       <RRSection id="next" :actions="ctaButtons">
