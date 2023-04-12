@@ -127,20 +127,20 @@
     transform: translate(-75%, 5%);
   }
   40% {
-    transform: translate(-75%, -5%);
+    transform: translate(-75%, -25%);
   }
   48% {
-    transform: translate(-25%, -20%) scale(.75);
+    transform: translate(5%, -25%) scale(.7);
     opacity: 1;
   }
   58% {
     opacity: 0;
   }
   60% {
-    transform: translate(-25%, -50%) scale(.75);
+    transform: translate(5%, -50%) scale(.7);
   }
   100% {
-    transform: translate(-25%, -110%) scale(.75);
+    transform: translate(5%, -110%) scale(.7);
     opacity: 0;
   }
 }
@@ -338,20 +338,22 @@
     transform: translate(-57%, -5%);
   }
   40% {
-    transform: translate(-57%, -30%);
+    transform: translate(-57%, -35%);
   }
-  50% {
-    transform: translate(10%, -20%) scale(.6);
+  45% {
+    transform: translate(5%, -20%) scale(.6);
+  }
+  48% {
     opacity: 1;
   }
-  58% {
+  55% {
     opacity: 0;
   }
   60% {
-    transform: translate(10%, -50%) scale(.6);
+    transform: translate(5%, -50%) scale(.6);
   }
   100% {
-    transform: translate(20%, -110%) scale(.6);
+    transform: translate(5%, -110%) scale(.6);
     opacity: 0;
   }
 }
@@ -411,11 +413,10 @@
   40% {
     opacity: 0;
   }
-  50% {
+  45% {
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
     box-shadow: inset 0 0 8px 8px white;
@@ -441,10 +442,10 @@
   10% {
     opacity: 0;
   }
-  30% {
+  25% {
     opacity: 0;
   }
-  40% {
+  30% {
     opacity: 1;
   }
   52.5% {
@@ -552,7 +553,7 @@
     transform: translate(-50%, -10%);
   }
   40% {
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -40%);
   }
   50% {
     transform: translate(20%, -10%) scale(.5);
@@ -646,13 +647,10 @@
   10% {
     opacity: 0;
   }
-  20% {
+  25% {
     opacity: 0;
   }
   30% {
-    opacity: 0;
-  }
-  40% {
     opacity: 1;
   }
   62.5% {
