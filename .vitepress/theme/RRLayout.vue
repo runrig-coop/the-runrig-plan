@@ -18,7 +18,6 @@ onMounted(() => {
   }, false);
 });
 
-const tractorImage = '/emoji_u1f69c.svg';
 const stackImage = '/stack-diagram.svg';
 
 const ctaButtons = [
@@ -43,9 +42,6 @@ const ctaButtons = [
     <template #home-hero-after>
       <RRSection id="runrig-hero" :actions="ctaButtons">
         <template #section-info>
-          <div class="tractor-container">
-            <VPImage class="tractor-svg" image="/emoji_u1f69c.svg"/>
-          </div>
           <h1 class="name">
             <span class="clip">Runrig</span>
           </h1>
@@ -145,33 +141,19 @@ section#runrig-hero {
   padding-top: 256px;
   margin-bottom: 128px;
 }
-#runrig-hero .tractor-container {
-  position: absolute;
-  height: 128px;
-  width: 128px;
-  left: calc(min(100%, 42em) - 128px);
-  top: calc(40px - 128px);
-}
-#runrig-hero .tractor-svg {
-  display: inline-block;
-  /* transform: scaleX(-1); */
-}
 @media (min-width: 640px) {
   section#runrig-hero {
     padding-top: 512px;
     margin-bottom: 256px;
   }
-  #runrig-hero .tractor-container {
-    height: 256px;
-    width: 256px;
-    left: calc(min(100%, 42em) - 256px);
-    top: calc(56px - 256px);
-  }
 }
 @media (min-width: 960px) {
-  #runrig-hero .tractor-container {
-    left: calc(42em - 256px);
-    top: calc(64px - 256px);
+  section#runrig-hero .text {
+    max-width: 38em;
+  }
+  section#runrig-hero {
+    padding-top: 640px;
+    margin-bottom: 128px;
   }
 }
 
