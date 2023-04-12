@@ -7,7 +7,7 @@ import RRSection from './RRSection.vue';
 import RRHomeBG from './RRHomeBG.vue';
 
 const { Layout } = DefaultTheme;
-const { frontmatter: fm } = useData();
+const { frontmatter: fm, isDark } = useData();
 
 onMounted(() => {
   // Create a custom CSS property, var(--scroll), for scroll animations,
@@ -38,7 +38,7 @@ const ctaButtons = [
 <template>
   <Layout v-if="fm.layout === 'home'" :class="{ 'rr-home': fm.layout === 'home' }">
     <template #layout-top>
-      <RRHomeBG/>
+      <RRHomeBG :isDark="isDark"/>
     </template>
     <template #home-hero-after>
       <RRSection id="runrig-hero" :actions="ctaButtons">
@@ -211,7 +211,7 @@ section#runrig-hero {
     top: 0;
     height: 100%;
     width: 100%;
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: inset 0 0 8px 8px var(--vp-c-bg);
   }
 }
 

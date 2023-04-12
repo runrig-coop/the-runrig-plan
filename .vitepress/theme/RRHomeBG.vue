@@ -1,5 +1,11 @@
+<script setup>
+const props = defineProps({
+  isDark: Boolean,
+});
+</script>
+
 <template>
-  <div class="rr-home-bg-img-container">
+  <div class="rr-home-bg-img-container" :class="{ 'is-dark': isDark }">
     <div class="rr-home-bg-img">
       <div class="quadrant-northwest"></div>
       <div class="quadrant-northeast"></div>
@@ -15,6 +21,7 @@
   --bg-img-width: 1407px;
   --max-content-width: 1152px;
   --max-content-margin: calc(calc(100vw - var(--max-content-width)) * .5);
+  --bg-img-box-shadow: var(--vp-c-bg);
   position: fixed;
   width: 100%;
   margin-top: var(--vp-nav-height);
@@ -44,7 +51,7 @@
     background-size: 100%;
     background-position-x: 0;
     background-position-y: 0;
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
     opacity: 1;
   }
   .quadrant-northwest {
@@ -83,7 +90,7 @@
     background-size: 100%;
     background-position-x: 0;
     background-position-y: 0;
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   .quadrant-northwest {
     background-image: url('/open_field_system_quadrant_northwest.png');
@@ -171,7 +178,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
@@ -207,7 +214,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
@@ -240,7 +247,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
@@ -267,7 +274,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
@@ -384,7 +391,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
@@ -419,7 +426,7 @@
   52.5% {
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
@@ -452,7 +459,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
@@ -482,7 +489,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
@@ -591,7 +598,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 25%;
@@ -627,7 +634,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 25%;
@@ -657,7 +664,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 75%;
@@ -684,7 +691,7 @@
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: inset 0 0 8px 8px white;
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 75%;
