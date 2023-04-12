@@ -26,10 +26,10 @@
 @media (min-width: 640px) {
   .rr-home-bg-img {
     position: absolute;
-    height: calc(.75 * var(--bg-img-height));
-    width: calc(.75 * var(--bg-img-width));
-    left: calc(var(--max-content-margin) + 256px);
-    top: 128px;
+    height: calc(.5 * var(--bg-img-height));
+    width: calc(.5 * var(--bg-img-width));
+    left: calc(48px + 36em - .25 * var(--bg-img-width));
+    top: 32px;
     animation: scroll-bg-img-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -86,54 +86,63 @@
 
 @keyframes scroll-bg-img-640 {
   15% {
-    transform: translate(0, -25%);
+    transform: translate(0, -5%);
   }
-  30% {
-    transform: translate(-50%, -20%);
+  20% {
+    transform: translate(-75%, 5%);
   }
   40% {
-    transform: translate(-50%, -40%);
+    transform: translate(-75%, -5%);
   }
-  50% {
-    transform: translate(20%, -10%) scale(.5);
-  }
-  60% {
-    transform: translate(20%, -25%) scale(.5);
+  48% {
+    transform: translate(-25%, -20%) scale(.75);
     opacity: 1;
   }
-  68% {
+  58% {
     opacity: 0;
   }
+  60% {
+    transform: translate(-25%, -50%) scale(.75);
+  }
   100% {
-    transform: translate(20%, -110%) scale(.5);
+    transform: translate(-25%, -110%) scale(.75);
     opacity: 0;
   }
 }
 
 @keyframes scroll-quadrant-northwest-640 {
   0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: .5;
+  }
+  10% {
     opacity: 0;
   }
-  15% {
+  18% {
     opacity: 0;
   }
   20% {
     opacity: 1;
   }
-  60% {
+  30% {
     opacity: 1;
   }
-  62.5% {
+  50% {
+    opacity: 1;
+  }
+  52.5% {
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
     box-shadow: inset 0 0 8px 8px white;
   }
-  63% {
+  53% {
     transform-origin: 25% 25%;
     box-shadow: none;
   }
-  70% {
+  60% {
     transform: translate(-80%, -40%) rotate(45deg);
   }
   90% {
@@ -147,7 +156,7 @@
   0% {
     opacity: 1;
   }
-  10% {
+  15% {
     opacity: 1;
   }
   20% {
@@ -159,17 +168,17 @@
   50% {
     opacity: 1;
   }
-  62.5% {
+  52.5% {
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
     box-shadow: inset 0 0 8px 8px white;
   }
-  63% {
+  53% {
     transform-origin: 75% 25%;
     box-shadow: none;
   }
-  70% {
+  60% {
     transform: translate(80%, -40%) rotate(-45deg);
   }
   100% {
@@ -180,10 +189,10 @@
   0% {
     opacity: 1;
   }
-  10% {
+  5% {
     opacity: .5;
   }
-  20% {
+  10% {
     opacity: 0;
   }
   30% {
@@ -192,17 +201,17 @@
   40% {
     opacity: 1;
   }
-  62.5% {
+  52.5% {
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
     box-shadow: inset 0 0 8px 8px white;
   }
-  63% {
+  53% {
     transform-origin: 75% 75%;
     box-shadow: none;
   }
-  70% {
+  60% {
     transform: translate(80%, 40%) rotate(45deg);
   }
   100% {
@@ -213,23 +222,23 @@
   0% {
     opacity: 0;
   }
-  10% {
+  18% {
     opacity: 0;
   }
   20% {
     opacity: 1;
   }
-  62.5% {
+  52.5% {
     opacity: 1;
     transform-origin: center;
     transform: translate(0, 0);
     box-shadow: inset 0 0 8px 8px white;
   }
-  63% {
+  53% {
     transform-origin: 25% 75%;
     box-shadow: none;
   }
-  70% {
+  60% {
     transform: translate(-80%, 40%) rotate(-45deg);
   }
   90% {
@@ -245,7 +254,7 @@
     position: absolute;
     height: calc(.65 * var(--bg-img-height));
     width: calc(.65 * var(--bg-img-width));
-    left: calc(64px + 38em - .325 * var(--bg-img-width));
+    left: calc(64px + 39em - .325 * var(--bg-img-width));
     top: 32px;
     animation: scroll-bg-img-960 1s linear infinite;
     animation-play-state: paused;
@@ -466,20 +475,6 @@
     animation-delay: calc(var(--scroll) * -1s);
     animation-iteration-count: 1;
     animation-fill-mode: both;
-  }
-
-  .quadrant-northwest,
-  .quadrant-northeast,
-  .quadrant-southeast,
-  .quadrant-southwest {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 0;
-    background-position-y: 0;
-    box-shadow: inset 0 0 8px 8px white;
   }
   .quadrant-northwest {
     background-image: url('/open_field_system_quadrant_northwest.png');

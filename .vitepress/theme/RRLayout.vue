@@ -125,6 +125,16 @@ const ctaButtons = [
 .rr-home .text {
   max-width: 42em;
 }
+@media (min-width: 640px) {
+  .rr-home .text {
+    max-width: 36em;
+  }
+}
+@media (min-width: 960px) {
+  .rr-home .text {
+    max-width: 39em;
+  }
+}
 .rr-home section {
   min-height: 64vh;
 }
@@ -143,14 +153,11 @@ section#runrig-hero {
 }
 @media (min-width: 640px) {
   section#runrig-hero {
-    padding-top: 256px;
-    margin-bottom: 128px;
+    padding-top: 512px;
+    margin-bottom: 256px;
   }
 }
 @media (min-width: 960px) {
-  section#runrig-hero .text {
-    max-width: 38em;
-  }
   section#runrig-hero {
     padding-top: 640px;
     margin-bottom: 128px;
