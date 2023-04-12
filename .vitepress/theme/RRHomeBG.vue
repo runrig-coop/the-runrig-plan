@@ -20,7 +20,71 @@
   margin-top: var(--vp-nav-height);
 }
 
-@keyframes scroll-bg-img {
+/**
+ * BREAKPOINT: 640px and higher
+ */
+@media (min-width: 640px) {
+  .rr-home-bg-img {
+    position: absolute;
+    height: calc(.75 * var(--bg-img-height));
+    width: calc(.75 * var(--bg-img-width));
+    left: calc(var(--max-content-margin) + 256px);
+    top: 128px;
+    animation: scroll-bg-img-640 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  .quadrant-northwest,
+  .quadrant-northeast,
+  .quadrant-southeast,
+  .quadrant-southwest {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+    box-shadow: inset 0 0 8px 8px white;
+  }
+  .quadrant-northwest {
+    background-image: url('/open_field_system_quadrant_northwest.png');
+    animation: scroll-quadrant-northwest-640 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  .quadrant-northeast {
+    background-image: url('/open_field_system_quadrant_northeast.png');
+    animation: scroll-quadrant-northeast-640 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  .quadrant-southeast {
+    background-image: url('/open_field_system_quadrant_southeast.png');
+    animation: scroll-quadrant-southeast-640 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  .quadrant-southwest {
+    background-image: url('/open_field_system_quadrant_southwest.png');
+    animation: scroll-quadrant-southwest-640 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes scroll-bg-img-640 {
   15% {
     transform: translate(0, -25%);
   }
@@ -45,20 +109,8 @@
     opacity: 0;
   }
 }
-.rr-home-bg-img {
-  position: absolute;
-  left: calc(var(--max-content-margin) + 256px);
-  top: 128px;
-  height: calc(.75 * var(--bg-img-height));
-  width: calc(.75 * var(--bg-img-width));
-  animation: scroll-bg-img 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
 
-@keyframes scroll-quadrant-northwest {
+@keyframes scroll-quadrant-northwest-640 {
   0% {
     opacity: 0;
   }
@@ -91,7 +143,7 @@
     opacity: 0;
   }
 }
-@keyframes scroll-quadrant-northeast {
+@keyframes scroll-quadrant-northeast-640 {
   0% {
     opacity: 1;
   }
@@ -124,7 +176,7 @@
     opacity: 1;
   }
 }
-@keyframes scroll-quadrant-southeast {
+@keyframes scroll-quadrant-southeast-640 {
   0% {
     opacity: 1;
   }
@@ -157,7 +209,7 @@
     opacity: 1;
   }
 }
-@keyframes scroll-quadrant-southwest {
+@keyframes scroll-quadrant-southwest-640 {
   0% {
     opacity: 0;
   }
@@ -183,54 +235,5 @@
   90% {
     opacity: 1;
   }
-}
-.quadrant-northwest,
-.quadrant-northeast,
-.quadrant-southeast,
-.quadrant-southwest {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-x: 0;
-  background-position-y: 0;
-  box-shadow: inset 0 0 8px 8px white;
-}
-.quadrant-northwest {
-  background-image: url('/open_field_system_quadrant_northwest.png');
-  opacity: 0;
-  animation: scroll-quadrant-northwest 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-northeast {
-  background-image: url('/open_field_system_quadrant_northeast.png');
-  opacity: 1;
-  animation: scroll-quadrant-northeast 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-southeast {
-  background-image: url('/open_field_system_quadrant_southeast.png');
-  opacity: 0;
-  animation: scroll-quadrant-southeast 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.quadrant-southwest {
-  background-image: url('/open_field_system_quadrant_southwest.png');
-  opacity: 0;
-  animation: scroll-quadrant-southwest 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
 }
 </style>
