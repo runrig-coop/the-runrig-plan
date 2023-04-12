@@ -7,7 +7,7 @@ import RRSection from './RRSection.vue';
 import RRHomeBG from './RRHomeBG.vue';
 
 const { Layout } = DefaultTheme;
-const { frontmatter: fm, isDark } = useData();
+const { frontmatter: fm } = useData();
 
 onMounted(() => {
   // Create a custom CSS property, var(--scroll), for scroll animations,
@@ -54,7 +54,7 @@ const ctaButtons = [
           <p class="tagline">Locally. Regionally. Globally.</p>
         </template>
       </RRSection>
-      <RRSection id="commons" :class="{ 'is-dark': isDark }" class="align-right">
+      <RRSection id="commons" class="align-right">
         <template #section-info>
           <h2 class="name">
             <span class="clip">More than just a software commons</span>
