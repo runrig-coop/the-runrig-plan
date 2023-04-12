@@ -18,7 +18,7 @@ onMounted(() => {
   }, false);
 });
 
-const openFieldImage = '/open_field_system_quadrants.png';
+const openFieldImage = '/open_field_system.png';
 const stackImage = '/stack-diagram.svg';
 
 const ctaButtons = [
