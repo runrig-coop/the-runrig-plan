@@ -21,6 +21,41 @@
 }
 
 /**
+ * BREAKPOINT: Mobile screens up to 640px
+ */
+@media (max-width: 640px) {
+  .rr-home-bg-img-container {
+    position: absolute;
+  }
+  .rr-home-bg-img {
+    position: absolute;
+    height: calc(.375 * var(--bg-img-height));
+    width: calc(.375 * var(--bg-img-width));
+    left: -160px;
+    top: 8px;
+  }
+
+  .quadrant-northwest,
+  .quadrant-northeast {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+    box-shadow: inset 0 0 8px 8px white;
+    opacity: 1;
+  }
+  .quadrant-northwest {
+    background-image: url('/open_field_system_quadrant_northwest.png');
+  }
+  .quadrant-northeast {
+    background-image: url('/open_field_system_quadrant_northeast.png');
+  }
+}
+
+/**
  * BREAKPOINT: 640px and higher
  */
 @media (min-width: 640px) {
@@ -251,7 +286,6 @@
  */
 @media (min-width: 960px) {
   .rr-home-bg-img {
-    position: absolute;
     height: calc(.65 * var(--bg-img-height));
     width: calc(.65 * var(--bg-img-width));
     left: calc(64px + 39em - .325 * var(--bg-img-width));

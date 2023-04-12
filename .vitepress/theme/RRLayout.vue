@@ -18,6 +18,7 @@ onMounted(() => {
   }, false);
 });
 
+const openFieldImage = '/open_field_system_quadrants.png';
 const stackImage = '/stack-diagram.svg';
 
 const ctaButtons = [
@@ -89,6 +90,9 @@ const ctaButtons = [
             the mortar joining these technological building blocks together, while
             reinforcing and helping to define the overarching superstructure.
           </p>
+          <div id="open-field-system">
+            <VPImage id="open-field-img" class="image-src" :image="openFieldImage" />
+          </div>
         </template>
       </RRSection>
       <RRSection id="autonomy">
@@ -125,6 +129,7 @@ const ctaButtons = [
 <style>
 .rr-home .text {
   max-width: 42em;
+  margin-bottom: 32px;
 }
 @media (min-width: 640px) {
   .rr-home .text {
@@ -185,8 +190,29 @@ section#runrig-hero {
     font-size: 32px;
   }
 }
-section#commons {
-  margin-bottom: 384px;
+@media (min-width: 640px) {
+  section#commons {
+    margin-bottom: 384px;
+  }
+}
+
+#open-field-system {
+  display: none;
+}
+@media (max-width: 640px) {
+  #open-field-system {
+    display: block;
+    position: relative;
+  }
+  #open-field-system::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0 0 8px 8px white;
+  }
 }
 
 #autonomy ol {
