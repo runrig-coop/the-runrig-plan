@@ -140,8 +140,31 @@ const ctaButtons = [
           <h1 class="name">
             <span class="clip">What's Next?</span>
           </h1>
-          <p class="text">
-            TODO
+          <!-- Using vp-doc class for text-decoration on <a> tags -->
+          <p class="text vp-doc">
+            Runrig is still in the early stages of organizing, but we invite
+            constructive feedback and other support. We're actively seeking
+            partnerships and collaborations with similarly aligned
+            organizations, and very soon hope to begin recruiting farmers,
+            activists, tech workers and other individuals as coop members. Over
+            the coming months, we will be hosting open design calls and other
+            events, and will post the calendar and other updates once available,
+            so check back here or <a href="/contact">sign up
+            to be notified by email</a>. 
+          </p>
+          <p class="text vp-doc">
+            The Runrig Plan is a living document that describes the main design
+            principles of the social and ecological technologies we are building
+            now and in the near future. The <a href="/overview">Overview
+            </a> is intended for a general audience and is the best place to
+            start for all interested. Two appendices are also presented now,
+            though they are still in a very rough stage of draft. The
+            <a href="/architecture">Architecture</a> page will go into
+            more technical detail of the underlying software and networking
+            systems involved in the implementation of Runrig, while the
+            <a href="/ecology">Ecology</a> page will cover more of the
+            social, environmental and economic aspects of the plan, as well as
+            governance structures and legal considerations.
           </p>
         </template>
       </RRSection>
