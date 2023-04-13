@@ -681,7 +681,7 @@ const props = defineProps({
   0% {
     opacity: 0;
   }
-  15% {
+  20% {
     opacity: 0;
   }
   25% {
