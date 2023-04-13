@@ -325,13 +325,22 @@ ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
 
 ## Next Steps
-:::warning DRAFT NOTE
+Runrig is still in the early stages of organizing, but we invite constructive
+feedback and other support. We're actively seeking partnerships and
+collaborations with similarly aligned organizations, and very soon hope to begin
+recruiting farmers, activists, tech workers and other individuals as coop
+members. Over the coming months, we will be hosting open design calls and other
+events, and will post the calendar and other updates once available, so check
+back here or [sign up] to be notified by email.
 
-More details on next steps will be forthcoming in this section, as well as two
-planned appendices on ["Ecology"] and ["Architecture"] that are already in
-draft, and hopefully another appendix addressing "Design" specifically.
-
-:::
+This plan is a living document that describes the main design principles of the
+social and ecological technologies we are building now and in the near future.
+In addition to this overview, two appendices are also presented now, though they
+are still in a very rough stage of draft. The ["Architecture"] page will go into
+more technical detail of the underlying software and networking systems involved
+in the implementation of Runrig, while the ["Ecology"] page will cover more of
+the social, environmental and economic aspects of the plan, as well as
+governance structures and legal considerations.
 
 ## References
 [^Muldoon]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital
@@ -378,5 +387,6 @@ draft, and hopefully another appendix addressing "Design" specifically.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
+[sign up]: ./contact.md
 ["Architecture"]: ./architecture.md
 ["Ecology"]: ./ecology.md
