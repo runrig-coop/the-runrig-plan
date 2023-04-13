@@ -262,8 +262,32 @@ section#runrig-hero {
   }
 }
 
+#autonomy .name {
+  grid-area: auto-name;
+}
+#autonomy img {
+  grid-area: auto-diagram;
+  margin: auto;
+}
+#autonomy .text {
+  grid-area: auto-text;
+}
 #autonomy ol {
+  grid-area: auto-layers;
   list-style: auto;
-  margin-left: 1em;
+  margin: auto auto 64px 1em;
+}
+@media (min-width: 960px) {
+  #autonomy .main {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    column-gap: 8%;
+    grid-template-areas:
+      "auto-diagram ."
+      "auto-diagram auto-name"
+      "auto-diagram auto-text"
+      "auto-diagram auto-layers"
+      "auto-diagram .";
+  }
 }
 </style>
