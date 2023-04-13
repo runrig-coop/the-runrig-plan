@@ -46,10 +46,11 @@ const ctaButtons = [
             <span class="clip">Runrig</span>
           </h1>
           <p class="text">
-            Runrig is a communal technology platform, a <em>libre</em> software project and a
-            method of socio-ecological design. It aims for the collective sovereignty over
-            not just our food, but also the labor that raises it, the land and living things
-            that support it, and the data connecting it all.
+            Runrig is a communal farming platform, a <em>libre</em> software
+            project and a method of socio-ecological design. It aims for
+            collective sovereignty over not just our food, but also the labor
+            that raises it, the land and living things that support it, and the
+            data connecting connecting it all.
           </p>
           <p class="tagline">Locally. Regionally. Globally.</p>
         </template>
@@ -60,10 +61,11 @@ const ctaButtons = [
             <span class="clip">More than just a software commons</span>
           </h2>
           <p class="text">
-            Free &amp; open source software is a starting point, but not the destination.
-            Full autonomy requires control of the underlying infrastructure, something beyond
-            the capacity of most individuals. Runrig redistributes control of the entire
-            system back to the users, collectively.
+            Free &amp; open source software is a starting point, not the
+            destination. Full computing autonomy requires control of the
+            underlying infrastructure, something beyond the capacity of most
+            individuals. Runrig redistributes control of the entire system back
+            to <em>all</em> users, in shared cooperation.
           </p>
           <figure class="quote">
             <blockquote>
@@ -79,15 +81,14 @@ const ctaButtons = [
             <span class="clip">Ecology over architecture</span>
           </h2>
           <p class="text">
-            The evolution of a software system is only one factor in the evolution of the
-            broader social and natural systems in which it is embedded. Accordingly, Runrig
-            emphasizes ecology, dialogue and free play over any specific technological
-            architecture. Rather than creating an independent, greenfield alternative to the
-            software platforms already available today, we seek out targeted interventions
-            that can multiply the impact of those existing tools, while laying the
-            groundwork for more resilient infrastructure in the future. Runrig aims to be
-            the mortar joining these technological building blocks together, while
-            reinforcing and helping to define the overarching superstructure.
+            Runrig emphasizes ecology, dialogue and free play over any specific
+            technology, because the evolution of a software system is only one
+            factor in the evolution of the broader social and natural systems in
+            which it is embedded. Rather than make an independent, greenfield
+            alternative to existing software platforms, we seek out targeted
+            interventions that can multiply the impact of already available tools.
+            Runrig aims to be the mortar joining these technological building
+            blocks together, while reinforcing and giving shape to the whole.
           </p>
           <div id="open-field-system">
             <img id="open-field-img" class="image-src" :src="openFieldImage">
@@ -100,13 +101,15 @@ const ctaButtons = [
             <span class="clip">Autonomy by design</span>
           </h2>
           <p class="text">
-            Three functional layers:
-            <ol>
-              <li>A single, collectively owned data storage provider.</li>
-              <li>Many federated cooperative service platforms.</li>
-              <li>Local-first and self-hosted applications (optional).</li>
-            </ol>
+            To achieve collective ownership and democratic control of the shared
+            system, while preserving the data rights of individual users, Runrig
+            comprises 3 functional layers:
           </p>
+          <ol>
+            <li>A single, collectively owned data storage provider.</li>
+            <li>Many federated cooperative service platforms.</li>
+            <li>Local-first and self-hosted applications.</li>
+          </ol>
           <img class="image-src" :src="stackImage">
         </template>
       </RRSection>
