@@ -1,4 +1,4 @@
-# Architecture
+# Appendix: Architecture
 :::warning DRAFT NOTE
 
 This page is still in a _very_ early stage of draft, mostly scattered notes, links and references.

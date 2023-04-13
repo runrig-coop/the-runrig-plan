@@ -1,4 +1,4 @@
-# Overview
+# Runrig: A Plan for Socio-ecological Design
 ## Purpose
 In its narrowest sense, Runrig is a technology framework for the communal
 management of a foodshed's digital assets, potentially spanning a network of

@@ -1,4 +1,4 @@
-# Ecology
+# Appendix: Ecology
 ## Reframing Production & Consumption as Metabolic Exchange
 As we first addressed in the ["Overview"] and will further detail in ["Appendix:
 Architecture"], Runrig makes certain architectural and design choices in order
