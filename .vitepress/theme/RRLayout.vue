@@ -149,8 +149,8 @@ const ctaButtons = [
             activists, tech workers and other individuals as coop members. Over
             the coming months, we will be hosting open design calls and other
             events, and will post the calendar and other updates once available,
-            so check back here or <a href="/contact">sign up
-            to be notified by email</a>. 
+            so check back here or <a href="/contact">sign up</a>
+            to be notified by email. 
           </p>
           <p class="text vp-doc">
             The Runrig Plan is a living document that describes the main design
