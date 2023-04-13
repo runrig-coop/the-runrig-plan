@@ -185,7 +185,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(-80%, -40%) rotate(45deg);
+    transform: translate(-40%, -20%) rotate(15deg);
   }
   90% {
     opacity: .5;
@@ -221,7 +221,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(80%, -40%) rotate(-45deg);
+    transform: translate(40%, -20%) rotate(-15deg);
   }
   100% {
     opacity: 1;
@@ -254,7 +254,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(80%, 40%) rotate(45deg);
+    transform: translate(40%, 20%) rotate(15deg);
   }
   100% {
     opacity: 1;
@@ -281,7 +281,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(-80%, 40%) rotate(-45deg);
+    transform: translate(-40%, 20%) rotate(-15deg);
   }
   90% {
     opacity: 1;
@@ -398,7 +398,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(-80%, -40%) rotate(45deg);
+    transform: translate(-40%, -20%) rotate(15deg);
   }
   90% {
     opacity: .5;
@@ -433,7 +433,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(80%, -40%) rotate(-45deg);
+    transform: translate(40%, -20%) rotate(-15deg);
   }
   100% {
     opacity: 1;
@@ -466,7 +466,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(80%, 40%) rotate(45deg);
+    transform: translate(40%, 20%) rotate(15deg);
   }
   100% {
     opacity: 1;
@@ -496,7 +496,7 @@ const props = defineProps({
     box-shadow: none;
   }
   60% {
-    transform: translate(-80%, 40%) rotate(-45deg);
+    transform: translate(-40%, 20%) rotate(-15deg);
   }
   90% {
     opacity: 1;
@@ -605,7 +605,7 @@ const props = defineProps({
     box-shadow: none;
   }
   70% {
-    transform: translate(-80%, -40%) rotate(45deg);
+    transform: translate(-40%, -20%) rotate(15deg);
   }
   90% {
     opacity: .5;
@@ -641,7 +641,7 @@ const props = defineProps({
     box-shadow: none;
   }
   70% {
-    transform: translate(80%, -40%) rotate(-45deg);
+    transform: translate(40%, -20%) rotate(-15deg);
   }
   100% {
     opacity: 1;
@@ -671,7 +671,7 @@ const props = defineProps({
     box-shadow: none;
   }
   70% {
-    transform: translate(80%, 40%) rotate(45deg);
+    transform: translate(40%, 20%) rotate(15deg);
   }
   100% {
     opacity: 1;
@@ -698,7 +698,7 @@ const props = defineProps({
     box-shadow: none;
   }
   70% {
-    transform: translate(-80%, 40%) rotate(-45deg);
+    transform: translate(-40%, 20%) rotate(-15deg);
   }
   90% {
     opacity: 1;
