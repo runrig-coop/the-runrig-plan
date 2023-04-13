@@ -9,11 +9,33 @@ const { Layout } = DefaultTheme;
 const { frontmatter: fm, isDark } = useData();
 
 onMounted(() => {
+  // The maximum heights used as the basis for the scroll position,
+  // mapped to breakpoints @media min-widths that change the body height.
+  const maxBodyHeights = {
+    0: 4220,
+    640: 4337,
+    960: 4357,
+  };
+  // Max out the body height to the above values, rather than using the actual
+  // height of the document body, because the lower page sections might expand
+  // as text and other content is added, but that shouldn't effect the animation
+  // higher up on the page.
+  function calcScrollPosition(breakpoints) {
+    const [minWidth, ...rest] = breakpoints || Object.keys(maxBodyHeights).reverse();
+    const isMin = rest.length === 0 || window.innerWidth >= minWidth;
+    if (isMin) {
+      const maxHeight = maxBodyHeights[minWidth];
+      const bodyHeight = Math.min(maxHeight, document.body.offsetHeight);
+      const scrollHeight = bodyHeight - window.innerHeight;
+      const position = window.pageYOffset / scrollHeight;
+      return position
+    }
+    return calcScrollPosition(rest);
+  };
   // Create a custom CSS property, var(--scroll), for scroll animations,
   // such as the home page background image.
   window.addEventListener('scroll', () => {
-    const position = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
-    document.body.style.setProperty('--scroll', position);
+    document.body.style.setProperty('--scroll', calcScrollPosition());
   }, false);
 });
 
