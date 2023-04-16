@@ -38,7 +38,7 @@ const props = defineProps({
     position: absolute;
     height: calc(.375 * var(--bg-img-height));
     width: calc(.375 * var(--bg-img-width));
-    left: -160px;
+    right: max(0em, calc(50vw - .1875 * var(--bg-img-width)));
     top: 8px;
   }
 
@@ -138,12 +138,15 @@ const props = defineProps({
   }
   48% {
     transform: translate(5%, -25%) scale(.7);
+  }
+  54% {
     opacity: 1;
   }
-  58% {
+  57% {
     opacity: 0;
   }
   60% {
+    opacity: 0;
     transform: translate(5%, -50%) scale(.7);
   }
   100% {
@@ -194,10 +197,10 @@ const props = defineProps({
   20% {
     opacity: 0;
   }
-  40% {
+  42% {
     opacity: 0;
   }
-  50% {
+  45% {
     opacity: 1;
   }
   52.5% {
@@ -316,29 +319,32 @@ const props = defineProps({
 }
 
 @keyframes scroll-bg-img-960 {
-  15% {
-    transform: translate(0, -25%);
+  17.5% {
+    transform: translate(0, 0);
+  }
+  22.5% {
+    transform: translate(-57%, 25%);
   }
   30% {
-    transform: translate(-57%, -5%);
+    transform: translate(-57%, 25%);
   }
   40% {
-    transform: translate(-57%, -35%);
+    transform: translate(-57%, -5%);
   }
   45% {
-    transform: translate(5%, -20%) scale(.6);
-  }
-  48% {
-    opacity: 1;
+    transform: translate(-57%, -15%);
   }
   55% {
+    transform: translate(5%, -15%) scale(.75);
+  }
+  65% {
+    opacity: 1;
+  }
+  70% {
     opacity: 0;
   }
-  60% {
-    transform: translate(5%, -50%) scale(.6);
-  }
   100% {
-    transform: translate(5%, -110%) scale(.6);
+    transform: translate(5%, -140%) scale(.75);
     opacity: 0;
   }
 }
@@ -362,13 +368,11 @@ const props = defineProps({
   50% {
     opacity: 1;
   }
-  52.5% {
+  65% {
     transform: translate(0, 0);
-  }
-  53% {
     transform-origin: 25% 25%;
   }
-  60% {
+  75% {
     transform: translate(-40%, -20%) rotate(15deg);
   }
   100% {
@@ -391,13 +395,11 @@ const props = defineProps({
   48% {
     opacity: 1;
   }
-  52.5% {
+  65% {
     transform: translate(0, 0);
-  }
-  53% {
     transform-origin: 75% 25%;
   }
-  60% {
+  75% {
     transform: translate(40%, -20%) rotate(-15deg);
   }
   100% {
@@ -420,13 +422,11 @@ const props = defineProps({
   30% {
     opacity: 1;
   }
-  52.5% {
+  65% {
     transform: translate(0, 0);
-  }
-  53% {
     transform-origin: 75% 75%;
   }
-  60% {
+  75% {
     transform: translate(40%, 20%) rotate(15deg);
   }
   100% {
@@ -446,13 +446,11 @@ const props = defineProps({
   25% {
     opacity: 1;
   }
-  52.5% {
+  65% {
     transform: translate(0, 0);
-  }
-  53% {
     transform-origin: 25% 75%;
   }
-  60% {
+  75% {
     transform: translate(-40%, 20%) rotate(-15deg);
   }
   90% {
@@ -514,23 +512,23 @@ const props = defineProps({
     transform: translate(0, -10%);
   }
   30% {
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -5%);
   }
   40% {
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
   }
   50% {
-    transform: translate(20%, -10%) scale(.5);
+    transform: translate(20%, -10%) scale(.65);
   }
   60% {
-    transform: translate(20%, -25%) scale(.5);
+    transform: translate(20%, -30%) scale(.65);
     opacity: 1;
   }
   68% {
     opacity: 0;
   }
   100% {
-    transform: translate(20%, -110%) scale(.5);
+    transform: translate(20%, -110%) scale(.65);
     opacity: 0;
   }
 }

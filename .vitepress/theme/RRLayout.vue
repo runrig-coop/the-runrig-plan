@@ -189,9 +189,19 @@ const ctaButtons = [
   }
 }
 .rr-home section {
-  min-height: 64vh;
+  min-height: 42em;
 }
 
+@media (min-width: 960px) {
+  .rr-home section {
+    min-height: 54em;
+  }
+}
+@media (min-width: 1152px) {
+  .rr-home section {
+    min-height: 54em;
+  }
+}
 .align-right .name,
 .align-right .quote,
 .align-right .text {
@@ -201,19 +211,22 @@ const ctaButtons = [
 }
 
 section#runrig-hero {
-  padding-top: 55vh;
-  margin-bottom: 128px;
+  min-height: 60em;
+}
+section#runrig-hero .main {
+  padding-top: max(22em, 40vh);
 }
 @media (min-width: 640px) {
   section#runrig-hero {
-    padding-top: 512px;
-    margin-bottom: 256px;
+    min-height: 72em;
+  }
+  section#runrig-hero .main {
+    padding-top: 384px;
   }
 }
 @media (min-width: 960px) {
-  section#runrig-hero {
-    padding-top: 640px;
-    margin-bottom: 128px;
+  section#runrig-hero .main {
+    padding-top: 512px;
   }
 }
 @media (min-width: 1152px) {
@@ -222,6 +235,27 @@ section#runrig-hero {
   }
 }
 
+@media (min-width: 640px) {
+  section#commons {
+    min-height: 64em;
+  }
+}
+@media (min-width: 960px) {
+  section#commons {
+    min-height: 92em;
+  }
+  section#commons .main {
+    padding-top: 352px;
+  }
+}
+@media (min-width: 1152px) {
+  section#commons {
+    min-height: 72em;
+  }
+  section#commons .main {
+    padding-top: 64px;
+  }
+}
 #commons .quote blockquote {
   margin-top: 48px;
   line-height: 32px;
@@ -235,11 +269,6 @@ section#runrig-hero {
     margin-top: 56px;
     line-height: 40px;
     font-size: 32px;
-  }
-}
-@media (min-width: 640px) {
-  section#commons {
-    margin-bottom: 384px;
   }
 }
 
