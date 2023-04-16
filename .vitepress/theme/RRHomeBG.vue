@@ -168,30 +168,20 @@ const props = defineProps({
   20% {
     opacity: 1;
   }
-  30% {
-    opacity: 1;
-  }
   50% {
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
-    box-shadow: none;
   }
   60% {
     transform: translate(-40%, -20%) rotate(15deg);
   }
-  90% {
-    opacity: .5;
-  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes scroll-quadrant-northeast-640 {
@@ -211,14 +201,10 @@ const props = defineProps({
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
-    box-shadow: none;
   }
   60% {
     transform: translate(40%, -20%) rotate(-15deg);
@@ -244,14 +230,10 @@ const props = defineProps({
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
-    box-shadow: none;
   }
   60% {
     transform: translate(40%, 20%) rotate(15deg);
@@ -271,14 +253,10 @@ const props = defineProps({
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
-    box-shadow: none;
   }
   60% {
     transform: translate(-40%, 20%) rotate(-15deg);
@@ -381,30 +359,20 @@ const props = defineProps({
   25% {
     opacity: 1;
   }
-  30% {
-    opacity: 1;
-  }
   50% {
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
-    box-shadow: none;
   }
   60% {
     transform: translate(-40%, -20%) rotate(15deg);
   }
-  90% {
-    opacity: .5;
-  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes scroll-quadrant-northeast-960 {
@@ -417,20 +385,17 @@ const props = defineProps({
   25% {
     opacity: 0;
   }
-  40% {
+  45% {
     opacity: 0;
   }
-  45% {
+  48% {
     opacity: 1;
   }
   52.5% {
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
-    box-shadow: none;
   }
   60% {
     transform: translate(40%, -20%) rotate(-15deg);
@@ -456,14 +421,10 @@ const props = defineProps({
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
-    box-shadow: none;
   }
   60% {
     transform: translate(40%, 20%) rotate(15deg);
@@ -486,14 +447,10 @@ const props = defineProps({
     opacity: 1;
   }
   52.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
-    box-shadow: none;
   }
   60% {
     transform: translate(-40%, 20%) rotate(-15deg);
@@ -595,14 +552,10 @@ const props = defineProps({
     opacity: 1;
   }
   62.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 25%;
-    box-shadow: none;
   }
   70% {
     transform: translate(-40%, -20%) rotate(15deg);
@@ -631,14 +584,10 @@ const props = defineProps({
     opacity: 1;
   }
   62.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 25%;
-    box-shadow: none;
   }
   70% {
     transform: translate(40%, -20%) rotate(-15deg);
@@ -661,14 +610,10 @@ const props = defineProps({
     opacity: 1;
   }
   62.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 75%;
-    box-shadow: none;
   }
   70% {
     transform: translate(40%, 20%) rotate(15deg);
@@ -688,14 +633,10 @@ const props = defineProps({
     opacity: 1;
   }
   62.5% {
-    opacity: 1;
-    transform-origin: center;
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 75%;
-    box-shadow: none;
   }
   70% {
     transform: translate(-40%, 20%) rotate(-15deg);
