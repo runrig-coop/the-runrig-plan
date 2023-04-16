@@ -87,7 +87,7 @@ const ctaButtons = [
             destination. Full computing autonomy requires control of the
             underlying infrastructure, something beyond the capacity of most
             individuals. Runrig redistributes control of the entire system back
-            to <em>all</em> users, in shared cooperation.
+            to <em>all</em> users, in collective ownership.
           </p>
           <figure class="quote">
             <blockquote>
