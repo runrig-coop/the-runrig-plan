@@ -113,7 +113,7 @@ const ctaButtons = [
             blocks together, while reinforcing and giving shape to the whole.
           </p>
           <div id="open-field-system">
-            <img id="open-field-img" class="image-src" :src="openFieldImage">
+            <img id="open-field-img" :src="openFieldImage">
           </div>
         </template>
       </RRSection>
@@ -132,7 +132,9 @@ const ctaButtons = [
             <li>Many federated cooperative service platforms.</li>
             <li>Local-first and self-hosted applications.</li>
           </ol>
-          <img class="image-src" :src="stackImage">
+          <div id="stack-diagram">
+            <img :src="stackImage">
+          </div>
         </template>
       </RRSection>
       <RRSection id="next" :actions="ctaButtons">
@@ -294,9 +296,12 @@ section#runrig-hero .main {
 #autonomy .name {
   grid-area: auto-name;
 }
-#autonomy img {
+#autonomy #stack-diagram {
   grid-area: auto-diagram;
   margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 #autonomy .text {
   grid-area: auto-text;
@@ -317,6 +322,65 @@ section#runrig-hero .main {
       "auto-diagram auto-text"
       "auto-diagram auto-layers"
       "auto-diagram .";
+  }
+}
+
+@media (min-width: 960px) {
+  #stack-diagram img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: stack-diagram-960 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+}
+@keyframes stack-diagram-960 {
+  0% {
+    transform: scale(3);
+    right: 50%;
+  }
+  50% {
+    transform: scale(3);
+    right: 50%;
+  }
+  80% {
+    transform: scale(1);
+    right: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (min-width: 1152px) {
+  #stack-diagram img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: stack-diagram-1152 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+}
+@keyframes stack-diagram-1152 {
+  0% {
+    transform: scale(2.5);
+    right: 50%;
+  }
+  55% {
+    transform: scale(2.5);
+    right: 50%;
+  }
+  75% {
+    transform: scale(1.5);
+    right: 0;
+  }
+  100% {
+    transform: scale(1.5);
   }
 }
 </style>
