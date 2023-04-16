@@ -325,7 +325,7 @@ ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
 
 ## Next Steps
-Runrig is still in the early stages of organizing, but we invite constructive
+Runrig is still in the early stages of formation, but we invite constructive
 feedback and other support. We're actively seeking partnerships and
 collaborations with similarly aligned organizations, and very soon hope to begin
 recruiting farmers, activists, tech workers and other individuals as coop

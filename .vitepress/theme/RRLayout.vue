@@ -144,7 +144,7 @@ const ctaButtons = [
           </h1>
           <!-- Using vp-doc class for text-decoration on <a> tags -->
           <p class="text vp-doc">
-            Runrig is still in the early stages of organizing, but we invite
+            Runrig is still in the early stages of formation, but we invite
             constructive feedback and other support. We're actively seeking
             partnerships and collaborations with similarly aligned
             organizations, and very soon hope to begin recruiting farmers,

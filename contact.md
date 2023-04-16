@@ -1,5 +1,5 @@
 # Get involved
-Runrig is still in the early stages of organizing, but we invite constructive
+Runrig is still in the early stages of formation, but we invite constructive
 feedback and other support. For now, you can [email Jamie] with inquiries or suggestions.
 
 [email Jamie]: mailto:jamie@jgaehring.com
