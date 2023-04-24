@@ -55,10 +55,10 @@ const props = defineProps({
     opacity: 1;
   }
   .quadrant-northwest {
-    background-image: url('/open_field_system_quadrant_northwest.png');
+    background-image: url('./assets/open_field_system_quadrant_northwest.png');
   }
   .quadrant-northeast {
-    background-image: url('/open_field_system_quadrant_northeast.png');
+    background-image: url('./assets/open_field_system_quadrant_northeast.png');
   }
 }
 
@@ -93,7 +93,7 @@ const props = defineProps({
     box-shadow: var(--bg-img-box-shadow);
   }
   .quadrant-northwest {
-    background-image: url('/open_field_system_quadrant_northwest.png');
+    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -101,7 +101,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('/open_field_system_quadrant_northeast.png');
+    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -109,7 +109,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('/open_field_system_quadrant_southeast.png');
+    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -117,7 +117,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('/open_field_system_quadrant_southwest.png');
+    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -285,7 +285,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northwest {
-    background-image: url('/open_field_system_quadrant_northwest.png');
+    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -293,7 +293,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('/open_field_system_quadrant_northeast.png');
+    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -301,7 +301,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('/open_field_system_quadrant_southeast.png');
+    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -309,7 +309,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('/open_field_system_quadrant_southwest.png');
+    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -474,7 +474,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northwest {
-    background-image: url('/open_field_system_quadrant_northwest.png');
+    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -482,7 +482,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('/open_field_system_quadrant_northeast.png');
+    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -490,7 +490,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('/open_field_system_quadrant_southeast.png');
+    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -498,7 +498,7 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('/open_field_system_quadrant_southwest.png');
+    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);

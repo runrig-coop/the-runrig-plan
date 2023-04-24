@@ -4,6 +4,8 @@ import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import RRSection from './RRSection.vue';
 import RRHomeBG from './RRHomeBG.vue';
+import openFieldImage from './assets/open_field_system.png';
+import stackImage from './assets/stack-diagram.svg';
 
 const { Layout } = DefaultTheme;
 const { frontmatter: fm, isDark } = useData();
@@ -39,8 +41,8 @@ onMounted(() => {
   }, false);
 });
 
-const openFieldImage = '/open_field_system.png';
-const stackImage = '/stack-diagram.svg';
+// const openFieldImage = './assets/open_field_system.png';
+// const stackImage = './assets/stack-diagram.svg';
 
 const ctaButtons = [
   {
