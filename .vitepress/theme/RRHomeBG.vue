@@ -21,7 +21,7 @@ const props = defineProps({
   --bg-img-width: 1407px;
   --max-content-width: 1152px;
   --max-content-margin: calc(calc(100vw - var(--max-content-width)) * .5);
-  --bg-img-box-shadow: var(--vp-c-bg);
+  --bg-img-box-shadow: inset 0 0 8px 8px var(--vp-c-bg);
   position: fixed;
   width: 100%;
   margin-top: var(--vp-nav-height);
