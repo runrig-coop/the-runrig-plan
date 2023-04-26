@@ -176,12 +176,15 @@ const props = defineProps({
   }
   52.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   60% {
     transform: translate(-40%, -20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -205,12 +208,15 @@ const props = defineProps({
   }
   52.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   60% {
     transform: translate(40%, -20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -234,12 +240,15 @@ const props = defineProps({
   }
   52.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   60% {
     transform: translate(40%, 20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -257,12 +266,15 @@ const props = defineProps({
   }
   52.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   60% {
     transform: translate(-40%, 20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   90% {
     opacity: 1;
@@ -367,13 +379,16 @@ const props = defineProps({
   }
   50% {
     opacity: 1;
+    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
     transform-origin: 25% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   75% {
     transform: translate(-40%, -20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -394,13 +409,16 @@ const props = defineProps({
   }
   48% {
     opacity: 1;
+    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
     transform-origin: 75% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   75% {
     transform: translate(40%, -20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -421,13 +439,16 @@ const props = defineProps({
   }
   30% {
     opacity: 1;
+    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
     transform-origin: 75% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   75% {
     transform: translate(40%, 20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -445,13 +466,16 @@ const props = defineProps({
   }
   25% {
     opacity: 1;
+    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
     transform-origin: 25% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   75% {
     transform: translate(-40%, 20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   90% {
     opacity: 1;
@@ -551,12 +575,15 @@ const props = defineProps({
   }
   62.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   70% {
     transform: translate(-40%, -20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   90% {
     opacity: .5;
@@ -583,12 +610,15 @@ const props = defineProps({
   }
   62.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 25%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   70% {
     transform: translate(40%, -20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -609,12 +639,15 @@ const props = defineProps({
   }
   62.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   70% {
     transform: translate(40%, 20%) rotate(15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;
@@ -632,12 +665,15 @@ const props = defineProps({
   }
   62.5% {
     transform: translate(0, 0);
+    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 75%;
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   70% {
     transform: translate(-40%, 20%) rotate(-15deg);
+    box-shadow: inset 0 0 0px 0px transparent;
   }
   90% {
     opacity: 1;
