@@ -107,8 +107,16 @@ outline:
 - Copyfair licensing
 - Fiduciary obligations
 - Grant/revoke proxy rights
+- Broader juridico-political issues
+  - from the [data asymmetries] exploited by Big Tech to the [asymmetric
+    information] leveraged by global finance
+  - the efficacy of contract law and legislative reform vs. direct action and
+    more militant tactics
 
 :::
+
+[data asymmetries]: https://blog.ldodds.com/2017/03/24/what-is-data-asymmetry/
+[asymmetric information]: https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/
 
 ### Main Legal Entities Constituting the Runrig System
 1. A __data cooperative__ or __data trust__, likely incorporated as a
