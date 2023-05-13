@@ -96,6 +96,53 @@ This rest of this section is still in draft. Provisional outline:
 
 :::
 
+### Class Struggle Cooperativism
+In Cooperation Jackson's May 1, 2023 article, ["Building Class Conscious
+Cooperatives"], Kali Akuno lays out five "Basic Principles of Class Struggle or
+Class Conscious Cooperatives":
+
+> 1. Serving as instruments of working class self-organization, with the aim and
+>    objective of enabling the working class to own and control the fundamental
+>    means of production to enable the democratization of society and the
+>    regeneration of the earth’s ecosystems through coordinated planning to
+>    produce the use-value oriented instruments and necessities needed to
+>    improve the overall quality of life of the vast majority of the earth’s
+>    inhabitants within the ecological and material limitations of our precious
+>    planet. 
+> 2. Engaging in active solidarity with other workers, worker formations, and
+>    workers self-organizing campaigns and initiatives towards the objectives of
+>    helping them become self-directed, democratic institutions committed to the
+>    socialization of production, the democratization of society, and the
+>    regeneration of the earth’s ecosystems. 
+> 3. Demonstrating the principle of non-competition with and between other
+>    workers. We need to be clear that when and where we compete has to be
+>    directed against capital and its representatives to deliberately break
+>    capital’s domination over the means of production and the relations of
+>    production. On a practical level, this type of competition must entail
+>    supporting the organizing initiatives of the workers in the firms we are
+>    struggling against to help them unionize and take over the enterprise and
+>    turn it into a worker cooperative. These worker cooperatives must be
+>    willing and able to become social production enterprises willing to engage
+>    in participatory planning processes to manage the economy. 
+> 4. Encouraging all existing unions, worker centers, and other worker
+>    formations to organize themselves to seize (socialize) the means of
+>    production by converting their workplaces into cooperatives or commons or
+>    social based sites of production, and support them with training materials,
+>    resource mobilization, mutual aid, consultative advice, and strategic
+>    deployment when and where necessary. 
+> 5. Organizing the un and under organized sectors of the working class, who
+>    constitute the vast majority of the class, particularly in the US, into
+>    vehicles of self organization that best fit their local conditions and
+>    enable them to engage successfully in the class struggle at every
+>    progressive stage of our development and scale of deployment. 
+
+It may be good to refer to these principles here or elsewhere in the Runrig
+Plan.
+
+["Building Class Conscious Cooperatives"]:
+    https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
+
+
 ## Legal Rights & Agreements
 :::warning DRAFT NOTE
 
