@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20230624T140000
+DTEND;TZID=America/New_York:20230624T160000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=2;BYDAY=SA
+DTSTAMP:20230620T183308Z
+ORGANIZER;CN=GOAT Community Calendar:mailto:t2iojl45dfctel3jio6uqg46ss@grou
+ p.calendar.google.com
+UID:02vspjoq31ep0bnfr84e3mh5uk@google.com
+X-MICROSOFT-CDO-OWNERAPPTID:207365120
+CREATED:20230611T185544Z
+DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>Work
+ shop info:<br><a href="https://github.com/runrig-coop/open-design-workshops
+ ">https://github.com/runrig-coop/open-design-workshops</a><br><br>For gener
+ al info about Runrig:<br><a href="https://runrig.org">https://runrig.org</a>
+LAST-MODIFIED:20230620T183307Z
+LOCATION:https://meet.mayfirst.org/runrig-open-design-workshop
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Runrig Open Design Workshops
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
