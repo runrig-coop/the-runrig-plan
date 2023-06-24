@@ -53,7 +53,7 @@ const ctaButtons = [
   {
     theme: 'alt',
     text: 'Get Involved',
-    link: '/contact',
+    link: '/get-involved',
   },
 ];
 </script>
@@ -153,7 +153,7 @@ const ctaButtons = [
             activists, tech workers and other individuals as coop members. Over
             the coming months, we will be hosting open design calls and other
             events, and will post the calendar and other updates once available,
-            so check back here or <a href="/contact">sign up</a>
+            so check back here or <a href="/get-involved">sign up</a>
             to be notified by email. 
           </p>
           <p class="text vp-doc">

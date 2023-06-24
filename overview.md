@@ -389,6 +389,6 @@ governance structures and legal considerations.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-[sign up]: ./contact.md
+[sign up]: ./get-involved.md
 ["Architecture"]: ./architecture.md
 ["Ecology"]: ./ecology.md
