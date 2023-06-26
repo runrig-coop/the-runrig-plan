@@ -25,7 +25,7 @@ sessions arising whenever it seems appropriate. Currently, workshops are held
 __every other Saturday at 2pm Eastern__. See the [event schedule] for upcoming
 dates and info on how to join.
 
-Activities may include:
+For more details on the projects we're currently working on at these workshops, checkout out the [workshop directory]. Specific activities may include:
 
 - Group learning and knowledge production, from the study groups, documentation
   efforts, cataloging and assessing existing tools, drafting standard operating
@@ -43,10 +43,10 @@ Activities may include:
 With each Runrig project, we intend to provide users with carefully designed
 tools that can help bridge existing software platforms to meet their specific
 needs, while helping to improve the overall ecosystem of open technology. At the
-same time, we strive to make each of our outputs more than just a
-proof-of-concept or a prototype, but rather a targeted, production-ready
-intervention that delivers immediate gains for farmers and other food workers
-working in the field today.
+same time, we strive to make each application more than just a proof-of-concept
+or a prototype, but rather a targeted, production-ready intervention that
+delivers immediate gains for farmers and other food workers working in the field
+today.
 
 To that end, we invite any and all farmers, designers, food workers, engineers,
 students, activists, legal experts, policy wonks, fellow travelers and curious
@@ -55,6 +55,7 @@ are especially encouraged to join and let us know ways we can complement and
 contribute to their projects.
 
 [event schedule]: #event-schedule
+[workshop directory]: https://github.com/runrig-coop/open-design-workshops
 [Agile Manifesto]: https://agilemanifesto.org/
 [Toyota Production System]:
     https://global.toyota/en/company/vision-and-philosophy/production-system/
