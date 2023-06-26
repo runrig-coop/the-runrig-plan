@@ -178,17 +178,17 @@ const ctaButtons = [
 </template>
 
 <style>
-.rr-home .text {
+.rr-home section .text {
   max-width: 42em;
   margin-bottom: 32px;
 }
 @media (min-width: 640px) {
-  .rr-home .text {
+  .rr-home section .text {
     max-width: 36em;
   }
 }
 @media (min-width: 960px) {
-  .rr-home .text {
+  .rr-home section .text {
     max-width: 39em;
   }
 }
