@@ -51,16 +51,51 @@ const events = data.reduce((evts, { event, next100 = [], rules }) => {
 </script>
 
 <template>
-  <div v-for="(evt, i) in events" :key="`event-${i}`">
-    <h2>{{ evt.title }}</h2>
-    <h4 v-if="evt.upcoming.length > 0">Next session: {{ evt.upcoming[0] }}</h4>
-    <h4 v-if="evt.repeats !== ''">Repeats: {{ evt.repeats }}</h4>
-    <h4 v-if="evt.start !== ''">Starts: {{ evt.start }}</h4>
-    <h4 v-if="evt.end !== ''">Ends: {{ evt.end }}</h4>
-    <p><span v-html="evt.description"></span></p>
+  <div class="event-container">
+    <div v-for="(evt, i) in events" :key="`event-${i}`" class="event">
+      <h3>{{ evt.title }}</h3>
+      <ul>
+        <li v-if="evt.upcoming">
+          Next session: {{ evt.upcoming[0] }}, {{ evt.start || null }}
+        </li>
+        <li v-if="evt.repeats">
+          Repeats: {{ evt.repeats }}
+        </li>
+        <li v-if="evt.location">
+          Join:&nbsp;<a :href="evt.location" target="_blank">{{ evt.location }}</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  padding: 16px;
+  border-radius: 8px;
+}
 
+.event {
+  flex: auto;
+  background-color: var(--vp-c-green-dimm-2);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.event:last-child {
+  margin-bottom: 0;
+}
+
+.event h3 {
+  margin-top: 0;
+}
+
+.event ul {
+  list-style: none;
+  padding-left: 0;
+}
 </style>
