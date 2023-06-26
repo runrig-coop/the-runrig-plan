@@ -14,7 +14,7 @@ import RRIconMatrix from './RRIconMatrix.vue';
         text="#runrig-coop:matrix.org"
         href="https://matrix.to/#/#runrig-space:matrix.org">
         <template #before-text>
-          <RRIconMatrix/>
+          <RRIconMatrix theme="brand"/>
         </template>
       </RRButton>
     </div>
@@ -26,7 +26,7 @@ import RRIconMatrix from './RRIconMatrix.vue';
         text="#design-tech-incubator"
         href="https://discord.gg/HvXdzdeaW9">
         <template #before-text>
-          <RRIconDiscord/>
+          <RRIconDiscord theme="alt"/>
         </template>
       </RRButton>
     </div>
