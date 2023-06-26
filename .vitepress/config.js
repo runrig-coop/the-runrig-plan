@@ -47,9 +47,15 @@ export default defineConfig({
     siteTitle: title,
     logo,
     nav: [
-      { text: 'Overview', link: '/overview' },
-      { text: 'Ecology', link: '/ecology' },
-      { text: 'Architecture', link: '/architecture' },
+      {
+        text: 'The Plan',
+        items: [
+          { text: 'Overview', link: '/overview' },
+          { text: 'Ecology', link: '/ecology' },
+          { text: 'Architecture', link: '/architecture' },
+        ],
+      },
+      { text: 'Get Involved', link: '/get-involved' },
     ],
   },
   markdown: {
