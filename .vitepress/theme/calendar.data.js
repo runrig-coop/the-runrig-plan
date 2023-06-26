@@ -21,15 +21,22 @@ export default {
         organizer, uid, attendees,
       } = event;
 
-      const recur = event.iterator(ICAL.Time.now());
+      const recur = event.iterator();
       const rules = new ICAL.Recur(recur.toJSON()).ruleIterators;
 
+      // 100 events may be overkill, but this list is generated only during
+      // the build process and won't be updated until a new production build
+      // is triggered. The calendar component will further filter stale dates
+      // at render, and will make the final decision on how many to display.
       const next100 = [];
+      const now = Date.now();
       let i = 0;
       while (i < 100) {
         const next = recur.next();
-        next100.push(fmtDate(next));
-        i += 1;
+        if (next.toJSDate().valueOf() > now) {
+          next100.push(fmtDate(next));
+          i += 1;
+        }
       }
 
       return {
