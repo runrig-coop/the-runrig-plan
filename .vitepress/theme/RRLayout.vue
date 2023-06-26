@@ -151,10 +151,11 @@ const ctaButtons = [
             partnerships and collaborations with similarly aligned
             organizations, and very soon hope to begin recruiting farmers,
             activists, tech workers and other individuals as coop members. Over
-            the coming months, we will be hosting open design calls and other
-            events, and will post the calendar and other updates once available,
-            so check back here or <a href="/get-involved">sign up</a>
-            to be notified by email. 
+            the coming months, we will be hosting workshops and other events
+            that are open to all to join. The <a href="/get-involved#event-schedule">
+            event schedule</a> will be updated periodically so check back here or
+            <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
+            for our newsletter to be notified by email. 
           </p>
           <p class="text vp-doc">
             The Runrig Plan is a living document that describes the main design
