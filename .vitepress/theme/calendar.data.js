@@ -4,8 +4,15 @@ import ICAL from 'ical.js';
 // Convert to UTC (ie, Unix timestamp) because this will be generated at build-
 // time and may differ across platforms. The RRCalendar component will format
 // the final date string in the user's browser.
-function toUTC(time) {
-  return time.toJSDate().valueOf();
+function toUTC(time, tz) {
+  if (time instanceof ICAL.Time) {
+    const iTime = tz && tz.tzid ? time.convertToZone(tz) : time;
+    return iTime.toUnixTime() * 1000;
+  }
+  if (time instanceof Date) {
+    return time.valueOf();
+  }
+  return NaN;  
 }
 
 export default {
@@ -15,14 +22,17 @@ export default {
     return rawICS.map((ics) => {
       const jCalData = ICAL.parse(ics);
       const comp = new ICAL.Component(jCalData);
+
+      const vtz = comp.getFirstSubcomponent('vtimezone');
+      const tz = new ICAL.Timezone(vtz);
+
       const vevent = comp.getFirstSubcomponent('vevent');
       const event = new ICAL.Event(vevent);
-
       const {
-        summary, description, location,
-        startDate, endDate,
-        organizer, uid, attendees,
+        summary, description, location, organizer, uid, attendees,
       } = event;
+      const startDate = toUTC(event.startDate, tz);
+      const endDate = toUTC(event.endDate, tz);
 
       const recur = event.iterator();
       const rules = new ICAL.Recur(recur.toJSON()).ruleIterators;
@@ -35,7 +45,7 @@ export default {
       const now = Date.now();
       let i = 0;
       while (i < 100) {
-        const next = toUTC(recur.next());
+        const next = toUTC(recur.next(), tz);
         if (next > now) {
           next100.push(next);
           i += 1;
@@ -45,7 +55,7 @@ export default {
       return {
         event: {
           summary, description, location,
-          startDate: toUTC(startDate), endDate: toUTC(endDate),
+          startDate, endDate, timezone: tz.toString(),
           organizer, uid, attendees,
         },
         rules,
