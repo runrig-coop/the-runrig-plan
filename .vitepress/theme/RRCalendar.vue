@@ -1,7 +1,7 @@
 <script setup>
 import { data } from './calendar.data.js';
 
-const fmtTime = (iso) => new Date(iso).toLocaleTimeString(undefined, {
+const fmtTime = (utc) => new Date(utc).toLocaleTimeString(undefined, {
   hour: 'numeric',
   minute: 'numeric',
   timeZoneName: 'short',

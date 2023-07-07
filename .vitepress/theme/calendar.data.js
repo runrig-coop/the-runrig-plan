@@ -1,8 +1,11 @@
 import fs from 'node:fs';
 import ICAL from 'ical.js';
 
-function fmtDate(time) {
-  return time.toJSDate().toISOString();
+// Convert to UTC (ie, Unix timestamp) because this will be generated at build-
+// time and may differ across platforms. The RRCalendar component will format
+// the final date string in the user's browser.
+function toUTC(time) {
+  return time.toJSDate().valueOf();
 }
 
 export default {
@@ -32,9 +35,9 @@ export default {
       const now = Date.now();
       let i = 0;
       while (i < 100) {
-        const next = recur.next();
-        if (next.toJSDate().valueOf() > now) {
-          next100.push(fmtDate(next));
+        const next = toUTC(recur.next());
+        if (next > now) {
+          next100.push(next);
           i += 1;
         }
       }
@@ -42,7 +45,7 @@ export default {
       return {
         event: {
           summary, description, location,
-          startDate: fmtDate(startDate), endDate: fmtDate(endDate),
+          startDate: toUTC(startDate), endDate: toUTC(endDate),
           organizer, uid, attendees,
         },
         rules,
