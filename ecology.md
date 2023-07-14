@@ -111,16 +111,16 @@ outline:
 :::
 
 ### Main Legal Entities Constituting the Runrig System
-1. A __data cooperative__, likely incorporated as a non-profit, whose members
-   are users of the global data provider. They can join through a service
-   platform authorized to provision that storage on the user's behalf, or by
-   directly provisioning space on the data provider themselves. The data coop
-   will have legal custody of the data provider's main servers, but may contract
-   the administration and maintenance of those servers to the worker coop
-   (described in #2 below). It may also hold the licenses to Runrig's core
-   software modules, trademarks, etc., though that could also be delegated to a
-   conservancy, such as the Software Freedom Conservancy or the Commons
-   Conservancy.
+1. A __data cooperative__ or __data trust__, likely incorporated as a
+   non-profit, whose members are users of the global data provider. They can
+   join through a service platform authorized to provision that storage on the
+   user's behalf, or by directly provisioning space on the data provider
+   themselves. The data coop will have legal custody of the data provider's main
+   servers, but may contract the administration and maintenance of those servers
+   to the worker coop (described in #2 below). It may also hold the licenses to
+   Runrig's core software modules, trademarks, etc., though that could also be
+   delegated to a conservancy, such as the Software Freedom Conservancy or the
+   Commons Conservancy.
 2. A __worker cooperative__ of engineers, designers and system administrators,
    responsible for the main data provider and core services, under contract to
    the data cooperative. It is also responsible for maintaining the free
