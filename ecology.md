@@ -110,45 +110,6 @@ outline:
 
 :::
 
-### Intellectual Usufruct Rights
-There is prevalent yet false impression about data, that it is a form of
-intellectual property, and that ownership or certain legal entitlements pertain
-to data the same way they do to creative works, software and real property.
-Feist v Rural Telephone, GDPR, etc, etc.
-
-___ejidos digitales___
-
-...like water rights, but for the flow of data; or collective land management,
-but for network infrastructure and compute resources. 
-
-### Service-level Agreements
-All of this necessitates that care is taken when drafting the terms of service
-and other service-level agreements, both between storage providers and regional
-platforms, and between regional platforms and individual users.
-
-#### Transferral of Rights & Responsibilities
-There are some potential issues when it comes to how storage and access rights,
-payment accounts and other privileges and obligations can be transferred between
-parties of various membership classes.
-
-For instance, let's say a user joins the data coop through a service platform
-that pays a significant amount for that user's storage space and access on the
-data provider (for instance, for hi-res satellite imagery or other large media
-files). What happens when the user decides to leave the service platform?
-
-There are many ways to go about this, but some possible options that could be
-given to the user at that time:
-
-- Export and delete their data from the data provider.
-- Transfer of payment authorization to another service or to the data coop
-  itself, which could continue billing the user without any interruption of
-  service or costly migrations.
-- Offer free storage and access of their data in exchange for contributing it to
-  the public domain, or participating in an anonymized public research project,
-  with costs to the data coop offset by relevant research funding.
-- Set up an application for "solidarity credits" to host a certain storage limit
-  for a given period of time for reduced cost or free of charge.
-
 ### Main Legal Entities Constituting the Runrig System
 1. A __data cooperative__, likely incorporated as a non-profit, whose members
    are users of the global data provider. They can join through a service
@@ -204,6 +165,45 @@ given to the user at that time:
 4. __Community Members:__ Trusted supporters and advisors from the community,
    who may wish to participate in member assemblies and activities, but no
    voting rights or other privileges, so more symbolic than anything else.
+
+### Service-level Agreements
+All of this necessitates that care is taken when drafting the terms of service
+and other service-level agreements, both between storage providers and regional
+platforms, and between regional platforms and individual users.
+
+#### Transferral of Rights & Responsibilities
+There are some potential issues when it comes to how storage and access rights,
+payment accounts and other privileges and obligations can be transferred between
+parties of various membership classes.
+
+For instance, let's say a user joins the data coop through a service platform
+that pays a significant amount for that user's storage space and access on the
+data provider (for instance, for hi-res satellite imagery or other large media
+files). What happens when the user decides to leave the service platform?
+
+There are many ways to go about this, but some possible options that could be
+given to the user at that time:
+
+- Export and delete their data from the data provider.
+- Transfer of payment authorization to another service or to the data coop
+  itself, which could continue billing the user without any interruption of
+  service or costly migrations.
+- Offer free storage and access of their data in exchange for contributing it to
+  the public domain, or participating in an anonymized public research project,
+  with costs to the data coop offset by relevant research funding.
+- Set up an application for "solidarity credits" to host a certain storage limit
+  for a given period of time for reduced cost or free of charge.
+
+### Intellectual Usufruct Rights
+There is prevalent yet false impression about data, that it is a form of
+intellectual property, and that ownership or certain legal entitlements pertain
+to data the same way they do to creative works, software and real property.
+Feist v Rural Telephone, GDPR, etc, etc.
+
+___ejidos digitales___
+
+...like water rights, but for the flow of data; or collective land management,
+but for network infrastructure and compute resources. 
 
 ### Data Cooperatives & Fiduciary Obligations
 :::warning DRAFT NOTE
