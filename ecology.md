@@ -194,16 +194,38 @@ given to the user at that time:
 - Set up an application for "solidarity credits" to host a certain storage limit
   for a given period of time for reduced cost or free of charge.
 
-### Intellectual Usufruct Rights
-There is prevalent yet false impression about data, that it is a form of
+### Informational Usufruct Rights
+:::warning DRAFT NOTE
+
+These are some loose thoughts that first came up at the [GOAT 2022 session on
+Data Policy] but still need to be refined.
+
+:::
+
+There is a prevalent yet false impression about data, that it is a form of
 intellectual property, and that ownership or certain legal entitlements pertain
 to data the same way they do to creative works, software and real property.
 Feist v Rural Telephone, GDPR, etc, etc.
 
-___ejidos digitales___
+Can __intellectual property rights__ be reframed as __informational [usufruct]
+rights__? Such rights can then be governed in terms of who is granted access
+(_usus_) to that information, which can constitute either a creative work or
+data set, as well as its derivatives (_fructus_); however, exclusive rights to
+[alienation] (_abusus_) will be rejected, except in the case of [personal data
+as defined by the GDPR]. Care should also be given to ensure that all
+rightsholders enjoy an equal capability to make full use of such information as
+they please.
+
+#### _Ejidos digitales_
 
 ...like water rights, but for the flow of data; or collective land management,
 but for network infrastructure and compute resources. 
+
+[GOAT 2022 session on Data Policy]:
+    https://forum.goatech.org/t/session-data-policy/1294
+[usufruct]: https://en.wikipedia.org/wiki/Usufruct
+[alienation]: https://en.wikipedia.org/wiki/Alienation_(property_law)
+[personal data as defined by the GDPR]: https://gdpr-info.eu/art-4-gdpr/
 
 ### Data Cooperatives & Fiduciary Obligations
 :::warning DRAFT NOTE
