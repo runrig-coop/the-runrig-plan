@@ -1,6 +1,47 @@
 <script setup>
+import { onMounted } from 'vue';
+import quadNW from './assets/open_field_system_quadrant_northwest.png';
+import quadNE from './assets/open_field_system_quadrant_northeast.png';
+import quadSE from './assets/open_field_system_quadrant_southeast.png';
+import quadSW from './assets/open_field_system_quadrant_southwest.png';
+
 const props = defineProps({
   isDark: Boolean,
+});
+
+/**
+ * FADE-IN BACKGROUND IMAGES
+ * The background images are quite large and a better 'Cache-Control' value is
+ * needed in vercel.json to optimize how they're cached, but even then, they may
+ * be slow to load. So they are hidden by a masking div until all 4 quadrants
+ * are fully loaded, then uncovered by transitioning the mask's opacity to zero with
+ * with a 1 second eased duration to make it less jarring.
+ */
+const fourWinds = [
+  { name: 'northwest', src: quadNW },
+  { name: 'northeast', src: quadNE },
+  { name: 'southeast', src: quadSE },
+  { name: 'southwest', src: quadSW },
+];
+onMounted(() => {
+  let loaded = 0;
+  const mask = document.querySelector('.rr-home-bg-img-mask');
+  mask.classList.add('cover');
+  function uncover() {
+    mask.classList.remove('cover');
+    mask.classList.add('uncover');
+  };
+  fourWinds.forEach(({ src, name }) => {
+    const img = new Image();
+    img.addEventListener('load', () => {
+      loaded += 1;
+      const className = `.quadrant-${name}`;
+      const quad = document.querySelector(className);
+      quad.style.backgroundImage = `url("${src}")`; 
+      if (loaded >= 4) uncover();
+    });
+    img.src = src;
+  });
 });
 </script>
 
@@ -12,6 +53,7 @@ const props = defineProps({
       <div class="quadrant-southeast"></div>
       <div class="quadrant-southwest"></div>
     </div>
+    <div class="rr-home-bg-img-mask"></div>
   </div>
 </template>
 
@@ -25,6 +67,25 @@ const props = defineProps({
   position: fixed;
   width: 100%;
   margin-top: var(--vp-nav-height);
+}
+
+/* BACKGROUND IMAGE MASK & FADE TRANSITIONS */
+.rr-home-bg-img-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--vp-c-bg);
+}
+.rr-home-bg-img-mask.cover {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.rr-home-bg-img-mask,
+.rr-home-bg-img-mask.uncover {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 /**
@@ -53,12 +114,6 @@ const props = defineProps({
     background-position-y: 0;
     box-shadow: var(--bg-img-box-shadow);
     opacity: 1;
-  }
-  .quadrant-northwest {
-    background-image: url('./assets/open_field_system_quadrant_northwest.png');
-  }
-  .quadrant-northeast {
-    background-image: url('./assets/open_field_system_quadrant_northeast.png');
   }
 }
 
@@ -93,7 +148,6 @@ const props = defineProps({
     box-shadow: var(--bg-img-box-shadow);
   }
   .quadrant-northwest {
-    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -101,7 +155,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -109,7 +162,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -117,7 +169,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-640 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -297,7 +348,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northwest {
-    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -305,7 +355,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -313,7 +362,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -321,7 +369,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-960 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -498,7 +545,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northwest {
-    background-image: url('./assets/open_field_system_quadrant_northwest.png');
     animation: scroll-quadrant-northwest-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -506,7 +552,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-northeast {
-    background-image: url('./assets/open_field_system_quadrant_northeast.png');
     animation: scroll-quadrant-northeast-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -514,7 +559,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southeast {
-    background-image: url('./assets/open_field_system_quadrant_southeast.png');
     animation: scroll-quadrant-southeast-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -522,7 +566,6 @@ const props = defineProps({
     animation-fill-mode: both;
   }
   .quadrant-southwest {
-    background-image: url('./assets/open_field_system_quadrant_southwest.png');
     animation: scroll-quadrant-southwest-1152 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
