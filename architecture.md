@@ -14,8 +14,16 @@ Provisional outline:
 ## System Characteristics
 - End-to-end semantics
   - Lawrence Lessig's 2001 Frey Lecture at Duke University, ["The Architecture of Innovation"](https://scholarship.law.duke.edu/dlj/vol51/iss6/2/)
-- Design for autonomy across the entire OSI model
-  - Andre Staltz, ["A Plan to Rescue the Web from the Internet"](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html)
+- Design for autonomy across the entire stack
+  - Andre Staltz: ["A Plan to Rescue the Web from the Internet"](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html) and ["The Decentralized Web" (video)](https://www.youtube.com/watch?v=izQFMADw70w&t=560s)
+    - We've hard-coded the Internet's stack (TCP, IPv4, HTTP, etc)
+    - Rebuild the OSI Model with new protocols (Dat/Hypercore, IPFS, etc)
+  - Bluesky's ["Decentralized Ecosystem: Overview"](https://gitlab.com/bluesky-community1/decentralized-ecosystem/-/blob/ab63b57f13ddea7f4adacf041d3f8c392c73bfdb/README.md)
+  - Rich Hickey's 2012 Clojure/Conj talk, ["The Language of the System"](https://github.com/matthiasn/talk-transcripts/blob/d644becd0f4eebb3a165a63b3bdf1e8d6b881d33/Hickey_Rich/LanguageSystem.md)
+    - Application Stack vs. System Stack
+    - Protocols (eg, TCP, UDP, HTTP, Web Sockets, etc) as the language primitives for the entire system
+    - Self-describing data formats with _in-band_ schema definitions (XML, Avro, EDN), also as system primitives
+    - Simple System Services (eg, Redis, S3, Riak, Apache Storm & ZooKeeper) as the core or standard libraries and runtime for the system
 - Data Independence: "a clear separation is enforced between the logical data
 and its physical representation" (Moseley & Marks)
   - E.F. Codd, ["A relational model of data for large shared data
