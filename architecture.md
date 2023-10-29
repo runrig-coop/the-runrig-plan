@@ -1,7 +1,8 @@
 # Appendix: Architecture
 :::warning DRAFT NOTE
 
-This page is still in a _very_ early stage of draft, mostly scattered notes, links and references.
+This page is still in a _very_ early stage of draft, mostly scattered notes,
+links and references.
 
 Provisional outline:
 - Data Provider
@@ -48,8 +49,7 @@ other considerations...
 - auth flows
 
 ### Why Solid?
-As described in Solid Project's
-documentation:
+As described in Solid Project's documentation:
 
 > One of the core ideas behind Solid is to make __data__ independent from
 > __applications__, so that one can be in control of his/her own data and share
