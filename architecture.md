@@ -16,7 +16,30 @@ Provisional outline:
   - Lawrence Lessig's 2001 Frey Lecture at Duke University, ["The Architecture of Innovation"](https://scholarship.law.duke.edu/dlj/vol51/iss6/2/)
 - Design for autonomy across the entire OSI model
   - Andre Staltz, ["A Plan to Rescue the Web from the Internet"](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html)
-- Rich Hickey's 2012 Clojure/Conj talk, ["The Language of the System"](https://github.com/matthiasn/talk-transcripts/blob/d644becd0f4eebb3a165a63b3bdf1e8d6b881d33/Hickey_Rich/LanguageSystem.md)
+- Data Independence: "a clear separation is enforced between the logical data
+and its physical representation" (Moseley & Marks)
+  - E.F. Codd, ["A relational model of data for large shared data
+    banks"](https://dl.acm.org/doi/10.1145/362384.362685)
+  - C.J. Date, [_An Introduction to Database Systems (8th
+    Edition)_](https://archive.org/details/introductiontoda0000date)
+    - [§1.5 "Data
+      Independence"](https://archive.org/details/introductiontoda0000date/page/n53/mode/2up)
+  - Ben Moseley and Peter Marks, ["Out of the
+    Tarpit"](https://www.recurse.com/blog/51-paper-of-the-week-out-of-the-tar-pit),
+    §8 "The Relational Model":
+    - > The relational model [Cod70] has — despite its origins — nothing
+      intrinsically to do with databases. Rather it is an elegant approach to
+      structuring data, a means for manipulating such data, and a mechanism for
+      maintaining integrity and consistency of state. These features are
+      applicable to state and data in any context.
+  - Patricia Sellinger, et al., ["Access path selection in a relational database
+    management system"](https://dl.acm.org/doi/10.1145/582095.582099)
+  - Mark Levene, ["The Nested Universal Relation Database
+    Model"](https://archive.org/details/nesteduniversalr0595leve)
+    - [§1.1 "Background and
+      Motivation"](https://archive.org/details/nesteduniversalr0595leve/page/1/mode/2up)
+    - [§2.3 "The Universal Relation
+      Model"](https://archive.org/details/nesteduniversalr0595leve/page/29/mode/2up)
 
 ## Data Provider
 ### Storage Provisioning
