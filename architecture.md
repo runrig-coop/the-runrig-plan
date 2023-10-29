@@ -12,6 +12,12 @@ Provisional outline:
 :::
 
 ## System Characteristics
+:::warning DRAFT NOTE
+
+The main points here warrant further evaluation and debate, to be sure, but eventually it would be nice to represent the agreed-upon system characteristics in a tabular format, preferably somewhere at the top of this appendix, while the details and citations should be integrated into the body text, across the relevant page sections.
+
+:::
+
 - End-to-end semantics
   - Lawrence Lessig's 2001 Frey Lecture at Duke University, ["The Architecture of Innovation"](https://scholarship.law.duke.edu/dlj/vol51/iss6/2/)
 - Design for autonomy across the entire stack
