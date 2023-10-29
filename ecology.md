@@ -97,6 +97,13 @@ This rest of this section is still in draft. Provisional outline:
 :::
 
 ### Class Struggle Cooperativism
+:::warning DRAFT NOTE
+
+It may be good to refer to these principles here or elsewhere in the Runrig
+Plan.
+
+:::
+
 In Cooperation Jackson's May 1, 2023 article, ["Building Class Conscious
 Cooperatives"], Kali Akuno lays out five "Basic Principles of Class Struggle or
 Class Conscious Cooperatives":
@@ -135,9 +142,6 @@ Class Conscious Cooperatives":
 >    vehicles of self organization that best fit their local conditions and
 >    enable them to engage successfully in the class struggle at every
 >    progressive stage of our development and scale of deployment. 
-
-It may be good to refer to these principles here or elsewhere in the Runrig
-Plan.
 
 ["Building Class Conscious Cooperatives"]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
