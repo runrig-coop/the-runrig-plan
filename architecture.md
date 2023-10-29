@@ -11,6 +11,13 @@ Provisional outline:
 
 :::
 
+## System Characteristics
+- End-to-end semantics
+  - Lawrence Lessig's 2001 Frey Lecture at Duke University, ["The Architecture of Innovation"](https://scholarship.law.duke.edu/dlj/vol51/iss6/2/)
+- Design for autonomy across the entire OSI model
+  - Andre Staltz, ["A Plan to Rescue the Web from the Internet"](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html)
+- Rich Hickey's 2012 Clojure/Conj talk, ["The Language of the System"](https://github.com/matthiasn/talk-transcripts/blob/d644becd0f4eebb3a165a63b3bdf1e8d6b881d33/Hickey_Rich/LanguageSystem.md)
+
 ## Data Provider
 ### Storage Provisioning
 It may also be helpful to structure storage costs in a way that a platform or
