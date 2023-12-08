@@ -332,8 +332,8 @@ feedback and other support. We're actively seeking partnerships and
 collaborations with similarly aligned organizations, and very soon hope to begin
 recruiting farmers, activists, tech workers and other individuals as coop
 members. Over the coming months, we will be hosting workshops and other events
-that are open to all to join. The [event schedule] will be updated periodically
-so check back here or [sign up] for our newsletter to be notified by email. 
+that are open to all to join. The event schedule will be updated periodically
+so check back [here] or [sign up] for our newsletter to be notified by email. 
 
 This plan is a living document that describes the main design principles of the
 social and ecological technologies we are building now and in the near future.
@@ -389,7 +389,7 @@ governance structures and legal considerations.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-[event schedule]: ./get-involved.md#event-schedule
+[here]: ./get-involved.md
 [sign up]: https://buttondown.email/runrig
 ["Architecture"]: ./architecture.md
 ["Ecology"]: ./ecology.md

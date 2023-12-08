@@ -1,4 +1,11 @@
 <script setup>
+/**
+ * TODO: This component and its related files (./calendar.data.js, /public/cal/**)
+ * is being removed on 2023-12-08 with the intention of updating them when a new
+ * event calendar is solidified. If this message is still here in 6 months and
+ * those changes still haven't happend, remove all of them as dead code.
+ */
+
 import { data } from './calendar.data.js';
 
 const fmtTime = (utc) => new Date(utc).toLocaleTimeString(undefined, {

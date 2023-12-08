@@ -152,8 +152,8 @@ const ctaButtons = [
             organizations, and very soon hope to begin recruiting farmers,
             activists, tech workers and other individuals as coop members. Over
             the coming months, we will be hosting workshops and other events
-            that are open to all to join. The <a href="/get-involved#event-schedule">
-            event schedule</a> will be updated periodically so check back here or
+            that are open to all to join. The event schedule will be updated
+            periodically so check back <a href="/get-involved">here</a> or
             <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
             for our newsletter to be notified by email. 
           </p>

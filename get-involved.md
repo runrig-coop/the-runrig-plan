@@ -15,15 +15,17 @@ in the Runrig Plan.
 ["ecology over architecture"]: ./overview.html#ecology-over-architecture
 
 ### Event Schedule
-<RRCalendar/>
+:::tip NOTICE
+
+A new schedule for Runrig events for December going into 2024 will be posted by Dec 15th at the latest.
+
+:::
 
 ## Open Design Workshops
 The Open Design Workshops are, for now at least, the main venue where both the
 Runrig community and its core technologies are taking shape. These informal
 sessions will be held on a regularly recurring basis, with some spontaneous
-sessions arising whenever it seems appropriate. Currently, workshops are held
-__every other Saturday at 2pm Eastern__. See the [event schedule] for upcoming
-dates and info on how to join.
+sessions arising whenever it seems appropriate.
 
 For more details on the projects we're currently working on at these workshops, checkout out the [workshop directory]. Specific activities may include:
 
@@ -54,7 +56,6 @@ onlookers to participate. Users and developers of other _libre_ software tools
 are especially encouraged to join and let us know ways we can complement and
 contribute to their projects.
 
-[event schedule]: #event-schedule
 [workshop directory]: https://github.com/runrig-coop/open-design-workshops
 [Agile Manifesto]: https://agilemanifesto.org/
 [Toyota Production System]:
