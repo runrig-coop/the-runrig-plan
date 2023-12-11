@@ -19,9 +19,9 @@ Feel free to jump to the sections most relevant to your interests:
   - Integrating with Other Apps & Services
   - Hosting Data & Services
 - [Building Community](#building-community)
-  - Documentation & outreach
-  - Workshops & training
-  - The Runrig Plan
+  - Workshops & Mutual Aid
+  - Education, Training & Research
+  - Documentation & Communication
 
 ## Lessons Learned in 2023
 Runrig got started in late-2022 first as a series of private journal entries and
