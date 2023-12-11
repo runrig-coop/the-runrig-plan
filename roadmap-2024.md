@@ -416,6 +416,24 @@ in the First Friday slot on January 5, 8am ET, but for that one I'm going reach
 out to a few folks first to see who is interested and what day/time is ideal for
 them.
 
+::: details Sample Agenda
+
+- 30 min before
+  - Office hours
+  - Mutual Aid Tech Support (MATS)
+- 5-10 min
+  - Check-in & Intros
+  - Project recap
+  - Goals for today
+- 40-50 min
+  - Main Agenda (project dependent)
+- 5-10 min
+  - Review progress & action items
+  - Agenda for next time
+  - Check-outs
+
+:::
+
 [GOAT Community Calendar]: https://goatech.org/calendar/
 [NixNix Events]: https://events.nixnet.services/
 [Mobilizon]: https://joinmobilizon.org/
