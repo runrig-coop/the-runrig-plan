@@ -27,7 +27,10 @@ Runrig community and its core technologies are taking shape. These informal
 sessions will be held on a regularly recurring basis, with some spontaneous
 sessions arising whenever it seems appropriate.
 
-For more details on the projects we're currently working on at these workshops, checkout out the [workshop directory]. Specific activities may include:
+## Other Events and Project Information
+For more details on the projects we're currently working on outside of these
+workshops, checkout out the [workshop directory]. Specific activities may
+include:
 
 - Group learning and knowledge production, from the study groups, documentation
   efforts, cataloging and assessing existing tools, drafting standard operating
