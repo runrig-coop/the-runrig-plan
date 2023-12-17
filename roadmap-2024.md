@@ -23,6 +23,13 @@ Feel free to jump to the sections most relevant to your interests:
   - Education, Training & Research
   - Documentation & Communication
 
+There will be a live-streamed & recorded presentation that covers this roadmap
+and what else lies ahead for Runrig in 2024 on __Friday, Jan 5, 2pm Eastern
+Time__. See the [event page] for calendar options and the call link, or find the
+live-stream and recording on the [Runrig YouTube Channel].
+
+[event page]: https://events.nixnet.services/events/a25c39b9-35dc-46c2-aab7-fd06cabc4a97
+
 ## Lessons Learned in 2023
 Runrig got started in late-2022 first as a series of private journal entries and
 one-on-one conversations with friends, then as a private GitHub repo labeled
@@ -392,7 +399,7 @@ I'll also keep a list of upcoming events posted here, as well as on the [GOAT
 Community Calendar] (via Google Calendar). I'm also trying out [NixNix Events],
 a federated instance of [Mobilizon], a social event planner made by [Framasoft]
 that supports the ActivityPub protocol. So you'll find all workshops posted in
-the [Runrig Workshops] group.
+the [Runrig Workshops Group].
 
 The workshop format will be a little different as well. Instead of 2-hour
 free-form events, there will be a one hour workshop and/or livestream event with
@@ -410,36 +417,14 @@ join we can shift to make it more participatory. I'll always try to leave time
 for introductions and check-ins/outs, and the main body of the agenda can always
 be adapted with group feedback in the time between one workshop and the next,
 based on what we're working on and who plans to attend. I'll try to post these
-to the Runrig YouTube Channel, too, so if people want to watch later they can.
-
-I'm scheduling sort of a kick-off event for the first workshop of 2024, possibly
-in the First Friday slot on January 5, 8am ET, but for that one I'm going reach
-out to a few folks first to see who is interested and what day/time is ideal for
-them.
-
-::: details Sample Agenda
-
-- 30 min before
-  - Office hours
-  - Mutual Aid Tech Support (MATS)
-- 5-10 min
-  - Check-in & Intros
-  - Project recap
-  - Goals for today
-- 40-50 min
-  - Main Agenda (project dependent)
-- 5-10 min
-  - Review progress & action items
-  - Agenda for next time
-  - Check-outs
-
-:::
+to the [Runrig YouTube Channel], too, so if people want to watch later they can.
 
 [GOAT Community Calendar]: https://goatech.org/calendar/
 [NixNix Events]: https://events.nixnet.services/
 [Mobilizon]: https://joinmobilizon.org/
 [Framasoft]: https://framasoft.org/
-[Runrig Workshops]: https://events.nixnet.services/@runrig_workshops
+[Runrig Workshops Group]: https://events.nixnet.services/@runrig_workshops
+[Runrig YouTube Channel]: http://www.youtube.com/@RunrigCoop
 
 ### Education, Training & Research
 Along with the mutual aid work, I want to expand this to do events with more of
