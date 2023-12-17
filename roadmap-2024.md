@@ -6,28 +6,29 @@ starting point, not just for the year 2024 but for each and every time we come
 together in community, and only for as long as we collectively choose not to
 plot another course.
 
-Feel free to jump to the sections most relevant to your interests:
+Here's the TL;DR of what's covered:
 
-- [Lessons Learned in 2023](#lessons-learned-in-2023)
-- [Three-Phase Business Plan](#three-phase-business-plan)
-  - _Phase One:_ __Middleware, a.k.a. "glue services"__
-  - _Phase Two:_ __The One-stop Platform Co-op Shop™️__
-  - _Phase Three:_ __One Big Data Co-op__ 🐈‍⬛
-  - _Phase Zero:_ __Reference Implementations__
-- [Projects for 2024](#projects-for-2024)
-  - Applications & Middleware
-  - Integrating with Other Apps & Services
-  - Hosting Data & Services
-- [Building Community](#building-community)
-  - Workshops & Mutual Aid
-  - Education, Training & Research
-  - Documentation & Communication
+- Acknowledgement of [some mistakes I've made] (and hopefully learned from) over
+  the last year.
+- A tentative [3-phase organizing model or "business plan"], or at least some
+  targets to nudge Runrig towards being more sustainable and not strictly
+  volunteer based.
+- An outline of [specific project, goals and stuff we can build in 2024], in
+  service of the previous point.
+- A new schedule and format for [workshops and other community building
+  activities].
+
+Feel free to jump to the sections most relevant to your interests.
 
 There will be a live-streamed & recorded presentation that covers this roadmap
 and what else lies ahead for Runrig in 2024 on __Friday, Jan 5, 2pm Eastern
 Time__. See the [event page] for calendar options and the call link, or find the
 live-stream and recording on the [Runrig YouTube Channel].
 
+[some mistakes I've made]: #lessons-learned-in-2023
+[3-phase organizing model or "business plan"]: #three-phase-business-plan
+[specific project, goals and stuff we can build in 2024]: #projects-for-2024
+[workshops and other community building activities]: #building-community
 [event page]: https://events.nixnet.services/events/a25c39b9-35dc-46c2-aab7-fd06cabc4a97
 
 ## Lessons Learned in 2023
