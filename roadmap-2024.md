@@ -25,11 +25,16 @@ and what else lies ahead for Runrig in 2024 on __Friday, Jan 5, 2pm Eastern
 Time__. See the [event page] for calendar options and the call link, or find the
 live-stream and recording on the [Runrig YouTube Channel].
 
+I'm also seeking feedback, suggestions, and other comments on this and Runrig
+more generally, which can be posted on the [GitHub Discussion] for this this
+roadmap.
+
 [some mistakes I've made]: #lessons-learned-in-2023
 [3-phase organizing model or "business plan"]: #three-phase-business-plan
 [specific project, goals and stuff we can build in 2024]: #projects-for-2024
 [workshops and other community building activities]: #building-community
 [event page]: https://events.nixnet.services/events/a25c39b9-35dc-46c2-aab7-fd06cabc4a97
+[GitHub Discussion]: https://github.com/orgs/runrig-coop/discussions/7
 
 ## Lessons Learned in 2023
 Runrig got started in late-2022 first as a series of private journal entries and
@@ -92,6 +97,7 @@ void, at least most weeks. And that's cool, but to make this a space where
 others not only feel welcome but have a sense of shared ownership, I think that
 takes a little more candor than I've been offering to date.
 
+<!-- TODO: rephrase this as "organizing model"? -->
 ## Three-Phase Business Plan
 In the preliminary draft of ["Appendix: Ecology" § "Main
 Legal Entities Constituting the Runrig System"] in _The Runrig Plan_, I outlined 3 types of legal

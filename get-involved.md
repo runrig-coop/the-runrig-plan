@@ -95,8 +95,8 @@ where people can join half an hour early for more informal chat and Q&A.
 
 ## Other Events and Project Information
 For more details on the projects we're currently working on outside of these
-workshops, checkout out the [workshop directory]. Specific activities may
-include:
+workshops, checkout out our GitHub [repositories] and [discussions]. Specific
+activities may include:
 
 - Group learning and knowledge production, from the study groups, documentation
   efforts, cataloging and assessing existing tools, drafting standard operating
@@ -125,7 +125,8 @@ onlookers to participate. Users and developers of other _libre_ software tools
 are especially encouraged to join and let us know ways we can complement and
 contribute to their projects.
 
-[workshop directory]: https://github.com/runrig-coop/open-design-workshops
+[repositories]: https://github.com/runrig-coop
+[discussions]: https://github.com/orgs/runrig-coop/discussions
 [Agile Manifesto]: https://agilemanifesto.org/
 [Toyota Production System]:
     https://global.toyota/en/company/vision-and-philosophy/production-system/
@@ -141,6 +142,7 @@ in the Runrig community. Sign up below if you wish to be notified by email.
 <RRNewsletterForm/>
 
 ## Chat
+<!-- TODO: add GOAT matrix and forum -->
 Whether you have general questions and suggestions, requests for mutual aid tech
 support, or just want to chat with folks in the community, you can join the
 Runrig [Matrix] room, or find us hanging out on the [Skywoman] Discord server's
