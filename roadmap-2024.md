@@ -2,7 +2,7 @@
 This roadmap is being presented in order to provide a more intentional,
 structured exposition of Runrig's short and long term goals. It is not, however,
 meant to be a static declaration of Runrig's purpose or motivations. It's a
-starting point, not just for this year as a whole but for each time we come
+starting point, not just for the year 2024 but for each and every time we come
 together in community, and only for as long as we collectively choose not to
 plot another course.
 
@@ -121,7 +121,7 @@ implemented in three corresponding phases:
 - _Phase One:_ __Middleware, a.k.a. "glue services"__
   - Targeted interventions that can catch the spillover of [`wontfix`] issues or
     otherwise unfulfilled feature requests from more mature FOSS projects, while
-    also providing reusable middleware and extensions to connect previously
+    also providing reusable [middleware] and extensions to connect previously
     incompatible APIs and services.
 - _Phase Two:_ __The One-stop Platform Co-op Shop™️__
   - Technical assistance and consulting for the deployment and administration of
@@ -156,6 +156,7 @@ implemented in three corresponding phases:
 
 [`wontfix`]:
     https://github.com/search?type=issues&q=label%3Aenhancement+label%3Awontfix+is%3Aclosed
+[middleware]: https://www.redhat.com/en/topics/middleware/what-is-middleware
 [data cooperative or trust]:
     https://www.adalovelaceinstitute.org/report/legal-mechanisms-data-stewardship/
 
@@ -369,12 +370,12 @@ Three_.
 It may be necessary to articulate a concrete program such as this in order to
 achieve Runrig's far-reaching goals, but I hope it will also invite new
 relationships, reinforce existing bonds, and strengthen the collaborative
-muscles required to make this a truly democratic project.
+muscles required to make this a truly democratic and sustainable project.
 
 ### Workshops & Mutual Aid
-The Open Design Workshops so far have been held biweekly on Saturdays, 2pm - 4pm
-ET. While the consistency has been nice, I'd like to try alternating the days
-and times a bit to provide more varied opportunities for people coming from
+The Open Design Workshops so far have been held biweekly on weekend afternoons.
+While the consistency has been nice, I'd like to try alternating the days and
+times a bit to provide more varied opportunities for people coming from
 different timezones or who have a recurring obligation that might conflict with
 a single time and day of the week. We can always change it, but for now I'm
 scheduling it as 3 one-hour sessions each month:
