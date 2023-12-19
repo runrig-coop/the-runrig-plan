@@ -53,6 +53,7 @@ export default defineConfig({
           { text: 'Overview', link: '/overview' },
           { text: 'Ecology', link: '/ecology' },
           { text: 'Architecture', link: '/architecture' },
+          { text: 'Roadmap 2024', link: '/roadmap-2024' },
         ],
       },
       { text: 'Get Involved', link: '/get-involved' },
