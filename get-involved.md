@@ -142,11 +142,11 @@ in the Runrig community. Sign up below if you wish to be notified by email.
 <RRNewsletterForm/>
 
 ## Chat
-<!-- TODO: add GOAT matrix and forum -->
 Whether you have general questions and suggestions, requests for mutual aid tech
 support, or just want to chat with folks in the community, you can join the
-Runrig [Matrix] room, or find us hanging out on the [Skywoman] Discord server's
-design and tech channel.
+Runrig [Matrix] room. Some of us can also be found on the
+`#design-tech-incubator` channel on [Skywoman]'s Discord server and the
+Discourse forum run by the Gathering for Open Agricultural Technology (GOAT).
 
 <script setup>
   import RRButtonGroupChat from './.vitepress/theme/RRButtonGroupChat.vue';

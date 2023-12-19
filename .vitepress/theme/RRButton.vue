@@ -142,8 +142,4 @@ const component = computed(() => {
 .after-text-container {
   margin-left: 4px;
 }
-.before-text-container :deep(svg),
-.after-text-container :deep(svg) {
-  height: 18px;
-}
 </style>
