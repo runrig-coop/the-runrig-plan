@@ -94,9 +94,11 @@ where people can join half an hour early for more informal chat and Q&A.
 [Runrig YouTube Channel]: http://www.youtube.com/@RunrigCoop
 
 ## Other Events and Project Information
-For more details on the projects we're currently working on outside of these
-workshops, checkout out our GitHub [repositories] and [discussions]. Specific
-activities may include:
+A more detailed view of the kinds of projects we're working on and where we're
+heading can be found in the [Runrig Roadmap for 2024]. You can also checkout out
+our GitHub [repositories] and [discussions] for the latest progress.
+
+In the future we'd like to diversify the types of events we host. Some examples of the kinds of activities that could broaden the base of participants:
 
 - Group learning and knowledge production, from the study groups, documentation
   efforts, cataloging and assessing existing tools, drafting standard operating
@@ -110,6 +112,9 @@ activities may include:
   distinct methodology, akin the [Agile Manifesto] or the [Toyota Production
   System], but in conscious opposition to the capitalistic assumptions
   underpinning those philosophies.
+
+If any of that sounds interesting or you have other suggestions, feel free to
+open a new thread in the GitHub [discussions] board.
 
 With each Runrig project, we intend to provide users with carefully designed
 tools that can help bridge existing software platforms to meet their specific

@@ -195,7 +195,7 @@ cooperative, it seems wise to delineate a _Phase Zero_, while we're still an
 entirely volunteer effort and prior to any financial transactions:
 
 - _Phase Zero:_ __Reference Implementations__
-  - Before taking any contracts or pursuing grants for the folllowing phases,
+  - Before taking any contracts or pursuing grants for the following phases,
     build out one or two reference implementations or proofs-of-concept to test
     the viability of the model at each phase of development; namely: 
     - [Local Applications & Middleware](#local-applications--middleware) (_Phase

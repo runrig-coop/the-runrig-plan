@@ -146,16 +146,22 @@ const ctaButtons = [
           </h1>
           <!-- Using vp-doc class for text-decoration on <a> tags -->
           <p class="text vp-doc">
-            Runrig is still in the early stages of formation, but we invite
-            constructive feedback and other support. We're actively seeking
-            partnerships and collaborations with similarly aligned
-            organizations, and very soon hope to begin recruiting farmers,
-            activists, tech workers and other individuals as coop members. Over
-            the coming months, we will be hosting workshops and other events
-            that are open to all to join. The event schedule will be updated
-            periodically so check back <a href="/get-involved">here</a> or
-            <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
-            for our newsletter to be notified by email. 
+            In the <a href="/roadmap-2024">Runrig Roadmap for 2024</a> we propose a
+            <a href="/roadmap-2024#three-phase-business-plan">3-phase business model</a>
+            for a workers' cooperative, which can then steward the development of
+            the platform cooperatives and eventually "One Big Data Co-op," à la
+            Bill Haywood and the Wobblies. Right now as a volunteer-driven group,
+            we're in _Phase Zero_. Before taking any contracts or pursuing grants
+            for the following phases, we're building out one or two
+            <a href="/roadmap-2024#projects-for-2024">reference implementations</a>
+            to test the viability of the model at each phase of development. We're
+            holding three open workshops each month, along with community chat rooms
+            and discussion boards, so anyone can <a href="/get-involved">get involved</a>.
+            As we progress, we're actively seeking partnerships and collaborations with
+            similarly aligned organizations, and eventually hope to recruit farmers,
+            food & tech workers and activists as coop members,
+            so <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
+            for our newsletter to receive occasional updates.
           </p>
           <p class="text vp-doc">
             The Runrig Plan is a living document that describes the main design
