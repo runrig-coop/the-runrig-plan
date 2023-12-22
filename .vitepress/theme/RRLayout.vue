@@ -151,8 +151,8 @@ const ctaButtons = [
             for a workers' cooperative, which can then steward the development of
             the platform cooperatives and eventually "One Big Data Co-op," à la
             Bill Haywood and the Wobblies. Right now as a volunteer-driven group,
-            we're in _Phase Zero_. Before taking any contracts or pursuing grants
-            for the following phases, we're building out one or two
+            we're in <em>Phase Zero</em>. Before taking any contracts or pursuing
+            grants for the following phases, we're building out one or two
             <a href="/roadmap-2024#projects-for-2024">reference implementations</a>
             to test the viability of the model at each phase of development. We're
             holding three open workshops each month, along with community chat rooms
