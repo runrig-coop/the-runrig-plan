@@ -232,7 +232,7 @@ context and to give a better sense of the potential for the years ahead.
 ### Local Applications & Middleware
 __Reference implementations for _Phase One_:__
 - [Early Warning System]
-- Furlong (providional name for a potential [system tray utility])
+- Furlong (provisional name for a potential [system tray utility])
 - [Projection Engine]
   - Dynamic Yield Coefficients (possible standalone lib)
 
