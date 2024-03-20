@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240301T080000
+DTEND;TZID=America/New_York:20240301T090000
+RRULE:FREQ=MONTHLY;BYDAY=1FR
+DTSTAMP:20240320T014253Z
+ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
+UID:7n84tvqal33r1gejdvf87cdgpl@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
+ TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
+X-MICROSOFT-CDO-OWNERAPPTID:122344474
+CREATED:20240320T013528Z
+DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>Work
+  shop info:<br><a href="https://github.com/runrig-coop/open-design-workshop
+ s"><u>https://github.com/runrig-coop/open-design-workshops</u></a><br><br><
+ br>Click the following link to join the meeting from your computer:<br><a h
+ ref="https://meet.mayfirst.org/runrig-open-design-workshop"><u><u>https://m
+ eet.mayfirst.org/runrig-open-design-workshop</u></u></a><br>For general inf
+ o about Runrig:<br><a href="https://runrig.org"><u>https://runrig.org</u></
+ a>
+LAST-MODIFIED:20240320T014251Z
+LOCATION:https://meet.mayfirst.org/runrig-open-design-workshop
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Runrig Open Workshop (1st Fri)
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
