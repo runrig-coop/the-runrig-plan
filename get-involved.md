@@ -15,28 +15,11 @@ in the Runrig Plan.
 ["ecology over architecture"]: ./overview.html#ecology-over-architecture
 
 ### Event Schedule
-Dates and times (Eastern Standard Times, GMT-5) for all upcoming events in
-January 2024:
+<RRCalendar/>
 
-| Description               | Date        | Time      |
-| :------------------------ | ----------: | :-------- |
-| Office Hours              | Fri, Jan 5  | 7:30am ET |
-| Open Design Workshop      | Fri, Jan 5  | 8am ET    |
-| [Runrig Roadmap for 2024] | Fri, Jan 5  | 2pm ET    |
-| Office Hours              | Sun, Jan 14 | 1:30pm ET |
-| Open Design Workshop      | Sun, Jan 14 | 2pm ET    |
-| Office Hours              | Thu, Jan 18 | 1:30pm ET |
-| Open Design Workshop      | Thu, Jan 18 | 2pm ET    |
+[Add to Google Calendar](https://www.google.com/calendar/render?cid=http://www.runrig.org/cal/2024.ics)
 
-<!--
-  TODO: Update this programmatically by updating RRCalendar.vue and the ICS
-  calendar event files in /public/cal/**/*.ics.
--->
-
-If you're reading this after January 2024 and it hasn't been updated or there's a mistake, [email Jamie]. 😉
-
-[Runrig Roadmap for 2024]: ./roadmap-2024
-[email Jamie]: mailto:jamie@jgaehring.com
+[Download ICS file](http://www.runrig.org/cal/2024.ics)
 
 ## Open Design Workshops
 The Open Design Workshops are the main venue where both the Runrig community and

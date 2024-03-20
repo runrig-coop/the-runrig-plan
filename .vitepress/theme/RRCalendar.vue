@@ -1,11 +1,4 @@
 <script setup>
-/**
- * TODO: All use of this component is being removed with the intention of
- * updating it once a new event calendar has been solidified. If this message is
- * still here after June 2024 and those changes haven't happend, delete this
- * and any related files (./calendar.data.js, /public/cal/**) as dead code.
- */
-
 import { data } from './calendar.data.js';
 
 const fmtTime = (utc) => new Date(utc).toLocaleTimeString(undefined, {
@@ -14,13 +7,14 @@ const fmtTime = (utc) => new Date(utc).toLocaleTimeString(undefined, {
   timeZoneName: 'short',
 });
 
-// This is a SUPER naive implementation here, but just enough for our current requirements.
-const fmtRepeats = (rules = [{}]) => {
-  const { rule: { byday = 'SA', freq = 'WEEKLY', interval = 2 } = {} } = rules[0];
-  if (interval < 1) return '';
+const fmtRepeatingRule = (phrase, rule = {}, i = 0, rules = [rule]) => {
+  const { rule: { byday = '', freq = 'WEEKLY', interval = 1 } } = rule;
+  if (interval < 1) return phrase;
 
-  let f = freq === 'DAILY' ? 'day': freq.replace(/LY$/g, '').toLowerCase();
-  if (interval > 1) f = `${interval} ${f}s`;
+  const every = i === 0 ? 'Every': 'every';
+  let frequency = freq === 'DAILY' ? 'day': freq.replace(/LY$/g, '').toLowerCase();
+  if (interval > 1) freqUnit = `${interval} ${frequency}s`;
+  frequency = `${every} ${frequency}`;
 
   const dayMap = {
     'SU': 'Sunday',
@@ -30,13 +24,26 @@ const fmtRepeats = (rules = [{}]) => {
     'TH': 'Thursday',
     'FR': 'Friday',
     'SA': 'Saturday',
-  }
-  const d = dayMap[byday];
+  };
+  const ordinalMap = {
+    '1': '1st',
+    '2': '2nd',
+    '3': '3rd',
+    '4': '4th',
+    '5': '5th',
+  };
 
-  return `Every ${f} on ${d}`;
+  const dayRE = /^([1-5]?)([A-Z]{2})/g
+  const [, ordinal = '', abbrDay = ''] = [...byday.matchAll(dayRE)].flat();
+  const day = `${ordinal ? 'the ' + ordinalMap[ordinal] + ' ' : ''}${dayMap[abbrDay]}`;
+
+  const punc = rules.length === i + 1 ? '.' : ';'
+  return `${phrase} ${frequency} on ${day}${punc}`;
 };
 
 const now = new Date();
+const eventComparator = ({ upcoming: [a] }, { upcoming: [b] }) =>
+  new Date(a).valueOf() - new Date(b).valueOf();
 const events = data.reduce((evts, { event, next100 = [], rules }) => {
   const dateOpts = { month: 'short', day: 'numeric', year: 'numeric' };
   const upcoming = next100
@@ -49,12 +56,14 @@ const events = data.reduce((evts, { event, next100 = [], rules }) => {
   } = event;
   const start = fmtTime(startDate);
   const end = fmtTime(endDate);
-  const repeats = fmtRepeats(rules);
+  const repeats = Array.isArray(rules)
+    ? rules.flat().reduce(fmtRepeatingRule, '')
+    : fmtRepeatingRule(rules);
   return [
     ...evts,
     { title, description, location, start, end, upcoming, rules, repeats },
   ];
-}, []);
+}, []).toSorted(eventComparator);
 </script>
 
 <template>
