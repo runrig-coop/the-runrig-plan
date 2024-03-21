@@ -36,12 +36,7 @@ the week.
 | Third Thursday                  | 5:30 - 6pm ET | 6pm - 7pm ET |
 
 We'll try to keep a list of specific dates & times for the next few upcoming
-events posted [above](#event-schedule), as well as on the [GOAT Community
-Calendar] (via Google Calendar). We're also trying out [NixNix Events], an
-instance of the ActivityPub-based [Mobilizon] social event planner made by
-[Framasoft]. That way you can find all workshops posted in the [Runrig
-Workshops Group] where you can get updates, opt-in for notifications, or add the
-event to the calendar application of your choice. At least that's the plan — like Facebook groups and events but not evil. 😇
+events posted [above](#event-schedule).
 
 Each workshop session will also be live-streamed and posted afterwards to the
 [Runrig YouTube Channel] so people can watch later if they miss it or want to
@@ -69,11 +64,6 @@ where people can join half an hour early for more informal chat and Q&A.
 
 :::
 
-[GOAT Community Calendar]: https://goatech.org/calendar/
-[NixNix Events]: https://events.nixnet.services/
-[Mobilizon]: https://joinmobilizon.org/
-[Framasoft]: https://framasoft.org/
-[Runrig Workshops Group]: https://events.nixnet.services/@runrig_workshops
 [Runrig YouTube Channel]: http://www.youtube.com/@RunrigCoop
 
 ## Other Events and Project Information
