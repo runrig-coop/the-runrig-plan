@@ -15,7 +15,10 @@ in the Runrig Plan.
 ["ecology over architecture"]: ./overview.html#ecology-over-architecture
 
 ### Event Schedule
-<RRCalendar/>
+
+<ClientOnly>
+  <RRCalendar/>
+</ClientOnly>
 
 [Add to Google Calendar](https://www.google.com/calendar/render?cid=http://www.runrig.org/cal/2024.ics)
 
