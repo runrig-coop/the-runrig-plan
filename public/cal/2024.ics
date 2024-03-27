@@ -32,14 +32,14 @@ ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
  TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
 X-MICROSOFT-CDO-OWNERAPPTID:122344474
 CREATED:20240320T013528Z
-DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>Work
-  shop info:<br><a href="https://github.com/runrig-coop/open-design-workshop
- s"><u>https://github.com/runrig-coop/open-design-workshops</u></a><br><br><
- br>Click the following link to join the meeting from your computer:<br><a h
- ref="https://meet.mayfirst.org/runrig-open-design-workshop"><u><u>https://m
- eet.mayfirst.org/runrig-open-design-workshop</u></u></a><br>For general inf
- o about Runrig:<br><a href="https://runrig.org"><u>https://runrig.org</u></
- a>
+DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
+  Workshop info:<br><a href="https://github.com/runrig-coop/open-design
+  -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
+  u></a><br><br><br>Click the following link to join the meeting from y
+  our computer:<br><a href="https://meet.mayfirst.org/runrig-open-desig
+  n-workshop"><u><u>https://meet.mayfirst.org/runrig-open-design-worksh
+  op</u></u></a><br>For general info about Runrig:<br><a href="https://
+  runrig.org"><u>https://runrig.org</u></a>
 LAST-MODIFIED:20240320T014251Z
 LOCATION:https://meet.mayfirst.org/runrig-open-design-workshop
 SEQUENCE:2
@@ -63,14 +63,14 @@ ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
  TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
 X-MICROSOFT-CDO-OWNERAPPTID:546559500
 CREATED:20240320T013835Z
-DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>Work
-  shop info:<br><a href="https://github.com/runrig-coop/open-design-workshop
- s"><u>https://github.com/runrig-coop/open-design-workshops</u></a><br><br>C
- lick the following link to join the meeting from your computer:<br><a href=
- "https://meet.mayfirst.org/runrig-open-design-workshop"><u><u>https://meet.
- mayfirst.org/runrig-open-design-workshop</u></u></a><br><br>For general inf
- o about Runrig:<br><a href="https://runrig.org"><u>https://runrig.org</u></
- a>
+DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
+  Workshop info:<br><a href="https://github.com/runrig-coop/open-design
+  -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
+  u></a><br><br><br>Click the following link to join the meeting from y
+  our computer:<br><a href="https://meet.mayfirst.org/runrig-open-desig
+  n-workshop"><u><u>https://meet.mayfirst.org/runrig-open-design-worksh
+  op</u></u></a><br>For general info about Runrig:<br><a href="https://
+  runrig.org"><u>https://runrig.org</u></a>
 LAST-MODIFIED:20240320T014328Z
 LOCATION:https://meet.mayfirst.org/runrig-open-design-workshop
 SEQUENCE:2
@@ -90,17 +90,18 @@ RRULE:FREQ=MONTHLY;BYDAY=3TH
 DTSTAMP:20240320T014355Z
 ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
 UID:6uens6mdv96kq50pcjmmmh3kmh@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
- ;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
+  TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
 X-MICROSOFT-CDO-OWNERAPPTID:1328676840
 CREATED:20240320T012443Z
-DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>Work
-  shop info:<br><a href="https://github.com/runrig-coop/open-design-workshop
- s">https://github.com/runrig-coop/open-design-workshops</a><br><br>Click th
- e following link to join the meeting from your computer:<br><a href="https:
- //meet.mayfirst.org/runrig-open-design-workshop"><u>https://meet.mayfirst.o
- rg/runrig-open-design-workshop</u></a><br><br>For general info about Runrig
- :<br><a href="https://runrig.org">https://runrig.org</a>
+DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
+  Workshop info:<br><a href="https://github.com/runrig-coop/open-design
+  -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
+  u></a><br><br><br>Click the following link to join the meeting from y
+  our computer:<br><a href="https://meet.mayfirst.org/runrig-open-desig
+  n-workshop"><u><u>https://meet.mayfirst.org/runrig-open-design-worksh
+  op</u></u></a><br>For general info about Runrig:<br><a href="https://
+  runrig.org"><u>https://runrig.org</u></a>
 LAST-MODIFIED:20240320T014353Z
 LOCATION:https://meet.mayfirst.org/runrig-open-design-workshop
 SEQUENCE:1
