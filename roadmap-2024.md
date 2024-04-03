@@ -387,6 +387,12 @@ relationships, reinforce existing bonds, and strengthen the collaborative
 muscles required to make this a truly democratic and sustainable project.
 
 ### Workshops & Mutual Aid
+:::warning
+The specific details of the workshop schedule and meeting links may be outdated
+but will not be updated. Please see the [get involved](get-involved.md) page for
+the most current information about workshops and other events.
+:::
+
 The Open Design Workshops so far have been held biweekly on weekend afternoons.
 While the consistency has been nice, I'd like to try alternating the days and
 times a bit to provide more varied opportunities for people coming from
