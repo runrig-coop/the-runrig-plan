@@ -259,7 +259,7 @@ essentially be a set of libraries for running constrained optimizations on crop
 plan data, something David Wright and I discussed might also be aided by his
 [Rust port] of [ProcessScheduler]. These utilities and the Projection Engine
 might not prove very useful in isolation, but could be incredibly powerful if we
-integrate with Qrop/Binjel or Open Food Network in _Phase Two_.
+integrate with Qrop/Brinjel or Open Food Network in _Phase Two_.
 
 [Early Warning System]: https://github.com/runrig-coop/early-warning-system/
 [system tray utility]:
@@ -275,20 +275,20 @@ integrate with Qrop/Binjel or Open Food Network in _Phase Two_.
 ### Integrations with Third-party Apps & Services
 __Integrations with the following applications for _Phase Two_:__
 
-- [Qrop]/[Binjel]
+- [Qrop]/[Brinjel]
 - farmOS, Field Kit & Survey Stack
 - Open Food Network
 - [NocoDB]/Airtable
 
-Binjel (soon to supersede Qrop) is a desktop crop planning application sponsored
+Brinjel (soon to supersede Qrop) is a desktop crop planning application sponsored
 by the French cooperative [L'Atelier Paysan], and from the looks of it, they
-intend to provide cloud services once Binjel is ready for general release.
+intend to provide cloud services once Brinjel is ready for general release.
 They're both licensed under the GPL/AGPL and are very well designed. Because
 Qrop is a desktop app running a simple SQLite database, it should be possible to
 integrate it with the Early Warning System.
 
 [Qrop]: https://qrop.frama.io/
-[Binjel]: https://brinjel.com/
+[Brinjel]: https://brinjel.com/
 [L'Atelier Paysan]: https://latelierpaysan.org/
 
 Integration with farmOS and Field Kit, of course, should be fairly
