@@ -1,27 +1,50 @@
 /* New Color Palette */
 :root {
-  --rr-c-green-1: rgb(39,138,65);
-  --rr-c-green-2: rgb(39,138,65);
-  --rr-c-green-3: rgb(39,138,65);
+  --rr-c-green-1: #2aa065;
+  --rr-c-green-2: #3abc7a;
+  --rr-c-green-3: #3ec37e;
   --rr-c-green-soft: rgba(39,138,65,.14);
 
-  --rr-c-yellow-1: rgb(250,185,20);
-  --rr-c-yellow-2: rgb(250,185,20);
-  --rr-c-yellow-3: rgb(250,185,20);
+  /* --rr-c-yellow-1: #da9a08; */
+  --rr-c-yellow-1: #fab914;
+  --rr-c-yellow-2: #fbbc44;
+  --rr-c-yellow-3: #ffcc64;
   --rr-c-yellow-soft: rgba(250,185,20,.14);
 
-  --rr-c-red-1: rgb(235,35,35);
-  --rr-c-red-2: rgb(235,35,35);
-  --rr-c-red-3: rgb(235,35,35);
+  --rr-c-red-1: #eb2323;
+  --rr-c-red-2: #eb2323;
+  --rr-c-red-3: #eb2323;
   --rr-c-red-soft: rgba(235,35,35,.14);
+}
+.dark {
+  --rr-c-green-1: #3abc7a;
+  --rr-c-green-2: #2aa065;
+  --rr-c-green-3: #228051;
+  --rr-c-green-soft: rgba(39,138,65,.16);
+
+  --rr-c-yellow-1: #fbbc44;
+  --rr-c-yellow-2: #fab914;
+  --rr-c-yellow-3: #da9a08;
+  --rr-c-yellow-soft: rgba(250,185,20,.16);
+
+  --rr-c-red-1: #eb2323;
+  --rr-c-red-2: #eb2323;
+  --rr-c-red-3: #eb2323;
+  --rr-c-red-soft: rgba(235,35,35,.16);
 }
 
 /* New Background Colors */
 :root {
   --vp-c-bg: #fefaf0;
+  --vp-c-mute: #fdf3e1;
+  --vp-c-bg-soft: #fdf3e1;
+  --vp-c-bg-soft-up: #fdf6e9;
 }
 .dark {
   --vp-c-bg: #181b22;
+  --vp-c-mute: #2e323e;
+  --vp-c-bg-soft: #2e323e;
+  --vp-c-bg-soft-up: #303644;
 }
 
 /* Override the beta.3 color vars */
