@@ -2,6 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import RRCalendar from './RRCalendar.vue'
 import RRLayout from './RRLayout.vue'
 import RRNewsletterForm from './RRNewsletterForm.vue'
+import './vars--vp-beta-3.css'
+import './vars.css'
 
 export default {
   ...DefaultTheme,

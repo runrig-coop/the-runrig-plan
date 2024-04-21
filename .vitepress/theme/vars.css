@@ -1,0 +1,63 @@
+/* 
+ * See the Vitepress docs on "Extending the Default Theme § Customizing CSS":
+ * https://vitepress.dev/guide/extending-default-theme#customizing-css
+ * 
+ * The full list of custom CSS variables can be found here:
+ * https://github.com/vuejs/vitepress/blob/v1.1.3/src/client/theme-default/styles/vars.css
+ * 
+ * The default color theme variables from beta.3 can be found here:
+ * https://github.com/vuejs/vitepress/blob/v1.0.0-beta.3/src/client/theme-default/styles/vars.css
+ */
+
+/* Map v1.0.0-beta.3 colors to v1.1.3 colors */
+:root {
+  --vp-c-gray-1: var(--vp-c-text-dark-1);
+  --vp-c-gray-2: var(--vp-c-text-dark-2);
+  --vp-c-gray-3: var(--vp-c-text-dark-3);
+
+  --vp-c-green-1: var(--vp-c-green);
+  --vp-c-green-2: var(--vp-c-green-light);
+  --vp-c-green-3: var(--vp-c-green-lighter);
+  --vp-c-green-soft: var(--vp-c-green-dimm-2);
+
+  --vp-c-yellow-1: var(--vp-c-yellow);
+  --vp-c-yellow-2: var(--vp-c-yellow-light);
+  --vp-c-yellow-3: var(--vp-c-yellow-lighter);
+  --vp-c-yellow-soft: var(--vp-c-yellow-dimm-2);
+
+  --vp-c-red-1: var(--vp-c-red);
+  --vp-c-red-2: var(--vp-c-red-light);
+  --vp-c-red-3: var(--vp-c-red-lighter);
+  --vp-c-red-soft: var(--vp-c-red-dimm-2);
+}
+
+.dark {
+  --vp-c-gray-1: var(--vp-c-text-light-1);
+  --vp-c-gray-2: var(--vp-c-text-light-2);
+  --vp-c-gray-3: var(--vp-c-text-light-3);
+
+  --vp-c-green-1: var(--vp-c-green);
+  --vp-c-green-2: var(--vp-c-green-dark);
+  --vp-c-green-3: var(--vp-c-green-darker);
+  --vp-c-green-soft: var(--vp-c-green-dimm-2);
+
+  --vp-c-yellow-1: var(--vp-c-yellow);
+  --vp-c-yellow-2: var(--vp-c-yellow-dark);
+  --vp-c-yellow-3: var(--vp-c-yellow-darker);
+  --vp-c-yellow-soft: var(--vp-c-yellow-dimm-2);
+
+  --vp-c-red-1: var(--vp-c-red);
+  --vp-c-red-2: var(--vp-c-red-dark);
+  --vp-c-red-3: var(--vp-c-red-darker);
+  --vp-c-red-soft: var(--vp-c-red-dimm-2);
+}
+
+/* Explicitly set the v1.1.3 brand colors again, b/c somehow they get overriden */
+:root {
+  --vp-c-brand-1: var(--vp-c-green-1);
+  --vp-c-brand-2: var(--vp-c-green-2);
+  --vp-c-brand-3: var(--vp-c-green-3);
+  --vp-c-brand-soft: var(--vp-c-green-soft);
+  /* DEPRECATED: Use `--vp-c-brand-1` instead. */
+  --vp-c-brand: var(--vp-c-brand-1);
+}
