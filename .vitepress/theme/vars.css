@@ -1,3 +1,57 @@
+/* New Color Palette */
+:root {
+  --rr-c-green-1: rgb(39,138,65);
+  --rr-c-green-2: rgb(39,138,65);
+  --rr-c-green-3: rgb(39,138,65);
+  --rr-c-green-soft: rgba(39,138,65,.14);
+
+  --rr-c-yellow-1: rgb(250,185,20);
+  --rr-c-yellow-2: rgb(250,185,20);
+  --rr-c-yellow-3: rgb(250,185,20);
+  --rr-c-yellow-soft: rgba(250,185,20,.14);
+
+  --rr-c-red-1: rgb(235,35,35);
+  --rr-c-red-2: rgb(235,35,35);
+  --rr-c-red-3: rgb(235,35,35);
+  --rr-c-red-soft: rgba(235,35,35,.14);
+}
+
+/* New Background Colors */
+:root {
+  --vp-c-bg: #fefaf0;
+}
+.dark {
+  --vp-c-bg: #181b22;
+}
+
+/* Override the beta.3 color vars */
+:root {
+  --rr-c-primary: var(--rr-c-green-1);
+  --rr-c-secondary: var(--rr-c-yellow-1);
+  --rr-c-action: var(--rr-c-red-1);
+
+  --vp-c-green: var(--rr-c-green-1);
+  --vp-c-green-light: var(--rr-c-green-2);
+  --vp-c-green-lighter: var(--rr-c-green-3);
+  --vp-c-green-dark: var(--rr-c-green-2);
+  --vp-c-green-darker: var(--rr-c-green-3);
+  --vp-c-green-dimm-2: var(--rr-c-green-soft);
+
+  --vp-c-yellow: var(--rr-c-yellow-1);
+  --vp-c-yellow-light: var(--rr-c-yellow-1);
+  --vp-c-yellow-lighter: var(--rr-c-yellow-1);
+  --vp-c-yellow-dark: var(--rr-c-yellow-2);
+  --vp-c-yellow-darker: var(--rr-c-yellow-3);
+  --vp-c-yellow-dimm-2: var(--rr-c-yellow-soft);
+
+  --vp-c-red: var(--rr-c-red-1);
+  --vp-c-red-light: var(--rr-c-red-1);
+  --vp-c-red-lighter: var(--rr-c-red-1);
+  --vp-c-red-dark: var(--rr-c-red-2);
+  --vp-c-red-darker: var(--rr-c-red-3);
+  --vp-c-red-dimm-2: var(--rr-c-red-soft);
+}
+
 /* 
  * See the Vitepress docs on "Extending the Default Theme § Customizing CSS":
  * https://vitepress.dev/guide/extending-default-theme#customizing-css
