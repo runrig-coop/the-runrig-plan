@@ -63,7 +63,6 @@ onMounted(() => {
   --bg-img-width: 1407px;
   --max-content-width: 1152px;
   --max-content-margin: calc(calc(100vw - var(--max-content-width)) * .5);
-  --bg-img-box-shadow: inset 0 0 8px 8px var(--vp-c-bg);
   position: fixed;
   width: 100%;
   margin-top: var(--vp-nav-height);
@@ -112,7 +111,6 @@ onMounted(() => {
     background-size: 100%;
     background-position-x: 0;
     background-position-y: 0;
-    box-shadow: var(--bg-img-box-shadow);
     opacity: 1;
   }
 }
@@ -145,7 +143,6 @@ onMounted(() => {
     background-size: 100%;
     background-position-x: 0;
     background-position-y: 0;
-    box-shadow: var(--bg-img-box-shadow);
   }
   .quadrant-northwest {
     animation: scroll-quadrant-northwest-640 1s linear infinite;
@@ -227,7 +224,6 @@ onMounted(() => {
   }
   52.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 25%;
@@ -259,7 +255,6 @@ onMounted(() => {
   }
   52.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 25%;
@@ -291,7 +286,6 @@ onMounted(() => {
   }
   52.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 75% 75%;
@@ -317,7 +311,6 @@ onMounted(() => {
   }
   52.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   53% {
     transform-origin: 25% 75%;
@@ -426,7 +419,6 @@ onMounted(() => {
   }
   50% {
     opacity: 1;
-    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
@@ -456,7 +448,6 @@ onMounted(() => {
   }
   48% {
     opacity: 1;
-    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
@@ -486,7 +477,6 @@ onMounted(() => {
   }
   30% {
     opacity: 1;
-    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
@@ -513,7 +503,6 @@ onMounted(() => {
   }
   25% {
     opacity: 1;
-    box-shadow: var(--bg-img-box-shadow);
   }
   65% {
     transform: translate(0, 0);
@@ -618,7 +607,6 @@ onMounted(() => {
   }
   62.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 25% 25%;
@@ -653,15 +641,12 @@ onMounted(() => {
   }
   62.5% {
     transform: translate(0, 0);
-    box-shadow: var(--bg-img-box-shadow);
   }
   63% {
     transform-origin: 75% 25%;
-    box-shadow: inset 0 0 0px 0px transparent;
   }
   70% {
     transform: translate(40%, -20%) rotate(-15deg);
-    box-shadow: inset 0 0 0px 0px transparent;
   }
   100% {
     opacity: 1;

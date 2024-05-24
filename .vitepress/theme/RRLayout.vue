@@ -298,7 +298,6 @@ section#runrig-hero .main {
     top: 0;
     height: 100%;
     width: 100%;
-    box-shadow: inset 0 0 8px 8px var(--vp-c-bg);
   }
 }
 
