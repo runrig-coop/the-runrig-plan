@@ -32,6 +32,7 @@ const date = fmtDate(props.fm.date);
       <li v-if="fm.author">{{ fm.author }}</li>
       <li v-if="date">{{ date }}</li>
     </ul>
+    <slot></slot>
   </header>
 </template>
 

@@ -4,6 +4,11 @@ date: 2024-05-01
 title: Hedgerows in the Sky
 subtitle: Concerning knowledge enclosures and how they may be truly leveled
 author: Jamie Gaehring
+description: In this essay I explore the role of the commons in today's food &
+    data sovereignty movements. I try to explain why the full potential of the
+    commons was seemingly overlooked or studiously ignored by earlier North
+    American movements around sustainable agriculture, local food, free culture,
+    and open source technology.
 ---
 
 When I tell people I make open source software for farmers, I'll occasionally
