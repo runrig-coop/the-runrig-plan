@@ -56,9 +56,11 @@ h1 {
 ul, li {
   all: unset;
 }
-ul {
+.vp-doc ul {
   display: inline-block;
   margin-bottom: .75rem;
+  list-style: none;
+  padding-left: 0;
 }
 li:nth-child(1) {
   color: var(--vp-c-text-1);
