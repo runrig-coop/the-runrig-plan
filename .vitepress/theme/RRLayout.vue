@@ -4,11 +4,13 @@ import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import RRSection from './RRSection.vue';
 import RRHomeBG from './RRHomeBG.vue';
+import RRPostHeader from './RRPostHeader.vue'
 import openFieldImage from './assets/open_field_system.png';
 import stackImage from './assets/stack-diagram.svg';
 
 const { Layout } = DefaultTheme;
-const { frontmatter: fm, isDark } = useData();
+const data = useData();
+const { frontmatter: fm, isDark } = data;
 
 onMounted(() => {
   // The maximum heights used as the basis for the scroll position,
@@ -180,6 +182,12 @@ const ctaButtons = [
         </template>
       </RRSection>
     </template>
+  </Layout>
+  <Layout v-else-if="data.page.value.relativePath.startsWith('posts/')">
+    <template #doc-before>
+      <RRPostHeader :fm="fm" :page="data.page"/>
+    </template>
+    <template #default></template>
   </Layout>
   <Layout v-else/>
 </template>

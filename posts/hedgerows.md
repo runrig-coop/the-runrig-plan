@@ -1,11 +1,11 @@
 ---
 path: "/hedgerows"
-date: "2024-04-01"
-title: "Hedgerows in the Sky"
-subtitle: "Concerning knowledge enclosures and how they may be truly leveled"
+date: 2024-05-01
+title: Hedgerows in the Sky
+subtitle: Concerning knowledge enclosures and how they may be truly leveled
+author: Jamie Gaehring
 ---
 
-# Hedgerows in the Sky
 When I tell people I make open source software for farmers, I'll occasionally
 hear some variation of the reply, "Why do farmers care whether their software is
 open source?" The precise response may differ in tone from the genuinely curious
