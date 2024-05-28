@@ -53,10 +53,21 @@ export default defineConfig({
           { text: 'Overview', link: '/overview' },
           { text: 'Ecology', link: '/ecology' },
           { text: 'Architecture', link: '/architecture' },
-          { text: 'Roadmap 2024', link: '/roadmap-2024' },
+          {
+            items: [
+              { text: 'Journal', link: '/posts' },
+            ],
+          }
         ],
       },
-      { text: 'Get Involved', link: '/get-involved' },
+      {
+        text: 'About',
+        items: [
+          { text: 'Get Involved', link: '/get-involved' },
+          { text: 'Roadmap 2024', link: '/roadmap-2024' },
+          { text: 'Contact', link: '/contact' },
+        ],
+      },
     ],
   },
   markdown: {
