@@ -96,7 +96,9 @@ const events = data.reduce((evts, { event, next100 = [], rules }) => {
 
 .event {
   flex: auto;
-  background-color: var(--vp-c-green-soft);
+  background-color: var(--rr-custom-block-info-bg);
+  border: 1px solid var(--rr-custom-block-info-border);
+  color: var(--rr-custom-block-info-text);
   padding: 16px;
   border-radius: 8px;
   margin-bottom: 16px;

@@ -1,0 +1,261 @@
+/*
+ * Override the Vitepress default theme CSS vars w/ the Runrig color palette.
+ *
+ * IMPORTANT: These should only be updated when there is a breaking change to
+ * the Vitepress default theme. Changes to the Runrig color palette or other
+ * CSS vars should be done from the main stylesheet, vars.css.
+ *
+ * See the Vitepress docs on "Extending the Default Theme § Customizing CSS":
+ * https://vitepress.dev/guide/extending-default-theme#customizing-css
+ *
+ * The full list of custom CSS variables from v1.1.3 can be found here:
+ * https://github.com/vuejs/vitepress/blob/v1.1.3/src/client/theme-default/styles/vars.css
+ *
+ * The default color theme variables from beta.3 can be found here:
+ * https://github.com/vuejs/vitepress/blob/v1.0.0-beta.3/src/client/theme-default/styles/vars.css
+ *
+ * -------------------------------------------------------------------------- */
+
+/**
+ * OVERRIDE: vitepress@1.0.0-beta.3
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-green: var(--rr-c-green-1);
+  --vp-c-green-light: var(--rr-c-green-2);
+  --vp-c-green-lighter: var(--rr-c-green-3);
+  --vp-c-green-dark: var(--rr-c-green-2);
+  --vp-c-green-darker: var(--rr-c-green-3);
+  --vp-c-green-dimm-2: var(--rr-c-green-soft);
+
+  --vp-c-yellow: var(--rr-c-yellow-1);
+  --vp-c-yellow-light: var(--rr-c-yellow-1);
+  --vp-c-yellow-lighter: var(--rr-c-yellow-1);
+  --vp-c-yellow-dark: var(--rr-c-yellow-2);
+  --vp-c-yellow-darker: var(--rr-c-yellow-3);
+  --vp-c-yellow-dimm-2: var(--rr-c-yellow-soft);
+
+  --vp-c-red: var(--rr-c-red-1);
+  --vp-c-red-light: var(--rr-c-red-1);
+  --vp-c-red-lighter: var(--rr-c-red-1);
+  --vp-c-red-dark: var(--rr-c-red-2);
+  --vp-c-red-darker: var(--rr-c-red-3);
+  --vp-c-red-dimm-2: var(--rr-c-red-soft);
+}
+
+/**
+ * OVERRIDE: vitepress@1.1.3
+ * -------------------------------------------------------------------------- */
+
+/**
+ * Colors: Palette
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-gray-1: var(--rr-c-gray-1);
+  --vp-c-gray-2: var(--rr-c-gray-2);
+  --vp-c-gray-3: var(--rr-c-gray-3);
+  --vp-c-gray-soft: var(--rr-c-gray-soft);
+
+  --vp-c-indigo-1: var(--rr-c-indigo-1);
+  --vp-c-indigo-2: var(--rr-c-indigo-2);
+  --vp-c-indigo-3: var(--rr-c-indigo-3);
+  --vp-c-indigo-soft: var(--rr-c-indigo-soft);
+
+  --vp-c-purple-1: var(--rr-c-purple-1);
+  --vp-c-purple-2: var(--rr-c-purple-2);
+  --vp-c-purple-3: var(--rr-c-purple-3);
+  --vp-c-purple-soft: var(--rr-c-purple-soft);
+
+  --vp-c-green-1: var(--rr-c-green-1);
+  --vp-c-green-2: var(--rr-c-green-2);
+  --vp-c-green-3: var(--rr-c-green-3);
+  --vp-c-green-soft: var(--rr-c-green-soft);
+
+  --vp-c-yellow-1: var(--rr-c-yellow-1);
+  --vp-c-yellow-2: var(--rr-c-yellow-2);
+  --vp-c-yellow-3: var(--rr-c-yellow-3);
+  --vp-c-yellow-soft: var(--rr-c-yellow-soft);
+
+  --vp-c-red-1: var(--rr-c-red-1);
+  --vp-c-red-2: var(--rr-c-red-2);
+  --vp-c-red-3: var(--rr-c-red-3);
+  --vp-c-red-soft: var(--rr-c-red-soft);
+}
+
+/**
+ * Colors: Solid
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-white: var(--rr-c-white);
+  --vp-c-black: var(--rr-c-black);
+}
+
+/**
+ * Colors: Background
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-bg: var(--rr-c-bg);
+  --vp-c-bg-alt: var(--rr-c-bg-alt);
+  --vp-c-bg-elv: var(--rr-c-bg-elv);
+  --vp-c-bg-soft: var(--rr-c-bg-soft);
+}
+
+/**
+ * Colors: Borders
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-border: var(--rr-c-border);
+  --vp-c-divider: var(--rr-c-divider);
+  --vp-c-gutter: var(--rr-c-gutter);
+}
+
+/**
+ * Colors: Text
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-text-1: var(--rr-c-text-1);
+  --vp-c-text-2: var(--rr-c-text-2);
+  --vp-c-text-3: var(--rr-c-text-3);
+}
+
+
+/**
+ * Colors: Function
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attached to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ *
+ * To understand the scaling system, refer to "Colors: Palette" section.
+ * -------------------------------------------------------------------------- */
+
+ :root {
+  --vp-c-default-1: var(--rr-c-gray-1);
+  --vp-c-default-2: var(--rr-c-gray-2);
+  --vp-c-default-3: var(--rr-c-gray-3);
+  --vp-c-default-soft: var(--rr-c-gray-soft);
+
+  --vp-c-brand-1: var(--rr-c-brand-1);
+  --vp-c-brand-2: var(--rr-c-brand-2);
+  --vp-c-brand-3: var(--rr-c-brand-3);
+  --vp-c-brand-soft: var(--rr-c-brand-soft);
+
+  /* DEPRECATED: Use `--vp-c-brand-1` instead. */
+  --vp-c-brand: var(--rr-c-brand-1);
+
+  --vp-c-tip-1: var(--rr-c-indigo-1);
+  --vp-c-tip-2: var(--rr-c-indigo-2);
+  --vp-c-tip-3: var(--rr-c-indigo-3);
+  --vp-c-tip-soft: var(--rr-c-indigo-soft);
+
+  --vp-c-note-1: var(--rr-c-brand-1);
+  --vp-c-note-2: var(--rr-c-brand-2);
+  --vp-c-note-3: var(--rr-c-brand-3);
+  --vp-c-note-soft: var(--rr-c-brand-soft);
+
+  --vp-c-success-1: var(--rr-c-green-1);
+  --vp-c-success-2: var(--rr-c-green-2);
+  --vp-c-success-3: var(--rr-c-green-3);
+  --vp-c-success-soft: var(--rr-c-green-soft);
+
+  --vp-c-important-1: var(--rr-c-purple-1);
+  --vp-c-important-2: var(--rr-c-purple-2);
+  --vp-c-important-3: var(--rr-c-purple-3);
+  --vp-c-important-soft: var(--rr-c-purple-soft);
+
+  --vp-c-warning-1: var(--rr-c-yellow-1);
+  --vp-c-warning-2: var(--rr-c-yellow-2);
+  --vp-c-warning-3: var(--rr-c-yellow-3);
+  --vp-c-warning-soft: var(--rr-c-yellow-soft);
+
+  --vp-c-danger-1: var(--rr-c-red-1);
+  --vp-c-danger-2: var(--rr-c-red-2);
+  --vp-c-danger-3: var(--rr-c-red-3);
+  --vp-c-danger-soft: var(--rr-c-red-soft);
+
+  --vp-c-caution-1: var(--rr-c-red-1);
+  --vp-c-caution-2: var(--rr-c-red-2);
+  --vp-c-caution-3: var(--rr-c-red-3);
+  --vp-c-caution-soft: var(--rr-c-red-soft);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+:root {
+
+  --vp-button-brand-border: var(--rr-button-brand-border);
+  --vp-button-brand-text: var(--rr-button-brand-text);
+  --vp-button-brand-bg: var(--rr-button-brand-bg);
+  --vp-button-brand-hover-border: var(--rr-button-brand-hover-border);
+  --vp-button-brand-hover-text: var(--rr-button-brand-hover-text);
+  --vp-button-brand-hover-bg: var(--rr-button-brand-hover-bg);
+  --vp-button-brand-active-border: var(--rr-button-brand-active-border);
+  --vp-button-brand-active-text: var(--rr-button-brand-active-text);
+  --vp-button-brand-active-bg: var(--rr-button-brand-active-bg);
+
+  --vp-button-alt-border: var(--rr-button-alt-border);
+  --vp-button-alt-text: var(--rr-button-alt-text);
+  --vp-button-alt-bg: var(--rr-button-alt-bg);
+  --vp-button-alt-hover-border: var(--rr-button-alt-hover-border);
+  --vp-button-alt-hover-text: var(--rr-button-alt-hover-text);
+  --vp-button-alt-hover-bg: var(--rr-button-alt-hover-bg);
+  --vp-button-alt-active-border: var(--rr-button-alt-active-border);
+  --vp-button-alt-active-text: var(--rr-button-alt-active-text);
+  --vp-button-alt-active-bg: var(--rr-button-alt-active-bg);
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-custom-block-info-border: var(--rr-custom-block-info-border);
+  --vp-custom-block-info-text: var(--rr-custom-block-info-text);
+  --vp-custom-block-info-bg: var(--rr-custom-block-info-bg);
+  --vp-custom-block-info-code-bg: var(--rr-custom-block-info-code-bg);
+
+  --vp-custom-block-note-border: var(--rr-custom-block-note-border);
+  --vp-custom-block-note-text: var(--rr-custom-block-note-text);
+  --vp-custom-block-note-bg: var(--rr-custom-block-note-bg);
+  --vp-custom-block-note-code-bg: var(--rr-custom-block-note-code-bg);
+
+  --vp-custom-block-tip-border: var(--rr-custom-block-tip-border);
+  --vp-custom-block-tip-text: var(--rr-custom-block-tip-text);
+  --vp-custom-block-tip-bg: var(--rr-custom-block-tip-bg);
+  --vp-custom-block-tip-code-bg: var(--rr-custom-block-tip-code-bg);
+
+  --vp-custom-block-important-border: var(--rr-custom-block-important-border);
+  --vp-custom-block-important-text: var(--rr-custom-block-important-text);
+  --vp-custom-block-important-bg: var(--rr-custom-block-important-bg);
+  --vp-custom-block-important-code-bg: var(--rr-custom-block-important-code-bg);
+
+  --vp-custom-block-warning-border: var(--rr-custom-block-warning-border);
+  --vp-custom-block-warning-text: var(--rr-custom-block-warning-text);
+  --vp-custom-block-warning-bg: var(--rr-custom-block-warning-bg);
+  --vp-custom-block-warning-code-bg: var(--rr-c-warning-soft);
+
+  --vp-custom-block-danger-border: var(--rr-custom-block-danger-border);
+  --vp-custom-block-danger-text: var(--rr-custom-block-danger-text);
+  --vp-custom-block-danger-bg: var(--rr-custom-block-danger-bg);
+  --vp-custom-block-danger-code-bg: var(--rr-custom-block-danger-code-bg);
+
+  --vp-custom-block-caution-border: var(--rr-custom-block-caution-border);
+  --vp-custom-block-caution-text: var(--rr-custom-block-caution-text);
+  --vp-custom-block-caution-bg: var(--rr-custom-block-caution-bg);
+  --vp-custom-block-caution-code-bg: var(--rr-custom-block-caution-code-bg);
+
+  --vp-custom-block-details-border: var(--rr-custom-block-details-border);
+  --vp-custom-block-details-text: var(--rr-custom-block-details-text);
+  --vp-custom-block-details-bg: var(--rr-custom-block-details-bg);
+  --vp-custom-block-details-code-bg: var(--rr-custom-block-details-code-bg);
+}
