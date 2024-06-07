@@ -333,7 +333,7 @@ cooperatives and eventually "One Big Data Co-op," à la Bill Haywood and the
 Wobblies. Right now as a volunteer-driven group, we're in _Phase Zero_. Before
 taking any contracts or pursuing grants for the following phases, we're building
 out one or two [reference implementations] to test the viability of the model at
-each phase of development. We're holding three open workshops each month, along
+each phase of development. We're holding open workshops every other week, along
 with community chat rooms and discussion boards, so anyone can [get involved].
 As we progress, we're actively seeking partnerships and collaborations with
 similarly aligned organizations, and eventually hope to recruit farmers, food &

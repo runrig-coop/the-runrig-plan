@@ -157,7 +157,7 @@ const ctaButtons = [
             grants for the following phases, we're building out one or two
             <a href="/roadmap-2024#projects-for-2024">reference implementations</a>
             to test the viability of the model at each phase of development. We're
-            holding three open workshops each month, along with community chat rooms
+            holding open workshops every other week, along with community chat rooms
             and discussion boards, so anyone can <a href="/get-involved">get involved</a>.
             As we progress, we're actively seeking partnerships and collaborations with
             similarly aligned organizations, and eventually hope to recruit farmers,
