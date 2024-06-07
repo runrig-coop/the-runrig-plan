@@ -13,7 +13,7 @@ const fmtRepeatingRule = (phrase, rule = {}, i = 0, rules = [rule]) => {
 
   const every = i === 0 ? 'Every': 'every';
   let frequency = freq === 'DAILY' ? 'day': freq.replace(/LY$/g, '').toLowerCase();
-  if (interval > 1) freqUnit = `${interval} ${frequency}s`;
+  if (interval > 1) frequency = `${interval} ${frequency}s`;
   frequency = `${every} ${frequency}`;
 
   const dayMap = {
