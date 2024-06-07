@@ -23,16 +23,16 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20240301T080000
-DTEND;TZID=America/New_York:20240301T090000
-RRULE:FREQ=MONTHLY;BYDAY=1FR
-DTSTAMP:20240320T014253Z
+DTSTART;TZID=America/New_York:20240621T140000
+DTEND;TZID=America/New_York:20240621T150000
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
+DTSTAMP:20240607T090000Z
 ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
 UID:7n84tvqal33r1gejdvf87cdgpl@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
  TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
 X-MICROSOFT-CDO-OWNERAPPTID:122344474
-CREATED:20240320T013528Z
+CREATED:20240607T090000Z
 DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
   Workshop info:<br><a href="https://github.com/runrig-coop/open-design
   -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
@@ -41,83 +41,16 @@ DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
   hops"><u><u>https://runrig.org/events/open-design-workshops</u></u></
   a><br>For general info about Runrig:<br><a href="https://
   runrig.org"><u>https://runrig.org</u></a>
-LAST-MODIFIED:20240320T014251Z
-LOCATION:https://runrig.org/events/open-design-workshops
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Runrig Open Workshop (1st Fri)
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:This is an event reminder
-TRIGGER:-P0DT0H10M0S
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20240310T140000
-DTEND;TZID=America/New_York:20240310T150000
-RRULE:FREQ=MONTHLY;BYDAY=2SU
-DTSTAMP:20240320T014330Z
-ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
-UID:4fj6bhgvhhci3ebmgk5evvn1fg@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
- TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
-X-MICROSOFT-CDO-OWNERAPPTID:546559500
-CREATED:20240320T013835Z
-DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
-  Workshop info:<br><a href="https://github.com/runrig-coop/open-design
-  -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
-  u></a><br><br><br>Click the following link to join the meeting from y
-  our computer:<br><a href="https://runrig.org/events/open-design-works
-  hops"><u><u>https://runrig.org/events/open-design-workshops</u></u></
-  a><br>For general info about Runrig:<br><a href="https://
-  runrig.org"><u>https://runrig.org</u></a>
-LAST-MODIFIED:20240320T014328Z
-LOCATION:https://runrig.org/events/open-design-workshops
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Runrig Open Workshop (2nd Sun)
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:This is an event reminder
-TRIGGER:-P0DT0H10M0S
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20240321T180000
-DTEND;TZID=America/New_York:20240321T190000
-RRULE:FREQ=MONTHLY;BYDAY=3TH
-DTSTAMP:20240320T014355Z
-ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
-UID:6uens6mdv96kq50pcjmmmh3kmh@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=
-  TRUE;CN=jamie@jgaehring.com;X-NUM-GUESTS=0:mailto:jamie@jgaehring.com
-X-MICROSOFT-CDO-OWNERAPPTID:1328676840
-CREATED:20240320T012443Z
-DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
-  Workshop info:<br><a href="https://github.com/runrig-coop/open-design
-  -workshops"><u>https://github.com/runrig-coop/open-design-workshops</
-  u></a><br><br><br>Click the following link to join the meeting from y
-  our computer:<br><a href="https://runrig.org/events/open-design-works
-  hops"><u><u>https://runrig.org/events/open-design-workshops</u></u></
-  a><br>For general info about Runrig:<br><a href="https://
-  runrig.org"><u>https://runrig.org</u></a>
-LAST-MODIFIED:20240320T014353Z
+LAST-MODIFIED:20240607T090000Z
 LOCATION:https://runrig.org/events/open-design-workshops
 SEQUENCE:1
 STATUS:CONFIRMED
-SUMMARY:Runrig Open Workshop (3rd Thu)
-TRANSP:OPAQUE
+SUMMARY:Runrig Open Workshop
+TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:This is an event reminder
 TRIGGER:-P0DT0H10M0S
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:This is an event reminder
-TRIGGER:-P0DT1H15M0S
 END:VALARM
 END:VEVENT
 END:VCALENDAR
