@@ -23,7 +23,9 @@ const date = fmtDate(props.fm.date);
 <template>
   <header class="vp-doc">
     <h1>
-      {{ fm.title }}
+      <span>
+        {{ fm.title }}
+      </span>
       <span class="rr-subtitle" v-if="fm.subtitle">
         {{ fm.subtitle }}
       </span>
@@ -39,13 +41,17 @@ const date = fmtDate(props.fm.date);
 <style scoped>
 header {
   border-bottom: 1px solid var(--vp-c-divider);
-  margin-bottom: .175;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem
 }
 h1 {
+  font-size: 3rem;
+  line-height: 3rem;
   color: var(--vp-c-text-1);
-  margin-bottom: .75rem;
+  margin-bottom: 1.5rem;
 }
 .rr-subtitle {
+  margin-top: .75rem;
   display: inline-block;
   color: var(--vp-c-text-2);
   letter-spacing: -0.02em;
@@ -58,6 +64,7 @@ ul, li {
 }
 .vp-doc ul {
   display: inline-block;
+  margin-top: 0;
   margin-bottom: .75rem;
   list-style: none;
   padding-left: 0;
