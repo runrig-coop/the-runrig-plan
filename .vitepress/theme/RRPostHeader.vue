@@ -44,7 +44,7 @@ header {
   margin-top: 6rem;
   margin-bottom: 1.5rem
 }
-h1 {
+.vp-doc h1 {
   font-size: 3rem;
   line-height: 3rem;
   color: var(--vp-c-text-1);
