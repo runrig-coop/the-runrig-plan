@@ -14,13 +14,13 @@ description: In this essay I explore the role of the commons in today's food &
 When I tell people I make open source software for farmers, I'll occasionally
 hear some variation of the reply, "Why do farmers care whether their software is
 open source?" The precise response may differ in tone from the genuinely curious
-to slightly facetious or outright incredulous. "You don't actually expect
+to slightly facetious or even outright incredulous. "You don't actually expect
 farmers to read the source code or build the binaries themselves, do you?" I
 might have to concede on that last point, but it seems to me that, regardless of
-how they're expressed, responses of this sort all rely the same faulty premise.
-They assume that farming and information technology represent opposing world
-views, that their issues and concerns seldom correlate, and if they do it's by
-sheer accident.
+how they're expressed, responses of this sort all rely upon the same faulty
+premise. They assume that farming and information technology represent opposing
+world views, that their issues and concerns seldom correlate, and if they do
+it's by sheer accident.
 
 Lately, I haven't heard this response quite as often as I used to. I attribute
 this in part to the rise of the closely aligned food sovereignty and data
@@ -35,7 +35,7 @@ locally, or at a regional scale appropriate to the task at hand. The power to
 choose should be decentralized as much as possible, but also more fairly
 distributed. Put another way, both movements are committed to stewarding common
 resources, and they don't necessarily put any restrictions on what those
-resources might be: common land and the knowledge commons are together just _the
+resources might be: common land and a knowledge commons are together just _the
 commons_, one and the same.
 
 Unlike more right-leaning libertarian ideologies, which prevail among
@@ -162,7 +162,7 @@ practiced widely by peasant farmers. It was this apparent contradiction that
 first got me looking more critically about the relationship between farming and
 technology. And it only got more puzzling the deeper I looked.
 
-I've clocked far too many hours digging through the relics of early internet
+I've already spent too many hours digging through the relics of early internet
 subculture and hunting down pay-walled citations on Sci-Hub.[^shadow-libs] I've
 finally resigned to the fact that I'm never going to reach any definitive
 conclusions, perhaps not even a satisfactory understanding of all this. The more
