@@ -76,7 +76,7 @@ const ctaButtons = [
             project and a method of socio-ecological design. It aims for
             collective sovereignty over not just our food, but also the labor
             that raises it, the land and living things that support it, and the
-            data connecting connecting it all.
+            data connecting it all.
           </p>
           <p class="tagline">Locally. Regionally. Globally.</p>
         </template>
