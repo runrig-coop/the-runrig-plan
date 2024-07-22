@@ -904,7 +904,7 @@ of life itself:
 > the tools of genetic engineering as the yardstick of "improvement." Defining
 > Christianity as the only religion, and all other beliefs and cosmologies as
 > primitive, finds its parallel in defining commercialized Western science as
-> the only science, and all other knowledge as primitive.[^terra-nullius]
+> the only science, and all other knowledge as primitive.[^vita-nullius]
 
 Compare this with James Muldoon, writing in 2022, starting from the very next
 line I cited above where he defines his concept of "data commodity fetishism:"
