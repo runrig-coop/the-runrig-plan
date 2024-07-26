@@ -298,7 +298,7 @@ common peasantry. More recently I was reminded of the poem when Linebaugh
 recited it once again in an interview with David Bollier, a fact I would soon
 come to realize was no coincidence.[^line-boll]
 
-[^Flanders]: _The Laura Flanders Show_, ["Peter Linebaugh: Who Owns the Commons?
+[^flanders]: _The Laura Flanders Show_, ["Peter Linebaugh: Who Owns the Commons?
     An 800 Year Fight for Public
     Goods"](https://www.youtube.com/watch?v=nSF3m_Uav6Y), 2015 Jan 6.
 [^line-boll]: David Bollier, ["Peter Linebaugh on What the History of Commoning
