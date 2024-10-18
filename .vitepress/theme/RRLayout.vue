@@ -73,7 +73,7 @@ const ctaButtons = [
           </h1>
           <p class="text">
             Runrig is a communal farming platform, a <em>libre</em> software
-            project and a method of socio-ecological design. It aims for
+            project, and a method for socio-ecological design. It calls for
             collective sovereignty over not just our food, but also the labor
             that raises it, the land and living things that support it, and the
             data connecting it all.
