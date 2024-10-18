@@ -1269,12 +1269,13 @@ sense of place within it. The same is true with the enclosure of knowledge,
 which estranges us from the markers of culture and our shared ways of doing
 things.
 
-The commons comes about wherever we collectively acknowledge that although we
-may use a thing, care for it, and maintain it, that does not give us sole
-dominion over it, nor over how others may wish to use it. Saying it like that,
-it comes across as a bit of a platitude, but there's a subtlety there that
-eluded me when I first showed up at GOAT 2022, still struggling to make sense of
-such high concepts as usufruct and alienation. The commons is not ours to
-dispose of as we wish. We cannot alienate it from ourselves, nor us from it. We
-partake of the land or knowledge commons, but ultimately it is something we must
-give back to the whole.
+The commons will emerge wherever we can come together as a whole and testify
+that, _Although we may use a thing, care for it, and maintain it, that does not
+give us sole dominion over it, nor over how others may wish to use and care for
+it_. Stated that way, the logic of the commons sounds like a bit of a platitude.
+So be it, but there's a subtle truth in the statement, something that first
+eluded me when I was struggling to make sense of such high and mighty concepts
+like _usufruct_ and _alienation_. The commons is not ours to dispose of as we
+wish. We cannot alienate it from ourselves, nor us from it. We may partake of
+common land, its fruits, or the knowledge concerning it, but in the end we must
+all give back all that we take, returning it to the whole.
