@@ -1272,9 +1272,9 @@ things.
 The commons comes about wherever we collectively acknowledge that although we
 may use a thing, care for it, and maintain it, that does not give us sole
 dominion over it, nor over how others may wish to use it. Saying it like that,
-it comes across as a bit of a platitude, but there's a subtly there that eluded
-me when I first showed up at GOAT 2022, still struggling to make sense of such
-high concepts as usufruct and alienation. The commons is not ours to dispose of
-as we wish. We cannot alienate it from ourselves, nor us from it. We partake of
-the land or knowledge commons, but ultimately it is something we must give back
-to the whole.
+it comes across as a bit of a platitude, but there's a subtlety there that
+eluded me when I first showed up at GOAT 2022, still struggling to make sense of
+such high concepts as usufruct and alienation. The commons is not ours to
+dispose of as we wish. We cannot alienate it from ourselves, nor us from it. We
+partake of the land or knowledge commons, but ultimately it is something we must
+give back to the whole.
