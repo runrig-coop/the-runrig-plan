@@ -17,36 +17,42 @@ outline: [2, 4]
 ---
 
 The purpose of this document is to provide a high-level strategy for the
-development of the Farm Flow application, together with practical
-recommendations for how these strategies might be implemented, in order to
-achieve the desired outcomes of Farm Flow's various stakeholders. Runrig
-consulted with Fitzgerald Organics, Cloudburst Studio, and the 11th Hour Project
-to gather feedback and insights to their objectives. Aspects of business
-development, technical feasibility, ecosystem impact, user experience, and the
-overall design requirements have all been taken into consideration.
+development of the Farm Flow software platform. It will include practical
+recommendations for how that strategy may be implemented and how it will achieve
+the desired outcomes of Farm Flow's various stakeholders. Runrig consulted with
+Fitzgerald Organics, Cloudburst Studio, and the 11th Hour Project to gather
+feedback and insights to their objectives. Aspects of business development,
+technical feasibility, ecosystem impact, user experience, and the specific
+design requirements have all been taken into consideration.
 
-### Motivation
-In spite of the wide variety of interests and goals at play here, they must all
-somehow be synthesized into concrete, actionable recommendations that can be
-implemented effectively. For clarity, therefore, we can summarize the project's
-primary motivations as follows:
+It is precisely this varied collection of interests and goals that must somehow
+be synthesized into a single, coherent strategy with actionable recommendations.
+With that in mind, we'd like to offer this provisional summary of Farm Flow's
+main motivations and the purpose of the software project as a whole.
 
-> As a software application, social enterprise, and community platform, Farm
-Flow is committed to providing organic farms (or farms seeking to transition to
-organic practices) with a comprehensive system for crop planning, team
-management, and operational record keeping. Its key value propositions is the
-Farm Flow Board, which allows team members to coordinate field actions to
-achieve measurable gains in crop production, cost savings, and environmental
-impact. To take advantage of the aggregate knowledge and diverse experience of
-entire farming communities, Farm Flow is intended to connect farmers,
-agronomists, technicians, designers, and other stakeholders, opening new
-channels for collaboration.
+:::info Summary of Farm Flow's Main Motivations & Purpose
+
+As a software platform, social enterprise, and knowledge ecosystem, Farm Flow
+provides a comprehensive solution for crop planning, team management, and
+operational analysis, serving farms of all shapes and sizes. A key value
+proposition is the Farm Flow Board, a visualization of all the field tasks to be
+carried out for every crop on the farm, as well as Standard Operating Procedures
+(SOPs) that prescribe how each task is to be performed. With these utilities in
+hand, team members can coordinate their activities to achieve targeted
+production volumes, desired costs savings, and positive environmental impacts.
+As a wider community and a forum for exchanging knowledge, Farm Flow also
+connects farmers to agronomists, technicians, designers, and other stakeholders,
+activating new channels for collaboration and innovation.
+
+:::
 
 No doubt this glosses over many of the finer points and perspectives, so we
 invite any suggestions on how to improve this statement as development proceeds.
 
 ### Strategies & Recommendations
-With those motivations in mind, we propose the following three general strategies:
+The strategy we recommend can be broken down into the three constituent
+strategies that follow, with a dedicated section below presenting the full
+rationale and practical recommendations for each:
 
 1. [Focus on Core Competencies], namely [The Farm Flow Board] and [SOPs]
 2. [Actively Promote Data Portability]
@@ -60,7 +66,6 @@ With those motivations in mind, we propose the following three general strategie
 [Embrace Software Freedom as a Business Model]:
     #embrace-software-freedom-as-a-business-model
 
-Practical recommendations and their full rationale follow below.
 
 ## Focus on Core Competencies
 Ten years ago, the range of mature software available to farmers for managing
