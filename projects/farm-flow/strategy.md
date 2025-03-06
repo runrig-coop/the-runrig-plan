@@ -105,18 +105,18 @@ qualities that offer the most distinct value to the user:
 - __The Vertical Axis__: At any moment during the season, there will be a
   cluster of columns representing recent and upcoming calendar dates that
   focuses the user's attention. The field activities within this cluster present
-  a sort of "wavefront" of salient data points and a critical decision window.
-  Because the rows are grouped by the geographic proximity of crop location,
-  shifting one's attention up and down a column corresponds loosely to the
-  distance between crops. There is an aspect of directionality along the
-  vertical axis, too, since moving vertically towards or away from a given row
-  on the board corresponds to real movement to and from locations on the farm.
-  This is most conspicuous when observing differences a column of rainfall
-  amounts for each crop location and how they rise and fall in a relatively
-  smooth gradient up and down the column. When this vertical directionality is
-  combined with the direction of time inferred by the horizontal axis, it offers
-  a unique opportunity for representing these gradients across the 2-dimensional
-  plane of the board, as expounded below.
+  a sort of "wavefront" of significant data points: it is the critical decision
+  window at any moment during the planting season. Because the rows are grouped
+  by the geographic proximity of crop location, shifting one's attention up and
+  down a column corresponds loosely to the distance between crops. There is an
+  aspect of directionality along the vertical axis, too, since moving vertically
+  towards or away from a given row on the board corresponds to real movement to
+  and from locations on the farm. This is most conspicuous when observing the
+  rainfall amounts for one day (a single column) and how they rise and fall in a
+  relatively smooth gradient up and down the column. When this vertical
+  directionality is combined with the direction of time inferred by the
+  horizontal axis, it offers a unique opportunity for representing these
+  gradients across the 2-dimensional plane of the board, as expounded below.
 
 #### Heat Map vs Gantt Chart
 One way to analyze the visual and geometric relationships of the Farm Flow Board
@@ -168,27 +168,29 @@ placed on the geographic relationships rather than temporal ones.
 It should also be stressed that this doesn't preclude typical Gantt-style
 representations, only that a significant source of value could be lost if
 Gantt-style blocks are prioritized over heat-map-style gradients, at least until
-proven otherwise.
+proven otherwise. Gantt charts are already offered by several crop planning apps
+already on the market today, but the heat-map approach has yet to be exploited. 
 
 The value a user assigns to these features may depend on the type and number of
 crops they have in production, their farming practices, and the overall scale of
-their farm, particularly where these may deviate from to Fitzgerald Organics. A
+their farm, particularly where these may differ from to Fitzgerald Organics. A
 smaller farm growing a larger number of specialty crops might value geographic
-groupings less highly, or may not afford such strict sequences between
+groupings less highly, or may not adhere to such strict sequences between
 activities. It may be that this could limit the diversity of farms types that
 would be best served by focusing on this unique value proposition; however, the
 lack of competing alternatives in this space could still make it a far more
-beneficial approach. Meanwhile, the core visual and algorithmic characteristics
-– specifically, __rendering gradient values across a 2D plane that correlates to
-calendar days and geographic space__ – could foreseeably be abstracted to
-support any other such user scenario that can be represented across a 2D vector
-space as scalar gradients.
+beneficial approach. On the other hand, it's quite possible that the core visual
+and algorithmic characteristics – specifically, __rendering gradient values
+across a 2D plane that correlates to calendar days and geographic space__ –
+could be generalized to render other datasets, plus the user scenarios they
+represent, so long as they can be mapped to a 2D vector space and scalar
+gradients.
 
-In fact, the SOPs themselves may provide the ideal delta values for sorting the
-rows and determining gradient visualizations. As explained in the next section,
-the key to these SOPs is specifically the way they represent user-defined
-criteria for evaluating the board's primary data points, the activities, which
-are basically _instances of different classes of SOP_.
+The SOPs may in fact provide the ideal delta values for sorting the rows and
+determining gradient visualizations. As explained in the next section, the key
+to these SOPs is specifically the way they represent user-defined criteria for
+evaluating the board's primary data points – that is, the activities themselves
+– which are basically _instances of different classes of SOP_.
 
 [gridded heat map]: https://www.atlassian.com/data/charts/heatmap-complete-guide
 [spatial heat map]: https://observablehq.com/@d3/hexbin-map
@@ -199,11 +201,12 @@ are basically _instances of different classes of SOP_.
 
 
 ### SOPs as User-defined Algorithms
-The Standard Operating Procedures, or __SOPs__, are the second core competency
-identified in Runrig's initial assessment. The SOPs should be recognized as
-distinct from tasks or activities, which are instances where the SOPs are
-actually carried out. They are in essence __user-defined algorithms__ for how to
-carry out vital tasks and sequences of tasks that can impact a crop's success.
+Standard Operating Procedures, or __SOPs__, are the second core competency
+identified in Runrig's initial assessment. The SOP, as the general _form of an
+activity_, should be distinguished from the activity itself, which is merely
+_one instance of the SOP_ that it carried out. Each SOP is in essence a
+__user-defined algorithm for how to perform a vital task__, meant to achieve a
+corresponding and observable outcome, impacting the overall success of the crop.
 
 Just as important as the individual SOPs are __planned sequences__ of SOPs (or
 perhaps "SOP Flows"?) that the user determines should be carried out in order to
@@ -226,7 +229,7 @@ can also be assigned to intervals and deviations between _multiple_ tasks, such
 as elapsed time or changes in soil moisture, temperature levels, or crop height.
 Finally, there can also be target and observed values for __the total outcome of
 a given crop and its associated activities__, such as the total yield,
-days-to-maturity (DTMs), or more qualitative attributes like the crop's moisture
+days-to-maturity (DTM), or more qualitative attributes like the crop's moisture
 density or coloration. Beyond individual crops, values can also be aggregated to
 represent a particular crop type, seasonal harvest, or multi-year environmental
 impacts.
@@ -369,12 +372,12 @@ general categories, as they pertain to Farm Flow:
 
 1. User freedom will be enhanced, including their freedom to try Farm Flow in
    the first place, due to lower up-front switching costs and alleviated concern
-   over vendor lock-in should they choose to leave later on.
+   over vendor lock-in should they ever choose to leave.
 2. Farm Flow itself will be less susceptible to vendor lock-in by third-party
    libraries and services, as well as hosting providers.
-3. New synergies can be activated within the wider ecosystem of free software,
-   which can diffuse the costs of development or introduce complementary
-   services that boost Farm Flow's appeal.
+3. New synergies can be activated within the wider ecosystem of free software
+   platforms, which can diffuse the costs of development and introduce
+   complementary services that boost Farm Flow's appeal.
 
 It is all the more critical to capitalize on these benefits in order to fully
 realize the gains of free and open source software as a development strategy.
@@ -410,32 +413,36 @@ with more advanced options like synchronization pretty much off-limits. However,
 the critical thing is to approach portability as a first-order feature that can
 be improved upon iteratively with each pre-release. 
 
-First-order import/export can help inform initial decisions about the data model
-in ways that might otherwise have met with obstacles later in development. Alpha
-and beta testers can more actively participate in the domain modelling process
-this way, creating a deeper understanding and trust between the domain experts
-and developers that can lead further cooperation and stronger commitment over
-time. A favorite practice in this regard is the "Show Your Spreadsheets!"
-workshop, where willing participants can their present the spreadsheets they
-currently or previously used to organize their operations. Farmers can advise
-developers on their own experience, lessons they've learned, and most critically
-the _nuance_ of various strategies they've employed. In turn, developers can
-offer advice on ways to structure data more effectively and suggest ways that
-their spreadsheets can be imported to Farm Flow without any loss of data or
-nuance, and hopefully with the least effort on the user's part. This process can
-also benefit by adopting a few techniques from [Domain Driven Development
-(DDD)], such as the use of a [ubiquitous language] and [bounded contexts].
+First-order import/export can help inform early decisions, leading to greater
+consistency in the data model, higher fidelity to the user's mental model, and
+fewer obstacles to data portability later in development. Alpha and beta testers
+should be active participants in the domain modelling process, creating a deeper
+understanding and sense of trust between the domain experts (users) and domain
+modelers (developers). This in turn can lead to further cooperation and stronger
+commitment over time. A favorite practice in this regard is the "Show Your
+Spreadsheets!" workshop, where willing participants can their present the
+spreadsheets they currently or previously used to organize their operations.
+Farmers can advise developers on their own experience, lessons they've learned,
+and the critical nuance of various strategies they've tried. In turn, developers
+can offer advice on ways to structure data more effectively and suggest ways
+that their spreadsheets can be imported to Farm Flow without the loss of data or
+any nuance. Ideally, that means less effort on the user's part when it comes to
+importing and exporting their data. This process can aided in adopting a few
+techniques from [Domain Driven Development (DDD)], such as the use of a
+[ubiquitous language] and [bounded contexts].
 
-Hopefully by the time of the very first general release, users will have a
-reasonably smooth pathway to importing existing data from other platforms into
-Farm Flow, which can be helpful for onboarding. This is an obvious gain in its
-own right, but also opens up the possibility for interoperability with the
-platforms those users are possibly migrating from, particularly other free
-software platforms. User-share doesn't have to be a strictly zero sum game, not
+By the time of the very first general release, users should have a reasonably
+smooth pathway to importing existing data from other platforms into Farm Flow.
+This is a clear gain in its own right, since it can greatly simplify onboarding,
+but it also opens up a pathway for interoperability between the platforms
+farmers were using in the past and those they may wish to use in conjunction
+with Farm Flow. User-share doesn't have to be a strictly zero sum game, not
 where complementary platforms are open to collaboration and exploiting separate
-niches. Users will also be more inclined to migrate by knowing they always have
-a pathway to export their data in the future, hopefully with the option to keep
-data synchronized across platforms before too long.
+niches. By its very nature, such an approach especially favors other free
+software platforms. Meanwhile, users will also be more inclined to migrate to
+Farm Flow by knowing they always have an escape hatch to export their data at
+any time, with the prospect of keeping their data synchronized across platforms
+as a top priority of future development.
 
 [Domain Driven Development (DDD)]: https://www.domainlanguage.com/ddd/
 [ubiquitous language]: https://martinfowler.com/bliki/UbiquitousLanguage.html
@@ -521,9 +528,9 @@ These tools are more generic but may be worth exploring:
 
 #### Industry Standards
 Apart from making Farm Flow's own data model and schema more accessible to
-community contributors and the third-party developers of compatible platforms,
-there are already today a number of publicly available data models and standards
-that may prove relevant to 
+community contributors and third-party developers, there are a number of
+industry standards and data models already widely available that can facilitate
+data portability and reduce overall costs:
 
 - __[farmOS Data Model]__ The farmOS project has a well-established open data
   model that has been used by a diverse range of farms and organizations,
