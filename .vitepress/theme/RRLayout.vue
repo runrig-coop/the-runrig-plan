@@ -43,9 +43,6 @@ onMounted(() => {
   }, false);
 });
 
-// const openFieldImage = './assets/open_field_system.png';
-// const stackImage = './assets/stack-diagram.svg';
-
 const ctaButtons = [
   {
     theme: 'brand',
