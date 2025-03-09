@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import RRSection from './RRSection.vue';
@@ -10,7 +10,7 @@ import stackImage from './assets/stack-diagram.svg';
 
 const { Layout } = DefaultTheme;
 const data = useData();
-const { frontmatter: fm, isDark } = data;
+const { frontmatter: fm, isDark, page } = data;
 
 onMounted(() => {
   // The maximum heights used as the basis for the scroll position,
@@ -55,6 +55,12 @@ const ctaButtons = [
     link: '/get-involved',
   },
 ];
+
+const isPost = computed(() => {
+  const { relativePath: path } = page.value;
+  return path.startsWith('posts/') || path.startsWith('projects/');
+});
+
 </script>
 
 <template>
@@ -180,9 +186,9 @@ const ctaButtons = [
       </RRSection>
     </template>
   </Layout>
-  <Layout v-else-if="data.page.value.relativePath.startsWith('posts/')">
+  <Layout v-else-if="isPost">
     <template #doc-before>
-      <RRPostHeader :fm="fm" :page="data.page"/>
+      <RRPostHeader :fm="fm" :page="page"/>
     </template>
     <template #default></template>
   </Layout>
