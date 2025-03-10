@@ -12,7 +12,7 @@ description: The purpose of this document is to provide a high-level strategy
     Project to gather feedback and insights to their objectives. Aspects of
     business development, technical feasibility, ecosystem impact, user
     experience, and the overall design requirements have all been taken into consideration.
-author: The Runrig Team
+author: Jamie Gaehring
 outline: [2, 4]
 ---
 
@@ -27,7 +27,7 @@ design requirements have all been taken into consideration.
 
 It is precisely this varied collection of interests and goals that must somehow
 be synthesized into a single, coherent strategy with actionable recommendations.
-With that in mind, we'd like to offer this provisional summary of Farm Flow's
+With that in mind, I'd like to offer this provisional summary of Farm Flow's
 main motivations and the purpose of the software project as a whole.
 
 :::info Summary of Farm Flow's Main Motivations & Purpose
@@ -46,11 +46,11 @@ activating new channels for collaboration and innovation.
 
 :::
 
-No doubt this glosses over many of the finer points and perspectives, so we
+No doubt this glosses over many of the finer points and perspectives, so I
 invite any suggestions on how to improve this statement as development proceeds.
 
 ### Strategies & Recommendations
-The strategy we recommend can be broken down into the three constituent
+The strategy I recommend can be broken down into the three constituent
 strategies that follow, with a dedicated section below presenting the full
 rationale and practical recommendations for each:
 
@@ -162,7 +162,7 @@ markers] or [animations bound to a slider widget] controlled by the user.
 Each visual cue adds a new dimension for comparing the data. How might such
 gradients prove even more effective in a dynamic display, where the gradient
 colors can intensify and shift hue as the activity marker itself is moved back
-and forth across the grid in real time? To our knowledge, nothing like this
+and forth across the grid in real time? To my knowledge, nothing like this
 exists in any existing crop planning applications. It may also be worth
 exploring other ways that gradient values could be represented on a [spatial
 heat map] or [choropleth] that allow for greater accuracy and emphasis to be
