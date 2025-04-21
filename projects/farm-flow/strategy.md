@@ -463,7 +463,7 @@ achieving this, but given Farm Flow's elected backend stack of [NestJS],
 [Prisma], and [SupaBase], we'll make some specific recommendations here that
 make use of their built-in utilities:
 
-1. __NextJS OpenAPI Module__: NextJS provides an [official OpenAPI module],
+1. __NestJS OpenAPI Module__: NestJS provides an [official OpenAPI module],
    which can be used to publish documentation of you APIs in the form of a
    machine-readable [OpenAPI] YAML or JSON document, as well as the [Swagger UI],
    hosted for either private or public access on your website. This can be
