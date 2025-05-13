@@ -1,3 +1,11 @@
+---
+path: "/get-involved"
+date: 2023-06-25
+title: Get Involved
+author: Jamie Gaehring
+description: How to get involved in the Runrig community.
+---
+
 # Get Involved
 Central to Runrig's design methodology are the social relations and communities
 that develop in tandem with the development of any particular technology.

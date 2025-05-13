@@ -1,3 +1,13 @@
+---
+path: "/ecology"
+date: 2023-04-16
+title: The Runrig Plan
+subtitle: "Appendix: Ecology"
+author: Jamie Gaehring
+description: Unfinished draft note of Runrig's social, economic, and
+    ecological design principles.
+---
+
 # Appendix: Ecology
 ## Reframing Production & Consumption as Metabolic Exchange
 As we first addressed in the ["Overview"] and will further detail in ["Appendix:

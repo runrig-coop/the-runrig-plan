@@ -1,3 +1,13 @@
+---
+path: "/roadmap-2024"
+date: 2023-12-17
+title: Roadmap for 2024
+subtitle: "Appendix: Architecture"
+author: Jamie Gaehring
+description: This roadmap is being presented in order to provide a more
+    intentional, structured exposition of Runrig's short and long term goals.
+---
+
 # Roadmap for 2024
 This roadmap is being presented in order to provide a more intentional,
 structured exposition of Runrig's short and long term goals. It is not, however,

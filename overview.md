@@ -1,3 +1,14 @@
+---
+path: "/the-runrig-plan"
+date: 2023-04-16
+title: The Runrig Plan
+subtitle: A socio-ecological methodology of software development
+author: Jamie Gaehring
+description: Free and open source software is a starting point, not the
+    destination. Full computing autonomy requires control of the underlying
+    infrastructure, something beyond the capacity of most individuals.
+---
+
 # Runrig: A Plan for Socio-ecological Design
 ## Purpose
 In its narrowest sense, Runrig is a technology framework for the communal

@@ -1,3 +1,11 @@
+---
+path: "/contact"
+date: 2023-04-16
+title: "Contact"
+author: Jamie Gaehring
+description: Unfinished draft note of Runrig's architectural features.
+---
+
 # Contact
 Runrig is still in the early stages of formation, but we invite constructive
 feedback and other support. For now, you can [email Jamie] with inquiries or
