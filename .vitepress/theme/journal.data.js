@@ -7,10 +7,10 @@ const sortPostsDescByDate = (a, b) =>
 
 const transformUrl = post => ({
   ...post,
-  url: post.url.replace('posts/', ''),
+  url: post.url.replace('content/', ''),
 });
 
 const transform = raw =>
   raw.filter(hasValidDate).map(transformUrl).toSorted(sortPostsDescByDate);
 
-export default createContentLoader('posts/journal/**/*.md', { transform });
+export default createContentLoader('content/journal/**/*.md', { transform });

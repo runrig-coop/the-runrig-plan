@@ -8,4 +8,4 @@ const sortPostsDescByDate = (a, b) =>
 const transform = raw =>
   raw.filter(hasValidDate).toSorted(sortPostsDescByDate);
 
-export default createContentLoader('posts/**/*.md', { transform });
+export default createContentLoader('content/**/*.md', { transform });
