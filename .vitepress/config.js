@@ -64,7 +64,7 @@ export default defineConfig({
         text: 'About',
         items: [
           { text: 'Get Involved', link: '/get-involved' },
-          { text: 'Roadmap 2024', link: '/roadmap-2024' },
+          { text: 'Roadmap 2024', link: '/archive/roadmap-2024' },
           { text: 'Contact', link: '/contact' },
         ],
       },
@@ -73,6 +73,7 @@ export default defineConfig({
   rewrites: {
     "content/journal/:slug*": "journal/:slug*",
     "content/plan/:slug*": "plan/:slug*",
+    "content/archive/:slug*": "archive/:slug*",
     "pages/:slug": ":slug",
   },
   markdown: {

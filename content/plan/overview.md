@@ -404,9 +404,9 @@ as well as governance structures and legal considerations.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-[Runrig Roadmap for 2024]: /roadmap-2024
-[3-phase business model]: /roadmap-2024#three-phase-business-plan
-[reference implementations]: /roadmap-2024#projects-for-2024
+[Runrig Roadmap for 2024]: /archive/roadmap-2024
+[3-phase business model]: /archive/roadmap-2024#three-phase-business-plan
+[reference implementations]: /archive/roadmap-2024#projects-for-2024
 [get involved]: /get-involved.md
 [sign up]: https://buttondown.email/runrig
 ["Architecture"]: ./architecture.md

@@ -69,7 +69,7 @@ onlookers to participate. Users and developers of other _libre_ software tools
 are especially encouraged to join and let us know ways we can complement and
 contribute to their projects.
 
-[Runrig Roadmap for 2024]: roadmap-2024.md
+[Runrig Roadmap for 2024]: /archive/roadmap-2024.md
 [repositories]: https://github.com/runrig-coop
 [discussions]: https://github.com/orgs/runrig-coop/discussions
 [Agile Manifesto]: https://agilemanifesto.org/

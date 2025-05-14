@@ -1,7 +1,6 @@
 ---
 date: 2023-12-17
 title: Roadmap for 2024
-subtitle: "Appendix: Architecture"
 author: Jamie Gaehring
 description: This roadmap is being presented in order to provide a more
     intentional, structured exposition of Runrig's short and long term goals.
@@ -396,9 +395,11 @@ muscles required to make this a truly democratic and sustainable project.
 
 ### Workshops & Mutual Aid
 :::warning
+
 The specific details of the workshop schedule and meeting links may be outdated
-but will not be updated. Please see the [get involved](get-involved.md) page for
-the most current information about workshops and other events.
+but will not be updated. Please see the [get involved] page for the most current
+information about workshops and other events.
+
 :::
 
 The Open Design Workshops so far have been held biweekly on weekend afternoons.
@@ -440,6 +441,7 @@ be adapted with group feedback in the time between one workshop and the next,
 based on what we're working on and who plans to attend. I'll try to post these
 to the [Runrig YouTube Channel], too, so if people want to watch later they can.
 
+[get involved]: /get-involved.md
 [GOAT Community Calendar]: https://goatech.org/calendar/
 [NixNix Events]: https://events.nixnet.services/
 [Mobilizon]: https://joinmobilizon.org/
