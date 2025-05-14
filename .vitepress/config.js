@@ -70,6 +70,9 @@ export default defineConfig({
       },
     ],
   },
+  rewrites: {
+    "posts/journal/:slug": "posts/:slug",
+  },
   markdown: {
     config(md) {
       md.use(footnote_plugin);
