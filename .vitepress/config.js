@@ -50,9 +50,9 @@ export default defineConfig({
       {
         text: 'The Plan',
         items: [
-          { text: 'Overview', link: '/plan/overview' },
-          { text: 'Ecology', link: '/plan/ecology' },
-          { text: 'Architecture', link: '/plan/architecture' },
+          { text: 'Overview', link: '/archive/plan/overview' },
+          { text: 'Ecology', link: '/archive/plan/ecology' },
+          { text: 'Architecture', link: '/archive/plan/architecture' },
           {
             items: [
               { text: 'Journal', link: '/journal' },

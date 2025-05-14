@@ -19,17 +19,17 @@
     },
     {
       "source": "/overview(.*)",
-      "destination": "/plan/overview",
+      "destination": "/archive/plan/overview",
       "permanent": true
     },
     {
       "source": "/architecture(.*)",
-      "destination": "/plan/architecture",
+      "destination": "/archive/plan/architecture",
       "permanent": true
     },
     {
       "source": "/ecology(.*)",
-      "destination": "/plan/ecology",
+      "destination": "/archive/plan/ecology",
       "permanent": true
     },
     {

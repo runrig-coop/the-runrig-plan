@@ -1,14 +1,22 @@
 ---
 date: 2023-04-16
-title: The Runrig Plan
-subtitle: A socio-ecological methodology of software development
+lastUpdated: 2023-12-18
+title: "Runrig: A Plan for Socio-ecological Design"
 author: Jamie Gaehring
 description: Free and open source software is a starting point, not the
     destination. Full computing autonomy requires control of the underlying
     infrastructure, something beyond the capacity of most individuals.
 ---
 
-# Runrig: A Plan for Socio-ecological Design
+:::warning ARCHIVED
+
+This is an older version of [The Runrig Plan], first published in April 2023, last edited in December 2023. For the current version, go to [runrig.org/plan]
+
+:::
+
+[The Runrig Plan]: /plan/index.html
+[runrig.org/plan]: /plan/index.html
+
 ## Purpose
 In its narrowest sense, Runrig is a technology framework for the communal
 management of a foodshed's digital assets, potentially spanning a network of
@@ -343,7 +351,7 @@ cooperatives and eventually "One Big Data Co-op," à la Bill Haywood and the
 Wobblies. Right now as a volunteer-driven group, we're in _Phase Zero_. Before
 taking any contracts or pursuing grants for the following phases, we're building
 out one or two [reference implementations] to test the viability of the model at
-each phase of development. We're holding open workshops every other week, along
+each phase of development. We're holding three open workshops each month, along
 with community chat rooms and discussion boards, so anyone can [get involved].
 As we progress, we're actively seeking partnerships and collaborations with
 similarly aligned organizations, and eventually hope to recruit farmers, food &
@@ -409,5 +417,5 @@ as well as governance structures and legal considerations.
 [reference implementations]: /archive/roadmap-2024#projects-for-2024
 [get involved]: /get-involved.md
 [sign up]: https://buttondown.email/runrig
-["Architecture"]: ./architecture.md
-["Ecology"]: ./ecology.md
+["Architecture"]: /archive/plan/architecture.md
+["Ecology"]: /archive/plan/ecology.md

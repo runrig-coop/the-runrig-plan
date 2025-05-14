@@ -1,13 +1,19 @@
 ---
 date: 2023-04-16
-title: The Runrig Plan
-subtitle: "Appendix: Ecology"
+lastUpdated: 2023-10-29
+title: "Appendix: Ecology"
 author: Jamie Gaehring
 description: Unfinished draft note of Runrig's social, economic, and
     ecological design principles.
 ---
 
-# Appendix: Ecology
+:::warning ARCHIVED
+
+Unfinished draft note of Runrig's social, economic, and ecological design
+principles.
+
+:::
+
 ## Reframing Production & Consumption as Metabolic Exchange
 As we first addressed in the ["Overview"] and will further detail in ["Appendix:
 Architecture"], Runrig makes certain architectural and design choices in order
@@ -528,6 +534,7 @@ end, but also an end in itself...
     _The Red Hat Blog_. Jan 25, 2008.
 
 
-["Overview"]: ./overview.md
-["Appendix: Architecture"]: ./architecture.md
-["ecology over architecture"]: ./overview.md#ecology-over-architecture
+["Overview"]: /archive/plan/overview.md
+["Appendix: Architecture"]: /archive/plan/architecture.md
+["ecology over architecture"]:
+    /archive/plan/overview.md#ecology-over-architecture

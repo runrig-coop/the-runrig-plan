@@ -1,21 +1,14 @@
 ---
 date: 2023-04-16
-title: The Runrig Plan
-subtitle: "Appendix: Architecture"
+lastUpdated: 2023-10-29
+title: "Appendix: Architecture"
 author: Jamie Gaehring
 description: Unfinished draft note of Runrig's architectural features.
 ---
 
-# Appendix: Architecture
-:::warning DRAFT NOTE
+:::warning ARCHIVED
 
-This page is still in a _very_ early stage of draft, mostly scattered notes,
-links and references.
-
-Provisional outline:
-- Data Provider
-- Service Platforms
-- Local-fist & Self-hosted Applications
+Unfinished draft note of Runrig's architectural features.
 
 :::
 
