@@ -71,7 +71,7 @@ export default defineConfig({
     ],
   },
   rewrites: {
-    "posts/journal/:slug": "journal/:slug*",
+    "posts/journal/:slug*": "journal/:slug*",
     "pages/:slug": ":slug",
   },
   markdown: {
