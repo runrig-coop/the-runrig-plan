@@ -58,7 +58,7 @@ const ctaButtons = [
 
 const isPost = computed(() => {
   const { relativePath: path } = page.value;
-  return path.startsWith('content/')
+  return path.startsWith('archive/')
     || path.startsWith('projects/')
     || path.startsWith('journal/');
 });
