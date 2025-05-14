@@ -63,7 +63,7 @@ functional layers:
 2. Many federated cooperative service platforms.
 3. Local-first[^Kleppmann] and self-hosted applications (optional).
 
-![Stack diagram](.vitepress/theme/assets/stack-diagram.svg)
+![Stack diagram](../../.vitepress/theme/assets/stack-diagram.svg)
 
 With sufficient investment, the server racks, network infrastructure,
 brick-and-mortar facilities and other physical assets required to run these
@@ -404,10 +404,10 @@ as well as governance structures and legal considerations.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-[Runrig Roadmap for 2024]: ./roadmap-2024
-[3-phase business model]: ./roadmap-2024#three-phase-business-plan
-[reference implementations]: ./roadmap-2024#projects-for-2024
-[get involved]: ./get-involved.md
+[Runrig Roadmap for 2024]: ../../roadmap-2024
+[3-phase business model]: ../../roadmap-2024#three-phase-business-plan
+[reference implementations]: ../../roadmap-2024#projects-for-2024
+[get involved]: ../../get-involved.md
 [sign up]: https://buttondown.email/runrig
 ["Architecture"]: ./architecture.md
 ["Ecology"]: ./ecology.md

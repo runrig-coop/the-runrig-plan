@@ -50,9 +50,9 @@ export default defineConfig({
       {
         text: 'The Plan',
         items: [
-          { text: 'Overview', link: '/overview' },
-          { text: 'Ecology', link: '/ecology' },
-          { text: 'Architecture', link: '/architecture' },
+          { text: 'Overview', link: '/plan/overview' },
+          { text: 'Ecology', link: '/plan/ecology' },
+          { text: 'Architecture', link: '/plan/architecture' },
           {
             items: [
               { text: 'Journal', link: '/journal' },
@@ -72,6 +72,7 @@ export default defineConfig({
   },
   rewrites: {
     "posts/journal/:slug*": "journal/:slug*",
+    "posts/plan/:slug*": "plan/:slug*",
     "pages/:slug": ":slug",
   },
   markdown: {
