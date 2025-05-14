@@ -1,5 +1,4 @@
 ---
-path: "/hedgerows"
 date: 2024-05-30
 title: Hedgerows in the Sky
 subtitle: Concerning knowledge enclosures and how they may be truly leveled

@@ -1,5 +1,4 @@
 ---
-path: "/architecture"
 date: 2023-04-16
 title: The Runrig Plan
 subtitle: "Appendix: Architecture"

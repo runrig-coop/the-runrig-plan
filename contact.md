@@ -1,5 +1,4 @@
 ---
-path: "/contact"
 date: 2023-04-16
 title: "Contact"
 author: Jamie Gaehring

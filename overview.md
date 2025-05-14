@@ -1,5 +1,4 @@
 ---
-path: "/the-runrig-plan"
 date: 2023-04-16
 title: The Runrig Plan
 subtitle: A socio-ecological methodology of software development

@@ -1,5 +1,4 @@
 ---
-path: "/get-involved"
 date: 2023-06-25
 title: Get Involved
 author: Jamie Gaehring

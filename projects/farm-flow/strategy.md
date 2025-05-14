@@ -1,5 +1,4 @@
 ---
-path: "/farm-flow/strategy"
 date: 2025-02-26
 title: Farm Flow Development Strategy
 subtitle: A strategy for Farm Flow's development with practical recommendations

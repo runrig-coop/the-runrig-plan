@@ -1,5 +1,4 @@
 ---
-path: "/roadmap-2024"
 date: 2023-12-17
 title: Roadmap for 2024
 subtitle: "Appendix: Architecture"
