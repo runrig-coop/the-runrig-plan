@@ -10,5 +10,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/posts/hedgerows(.*)",
+      "destination": "/journal/hedgerows",
+      "permanent": true
+    }
   ]
 }
