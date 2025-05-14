@@ -18,7 +18,7 @@ given foodshed or bioregion, human and otherwise.
 This is all part of the principle of ["ecology over architecture"], as outlined
 in the Runrig Plan.
 
-["ecology over architecture"]: ./overview.html#ecology-over-architecture
+["ecology over architecture"]: ./plan/overview.html#ecology-over-architecture
 
 ## Open Design Workshops
 The Open Design Workshops are the main venue where both the Runrig community and

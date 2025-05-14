@@ -47,7 +47,7 @@ const ctaButtons = [
   {
     theme: 'brand',
     text: 'Read the Plan',
-    link: '/overview',
+    link: '/plan/overview',
   },
   {
     theme: 'alt',
@@ -173,14 +173,14 @@ const isPost = computed(() => {
           <p class="text vp-doc">
             The Runrig Plan is a living document that describes the main design
             principles of the social and ecological technologies we are building
-            now and in the near future. The <a href="/overview">Overview
+            now and in the near future. The <a href="/plan/overview">Overview
             </a> is intended for a general audience and is the best place to
             start for all interested. Two appendices are also presented now,
             though they are still in a very rough stage of draft. The
-            <a href="/architecture">Architecture</a> page will go into
+            <a href="/plan/architecture">Architecture</a> page will go into
             more technical detail of the underlying software and networking
             systems involved in the implementation of Runrig, while the
-            <a href="/ecology">Ecology</a> page will cover more of the
+            <a href="/plan/ecology">Ecology</a> page will cover more of the
             social, environmental and economic aspects of the plan, as well as
             governance structures and legal considerations.
           </p>
