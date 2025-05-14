@@ -56,6 +56,7 @@ export default defineConfig({
           {
             items: [
               { text: 'Journal', link: '/journal' },
+              { text: 'Archive', link: '/archive' },
             ],
           }
         ],
