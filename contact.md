@@ -1,5 +1,4 @@
 ---
-date: 2023-04-16
 title: "Contact"
 author: Jamie Gaehring
 description: Unfinished draft note of Runrig's architectural features.

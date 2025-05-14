@@ -1,5 +1,4 @@
 ---
-date: 2023-06-25
 title: Get Involved
 author: Jamie Gaehring
 description: How to get involved in the Runrig community.
