@@ -55,6 +55,14 @@ a {
   border-bottom: 1px solid var(--vp-c-divider);
   margin-bottom: 3rem;
 }
+a:hover {
+  box-shadow: 0 .75px .25px var(--vp-c-divider);
+  transition: box-shadow 200ms;
+}
+a:hover p {
+  color: var(--vp-c-text-1);
+  transition: color 200ms;
+}
 header {
   margin-bottom: .75rem
 }
@@ -91,5 +99,7 @@ li:nth-child(2) {
 }
 p {
   margin: 1.5rem 0;
+  color: var(--vp-c-text-2);
+  transition: color 200ms;
 }
 </style>
