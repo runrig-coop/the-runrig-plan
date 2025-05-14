@@ -30,9 +30,9 @@ const date = fmtDate(props.fm.date);
         {{ fm.subtitle }}
       </span>
     </h1>
-    <ul v-if="fm.author || date">
+    <ul v-if="fm.author || fm.date">
       <li v-if="fm.author">{{ fm.author }}</li>
-      <li v-if="date">{{ date }}</li>
+      <li v-if="fm.date">{{ date }}</li>
     </ul>
     <slot></slot>
   </header>
