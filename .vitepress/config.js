@@ -55,7 +55,7 @@ export default defineConfig({
           { text: 'Architecture', link: '/architecture' },
           {
             items: [
-              { text: 'Journal', link: '/posts' },
+              { text: 'Journal', link: '/journal' },
             ],
           }
         ],
@@ -71,7 +71,8 @@ export default defineConfig({
     ],
   },
   rewrites: {
-    "posts/journal/:slug": "posts/:slug",
+    "posts/journal/:slug": "journal/:slug",
+    "pages/:slug": ":slug",
   },
   markdown: {
     config(md) {
