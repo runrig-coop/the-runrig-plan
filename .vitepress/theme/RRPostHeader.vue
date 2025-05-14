@@ -40,20 +40,20 @@ const date = fmtDate(props.fm.date);
 
 <style scoped>
 header {
-  border-bottom: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--rr-c-divider);
   margin-top: 6rem;
   margin-bottom: 1.5rem
 }
 .vp-doc h1 {
   font-size: 3rem;
   line-height: 3rem;
-  color: var(--vp-c-text-1);
+  color: var(--rr-c-text-1);
   margin-bottom: 1.5rem;
 }
 .rr-subtitle {
   margin-top: .75rem;
   display: inline-block;
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-2);
   letter-spacing: -0.02em;
   line-height: 28px;
   font-size: 24px;
@@ -70,11 +70,11 @@ ul, li {
   padding-left: 0;
 }
 li:nth-child(1) {
-  color: var(--vp-c-text-1);
+  color: var(--rr-c-text-1);
   margin-right: .75rem;
 }
 li:nth-child(2) {
-  color: var(--vp-c-text-1);
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-1);
+  color: var(--rr-c-text-2);
 }
 </style>

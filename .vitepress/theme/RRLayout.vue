@@ -284,7 +284,7 @@ section#runrig-hero .main {
   margin-top: 48px;
   line-height: 32px;
   font-size: 24px;
-  color: var(--vp-c-yellow-1);
+  color: var(--rr-c-yellow-1);
   font-weight: 700;
   font-style: italic;
 }

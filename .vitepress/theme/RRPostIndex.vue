@@ -47,20 +47,20 @@ main {
 a {
   display: inline-block;
   min-width: 100%;
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-2);
   text-decoration: none;
   text-decoration-color: transparent;
   text-decoration-style: unset;
   text-underline-offset: 0;
-  border-bottom: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--rr-c-divider);
   margin-bottom: 3rem;
 }
 a:hover {
-  box-shadow: 0 .75px .25px var(--vp-c-divider);
+  box-shadow: 0 .75px .25px var(--rr-c-divider);
   transition: box-shadow 200ms;
 }
 a:hover p {
-  color: var(--vp-c-text-1);
+  color: var(--rr-c-text-1);
   transition: color 200ms;
 }
 header {
@@ -69,13 +69,13 @@ header {
 h1 {
   font-size: 3rem;
   line-height: 3rem;
-  color: var(--vp-c-text-1);
+  color: var(--rr-c-text-1);
 }
 h2 {
   border: none;
   margin: .5rem 0 0 0;
   padding: 0;
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-2);
   letter-spacing: -0.02em;
   line-height: 28px;
   font-size: 24px;
@@ -90,16 +90,16 @@ ul {
   padding-left: 0;
 }
 li:nth-child(1) {
-  color: var(--vp-c-text-1);
+  color: var(--rr-c-text-1);
   margin-right: .75rem;
 }
 li:nth-child(2) {
-  color: var(--vp-c-text-1);
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-1);
+  color: var(--rr-c-text-2);
 }
 p {
   margin: 1.5rem 0;
-  color: var(--vp-c-text-2);
+  color: var(--rr-c-text-2);
   transition: color 200ms;
 }
 </style>
