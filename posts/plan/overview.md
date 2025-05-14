@@ -63,7 +63,7 @@ functional layers:
 2. Many federated cooperative service platforms.
 3. Local-first[^Kleppmann] and self-hosted applications (optional).
 
-![Stack diagram](../../.vitepress/theme/assets/stack-diagram.svg)
+![Stack diagram](stack-diagram.svg)
 
 With sufficient investment, the server racks, network infrastructure,
 brick-and-mortar facilities and other physical assets required to run these
