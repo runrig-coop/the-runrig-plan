@@ -48,17 +48,11 @@ export default defineConfig({
     logo,
     nav: [
       {
-        text: 'The Plan',
+        text: 'Documents',
         items: [
-          { text: 'Overview', link: '/archive/plan/overview' },
-          { text: 'Ecology', link: '/archive/plan/ecology' },
-          { text: 'Architecture', link: '/archive/plan/architecture' },
-          {
-            items: [
-              { text: 'Journal', link: '/journal' },
-              { text: 'Archive', link: '/archive' },
-            ],
-          }
+          { text: 'The Runrig Plan', link: '/plan' },
+          { text: 'Journal', link: '/journal' },
+          { text: 'Archive', link: '/archive' },
         ],
       },
       {
