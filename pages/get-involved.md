@@ -93,7 +93,7 @@ Runrig [Matrix] room. Some of us can also be found on the
 Discourse forum run by the Gathering for Open Agricultural Technology (GOAT).
 
 <script setup>
-  import RRButtonGroupChat from './.vitepress/theme/RRButtonGroupChat.vue';
+  import RRButtonGroupChat from '../.vitepress/theme/RRButtonGroupChat.vue';
 </script>
 
 <RRButtonGroupChat/>

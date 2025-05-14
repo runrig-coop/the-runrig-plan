@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: Contact
 author: Jamie Gaehring
 description: Unfinished draft note of Runrig's architectural features.
 ---
