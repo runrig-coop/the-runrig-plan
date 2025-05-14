@@ -18,17 +18,17 @@
       "permanent": true
     },
     {
-      "source": "/overview*",
+      "source": "/overview(.*)",
       "destination": "/plan/overview",
       "permanent": true
     },
     {
-      "source": "/architecture*",
+      "source": "/architecture(.*)",
       "destination": "/plan/architecture",
       "permanent": true
     },
     {
-      "source": "/ecology*",
+      "source": "/ecology(.*)",
       "destination": "/plan/ecology",
       "permanent": true
     }
