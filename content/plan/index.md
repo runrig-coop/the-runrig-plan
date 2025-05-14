@@ -169,10 +169,6 @@ for additional peer-to-peer features and decentralized functionality, which
 could provide greater resilience to the overall network while also granting more
 freedom to individual users outside of those networks.
 
-The details of this are still less critical to Runrig's initial development, but
-will be further explicated in the ["Architecture"] section of this proposal,
-though it is still in draft.
-
 ## Strategy
 ### Part of a Larger Ecosystem
 Brought to its full potential, Runrig goes far beyond what a single software
@@ -333,27 +329,14 @@ ecological characteristics back into our technologies and design is to
 reintegrate them with the natural and social worlds.
 
 ## Next Steps
-In the [Runrig Roadmap for 2024] we propose a [3-phase business model] for a
-workers cooperative, which can then steward the development of the platform
-cooperatives and eventually "One Big Data Co-op," à la Bill Haywood and the
-Wobblies. Right now as a volunteer-driven group, we're in _Phase Zero_. Before
-taking any contracts or pursuing grants for the following phases, we're building
-out one or two [reference implementations] to test the viability of the model at
-each phase of development. We're holding three open workshops each month, along
-with community chat rooms and discussion boards, so anyone can [get involved].
-As we progress, we're actively seeking partnerships and collaborations with
-similarly aligned organizations, and eventually hope to recruit farmers, food &
-tech workers and activists as coop members, so [sign up] for our newsletter to
-receive occasional updates.
-
 The Runrig Plan is a living document that describes the main design principles
 of the social and ecological technologies we are building now and in the near
-future. In addition to this overview, two appendices are also presented now,
-though they are still in a very rough stage of draft. The ["Architecture"] page
-will go into more technical detail of the underlying software and networking
-systems involved in the implementation of Runrig, while the ["Ecology"] page
-will cover more of the social, environmental and economic aspects of the plan,
-as well as governance structures and legal considerations.
+future. We're actively seeking partnerships and collaborations with similarly
+aligned organizations, and eventually hope to recruit farmers, food & tech
+workers and activists as coop members, so [sign up] for our newsletter to
+receive occasional updates.
+
+[sign up]: https://buttondown.email/runrig
 
 ## References
 [^Muldoon]: Muldoon, James. _Platform Socialism: How to Reclaim our Digital
@@ -399,11 +382,3 @@ as well as governance structures and legal considerations.
     Gro-Op"](https://github.com/skywoman/multifarm-aggregation-info-arch/tree/main/interviews/2022_08_12--Kip_Curtis_and_Richland_Gro_Op)
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
-
-[Runrig Roadmap for 2024]: /archive/roadmap-2024
-[3-phase business model]: /archive/roadmap-2024#three-phase-business-plan
-[reference implementations]: /archive/roadmap-2024#projects-for-2024
-[get involved]: /get-involved.md
-[sign up]: https://buttondown.email/runrig
-["Architecture"]: /archive/plan/architecture.md
-["Ecology"]: /archive/plan/ecology.md

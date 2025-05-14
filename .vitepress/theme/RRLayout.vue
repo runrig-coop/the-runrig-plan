@@ -154,36 +154,14 @@ const isPost = computed(() => {
           </h1>
           <!-- Using vp-doc class for text-decoration on <a> tags -->
           <p class="text vp-doc">
-            In the <a href="/archive/roadmap-2024">Runrig Roadmap for 2024</a> we propose a
-            <a href="/archive/roadmap-2024#three-phase-business-plan">3-phase business model</a>
-            for a workers' cooperative, which can then steward the development of
-            the platform cooperatives and eventually "One Big Data Co-op," à la
-            Bill Haywood and the Wobblies. Right now as a volunteer-driven group,
-            we're in <em>Phase Zero</em>. Before taking any contracts or pursuing
-            grants for the following phases, we're building out one or two
-            <a href="/archive/roadmap-2024#projects-for-2024">reference implementations</a>
-            to test the viability of the model at each phase of development. We're
-            holding open workshops every other week, along with community chat rooms
-            and discussion boards, so anyone can <a href="/get-involved">get involved</a>.
-            As we progress, we're actively seeking partnerships and collaborations with
-            similarly aligned organizations, and eventually hope to recruit farmers,
-            food & tech workers and activists as coop members,
-            so <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
+            <a href="/plan">The Runrig Plan</a> is a living document that
+            describes the main design principles of the social and ecological
+            technologies we are building now and in the near future. We're
+            actively seeking partnerships and collaborations with similarly
+            aligned organizations, and eventually hope to recruit farmers, food
+            & tech workers and activists as coop members, so
+            <a href="https://buttondown.email/runrig" target="_blank">sign up</a>
             for our newsletter to receive occasional updates.
-          </p>
-          <p class="text vp-doc">
-            The Runrig Plan is a living document that describes the main design
-            principles of the social and ecological technologies we are building
-            now and in the near future. The <a href="/plan">Overview
-            </a> is intended for a general audience and is the best place to
-            start for all interested. Two appendices are also presented now,
-            though they are still in a very rough stage of draft. The
-            <a href="/archive/plan/architecture">Architecture</a> page will go into
-            more technical detail of the underlying software and networking
-            systems involved in the implementation of Runrig, while the
-            <a href="/archive/plan/ecology">Ecology</a> page will cover more of the
-            social, environmental and economic aspects of the plan, as well as
-            governance structures and legal considerations.
           </p>
         </template>
       </RRSection>
