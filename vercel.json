@@ -16,6 +16,21 @@
       "source": "/posts/hedgerows(.*)",
       "destination": "/journal/hedgerows",
       "permanent": true
+    },
+    {
+      "source": "/overview*",
+      "destination": "/plan/overview",
+      "permanent": true
+    },
+    {
+      "source": "/architecture*",
+      "destination": "/plan/architecture",
+      "permanent": true
+    },
+    {
+      "source": "/ecology*",
+      "destination": "/plan/ecology",
+      "permanent": true
     }
   ]
 }
