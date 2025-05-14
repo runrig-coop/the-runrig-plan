@@ -59,7 +59,6 @@ export default defineConfig({
         text: 'About',
         items: [
           { text: 'Get Involved', link: '/get-involved' },
-          { text: 'Roadmap 2024', link: '/archive/roadmap-2024' },
           { text: 'Contact', link: '/contact' },
         ],
       },
