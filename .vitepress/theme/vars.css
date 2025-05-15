@@ -134,9 +134,9 @@
 }
 .dark {
   --rr-c-bg: #181b22;
-  --rr-c-bg-alt: #181b22;
-  --rr-c-bg-elv: #2e323e;
-  --rr-c-bg-soft: #2e323e;
+  --rr-c-bg-alt: #202b32;
+  --rr-c-bg-elv: #181b22;
+  --rr-c-bg-soft: #202b32;
 }
 
 /* Holdovers from the beta.3 default theme. */
