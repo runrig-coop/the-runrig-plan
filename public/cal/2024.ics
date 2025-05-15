@@ -25,7 +25,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20240621T140000
 DTEND;TZID=America/New_York:20240621T150000
-RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR;UNTIL=20250512T090000Z
 DTSTAMP:20240607T090000Z
 ORGANIZER;CN=Jamie Gaehring:mailto:jamie@jgaehring.com
 UID:7n84tvqal33r1gejdvf87cdgpl@google.com
@@ -41,10 +41,10 @@ DESCRIPTION:Collaborative design sessions with the Runrig Coop.<br><br>
   hops"><u><u>https://runrig.org/events/open-design-workshops</u></u></
   a><br>For general info about Runrig:<br><a href="https://
   runrig.org"><u>https://runrig.org</u></a>
-LAST-MODIFIED:20240607T090000Z
+LAST-MODIFIED:20250516T090000Z
 LOCATION:https://runrig.org/events/open-design-workshops
 SEQUENCE:1
-STATUS:CONFIRMED
+STATUS:CANCELLED
 SUMMARY:Runrig Open Workshop
 TRANSP:TRANSPARENT
 BEGIN:VALARM
