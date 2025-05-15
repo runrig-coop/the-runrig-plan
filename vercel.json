@@ -13,6 +13,11 @@
   ],
   "redirects": [
     {
+      "source": "/contact(.*)",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
       "source": "/posts/hedgerows(.*)",
       "destination": "/journal/hedgerows",
       "permanent": true
