@@ -1,6 +1,10 @@
 <script setup>
 import { data } from './calendar.data.js';
 
+const { paused = false } = defineProps({
+  paused: Boolean || undefined,
+})
+
 const fmtTime = (utc) => new Date(utc).toLocaleTimeString(undefined, {
   hour: 'numeric',
   minute: 'numeric',
@@ -67,7 +71,7 @@ const events = data.reduce((evts, { event, next100 = [], rules }) => {
 </script>
 
 <template>
-  <div class="event-container">
+  <div class="event-container" v-if="paused !== true">
     <div v-for="(evt, i) in events" :key="`event-${i}`" class="event">
       <h3>{{ evt.title }}</h3>
       <ul>
@@ -82,6 +86,13 @@ const events = data.reduce((evts, { event, next100 = [], rules }) => {
         </li>
       </ul>
     </div>
+  </div>
+  <div v-else class="event">
+    <h3>Check Back Soon!</h3>
+    <p>
+      The Open Design Workshops are on pause at the moment while we regroup and
+      look for other ways to foster community collaboration.
+    </p>
   </div>
 </template>
 
