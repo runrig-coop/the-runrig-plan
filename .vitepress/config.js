@@ -58,6 +58,7 @@ export default defineConfig({
       {
         text: 'About',
         items: [
+          { text: 'What is Runrig?', link: '/about' },
           { text: 'Get Involved', link: '/get-involved' },
           { text: 'Contact', link: '/contact' },
         ],
