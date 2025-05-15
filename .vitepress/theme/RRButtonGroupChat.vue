@@ -3,12 +3,23 @@ import RRButton from './RRButton.vue';
 import RRIconDiscord from './RRIconDiscord.vue';
 import RRIconGOAT from './RRIconGOAT.vue';
 import RRIconMatrix from './RRIconMatrix.vue';
+
+const {
+  matrix = true,
+  goat = true,
+  discord = true,
+} = defineProps({
+  matrix: Boolean || undefined,
+  goat: Boolean || undefined,
+  discord: Boolean || undefined,
+});
 </script>
 
 <template>
   <div class="btn-group">
     <div class="btn-container">
       <RRButton
+        v-if="matrix"
         tag="a"
         size="medium"
         theme="brand"
@@ -21,6 +32,7 @@ import RRIconMatrix from './RRIconMatrix.vue';
     </div>
     <div class="btn-container">
       <RRButton
+        v-if="goat"
         tag="a"
         size="medium"
         theme="alt"
@@ -35,6 +47,7 @@ import RRIconMatrix from './RRIconMatrix.vue';
     </div>
     <div class="btn-container">
       <RRButton
+        v-if="discord"
         tag="a"
         size="medium"
         theme="alt"
