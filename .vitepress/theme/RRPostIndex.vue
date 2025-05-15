@@ -1,4 +1,6 @@
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({ data: Array });
 
 function fmtDate(d) {
@@ -14,12 +16,12 @@ function fmtDate(d) {
     return false;
   }
 }
-const posts = props.data.map((post) => {
+const posts = computed(() => props.data.map((post) => {
   const { frontmatter = {}, url } = post;
   const { author, description, subtitle, title } = frontmatter;
   const date = fmtDate(frontmatter.date);
   return { author, date, description, subtitle, title, url };
-});
+}));
 </script>
 
 <template>

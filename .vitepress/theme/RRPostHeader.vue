@@ -1,4 +1,6 @@
 <script setup>
+import { computed } from 'vue';
+
 const props = defineProps({
   fm: Object,
   page: Object || undefined,
@@ -17,7 +19,7 @@ function fmtDate(d) {
     return false;
   }
 }
-const date = fmtDate(props.fm.date);
+const date = computed(() => fmtDate(props.fm.date));
 </script>
 
 <template>
