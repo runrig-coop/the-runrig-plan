@@ -24,7 +24,7 @@
     },
     {
       "source": "/overview(.*)",
-      "destination": "/archive/plan/overview",
+      "destination": "/plan/runrig-a-plan-for-socio-ecological-design",
       "permanent": true
     },
     {

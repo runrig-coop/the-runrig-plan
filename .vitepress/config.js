@@ -50,7 +50,7 @@ export default defineConfig({
       {
         text: 'Documents',
         items: [
-          { text: 'The Runrig Plan', link: '/plan' },
+          { text: 'The Runrig Plan', link: '/plan/runrig-a-plan-for-socio-ecological-design' },
           { text: 'Journal', link: '/journal' },
           { text: 'Archive', link: '/archive' },
         ],
