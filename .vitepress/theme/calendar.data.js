@@ -44,13 +44,9 @@ export default {
         // at render, and will make the final decision on how many to display.
         const next100 = [];
         const now = Date.now();
-        let i = 0;
-        while (i < 100) {
+        for (let i = 0; i < 100; i++) {
           const next = toUTC(recur.next(), tz);
-          if (next > now) {
-            next100.push(next);
-            i += 1;
-          }
+          if (next > now) next100.push(next);
         }
 
         return {
