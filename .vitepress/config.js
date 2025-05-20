@@ -1,85 +1,13 @@
+import fs from 'node:fs';
 import footnote_plugin from 'markdown-it-footnote';
 import { defineConfig } from 'vitepress';
-/**
- * @todo npm i feed
- * @see https://github.com/jpmonette/feed
- */
-// import { Feed } from 'feed';
-
-/**
- * @todo Maybe instantiate the new Feed() object here?
- * @see https://github.com/jpmonette/feed#example
- */
-// const feed = new Feed({
-//   title: 'The Runrig Plan',
-//   description: 'All bi-weekly publications from Runrig, including The Runrig Plan, The Runrig Journal, and Technical Reports',
-//   id: 'https://runrig.org/',
-//   link: 'https://runrig.org/',
-//   language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-//   image: 'https://www.runrig.org/open_field_system.png',
-//   favicon: 'https://runrig.org/emoji_u1f69c.svg',
-//   copyright: 'All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0)</a> by Runrig and its respective authors.',
-//   // updated: new Date(2013, 6, 14), // optional, default = today
-//   // generator: 'awesome', // optional, default = 'Feed for Node.js'
-//   feedLinks: {
-//     json: 'https://runrig.org/json',
-//     atom: 'https://runrig.org/atom'
-//   },
-//   author: {
-//     name: 'The Runrig Team',
-//     email: 'jamie@runrig.org',
-//     link: 'https://runrig.org/about'
-//   }
-// });
-
-// posts.forEach(post => {
-//   feed.addItem({
-//     title: post.title,
-//     id: post.url,
-//     link: post.url,
-//     description: post.description,
-//     content: post.content,
-//     author: [
-//       {
-//         name: 'Jamie Gaehring',
-//         email: 'jamie@runrig.org',
-//         link: 'https://jgaehring.com/'
-//       },
-//     ],
-//     contributor: [
-//       {
-//         name: 'The Runrig Team',
-//         email: 'jamie@runrig.org',
-//         link: 'https://runrig.org/about'
-//       },
-//     ],
-//     date: post.date,
-//     image: post.image
-//   });
-// });
-
-// feed.addCategory('Technologie');
-
-// feed.addContributor({
-//   name: 'Jamie Gaehring',
-//   email: 'jamie@runrig.org',
-//   link: 'https://jgaehring.com/'
-// });
-
-// console.log(feed.rss2());
-// // Output: RSS 2.0
-
-// console.log(feed.atom1());
-// // Output: Atom 1.0
-
-// console.log(feed.json1());
-// // Output: JSON Feed 1.0
-
+import { Feed } from 'feed';
 
 const title = 'Runrig';
 const defaultObjectType = 'website';
 const canonical = 'https://www.runrig.org';
 const logo = '/emoji_u1f69c.svg';
+const logoUrl = canonical + logo;
 const cardImage = `${canonical}/open_field_system.png`;
 const description = `
   Runrig is a communal farming platform, a libre software project and
@@ -88,10 +16,63 @@ const description = `
   things that support it, and the data connecting connecting it all.
 `.replaceAll(/\s+/g, ' ').trim();
 
+const team = {
+  name: 'The Runrig Team',
+  email: 'jamie@runrig.org',
+  link: `${canonical}/about`,
+};
+const jamie = {
+  name: 'Jamie Gaehring',
+  email: 'jamie@runrig.org',
+  link: 'https://jgaehring.com/',
+};
+
+const outDir =  './dist';
+
+const feedSubdir = 'subscribe';
+const feedFilenameEntries = [
+  ['atom', 'atom.xml'],
+  ['json', 'feed.json'],
+  ['rss', 'rss.xml'],
+];
+
+// Just like Object.fromEntries(), but as a callback Array.reduce() will accept.
+const fromEntries = (obj, [k, v]) => ({ ...obj, [k]: v });
+
+// Filter out the RSS feed and transform the feeds into consistent URLs.
+const toFeedUrl = filename => `${canonical}/${feedSubdir}/${filename}`;
+/** @type {{ atom: string, json: string }} */
+const feedLinks = feedFilenameEntries
+  .filter(([format]) => format !== 'rss')
+  .map(([fmt, file]) => [fmt, toFeedUrl(file)])
+  .reduce(fromEntries, {});
+
+// Transform the feeds into consisten file paths that correspond to the URLs.
+const toFeedPathname = filename => `${outDir}/${feedSubdir}/${filename}`;
+/** @type {{ atom: string, json: string, rss: string }} */
+const feedPathnames = feedFilenameEntries
+  .map(([fmt, file]) => [fmt, toFeedPathname(file)])
+  .reduce(fromEntries, {});
+
+const feed = new Feed({
+  title: 'The Runrig Plan',
+  description: 'All bi-weekly publications from Runrig, including The Runrig Plan, The Runrig Journal, and Technical Reports',
+  id: canonical,
+  link: canonical,
+  language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+  image: cardImage,
+  favicon: logoUrl,
+  copyright: 'All content is licensed by Runrig & its respective authors under the Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/',
+  // updated: new Date(2013, 6, 14), // optional, default = today
+  // generator: 'awesome', // optional, default = 'Feed for Node.js'
+  feedLinks,
+  author: team,
+});
+
 export default defineConfig({
   srcDir: './',
   cacheDir: './.cache',
-  outDir: './dist',
+  outDir,
   title,
   description,
   head: [
@@ -152,10 +133,50 @@ export default defineConfig({
     }
   },
   async transformHead(ctx) {
-    const { frontmatter, relativePath, filePath } = ctx.pageData;
-    /**
-     * @todo Write metadata to feed.rss for each page
-     * @see https://vitepress.dev/reference/site-config#transformhead
-     */
+    const { frontmatter: fm, relativePath } = ctx.pageData;
+    const isValidFeedItem = !!fm && typeof fm === 'object'
+      && !!fm.title
+      && !!fm.date;
+    if (!isValidFeedItem) return;
+
+    const link = `${canonical}/${relativePath}`;
+
+    const author = [];
+    if (!!fm.author && typeof fm.author === 'object') author.concat(fm.author)
+    if (author.length === 0) author.push(jamie);
+
+    const contributor = [];
+    if (!!fm.contributor && typeof fm.contributor === 'object') {
+      contributor.concat(fm.contributor);
+    }
+
+    const date = fm.date ? new Date(fm.date) : new Date();
+
+    feed.addItem({
+      title: fm.title,
+      id: link,
+      link,
+      description: fm.description || 'New post from Runrig',
+      content: ctx.content,
+      author,
+      contributor,
+      date,
+      image: fm.image || cardImage,
+    });
+  },
+  buildEnd() {
+
+    const feedDir = `${outDir}/${feedSubdir}`;
+    if (!fs.existsSync(feedDir)) fs.mkdirSync(feedDir);
+
+    // Output: RSS 2.0
+    fs.writeFileSync(feedPathnames.rss, feed.rss2());
+
+    // Output: Atom 1.0
+    fs.writeFileSync(feedPathnames.atom, feed.atom1());
+
+    // Output: JSON Feed 1.0
+    fs.writeFileSync(feedPathnames.json, feed.json1());
+
   },
 });
