@@ -4,31 +4,31 @@ import { defineConfig } from 'vitepress';
  * @todo npm i feed
  * @see https://github.com/jpmonette/feed
  */
-// import { Feed } from "feed";
+// import { Feed } from 'feed';
 
 /**
  * @todo Maybe instantiate the new Feed() object here?
  * @see https://github.com/jpmonette/feed#example
  */
 // const feed = new Feed({
-//   title: "Feed Title",
-//   description: "This is my personal feed!",
-//   id: "http://example.com/",
-//   link: "http://example.com/",
-//   language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-//   image: "http://example.com/image.png",
-//   favicon: "http://example.com/favicon.ico",
-//   copyright: "All rights reserved 2013, John Doe",
-//   updated: new Date(2013, 6, 14), // optional, default = today
-//   generator: "awesome", // optional, default = 'Feed for Node.js'
+//   title: 'The Runrig Plan',
+//   description: 'All bi-weekly publications from Runrig, including The Runrig Plan, The Runrig Journal, and Technical Reports',
+//   id: 'https://runrig.org/',
+//   link: 'https://runrig.org/',
+//   language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+//   image: 'https://www.runrig.org/open_field_system.png',
+//   favicon: 'https://runrig.org/emoji_u1f69c.svg',
+//   copyright: 'All content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0)</a> by Runrig and its respective authors.',
+//   // updated: new Date(2013, 6, 14), // optional, default = today
+//   // generator: 'awesome', // optional, default = 'Feed for Node.js'
 //   feedLinks: {
-//     json: "https://example.com/json",
-//     atom: "https://example.com/atom"
+//     json: 'https://runrig.org/json',
+//     atom: 'https://runrig.org/atom'
 //   },
 //   author: {
-//     name: "John Doe",
-//     email: "johndoe@example.com",
-//     link: "https://example.com/johndoe"
+//     name: 'The Runrig Team',
+//     email: 'jamie@runrig.org',
+//     link: 'https://runrig.org/about'
 //   }
 // });
 
@@ -41,39 +41,29 @@ import { defineConfig } from 'vitepress';
 //     content: post.content,
 //     author: [
 //       {
-//         name: "Jane Doe",
-//         email: "janedoe@example.com",
-//         link: "https://example.com/janedoe"
+//         name: 'Jamie Gaehring',
+//         email: 'jamie@runrig.org',
+//         link: 'https://jgaehring.com/'
 //       },
-//       {
-//         name: "Joe Smith",
-//         email: "joesmith@example.com",
-//         link: "https://example.com/joesmith"
-//       }
 //     ],
 //     contributor: [
 //       {
-//         name: "Shawn Kemp",
-//         email: "shawnkemp@example.com",
-//         link: "https://example.com/shawnkemp"
+//         name: 'The Runrig Team',
+//         email: 'jamie@runrig.org',
+//         link: 'https://runrig.org/about'
 //       },
-//       {
-//         name: "Reggie Miller",
-//         email: "reggiemiller@example.com",
-//         link: "https://example.com/reggiemiller"
-//       }
 //     ],
 //     date: post.date,
 //     image: post.image
 //   });
 // });
 
-// feed.addCategory("Technologie");
+// feed.addCategory('Technologie');
 
 // feed.addContributor({
-//   name: "Johan Cruyff",
-//   email: "johancruyff@example.com",
-//   link: "https://example.com/johancruyff"
+//   name: 'Jamie Gaehring',
+//   email: 'jamie@runrig.org',
+//   link: 'https://jgaehring.com/'
 // });
 
 // console.log(feed.rss2());
