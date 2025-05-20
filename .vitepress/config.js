@@ -152,12 +152,23 @@ export default defineConfig({
 
     const date = fm.date ? new Date(fm.date) : new Date();
 
+    // A quick'n'dirty means of replacing all relative links in HTML attributes,
+    // primarily on <a> and <img> elements in the body.
+    const relPathRegex = /(href|src)="([\/#])([\w-_%#~:\/\.]*)"/g
+    const relPathReplacer = (match, attr, hashOrSlash, tagOrFrag) => {
+      if (attr === 'href' && hashOrSlash === '#') {
+        return `href="${link}#${tagOrFrag}"`;
+      }
+      return `${attr}="${canonical}${hashOrSlash}${tagOrFrag}"`;
+    };
+    const content = ctx.content.replaceAll(relPathRegex, relPathReplacer);
+
     feed.addItem({
       title: fm.title,
       id: link,
       link,
       description: fm.description || 'New post from Runrig',
-      content: ctx.content,
+      content,
       author,
       contributor,
       date,
