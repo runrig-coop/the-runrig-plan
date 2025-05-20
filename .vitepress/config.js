@@ -65,11 +65,11 @@ export default defineConfig({
     ],
   },
   rewrites: {
-    "content/journal/:slug*": "journal/:slug*",
-    "content/plan/:slug*": "plan/:slug*",
-    "content/archive/:slug*": "archive/:slug*",
-    "content/projects/:slug*": "projects/:slug*",
-    "pages/:slug": ":slug",
+    'content/journal/:slug*': 'journal/:slug*',
+    'content/plan/:slug*': 'plan/:slug*',
+    'content/archive/:slug*': 'archive/:slug*',
+    'content/projects/:slug*': 'projects/:slug*',
+    'pages/:slug': ':slug',
   },
   markdown: {
     config(md) {
