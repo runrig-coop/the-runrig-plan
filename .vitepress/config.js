@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import footnote_plugin from 'markdown-it-footnote';
 import { defineConfig } from 'vitepress';
 import { Feed } from 'feed';
+import * as cheerio from 'cheerio';
 
 const title = 'Runrig';
 const defaultObjectType = 'website';
@@ -162,7 +163,12 @@ export default defineConfig({
       }
       return `${attr}="${canonical}${hashOrSlash}${tagOrFrag}"`;
     };
-    const content = ctx.content.replaceAll(relPathRegex, relPathReplacer);
+    // Use Cheerio.js to isolate the main content of the page w/o the main nav
+    // headers, asides, etc. This will render more cleanly w/o stylesheets in
+    // most feed readers.
+    const $ = cheerio.load(ctx.content);
+    const main = $('#VPContent .content-container main').toString();
+    const content = main.replaceAll(relPathRegex, relPathReplacer);
 
     feed.addItem({
       title: fm.title,
