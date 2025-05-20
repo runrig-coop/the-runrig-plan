@@ -139,7 +139,8 @@ export default defineConfig({
       && !!fm.date;
     if (!isValidFeedItem) return;
 
-    const link = `${canonical}/${relativePath}`;
+    const mdExtRegex = /\.(md|txt|markdown)$/g;
+    const link = `${canonical}/${relativePath}`.replace(mdExtRegex, '.html');
 
     const author = [];
     if (!!fm.author && typeof fm.author === 'object') author.concat(fm.author)
