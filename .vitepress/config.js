@@ -30,7 +30,7 @@ const jamie = {
 
 const outDir =  './dist';
 
-const feedSubdir = 'subscribe';
+const feedSubdir = 'feed';
 const feedFilenameEntries = [
   ['atom', 'atom.xml'],
   ['json', 'feed.json'],
