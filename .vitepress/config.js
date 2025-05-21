@@ -167,8 +167,16 @@ export default defineConfig({
     // headers, asides, etc. This will render more cleanly w/o stylesheets in
     // most feed readers.
     const $ = cheerio.load(ctx.content);
-    const main = $('#VPContent .content-container main').toString();
-    const content = main.replaceAll(relPathRegex, relPathReplacer);
+    const main = $('#VPContent .content-container main');
+    // The title & subtitle need to be added back manually from the frontmatter
+    // fields, as they are in the RRPostHeader component for rendering pages.
+    const title = `<h1>${fm.title}</h1>`;
+    const subtitle = fm.subtitle ? `<p>${fm.subtitle}</p>` : '';
+    const header = `<header>${title}${subtitle}</header>`;
+    const content = main
+      .prepend(header)
+      .toString()
+      .replaceAll(relPathRegex, relPathReplacer);
 
     feed.addItem({
       title: fm.title,
