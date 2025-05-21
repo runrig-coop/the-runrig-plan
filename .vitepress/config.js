@@ -170,9 +170,14 @@ export default defineConfig({
     const main = $('#VPContent .content-container main');
     // The title & subtitle need to be added back manually from the frontmatter
     // fields, as they are in the RRPostHeader component for rendering pages.
-    const title = `<h1>${fm.title}</h1>`;
-    const subtitle = fm.subtitle ? `<p>${fm.subtitle}</p>` : '';
-    const header = `<header>${title}${subtitle}</header>`;
+    // A few older posts like "Roadmap 2024," however, do still have an h1
+    // title in the main body, so check just to be sure.
+    let header = '';
+    if (main.has('h1').length < 1 && fm.title) {
+      const title = `<h1>${fm.title}</h1>`;
+      const sub = fm.subtitle ? `<p><strong>${fm.subtitle}</strong></p>` : '';
+      header = `<header>${title}${sub}</header>`;
+    }
     const content = main
       .prepend(header)
       .toString()
