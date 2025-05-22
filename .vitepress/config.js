@@ -107,6 +107,7 @@ export default defineConfig({
       {
         text: 'Projects',
         items: [
+          { text: 'Farm Flow', link: '/projects/farm-flow' },
         ],
       },
       {
