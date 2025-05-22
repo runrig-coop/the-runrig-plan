@@ -143,9 +143,9 @@ discrete instances of activity. This allows for the interval between events to
 be represented as a gradient rather than as a solid block, and such a gradient
 can be applied two-dimensionally in both time and space. Further possibilities
 emerge if other properties like growing degree-days (GDD) and the rate of change
-between events or locations are also interpreted as vector gradients with the
-potential to be displayed. In this way the Farm Flow Board is more akin to a
-[gridded heat map] than it is to a Gantt chart.
+between events or locations are also interpreted as vector gradients. In turn,
+these vectors can be represented visually as shaded gradients, rendering the
+Farm Flow Board more like a [gridded heat map] than a Gantt chart.
 
 ![](/heatmap-categorical.png "Source: Atlassian")
 
@@ -180,15 +180,22 @@ crops they have in production, their farming practices, and the overall scale of
 their farm, particularly where these may differ from to Fitzgerald Organics. A
 smaller farm growing a larger number of specialty crops might value geographic
 groupings less highly, or may not adhere to such strict sequences between
-activities. It may be that this could limit the diversity of farms types that
-would be best served by focusing on this unique value proposition; however, the
-lack of competing alternatives in this space could still make it a far more
-beneficial approach. On the other hand, it's quite possible that the core visual
-and algorithmic characteristics – specifically, __rendering gradient values
-across a 2D plane that correlates to calendar days and geographic space__ –
-could be generalized to render other datasets, plus the user scenarios they
+activities. It is possible, we have to admit, that by focusing on this single
+value proposition, Farm Flow may limit the diversity of farm types that find it
+uniquely appealing or helpful; however, that could also be the key factor
+allowing Farm Flow to thrive within a distinct, untapped niche, rather than
+struggling to compete within crowded field. It's also quite possible that the
+core visual and algorithmic characteristics – specifically, __rendering gradient
+values across a 2D plane that correlates to calendar days and geographic space__
+– could be generalized to render other datasets, plus the user scenarios they
 represent, so long as they can be mapped to a 2D vector space and scalar
-gradients.
+gradients. By perfecting its unique features over the long term and adapting its
+_specialized views_ to more _generalized datasets_, Farm Flow may never want for
+a broader range of appeal. This niche-based approach, when combined with an
+emphasis on [data portability] and [openness], could offer the best of both
+worlds, where farmers of all sorts can enjoy the specialized features of Farm
+Flow and defer to other applications for more a more generalized user
+experience.
 
 The SOPs may in fact provide the ideal delta values for sorting the rows and
 determining gradient visualizations. As explained in the next section, the key
@@ -202,15 +209,18 @@ evaluating the board's primary data points – that is, the activities themselve
     https://observablehq.com/@observablehq/plot-wealth-health-nations
 [size and shape of the markers]: https://observablehq.com/@d3/hexbin-area
 [choropleth]: https://observablehq.com/@d3/bivariate-choropleth
+[data portability]: #actively-promote-data-portability
+[openness]: #embrace-software-freedom-as-a-business-model
 
 
 ### SOPs as User-defined Algorithms
 Standard Operating Procedures, or __SOPs__, are the second core competency
 identified in Runrig's initial assessment. The SOP, as the general _form of an
 activity_, should be distinguished from the activity itself, which is merely
-_one instance of the SOP_ that it carried out. Each SOP is in essence a
-__user-defined algorithm for how to perform a vital task__, meant to achieve a
-corresponding and observable outcome, impacting the overall success of the crop.
+_one instance of the SOP_ that has been scheduled or completed. Each SOP is
+in essence a __user-defined algorithm for how to perform a vital task__, meant
+to achieve a corresponding and observable outcome, impacting the overall success
+of the crop.
 
 Just as important as the individual SOPs are __planned sequences__ of SOPs (or
 perhaps "SOP Flows"?) that the user determines should be carried out in order to
@@ -302,7 +312,7 @@ aggregated data of multiple users without exposing original or sensitive data.
 Less competitive use cases could be envisioned where such metrics are shared
 cooperatively within trusted communities of users.
 
-#### Case Study: Ravelry
+#### Case Study: Ravelry as a Marketplace of User-Defined Algorithms
 It may seem like a remote comparison at first, but the knitting website
 [Ravelry] provides an interesting case study as a parallel to the SOP Studio and
 Marketplace concept.
