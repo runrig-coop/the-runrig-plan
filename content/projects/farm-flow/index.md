@@ -1,0 +1,102 @@
+---
+title: Consulting on Farm Flow
+subtitle: A Runrig Pilot Project
+description: Project profile for Runrig's role consulting on the Farm Flow app
+    designed & created by Fitzgerald Organics.
+author: Jamie Gaehring
+date: 2025-05-26
+outline: [2, 4]
+---
+
+:::info Summary of Farm Flow's Main Motivations & Purpose
+
+As a software platform, social enterprise, and knowledge ecosystem, Farm Flow
+provides a comprehensive solution for crop planning, team management, and
+operational analysis, serving farms of all shapes and sizes. A key value
+proposition is the Farm Flow Board, a visualization of all the field tasks to be
+carried out for every crop on the farm, as well as Standard Operating Procedures
+(SOPs) that prescribe how each task is to be performed. With these utilities in
+hand, team members can coordinate their activities to achieve targeted
+production volumes, desired costs savings, and positive environmental impacts.
+As a wider community and a forum for exchanging knowledge, Farm Flow also
+connects farmers to agronomists, technicians, designers, and other stakeholders,
+activating new channels for collaboration and innovation.
+
+:::
+
+#### Key factors in Farm Flow's success
+
+- Based on formal data analysis of real-world organic field practices
+- Adapted from a physical whiteboard, reproducible as a D.I.Y. Kit
+- Created __entirely by-&-for farmers__
+
+#### Related Documents
+- [Farm Flow Development Strategy]
+
+
+[Farm Flow Development Strategy]: /projects/farm-flow/strategy
+
+
+## Background
+In the early spring of 2024, I was approached about consulting for a farmer-led
+software project called Farm Flow. At first, I viewed the project as a software
+generalist and independent contractor would. I consciously guarded myself
+against becoming the proverbial "hammer that sees every problem as a nail," each
+in desperate need of driving – that is, I did not want to force it into the
+Runrig framework of software design. I said as much to the software's creator,
+Matthew Fitzgerald of Fitzgerald Organics, on multiple occasions throughout the
+course of our early evaluation. It was no accident, however, that the project's
+underlying requirements and ultimate goals brought it into close alignment with
+my own stated objectives for Runrig. I was introduced to Matthew through Samuel
+Oslund of the 11th Hour Project, and no doubt Sam discerned the affinity between
+our two projects far more readily than I had.[^sam]
+
+[^sam]: The first time I ever tried to fully explain Runrig to anyone else was
+on a short hike with Samuel on the last day of GOAT 2022. The last in a series
+of momentous conversations, it came at the precise moment when Runrig started
+taking definite shape in my own mind, and I attribute much of Runrig's essential
+characteristics to Sam's astute guidance and constructive feedback.
+
+### The Original Farm Flow Board
+Farm Flow's first implementation was in physical form, a point I took to be one
+of the strongest possible indicators for the effectiveness of any software
+project, a credit to the soundness of its design. It stood as a roughly 72" by
+48" whiteboard in Matthew's high-lofted equipment shed, prepared with a grid of
+about 80 columns by 20 rows, give or take, meticulously etched out in black
+permanent marker. The grid represented the farm's entire growing season of
+planned field actions, with a column for every calendar day and a row for every
+field or planting location. The dates and location names were written in magic
+marker along the top and left-hand edges, respectively, so that the grid
+contents could be erased and repurposed with each new season. Multi-colored
+magnetic discs populated the grid cells at various intervals, demonstrating some
+rather striking patterns, though their precise meaning was not immediately clear
+to the untrained eye. The right-hand fringe of these discs were bounded by
+raised magnetic pushpins (mimicking pushpin thumb-tacks in size and shape),
+which were similarly colored but translucent and smaller in radius, so they
+stood out less prominently than the discs. The pins represented actions that
+were still only planned, while the discs represented those already completed. On
+closer inspection, some discs were even stacked upon others within a single grid
+cell; some actions, though not all, could be performed in the same day in the
+same location, conditions permitting. Running intermittently in vertical lines
+between the discs, you could make out faint numbers inscribed by a blue magic
+marker within each of the individual cells. They indicated rainfall amounts in
+decimal inches and rarely coincided with any placed discs, since the actions
+they would have represented were prohibited by the rain (sometimes for several
+days following, too). The rainfall quantities varied in magnitude as they ran up
+and down the column, though only gradually, since the rows representing
+geographic locations on the farm were grouped by proximity. In the wide open
+space below the grid was a hand-written legend indicating the name of the
+specific field action each color represented, alongside a collection of unused
+discs and pins loosely clustered by color.
+
+The key to the whole enterprise was that there was nothing at all arbitrary in
+the arrangement of these field actions. Their precise timing and sequence were
+determined by a set of standard operating procedures, or SOPs, which were the
+product of ongoing development by this small team of farmers. The SOPs lived in
+written form within folders filed into separate trays that hung from the back of
+the whiteboard itself. The trays also held carbon-copy ticket books, which would
+be filled out with specific quantities and target values to inform the execution
+of a given operation at a particular time and place. Space was left on each
+ticket for the entry of actual values achieved or observed, so that upon
+completion the ticket could be stored in the appropriate folder for future
+reference.
