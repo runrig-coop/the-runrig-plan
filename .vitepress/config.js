@@ -105,6 +105,11 @@ export default defineConfig({
     logo,
     nav: [
       {
+        text: 'Projects',
+        items: [
+        ],
+      },
+      {
         text: 'Documents',
         items: [
           { text: 'The Runrig Plan', link: '/plan/runrig-a-plan-for-socio-ecological-design' },
