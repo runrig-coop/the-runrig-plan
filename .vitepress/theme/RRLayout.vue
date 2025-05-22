@@ -60,6 +60,7 @@ const isPost = computed(() => {
   const { relativePath: path } = page.value;
   return path.startsWith('posts/')
     || path.startsWith('farm-flow')
+    || path.startsWith('runrig-farmos')
     || path.startsWith('plan');
 });
 
