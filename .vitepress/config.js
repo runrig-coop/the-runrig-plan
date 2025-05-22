@@ -108,6 +108,7 @@ export default defineConfig({
         text: 'Projects',
         items: [
           { text: 'Farm Flow', link: '/projects/farm-flow' },
+          { text: 'Runrig farmOS', link: '/projects/runrig-farmos' },
         ],
       },
       {
