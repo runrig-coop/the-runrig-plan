@@ -39,12 +39,12 @@ your own physical Farm Flow whiteboard for your farm.
 Runrig's primary role was to steward the project from its physical form to the
 digital realm.
 
-- [Initial Assessment & Proposed Development Model]
-- Pilot Application & Persistent Data Model
+- [Project Backstory & Initial Assessment]
+- Pilot Application & Portable Data Architecture
 - [Continued Development Strategy & Recommendations]
 
 
-[Initial Assessment & Proposed Development Model]: /projects/farm-flow/synopsis
+[Project Backstory & Initial Assessment]: /projects/farm-flow/backstory
 [Continued Development Strategy & Recommendations]: /projects/farm-flow/strategy
 
 ## Additional Information & Resources
