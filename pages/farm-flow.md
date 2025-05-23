@@ -8,30 +8,65 @@ date: 2025-05-26
 outline: [2, 4]
 ---
 
-:::info Summary of Farm Flow's Main Motivations & Purpose
+![](/whiteboard_2024-06-09-a.jpg "The original Farm Flow whiteboard")
 
-As a software platform, social enterprise, and knowledge ecosystem, Farm Flow
-provides a comprehensive solution for crop planning, team management, and
-operational analysis, serving farms of all shapes and sizes. A key value
-proposition is the Farm Flow Board, a visualization of all the field tasks to be
-carried out for every crop on the farm, as well as Standard Operating Procedures
-(SOPs) that prescribe how each task is to be performed. With these utilities in
+## Overview
+Farm Flow is a comprehensive suite of farm management tools, comprising two main
+parts: the __Farm Flow Board__ and __Farm Flow SOPs__ (standard operating
+procedures). The board is the central visualization, with a sweepingly full view
+of the season's crop plan, field actions, and significant weather events. All
+the critical data points on the board correspond to criteria and prescriptions
+detailed in the SOPs, which are based on a formal data analysis of real-world
+organic farming practices and the outcomes they produce. With these utilities in
 hand, team members can coordinate their activities to achieve targeted
 production volumes, desired costs savings, and positive environmental impacts.
 As a wider community and a forum for exchanging knowledge, Farm Flow also
 connects farmers to agronomists, technicians, designers, and other stakeholders,
 activating new channels for collaboration and innovation.
 
-:::
+The system was designed and built by farmers, for farmers, principally Matthew
+Fitzgerald of Fitzgerald Organics in Minnesota. The canonical version is a
+physical whiteboard, which Matthew has replicated for several other farms in his
+region, offering a D.I.Y. Kit to anyone who thinks they may benefit from it.
 
-#### Key factors in Farm Flow's success
+See the [official Farm Flow website] for the latest updates on the software
+project, its current status, and how to sign up to use the application or create
+your own physical Farm Flow whiteboard for your farm.
 
-- Based on formal data analysis of real-world organic field practices
-- Adapted from a physical whiteboard, reproducible as a D.I.Y. Kit
-- Created __entirely by-&-for farmers__
+[official Farm Flow website]: https://www.tryfarmflow.com/
 
-#### Related Documents
-- [Farm Flow Development Strategy]
+### The Pilot App & Development Strategy
+Runrig's primary role was to steward the project from its physical form to the
+digital realm.
+
+- [Initial Assessment & Proposed Development Model]
+- Pilot Application & Persistent Data Model
+- [Continued Development Strategy & Recommendations]
 
 
-[Farm Flow Development Strategy]: /projects/farm-flow/strategy
+[Project Backstory & Initial Assessment]: /posts/farm-flow-backstory
+[Continued Development Strategy & Recommendations]: /posts/farm-flow-strategy
+
+## Additional Information & Resources
+### Project Sponsors
+- [Mad Agriculture]
+- [11th Hour Project]
+
+[Mad Agriculture]: https://madagriculture.org/journal/meet-a-mad-farmer-fitzgerald-organics
+[11th Hour Project]: https://11thhourproject.org/
+
+### Development Partners
+- [Fitzgerald Organics]
+- [Cloudburst]
+- [Runrig]
+
+[Fitzgerald Organics]: https://www.fitzgeraldorganics.net/
+[Cloudburst]: https://www.cloudburststudio.com/
+[Runrig]: https://www.runrig.org/
+
+### Related Links
+- [Farm Flow Presentation] by M. Fitzgerald to the OpenTEAM HCD Working Group
+- The Mad Agriculture Journal: ["Meet a Mad Farmer: Fitzgerald Organics"]
+
+[Farm Flow Presentation]: https://share.mayfirst.org/s/Bj5FknFttsib2LD
+["Meet a Mad Farmer: Fitzgerald Organics"]: https://madagriculture.org/journal/meet-a-mad-farmer-fitzgerald-organics
