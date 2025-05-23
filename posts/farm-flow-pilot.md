@@ -15,6 +15,37 @@ immediate value to Fitzgerald Organics and its operations from Day 1, but
 without requiring Matthew to take on the additional fulltime job as project
 manager.
 
+I called this a "pilot" because unlike a "prototype" it was not strictly
+intended as a throw-away experiment to fill the gap until the _real_ application
+was built. At the same time, I eschewed the term MVP (minimal viable product)
+because it wasn't meant to be the definitive product that supplanted the
+original physical whiteboard that still lived in Matthew's equipment shed, let
+alone the _notional board_, which lived in his mind even prior to the
+whiteboard's construction and which, I'd wager, lives on there still to this
+day. The difference is that as a _pilot app_, it was meant to advance the Farm
+Flow project through _real-world usage_ – not as an idle experiment, but in the
+everyday, practical work of the farm. Even while the code I wrote no longer runs
+in the version of the application Matthew uses today, the data it generated does
+persist. What's more, the code has been documented and is still publicly
+available as free software licensed under the AGPLv3, so it will no doubt serve
+to advance similar, future projects.
+
+This was an important component of the agreement Matthew and I reached when we
+agreed to work together, and why we chose the copyleft AGPL rather than a more
+permissive license such as MIT or Apache. I never want Matthew to face the kind
+of vendor lock-in (or lock-out), which is business-as-usual for most proprietary
+software companies. Even as its current owner, there's nothing to preclude
+intellectual property from someday ending up in the hands of a third party, who
+could very well block Matthew's right to use or modify Farm Flow as he wished.
+Such things have indeed happened before. I didn't want him to be beholden to me,
+either, as the only one who understood and could effectively improve and adapt
+the codebase, should he ever choose to take a new direction. On the other hand,
+I did not want to lock myself out of access to the technical components I
+produced for Farm Flow, so I could continue to adapt them to new scenarios and
+use cases. By using a "share-alike" license, which grants anyone the right to
+use and modify the software as they like, but with the restriction that any
+derivative works be licensed similarly, we both enjoy its protections. 
+
 ## Planned Development Cycle
 
 1. __Low Fidelity Board__: Begin with a low fidelity board that meets the
