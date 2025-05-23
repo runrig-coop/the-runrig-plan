@@ -1,14 +1,13 @@
 ---
-title: Farm Flow Project Synopsis
-subtitle: Runrig's initial assessment & pilot application
+title: Farm Flow Backstory
+subtitle: The project's origins & Runrig's initial assessments
 description: Background on the Farm Flow project's origins, how Runrig became
-    involved, and the development of the first pilot application.
+    involved, and our initial assessments.
 author: Jamie Gaehring
 date: 2025-05-26
 outline: [2, 4]
 ---
 
-## Background
 In the early spring of 2024, I was approached about consulting for a farmer-led
 software project called Farm Flow. At first, I viewed the project as a software
 generalist and independent contractor would. I consciously guarded myself
