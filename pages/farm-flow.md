@@ -40,11 +40,12 @@ Runrig's primary role was to steward the project from its physical form to the
 digital realm.
 
 - [Project Backstory & Initial Assessment]
-- Pilot Application & Portable Data Architecture
+- [Pilot Application & Portable Data Architecture]
 - [Continued Development Strategy & Recommendations]
 
 
 [Project Backstory & Initial Assessment]: /posts/farm-flow-backstory
+[Pilot Application & Portable Data Architecture]: /posts/farm-flow-pilot
 [Continued Development Strategy & Recommendations]: /posts/farm-flow-strategy
 
 ## Additional Information & Resources
