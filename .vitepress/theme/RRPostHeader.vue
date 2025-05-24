@@ -25,13 +25,11 @@ const date = computed(() => fmtDate(props.fm.date));
 <template>
   <header class="vp-doc">
     <h1>
-      <span>
-        {{ fm.title }}
-      </span>
-      <span class="rr-subtitle" v-if="fm.subtitle">
-        {{ fm.subtitle }}
-      </span>
+      {{ fm.title }}
     </h1>
+    <p  v-if="fm.subtitle">
+      {{ fm.subtitle }}
+    </p>
     <ul v-if="fm.author || fm.date">
       <li v-if="fm.author">{{ fm.author }}</li>
       <li v-if="fm.date">{{ date }}</li>
@@ -42,31 +40,35 @@ const date = computed(() => fmtDate(props.fm.date));
 
 <style scoped>
 header {
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px solid var(--rr-c-divider);
   margin-top: 6rem;
   margin-bottom: 1.5rem
 }
-.vp-doc h1 {
+header h1 {
   font-size: 3rem;
+  font-weight: 600;
   line-height: 3rem;
   color: var(--rr-c-text-1);
-  margin-bottom: 1.5rem;
 }
-.rr-subtitle {
+header p {
   margin-top: .75rem;
+  margin-bottom: 0;
   display: inline-block;
   color: var(--rr-c-text-2);
   letter-spacing: -0.02em;
   line-height: 28px;
   font-size: 24px;
+  font-weight: 600;
   max-width: 80%;
 }
 ul, li {
   all: unset;
 }
-.vp-doc ul {
+header ul {
   display: inline-block;
-  margin-top: 0;
+  margin-top: 1.5rem;
   margin-bottom: .75rem;
   list-style: none;
   padding-left: 0;
