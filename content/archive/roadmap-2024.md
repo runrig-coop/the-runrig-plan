@@ -6,7 +6,6 @@ description: This roadmap is being presented in order to provide a more
     intentional, structured exposition of Runrig's short and long term goals.
 ---
 
-# Roadmap for 2024
 This roadmap is being presented in order to provide a more intentional,
 structured exposition of Runrig's short and long term goals. It is not, however,
 meant to be a static declaration of Runrig's purpose or motivations. It's a
