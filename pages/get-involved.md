@@ -5,12 +5,28 @@ description: How to get involved in the Runrig community.
 ---
 
 # Get Involved
-Runrig is actively seeking partnerships and collaborations with similarly
-aligned organizations, and very soon hope to begin recruiting farmers,
-activists, tech workers and other individuals as coop members. At most once or
-twice a month we will send out updates on those upcoming events and other
-developments in the Runrig community. Sign up below if you wish to be notified
-by email.
+Runrig is seeking partnerships and collaborations with similarly aligned
+organizations and soon hopes to begin recruiting farmers, activists, tech
+workers and other individuals as coop members. If you'd like to discuss joining
+Runrig or collaborating in some way, I'd love to hear from you! You can can
+email me at [jamie@runrig.org]. Feel free to reach out on general inquiries or
+feedback there, too, or sign up to the newsletter below for biweekly content and
+updates on the project.
+
+[jamie@runrig.org]: mailto:jamie@rurnig.org
+
+## Newsletter
+About every two weeks, I try to post a new article, technical report, or even
+the occasional long-form essay to the [Runrig Journal]. These will cover topics
+related to ethical software design, the politics of food and technology, and
+general updates on the work I've been doing with Runrig. To get notified when
+these are released, you can sign up for the newsletter using the form below, or
+via [RSS Feed], [Atom], and [JSON Feed].
+
+[Runrig Journal]: /journal
+[RSS Feed]: /feed/rss.xml
+[Atom]: /feed/rss.xml
+[JSON Feed]: /feed/rss.xml
 
 <RRNewsletterForm/>
 
