@@ -24,45 +24,6 @@ take a look at the essay I published last spring titled ["Hedgerows in the Sky"]
 or the documents I've released as part of an ongoing consultation with the [Farm
 Flow] app created by Fitzgerald Organics.
 
-I've realized through the course of these projects that the main work of
-bringing Runrig into fruition is in the communication of its underlying
-principles and methodology. From the very start, I've tried to downplay Runrig
-as any particular technology stack or software design, and instead emphasize the
-elements I hope can serve as a template for a very different _mode of producing_
-technology, whatever shape it takes. In other words, Runrig is meant to be more
-of a _social technology_ than an information technology, and so more analogous
-to the way Free & Open Source Software (FOSS) functions as a manner of
-developing, say, the Linux kernel, rather than an analog to the Linux itself.
-However, Runrig would go beyond free software principles, which I still view to
-be positively essential to producing good, ethical technology, but which I see
-as hampered by a narrowly liberal conception of freedom that only considers the
-individual. Runrig would strive to _socialize_ the project for software freedom.
-As a radical new design methodology, you might compare Runrig to the Agile
-Manifesto or Lean Software Development, but diametrically opposed to those
-paradigms' deeply embedded, capitalistic assumptions about market-driven
-economics and infinite growth – or what technologists are so fond of calling
-_scalability_. Runrig would instead be a socialist methodology for distributing
-computational power, control, and ownership based on communalist principles.
-
-The establishment of such a practice cannot be achieved merely by the
-implementation of one or another software program. As a social project, a
-consensus or quorum of participants is required first, and so those principles
-must be stated, documented, and argued for. I fully intend to continue
-developing software libraries and applications as a central part of this
-project, but I see their importance as secondary to the methods used to produce
-them. For those methods to have any meaningful impact, they must be communicated
-effectively, along with the rationale for employing them. If Runrig leaves any
-sort of legacy behind it, however long it endures, I hope it lies there, in the
-documentation of that methodology and the exposition of its principles. That
-will be the primary task of the [Runrig Journal] in the weeks ahead.
-
-[what's been going on]: #what-s-been-going-on
-[Runrig Journal]: /journal
-[newsletter]: https://buttondown.com/runrig
-[RSS]: /feed/rss.xml
-[Atom]: /feed/atom.xml
-[JSON]: /feed/feed.json
-
 ## What's Been Going On
 Eighteen months ago, I laid out a [rather elaborate roadmap] for what I saw as
 the best path forward for Runrig in 2024. I felt it was time to narrow my focus
@@ -129,21 +90,6 @@ subject, so in the weeks after the conference I was compelled to draw some
 [comparisons between Runrig's approach and other proposed methods]; I hope to
 rework those slides, too, into something better suited for a general audience.
 
-[rather elaborate roadmap]: /posts/roadmap-2024.md
-[Three-Phase Organizing Model]:
-    /posts/roadmap-2024.md#three-phase-organizing-model-or-business-plan
-[Farm Flow]: /farm-flow.md
-[sketched out]: /posts/the-runrig-plan-for-socio-ecological-design
-["Hedgerows in the Sky"]: /posts/hedgerows.md
-[_Commonplace_]: https://commonplace.knowledgefutures.org/pub/7m7brnr4/release/1
-[DWeb Camp]: https://dwebcamp.org
-[Axilab]: https://aginformaticslab.org/
-[Hylo]: https://www.hylo.com/
-[Conservation Metrics]: https://conservationmetrics.com/
-[Tekopora]: https://tekopora.top/
-[comparisons between Runrig's approach and other proposed methods]:
-    https://dweb.camp/p/foodweb__response-to-utility-proposal
-
 ## On Deck
 I'm still processing so much of what I've learned and experienced over the last
 year, between Farm Flow, DWeb, my continuing involvement with GOAT and farmOS,
@@ -166,5 +112,60 @@ of provisional titles:
 
 In addition, I'll be adding more information to the [Farm Flow] project profile
 and creating similar profiles for [Runrig farmOS] and the [MAIA Project].
+
+## The Future of Runrig
+I've realized through the course of these projects that the greatest challenge
+of bringing Runrig into fruition is in the communication of its underlying
+principles and methodology. From the very start, I've tried to downplay Runrig
+as any particular technology stack or software design, and instead emphasize the
+elements I hope can serve as a template for a very different _mode of producing_
+technology, whatever shape it takes. In other words, Runrig is meant to be more
+of a _social technology_ than an information technology, and so more analogous
+to the way Free & Open Source Software (FOSS) functions as a manner of
+developing, say, the Linux kernel, rather than an analog to the Linux itself.
+However, Runrig would go beyond free software principles, which I still view to
+be positively essential to producing good, ethical technology, but which I see
+as hampered by a narrowly liberal conception of freedom that only considers the
+individual. Runrig would strive to _socialize_ the project for software freedom.
+As a radical new design methodology, you might compare Runrig to the Agile
+Manifesto or Lean Software Development, but diametrically opposed to those
+paradigms' deeply embedded, capitalistic assumptions about market-driven
+economics and infinite growth – or what technologists are so fond of calling
+_scalability_. Runrig would instead be a socialist methodology for distributing
+computational power, control, and ownership based on communalist principles.
+
+The establishment of such a practice cannot be achieved merely by the
+implementation of one or another software program. As a social project, a
+consensus or quorum of participants is required first, and so those principles
+must be stated, documented, and argued for. I fully intend to continue
+developing software libraries and applications as a central part of this
+project, but I see their importance as secondary to the methods used to produce
+them. For those methods to have any meaningful impact, they must be communicated
+effectively, along with the rationale for employing them in the first place. If
+Runrig leaves any sort of legacy behind it, however long it endures, I hope it
+lies there, in the documentation of that methodology and the exposition of its
+principles. That will be the primary task of the [Runrig Journal] in the weeks
+ahead.
+
+[what's been going on]: #what-s-been-going-on
+[Runrig Journal]: /journal
+[newsletter]: https://buttondown.com/runrig
+[RSS]: /feed/rss.xml
+[Atom]: /feed/atom.xml
+[JSON]: /feed/feed.json
+[rather elaborate roadmap]: /posts/roadmap-2024.md
+[Three-Phase Organizing Model]:
+    /posts/roadmap-2024.md#three-phase-organizing-model-or-business-plan
+[Farm Flow]: /farm-flow.md
+[sketched out]: /posts/the-runrig-plan-for-socio-ecological-design
+["Hedgerows in the Sky"]: /posts/hedgerows.md
+[_Commonplace_]: https://commonplace.knowledgefutures.org/pub/7m7brnr4/release/1
+[DWeb Camp]: https://dwebcamp.org
+[Axilab]: https://aginformaticslab.org/
+[Hylo]: https://www.hylo.com/
+[Conservation Metrics]: https://conservationmetrics.com/
+[Tekopora]: https://tekopora.top/
+[comparisons between Runrig's approach and other proposed methods]:
+    https://dweb.camp/p/foodweb__response-to-utility-proposal
 [Runrig farmOS]: https://github.com/runrig-coop/runrig-farmos
 [MAIA Project]: https://github.com/skywoman/multifarm-aggregation-info-arch
