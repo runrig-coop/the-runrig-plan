@@ -5,12 +5,7 @@ const hasValidDate = post => !!new Date(post.frontmatter.date).valueOf();
 const sortPostsDescByDate = (a, b) =>
   +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date);
 
-const transformUrl = post => ({
-  ...post,
-  url: post.url.replace('content/', ''),
-});
-
 const transform = raw =>
-  raw.filter(hasValidDate).map(transformUrl).toSorted(sortPostsDescByDate);
+  raw.filter(hasValidDate).toSorted(sortPostsDescByDate);
 
-export default createContentLoader('content/journal/**/*.md', { transform });
+export default createContentLoader('posts/**/*.md', { transform });

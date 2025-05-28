@@ -18,28 +18,28 @@
       "permanent": true
     },
     {
-      "source": "/posts/hedgerows(.*)",
-      "destination": "/journal/hedgerows",
+      "source": "/journal/hedgerows(.*)",
+      "destination": "/posts/hedgerows",
       "permanent": true
     },
     {
       "source": "/overview(.*)",
-      "destination": "/plan/runrig-a-plan-for-socio-ecological-design",
+      "destination": "/posts/the-runrig-plan-for-socio-ecological-design",
       "permanent": true
     },
     {
       "source": "/architecture(.*)",
-      "destination": "/archive/plan/architecture",
+      "destination": "/posts/the-runrig-plan-appendix-architecture",
       "permanent": true
     },
     {
       "source": "/ecology(.*)",
-      "destination": "/archive/plan/ecology",
+      "destination": "/posts/the-runrig-plan-appendix-ecology",
       "permanent": true
     },
     {
       "source": "/roadmap-2024(.*)",
-      "destination": "/archive/roadmap-2024",
+      "destination": "/posts/roadmap-2024",
       "permanent": true
     }
   ]

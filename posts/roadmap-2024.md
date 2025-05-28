@@ -124,7 +124,7 @@ entities and 3 cooperative membership classes:
    infrastructure, development, pricing, etc.
 
 ["Appendix: Ecology" § "Main Legal Entities Constituting the Runrig System"]:
-   /archive/plan/ecology.html#main-legal-entities-constituting-the-runrig-system
+   /posts/the-runrig-plan-appendix-ecology.md#main-legal-entities-constituting-the-runrig-system
 
 I've re-ordered them here to reflect the order in which they will most likely be
 incorporated. The worker cooperative, of which I myself hope to become a
@@ -225,7 +225,7 @@ unique advantages that cannot be achieved by your average VC-funded, proprietary
 tech startup.
 
 ["Three Layers of Autonomy"]:
-    /archive/plan/overview.html#three-layers-of-autonomy
+    /posts/the-runrig-plan-for-socio-ecological-design.md#three-layers-of-autonomy
 
 ## Projects for 2024
 In the interest of getting Runrig past _Phase Zero_ of the business plan, the

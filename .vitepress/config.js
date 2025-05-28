@@ -107,9 +107,8 @@ export default defineConfig({
       {
         text: 'Documents',
         items: [
-          { text: 'The Runrig Plan', link: '/plan/runrig-a-plan-for-socio-ecological-design' },
+          { text: 'The Runrig Plan', link: '/posts/the-runrig-plan-for-socio-ecological-design' },
           { text: 'Journal', link: '/journal' },
-          { text: 'Archive', link: '/archive' },
         ],
       },
       {
@@ -122,10 +121,6 @@ export default defineConfig({
     ],
   },
   rewrites: {
-    'content/journal/:slug*': 'journal/:slug*',
-    'content/plan/:slug*': 'plan/:slug*',
-    'content/archive/:slug*': 'archive/:slug*',
-    'content/projects/:slug*': 'projects/:slug*',
     'pages/:slug': ':slug',
   },
   markdown: {

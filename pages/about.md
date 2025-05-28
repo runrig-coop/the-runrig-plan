@@ -12,7 +12,7 @@ bigger mouthful, but check back soon for some more bite-size summations of what
 sorts of actual stuff we've built and what all's changed since this thing got
 started way back in 2022.
 
-[The Runrig Plan]: /plan/runrig-a-plan-for-socio-ecological-design
+[The Runrig Plan]: /posts/the-runrig-plan-for-socio-ecological-design.md
 
 ## Who is Runrig?
 Runrig is the product of many conversations with, and direct contributions from,

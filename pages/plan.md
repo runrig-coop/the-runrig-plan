@@ -12,6 +12,6 @@ description: Free and open source software is a starting point, not the
 
 More to come soon!
 
-[Overview]: /plan/runrig-a-plan-for-socio-ecological-design
-[Ecology]: /archive/plan/ecology
-[Architecture]: /archive/plan/architecture
+[Overview]: /posts/the-runrig-plan-for-socio-ecological-design.md
+[Ecology]: /posts/the-runrig-plan-appendix-ecology.md
+[Architecture]: /posts/the-runrig-plan-appendix-architecture.md

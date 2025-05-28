@@ -534,7 +534,7 @@ end, but also an end in itself...
     _The Red Hat Blog_. Jan 25, 2008.
 
 
-["Overview"]: /archive/plan/overview.md
-["Appendix: Architecture"]: /archive/plan/architecture.md
+["Overview"]: /posts/the-runrig-plan-for-socio-ecological-design.md
+["Appendix: Architecture"]: /posts/the-runrig-plan-appendix-architecture.md
 ["ecology over architecture"]:
-    /archive/plan/overview.md#ecology-over-architecture
+    /posts/the-runrig-plan-for-socio-ecological-design.md#ecology-over-architecture

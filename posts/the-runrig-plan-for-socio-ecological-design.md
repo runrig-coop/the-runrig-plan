@@ -8,16 +8,6 @@ description: Free and open source software is a starting point, not the
     infrastructure, something beyond the capacity of most individuals.
 ---
 
-:::warning ARCHIVED
-
-This is an older version of [The Runrig Plan], first published in April 2023, last edited in December 2023. For the current version, go to [runrig.org/plan]
-
-:::
-
-[The Runrig Plan]: /plan/index.html
-[runrig.org/plan]: /plan/index.html
-
-## Purpose
 In its narrowest sense, Runrig is a technology framework for the communal
 management of a foodshed's digital assets, potentially spanning a network of
 cooperating foodsheds. To the degree that such information may control the flow
@@ -71,7 +61,7 @@ functional layers:
 2. Many federated cooperative service platforms.
 3. Local-first[^Kleppmann] and self-hosted applications (optional).
 
-![Stack diagram](../../img/stack-diagram.svg)
+![Stack diagram](./img/stack-diagram.svg)
 
 With sufficient investment, the server racks, network infrastructure,
 brick-and-mortar facilities and other physical assets required to run these
@@ -412,10 +402,10 @@ as well as governance structures and legal considerations.
 [^SurveyStack]: SurveyStack. ["Survey software designed to empower shared
     community knowledge."](https://www.surveystack.io/)
 
-[Runrig Roadmap for 2024]: /archive/roadmap-2024
-[3-phase business model]: /archive/roadmap-2024#three-phase-business-plan
-[reference implementations]: /archive/roadmap-2024#projects-for-2024
+[Runrig Roadmap for 2024]: /posts/roadmap-2024
+[3-phase business model]: /posts/roadmap-2024#three-phase-business-plan
+[reference implementations]: /posts/roadmap-2024#projects-for-2024
 [get involved]: /get-involved.md
 [sign up]: https://buttondown.email/runrig
-["Architecture"]: /archive/plan/architecture.md
-["Ecology"]: /archive/plan/ecology.md
+["Architecture"]: /posts/the-runrig-plan-appendix-architecture.md
+["Ecology"]: /posts/the-runrig-plan-appendix-ecology.md
