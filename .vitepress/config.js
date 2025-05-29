@@ -63,7 +63,7 @@ const feed = new Feed({
   language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
   image: cardImage,
   favicon: logoUrl,
-  copyright: 'All content is licensed by Runrig & its respective authors under the Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/',
+  copyright: 'Except where otherwise noted, content on this site is licensed by its authors under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/ .',
   // updated: new Date(2013, 6, 14), // optional, default = today
   // generator: 'awesome', // optional, default = 'Feed for Node.js'
   feedLinks,
@@ -114,6 +114,10 @@ export default defineConfig({
         ],
       },
     ],
+    footer: {
+      message: '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" style="display:inline-block;"/></a>',
+      copyright: 'Except where noted, content on this site is licensed by its authors under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0)</a>.',
+    },
   },
   rewrites: {
     'pages/:slug': ':slug',
