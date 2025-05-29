@@ -28,13 +28,43 @@
       "permanent": true
     },
     {
+      "source": "/plan/runrig-a-plan-for-socio-ecological-design(.*)",
+      "destination": "/posts/the-runrig-plan-for-socio-ecological-design",
+      "permanent": true
+    },
+    {
+      "source": "/archive/plan/overview(.*)",
+      "destination": "/posts/the-runrig-plan-for-socio-ecological-design",
+      "permanent": true
+    },
+    {
       "source": "/architecture(.*)",
+      "destination": "/posts/the-runrig-plan-appendix-architecture",
+      "permanent": true
+    },
+    {
+      "source": "/archive/plan/architecture(.*)",
       "destination": "/posts/the-runrig-plan-appendix-architecture",
       "permanent": true
     },
     {
       "source": "/ecology(.*)",
       "destination": "/posts/the-runrig-plan-appendix-ecology",
+      "permanent": true
+    },
+    {
+      "source": "/archive/plan/ecology(.*)",
+      "destination": "/posts/the-runrig-plan-appendix-ecology",
+      "permanent": true
+    },
+    {
+      "source": "/projects/farm-flow/strategy(.*)",
+      "destination": "/posts/farm-flow-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/archive",
+      "destination": "/journal",
       "permanent": true
     },
     {
