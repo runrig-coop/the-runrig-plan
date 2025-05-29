@@ -126,6 +126,11 @@ export default defineConfig({
     siteTitle: title,
     logo,
     nav: [
+      {
+        text: 'Projects',
+        items: [
+        ],
+      },
       { text: 'The Plan', link: '/posts/the-runrig-plan-for-socio-ecological-design' },
       { text: 'Journal', link: '/journal' },
       {
