@@ -118,38 +118,39 @@ In addition, I'll be adding more information to the [Farm Flow] project profile
 and creating similar profiles for [Runrig farmOS] and the [MAIA Project].
 
 ## The Future of Runrig
-In the course of these projects I've learned that perhaps the greatest challenge
-to realizing Runrig's full potential may lie in communicating its fundamental
-principles and methodology. From the very start, I've tried to downplay Runrig
-as any particular technology stack or software design, and instead emphasize the
-elements I hope can serve as a template for a very different _mode of producing_
-technology, regardless the final shape it takes. In other words, Runrig is meant
-to be more of a _social technology_ than a digital technology, and so more
-analogous to the way Free & Open Source Software (FOSS) functions as a manner of
-developing, say, the Linux kernel, rather than an analog to the Linux itself.
-However, Runrig would go beyond free software principles, which I still view to
-be positively essential to producing good, ethical technology, but which I see
-as hampered by a narrowly liberal conception of freedom that only considers the
-individual. Runrig would strive to _socialize_ the project for software freedom.
-As a radical new design methodology, you might compare Runrig to the Agile
-Manifesto or Lean Software Development, but diametrically opposed to those
-paradigms' deeply embedded, capitalistic assumptions about market-driven
-economics and infinite growth – or what technologists are so fond of calling
-_scalability_. Runrig would instead be a socialist methodology for distributing
-computational power, control, and ownership based on communalist principles.
+In the course of developing these projects I've learned that perhaps the
+greatest challenge to realizing Runrig's full potential may lie in communicating
+its fundamental principles and methodology. From the very start, I've tried to
+downplay Runrig as any particular technology stack or software application, and
+instead emphasize the elements I hope can serve as a template for a very
+different _mode of producing_ technology, regardless the final shape it takes.
+In other words, Runrig is meant to be more of a _social technology_ than a
+digital technology, and so more analogous to the way Free & Open Source Software
+(FOSS) functions as a manner of developing, say, the Linux kernel, rather than
+an analog to Linux itself. However, Runrig would go beyond free software
+principles, which I still view to be positively essential to producing good,
+ethical technology, but which I see as hampered by a narrowly liberal conception
+of freedom that only considers the individual. Runrig would strive to
+_socialize_ the project for software freedom. As a radical new design
+methodology, you might compare Runrig to the Agile Manifesto or Lean Software
+Development, but diametrically opposed to those paradigms' deeply embedded,
+capitalistic assumptions about market-driven economics and infinite growth – or
+what technologists are so fond of calling _scalability_. Runrig would instead be
+a socialist methodology for distributing computational power, control, and
+ownership based on communalist principles.
 
-The establishment of such a practice cannot be achieved merely by the
-implementation of one or another software program. As a social project, a
-consensus or quorum of participants is required first, and so those principles
-must be stated, documented, and argued for. I fully intend to continue
-developing software libraries and applications as a central part of this
-project, but I see their importance as secondary to the methods used to produce
-them. For those methods to have any meaningful impact, they must be communicated
-effectively, along with the rationale for employing them in the first place. If
-Runrig leaves any sort of legacy behind it, however long it endures, I hope it
-lies there, in the documentation of that methodology and the exposition of its
-principles. That will be the primary task of the [Runrig Journal] in the weeks
-ahead.
+The establishment of such a practice cannot be achieved merely through the
+implementation of one or another software program. As a social project, it first
+requires a quorum of participants and consensus on a shared set of values, and
+so those principles must be clearly stated, attested to, and argued for. I fully
+intend to continue developing software libraries and applications as a central
+part of this project, but I see their importance as secondary to the methods
+used to produce them. For those methods to have any meaningful impact, they must
+be communicated effectively, along with the rationale for employing them in the
+first place. If Runrig leaves any sort of legacy behind, however long it may
+endure, I hope it lies there, in the documentation of that methodology and the
+exposition of its principles. That will be the primary task of the [Runrig
+Journal] in the weeks ahead.
 
 [Runrig Journal]: /journal
 [newsletter]: https://buttondown.com/runrig
