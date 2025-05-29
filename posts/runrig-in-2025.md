@@ -7,7 +7,7 @@ description: What's been going on.
 ---
 
 It's been a while since I've posted a general update on Runrig. There are more
-details below on [what's been going on] with the project since then, but I also
+details below on what's been going on with the project since then, but I also
 want to take this opportunity to address how I'll be shifting focus a bit going
 forward.
 
@@ -21,8 +21,8 @@ hoc_, "roll-your-own" approach to those feeds, so hopefully they all work!
 
 As a sample of the kind of material I intend to publish in the future, you can
 take a look at the essay I published last spring titled ["Hedgerows in the Sky"]
-or the documents I've released as part of an ongoing consultation with the [Farm
-Flow] app created by Fitzgerald Organics.
+or the documents I'm in the process of releasing as part of an ongoing
+consultation with the [Farm Flow] app created by Fitzgerald Organics.
 
 ## What's Been Going On
 Eighteen months ago, I laid out a [rather elaborate roadmap] for what I saw as
@@ -40,17 +40,20 @@ when I was asked to consult on [Farm Flow]. In many ways, it was the kind of
 project I'd have loved to take on in _Phase Two_, where I envisioned Runrig
 becoming a sort of "One-stop Platform Co-op Shop." By that I meant that we – and
 by then, it would surely have to be "we" and not just "I" – could be hired by
-food/farm communities to setup service platforms customized for their region, so
-they retained full ownership and control while paying a small fee for managed
-hosting and light sysadmin work. Farm Flow wasn't a perfect 1-to-1 match for
-that sort of platform, but the more I learned the more I felt it could truly
-benefit by adapting some of those principles to its development. It seemed like
-too good an opportunity to pass up, to put some theory into practice and see how
-it measured up.
+farming communities or food cooperatives to setup service platforms customized
+for their region, so they retained full ownership and control while paying a
+small fee for managed hosting and light sysadmin work. Farm Flow wasn't a
+perfect 1-to-1 match for that sort of platform, but the more I learned the more
+I felt it could truly benefit by adapting some of those principles to its
+development. It seemed like too good an opportunity to pass up, to put some
+theory into practice and see how it measured up.
 
 I've had the good fortune to participate in a few other projects and events over
 the past year, each working to shape, challenge, and reconfigure my conception
-of Runrig from what I first [sketched out] roughly two years ago.
+of Runrig from what I first [sketched out] roughly two years ago. Part of my
+intention with this reorganization of the website is to make [The Runrig Plan]
+more of a "living document" once again by enabling a more flexible publication
+format.
 
 Around this time last spring, I was putting the finishing touches on a 6-month
 labor of love, which I titled ["Hedgerows in the Sky"] and published quietly
@@ -98,7 +101,7 @@ about Runrig today and I've tried to express their implications in various
 places. I've committed a great deal of space in my personal journal, but also
 scattered about in various GitHub repositories, in emails with colleagues, in
 shared documents and slide presentations. Much of that material material is now
-enqueued for the Runrig Journal. As a little teaser, I'll share my working list
+enqueued for the Runrig Journal. As a little teaser, here's my working list
 of provisional titles:
 
 1. Runrig in 2025 [the present article]
@@ -114,14 +117,14 @@ In addition, I'll be adding more information to the [Farm Flow] project profile
 and creating similar profiles for [Runrig farmOS] and the [MAIA Project].
 
 ## The Future of Runrig
-I've realized through the course of these projects that the greatest challenge
-of bringing Runrig into fruition is in the communication of its underlying
+In the course of these projects I've learned that perhaps the greatest challenge
+to realizing Runrig's full potential may lie in communicating its fundamental
 principles and methodology. From the very start, I've tried to downplay Runrig
 as any particular technology stack or software design, and instead emphasize the
 elements I hope can serve as a template for a very different _mode of producing_
-technology, whatever shape it takes. In other words, Runrig is meant to be more
-of a _social technology_ than an information technology, and so more analogous
-to the way Free & Open Source Software (FOSS) functions as a manner of
+technology, regardless the final shape it takes. In other words, Runrig is meant
+to be more of a _social technology_ than a digital technology, and so more
+analogous to the way Free & Open Source Software (FOSS) functions as a manner of
 developing, say, the Linux kernel, rather than an analog to the Linux itself.
 However, Runrig would go beyond free software principles, which I still view to
 be positively essential to producing good, ethical technology, but which I see
@@ -147,7 +150,6 @@ lies there, in the documentation of that methodology and the exposition of its
 principles. That will be the primary task of the [Runrig Journal] in the weeks
 ahead.
 
-[what's been going on]: #what-s-been-going-on
 [Runrig Journal]: /journal
 [newsletter]: https://buttondown.com/runrig
 [RSS]: /feed/rss.xml
@@ -158,6 +160,7 @@ ahead.
     /posts/roadmap-2024.md#three-phase-organizing-model-or-business-plan
 [Farm Flow]: /farm-flow.md
 [sketched out]: /posts/the-runrig-plan-for-socio-ecological-design
+[The Runrig Plan]: /plan
 ["Hedgerows in the Sky"]: /posts/hedgerows.md
 [_Commonplace_]: https://commonplace.knowledgefutures.org/pub/7m7brnr4/release/1
 [DWeb Camp]: https://dwebcamp.org
