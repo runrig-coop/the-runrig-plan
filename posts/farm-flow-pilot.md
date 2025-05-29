@@ -27,4 +27,10 @@ Future iterations would improve on the finer points of design later on:
 - Local-first, browser-based app hosted on [CDN]
 - Import & export from a single JSON file
 
+:::warning DRAFT NOTICE
+
+This documents is still in draft; please check back soon to read more!
+
+:::
+
 [CDN]: https://farm-flow-board.pages.dev/

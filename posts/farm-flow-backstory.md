@@ -70,3 +70,9 @@ of a given operation at a particular time and place. Space was left on each
 ticket for the entry of actual values achieved or observed, so that upon
 completion the ticket could be stored in the appropriate folder for future
 reference.
+
+:::warning DRAFT NOTICE
+
+This documents is still in draft; please check back soon to read more!
+
+:::
