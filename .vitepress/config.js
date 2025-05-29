@@ -129,9 +129,9 @@ export default defineConfig({
       {
         text: 'Projects',
         items: [
+          { text: 'The Runrig Plan', link: '/plan' },
         ],
       },
-      { text: 'The Plan', link: '/posts/the-runrig-plan-for-socio-ecological-design' },
       { text: 'Journal', link: '/journal' },
       {
         text: 'About',
