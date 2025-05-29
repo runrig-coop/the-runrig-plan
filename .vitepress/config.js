@@ -130,6 +130,7 @@ export default defineConfig({
         text: 'Projects',
         items: [
           { text: 'The Runrig Plan', link: '/plan' },
+          { text: 'Farm Flow', link: '/farm-flow' },
         ],
       },
       { text: 'Journal', link: '/journal' },
