@@ -1,9 +1,10 @@
 ---
-date: 2025-05-27
+date: 2025-05-29
 title: Runrig in 2025
 subtitle: An overdue recap.
 author: Jamie Gaehring
-description: What's been going on.
+description: Introducing the Runrig Journal, plus a recap of what's been going
+    on with the project over the last year and a half.
 ---
 
 It's been a while since I've posted a general update on Runrig. There are more
