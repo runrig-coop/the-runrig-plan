@@ -108,6 +108,7 @@ export default defineConfig({
         text: 'Projects',
         items: [
           { text: 'The Runrig Plan', link: '/posts/the-runrig-plan-for-socio-ecological-design' },
+          { text: 'Farm Flow', link: '/farm-flow' },
         ],
       },
       { text: 'Journal', link: '/journal' },
