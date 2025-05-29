@@ -109,6 +109,7 @@ export default defineConfig({
         items: [
           { text: 'The Runrig Plan', link: '/posts/the-runrig-plan-for-socio-ecological-design' },
           { text: 'Farm Flow', link: '/farm-flow' },
+          { text: 'Runrig farmOS', link: '/runrig-farmos' },
         ],
       },
       { text: 'Journal', link: '/journal' },
