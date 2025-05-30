@@ -91,7 +91,7 @@ hope I have a chance to reconnect with them all again and perhaps write a bit
 about their projects. There was also some vigorous debate around funding models
 for free & open source software. I'm never short of opinions on that particular
 subject, so in the weeks after the conference I was compelled to draw some
-[comparisons between Runrig's approach and other proposed methods]; I hope to
+[comparisons between Runrig's approach and other proposed methods]; I want to
 rework those slides, too, into something better suited for a general audience.
 
 ## On Deck
@@ -140,8 +140,8 @@ methodology, you might compare Runrig to the Agile Manifesto or Lean Software
 Development, but diametrically opposed to those paradigms' deeply embedded,
 capitalistic assumptions about market-driven economics and infinite growth – or
 what technologists are so fond of calling _scalability_. Runrig would instead be
-a socialist methodology for distributing computational power, control, and
-ownership based on communalist principles.
+an explicitly socialist methodology for distributing computational power,
+control, and ownership based on communalist principles.
 
 The establishment of such a practice cannot be achieved merely through the
 implementation of one or another software program. As a social project, it first
@@ -151,10 +151,30 @@ intend to continue developing software libraries and applications as a central
 part of this project, but I see their importance as secondary to the methods
 used to produce them. For those methods to have any meaningful impact, they must
 be communicated effectively, along with the rationale for employing them in the
-first place. If Runrig leaves any sort of legacy behind, however long it may
-endure, I hope it lies there, in the documentation of that methodology and the
-exposition of its principles. That will be the primary task of the [Runrig
-Journal] in the weeks ahead.
+first place. If Runrig endures long enough to leave any sort of legacy behind,
+I'd like it to be the documentation of that methodology and the exposition of
+those principles. That will be the primary task of the [Runrig Journal] in the
+weeks ahead.
+
+I still hope for Runrig to support a workers' cooperative in the future, too, so
+I'm always eager to speak with any other designers, engineers, or food workers
+who wish to contribute to the implementation and deployment of these kinds of
+services. Nothing would make me happier than to earn my livelihood with
+like-minded coworker-owners doing exactly that, maybe even something not too
+dissimilar from the kind of [co-op I described in the roadmap] a year and a half
+ago. At the same time, I've never assumed that it's Runrig's ultimate fate to
+become a going concern. With that in mind, I will be looking for ways to put
+Runrig into practice in my own community of New York City and the Hudson Valley
+region, ideally through mutual aid projects that I can benefit from directly,
+even if it's not in the form of a paycheck. So I doubly encourage anyone with an
+interest who also lives in the area to reach out as well. Of course, if you're
+someone who wants to support Runrig other ways, even if it's not as a dedicated
+co-op member or as someone in the Northeastern U.S., I'm sure not going to turn
+down help. And please forward this along to others who might like to get
+involved. Once I get the details for [Runrig farmOS] organized on the site, I
+may look into ways of enabling sponsorship of specific projects as some form of
+crowdfunding initiative. In any event, if you've read this far and I've piqued
+your interest somehow, then by all means, please, [don't be a stranger!]
 
 [Runrig Journal]: /journal
 [newsletter]: https://buttondown.com/runrig
@@ -180,4 +200,7 @@ Journal] in the weeks ahead.
 [MAIA Project]: https://github.com/skywoman/multifarm-aggregation-info-arch
 [parts 2 & 3 of "Hedgerows"]:
     https://github.com/runrig-coop/hedgerows/blob/main/notes/outline-of-narrative.md
+[co-op I described in the roadmap]:
+    /posts/roadmap-2024.md#three-phase-organizing-model-or-business-plan
+[don't be a stranger!]: mailto:jamie@runrig.org
 
