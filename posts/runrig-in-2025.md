@@ -1,5 +1,5 @@
 ---
-date: 2025-05-29
+date: 2025-05-30
 title: Runrig in 2025
 subtitle: An overdue recap.
 author: Jamie Gaehring
@@ -8,15 +8,15 @@ description: Introducing the Runrig Journal, plus a recap of what's been going
 ---
 
 It's been a while since I've posted a general update on Runrig. There are more
-details below on what's been going on with the project since then, but I also
-want to take this opportunity to address how I'll be shifting focus a bit going
+details below on what's been going on with the project lately, but I also want
+to take this opportunity to address how I'll be shifting focus a bit going
 forward.
 
 In brief, I've updated the [Runrig Journal] to accommodate a more consistent
 publication schedule for general articles, technical reports, and even the
 occasional long-form essay. I'll be starting off on a biweekly schedule, posting
 something new here on the website and sending it out in the [newsletter]. I've
-also set up an [RSS], [Atom] & [JSON] feeds you can subscribe to; I took an _ad
+also set up [RSS], [Atom] & [JSON] feeds you can subscribe to; I took an _ad
 hoc_, "roll-your-own" approach to those feeds, so hopefully they all work!
 &#x1F91E;&#x1F3FB;
 
