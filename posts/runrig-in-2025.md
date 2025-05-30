@@ -116,6 +116,10 @@ of provisional titles:
 
 In addition, I'll be adding more information to the [Farm Flow] project profile
 and creating similar profiles for [Runrig farmOS] and the [MAIA Project].
+Further on the horizon I still intend to return to [parts 2 & 3 of "Hedgerows"]
+and a couple more ambitious concepts I've been mulling on, like "The Semiotics
+of Data" and "Socially Necessary Computation Time." So all you theory-nerds,
+stay tuned!
 
 ## The Future of Runrig
 In the course of developing these projects I've learned that perhaps the
@@ -174,3 +178,6 @@ Journal] in the weeks ahead.
     https://dweb.camp/p/foodweb__response-to-utility-proposal
 [Runrig farmOS]: https://github.com/runrig-coop/runrig-farmos
 [MAIA Project]: https://github.com/skywoman/multifarm-aggregation-info-arch
+[parts 2 & 3 of "Hedgerows"]:
+    https://github.com/runrig-coop/hedgerows/blob/main/notes/outline-of-narrative.md
+
