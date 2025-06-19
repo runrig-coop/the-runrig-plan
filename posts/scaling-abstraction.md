@@ -26,17 +26,6 @@ crisis and the rising number of geopolitical conflicts triggered by competition
 over finite energy and mineral resources – resources absolutely required for the
 inordinate scale of today's computational demands.
 
-$3^2$
-
-$3 \times 3$
-
-$3 + 3 + 3$
-
-![](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet/00.12.08.jpg?raw=true)
-
-"Civilization advances by extending the number of important operations which we
-can perform without thinking about them."
-
 Beyond the clear perils to our planet's climate and natural ecosystems, rapid
 scaling also threatens our _social and cultural ecosystems_. When big tech
 companies talk about scalability, they might have in mind scaling the production
@@ -55,10 +44,6 @@ becomes the sole prerogative of the algorithm's author, not the user. And when
 the phenomenon they aim to model is society as a whole and its economic
 functions, all control over the intricate details of our social and material
 lives is yielded up to engineers and their corporate managers.
-
-Scaling == Measure of User-Share or Market-Share
-
-Growth == Measure of Company Valuation or Market Capitalization
 
 To this last point, scaling may mean acquiring more and more _daily active
 users_, or DAUs, and oftentimes "startup growth" is treated synonymously with
@@ -79,8 +64,6 @@ _users' unpaid attention labor_ with respect to how much _paid technical labor_
 it must first extract from its workers in order to do so. Scalability, defined
 as such, is nothing less than the Platonic ideal of upwards wealth transfer and
 the consolidation of power.
-
-in relation to the overall market-share of users the startup can command.
 
 It should go without saying that such unlimited scaling of technology is at odds
 with the goal of producing appropriate technology that affords its users greater
@@ -180,20 +163,8 @@ efforts and other forms of attack.
     https://tromp.github.io/blog/2023/11/24/largest-number
 
 
-
-[^scarcity]: Natural resources are indeed _finite_, in strictly physical terms,
-but their _scarcity_ only emerges within a social context: they are scarce
-because society's total demand exceeds what it is capable of supplying
-universally to all its members. In other words, scarcity is just demand
-outstripping supply, basic Econ 101, but supply and demand are both socially
-determined quantities. To be sure, certain physical limits put constraints on
-precisely _how_ that determination can or cannot be made, but all agency to
-determine whether society suffers under scarcity or thrives in abundance belongs
-to society itself, not to physical law.
-
-
-
-## Playing w/ $\LaTeX$
+## Draft Notes
+### Playing w/ $\LaTeX$
 
 $$
 \frac {\Delta \textit{Attn}^\textit{Scal.}} {\Delta \textit{Tech}} \times \textit{Operating Capital}
@@ -239,7 +210,23 @@ $$
 
 
 
-## scratch
+### scratch
+> Civilization advances by extending the number of important operations which we
+can perform without thinking about them.
+
+![](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet/00.12.08.jpg?raw=true)
+
+$3^2$
+
+$3 \times 3$
+
+$3 + 3 + 3$
+
+
+- Scaling == Measure of User-Share or Market-Share
+- Growth == Measure of Company Valuation or Market Capitalization
+
+
 I prefer to think about the ways technology can help to distribute control over our production systems, while also diffusing the costs of maintaining them. From this perspective, it’s not the product that expands to an ever greater and greater scale, but rather our capacity to organize a larger bloc of mutual support with a stronger commitment to shared values.
 
 In very practical terms, this is about maximizing the contributions that can be integrated into a project from an ever wider base of members. That might take the form of extending a piece of open source software created by another project, rather than starting off on one’s own to recreate their work, or it could mean empowering technical service providers with access to open source tools so that they can in turn contribute their unique insights to the future development of those tools. This is cooperation being favored over competition, in essence. In terms of technology development and especially technology maintenance, widening the circle of cooperation can diffuse costs, by lowering the stakes required to initiate development at the very start, while also averaging out the long-term costs of ownership through shared ownership.
@@ -298,3 +285,15 @@ choose to engage with many of those networks, we can still choose not to
 reproduce those dynamics in our own work and the tools we build for ourselves.
 Instead, let's use them to __organize bulwarks of community power__ that are
 more resilient to rent-seeking efforts and other forms of attack.
+
+
+[^scarcity]: Natural resources are indeed _finite_, in strictly physical terms,
+but their _scarcity_ only emerges within a social context: they are scarce
+because society's total demand exceeds what it is capable of supplying
+universally to all its members. In other words, scarcity is just demand
+outstripping supply, basic Econ 101, but supply and demand are both socially
+determined quantities. To be sure, certain physical limits put constraints on
+precisely _how_ that determination can or cannot be made, but all agency to
+determine whether society suffers under scarcity or thrives in abundance belongs
+to society itself, not to physical law.
+
