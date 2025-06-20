@@ -6,72 +6,140 @@ author: Jamie Gaehring
 date: 2025-07-29
 ---
 
-In Silicon Valley, there is an emphasis on "scaling" technologies, both in the
-sense of digital technologies that "can be scaled" and those that facilitate
-"the scaling of" other digital or non-digital systems. This aspect of the tech
-industry does not arise as an emergent quality of technology all on its own.
-Rather it originates with a mandate from venture capital investors to pursue
-limitless economic growth. For technology's contribution to the effort, computer
-algorithms offer an unrivaled ability for _abstraction_; people and things can
-all be abstracted away from the material world and whisked away to the "cloud."
-Once in the realm of abstraction, properties like color, size, and shape become
-mere numbers, and scale is only limited to the largest number you can fit into a
-[64-bit register], although that limit can be abstracted away too. When the
-object of abstraction is economic growth, computational abstraction acts to
-supercharge capital's race for infinite growth, a phenomenon we casually refer
-to as _scalability_. It remains to be seen, however, if these abstractions can
-survive contact with reality – the cloud "falling to earth," so to speak. That
-determination becomes all the more dire in view of an accelerating climate
-crisis and the rising number of geopolitical conflicts triggered by competition
-over finite energy and mineral resources – resources absolutely required for the
-inordinate scale of today's computational demands.
+In Silicon Valley, there is a widespread fascination with _scaling_, or to be
+more precise, _digital technologies that scale_. The verb "to scale" in this
+context can take the passive voice, as in digital technologies that "can be
+scaled," or an active voice for technologies that facilitate "the scaling of"
+other systems, both digital and non-digital systems alike. If some new tech
+promises "to scale" and "to be scaled" at the same time, all the better. Many a
+would-be founder has exalted the properties of this or that technology for its
+ability to scale, as if by some quasi-magical property latent in the computer
+chips themselves. But scaling is by no means inherent to the nature of
+computation, nor does scaling emerge from digital technology all of its own
+accord. Rather, it is imposed on technology by a mandate from venture capital
+investors to pursue unlimited economic growth.
+
+For its own part, information technology does make an original contribution in
+the form of its unrivaled capacity for _abstraction_, a power that can just as
+well be applied to scaling as to other unrelated tasks or even opposing aims. A
+well-designed computer algorithm can abstract away concrete details of the real
+world – e.g., material goods and services, users, workers, facial expressions,
+social relations, monetary costs, or environmental costs – and whisk them away
+to the _cloud_. Once in this realm of pure abstraction, properties like color,
+size, and shape become mere numbers or bits. Free of all physical encumbrance,
+our worldly cares assume new virtual bodies, becoming weightless, untethered,
+and without consequence. Up there in the cloud, scale itself is only limited to
+the largest number you can fit into a [64-bit register] – although that limit,
+too, can be easily abstracted away.
+
+When the object of scaling is economic productivity or market dynamics,
+computational abstraction becomes an accelerant for capital's race towards
+infinite growth. This secret sauce – abstraction coupled to a business model
+meant for rapid market growth and capital accumulation – is what business
+analysts or techno-optimists typically infer by the neologism: _scalability_.
+
+Before going too much further, I should point out that in addition to the
+economic sense of the word, scalability has another more technical usage, where
+scale can be measured by empirical observation or even evaluated by mathematical
+proof.[^comp-sci] Some might argue that this technical meaning can be considered
+independently from its business connotation, without any reference to
+socioeconomic value statements. That may be true in a purely academic setting,
+but even under such contrived circumstances, I would argue that the term still
+comes freighted with some heavy socioeconomic implications. The physical limits
+and potentials of scalability measured in the laboratory are of interest largely
+to the extent that they can be correlated to the economic costs and benefits of
+scalability. There is no applied science for the upper reaches of scalability
+without the vast resources available only to tech companies intent on scaling to
+billions of users and a market capitalization that puts them on the S&P 500.
+That's what funds scientific research into scalability in the first and why it
+gets any significant attention.
+
+[^comp-sci]: Scalability is a pretty dry body of literature in the applied
+    sciences, but to get a sense, see [Amdahl's Law] and [Gunther's Universal
+    Scalability Law]. The theoretical physics behind computational limits is
+    actually a lot more approachable and fun to explore. On her YouTube channel
+    _Up and Atom_, Jade Tan-Holmes gives a fantastic explanation of ["Why Pure
+    Information Gives Off Heat"] according to [Landauer's Principle]. To
+    understand how Planck's constant and the Uncertainty Principle put a hard
+    upper limit on how much information can be transmitted over a fixed period
+    of time, see ["What is the maximum Bandwidth?"] with  Prof. Mike Merrifield
+    and Brady Haran from _Sixty Symbols_. It's far more useful, in my opinion,
+    to get a beginner's intuition for the _physicality of information_ than to
+    memorize a bunch of equations for scaling systems that have no business
+    being that big to start with.
+
+[Amdahl's Law]: https://dl.acm.org/doi/10.1145/1465482.1465560
+[Gunther's Universal Scalability Law]: https://arxiv.org/abs/0808.1431v2
+[Landauer's Principle]: https://en.wikipedia.org/wiki/Landauer%27s_principle
+["Why Pure Information Gives Off Heat"]: https://www.youtube.com/watch?v=XY-mbr-aAZE
+["What is the maximum Bandwidth?"]: https://www.youtube.com/watch?v=0OOmSyaoAt0
+
+To that point, it remains to be seen if the abstractions of scalability can
+survive eventual contact with reality – _the cloud falling back down to earth_,
+so to speak. Computational abstractions do incur physical costs and real-world
+consequences, and there are practical limits to the scale of their application,
+even if they encompass theoretical infinities. The need for sane limits on
+computational scaling could not be more acute than in the face of our
+accelerating climate crisis and the rising number of geopolitical conflicts
+spawned by competition over finite energy and mineral resources. Indeed, such
+resources will never be adequate to the computational demands of today's tech
+moguls, if left to set their own limits. When Microsoft announces [it will
+reopen Three Mile Island] to power its large language models, _this is the cloud
+falling back down to earth_. When companies like Apple, Tesla and Dell are
+willing to pay millions of dollars in legal fees each year so they can keep
+[extracting the conflict minerals] that power our smartphones, electric
+vehicles, and other devices, _this too is the cloud falling back down to earth_.
+
+[it will reopen Three Mile Island]:
+    https://www.npr.org/2024/09/20/nx-s1-5120581/three-mile-island-nuclear-power-plant-microsoft-ai
+[extracting the conflict minerals]:
+    https://arstechnica.com/tech-policy/2024/03/apple-and-other-firms-dont-have-to-compensate-victims-of-forced-child-labor/
 
 Beyond the clear perils to our planet's climate and natural ecosystems, rapid
-scaling also threatens our _social and cultural ecosystems_. When big tech
+scaling also threatens our social and cultural ecosystems. When big tech
 companies talk about scalability, they might have in mind scaling the production
 of our physical needs and wants (e.g., GrubHub, Apple, Tesla), scaling the
-market for those products (e.g., Amazon, AdSense, Square), scaling our cultural
-representations and identities (e.g., Netflix, Spotify, YouTube), or scaling the
-web of social relations bound up in all of that (e.g., Facebook, LinkedIn,
-Tinder). But when these processes are scaled by algorithm, some essential
-feature of our social relations cannot help but be lost. Abstraction is merely
-the selective omission of the divergent or anomalous characteristics of real
-world phenomena that can make them inscrutable to analysis. Its purpose is to
-accentuate the phenomena's shared characteristics and emergent patterns so that
-a coherent, useful model can be formed. When it comes to proprietary software
-algorithms, however, which characteristics are omitted and which are accentuated
-becomes the sole prerogative of the algorithm's author, not the user. And when
-the phenomenon they aim to model is society as a whole and its economic
-functions, all control over the intricate details of our social and material
-lives is yielded up to engineers and their corporate managers.
+market for those products (e.g., Amazon, AdSense, Square), scaling the creative
+arts and our cultural identities (e.g., Netflix, Spotify, YouTube), or scaling
+the web of social relations bound up in all of that (e.g., Facebook, LinkedIn,
+Tinder). But when these processes are scaled by algorithmic abstraction, some
+essential quality of our social relations will always be lost.
 
-To this last point, scaling may mean acquiring more and more _daily active
-users_, or DAUs, and oftentimes "startup growth" is treated synonymously with
-"payroll growth," but those two quantities are not meant to scale equally. In
-the latter instance, the number of employees or even just the size of the
-engineering pool is really a first-order approximation for the company's
-operating costs – a tacit acknowledgement, perhaps, of the labor theory of
-value. While the growth of the startup's labor force is generally taken to be a
-healthy indicator, the goal is still to keep labor costs as low as possible even
-as the overall market-share of users the startup can command grows exponentially
-in proportion. Mere linear growth would in fact be tantamount to a startup's
-_failure_ to scale. Venture capital investors count on a startup's user-share
-rising _geometrically_ as labor costs rise only _arithmetically_. That is
-scalability's essential characteristic, or at least its most vaulted claim. It's
-what most entices VC firms to invest, and consequently lies behind the startup's
-fundamental motivating drive: to maximize the rate at which it can capture
-_users' unpaid attention labor_ with respect to how much _paid technical labor_
-it must first extract from its workers in order to do so. Scalability, defined
-as such, is nothing less than the Platonic ideal of upwards wealth transfer and
-the consolidation of power.
+In many ways, abstraction is just the omission of certain characteristics that
+make real-world phenomena especially inscrutable to meaningful analysis. Those
+details perceived as anomalous, divergent, or simply irrelevant are thrown out
+while other patterns and traits are elevated in their place. All of this is done
+to form a coherent model of whichever dynamics the modeler deems most
+significant. As George Box once put it, "all models are wrong, but some are
+useful," and abstraction can just as easily produce models that are insightful
+and beneficial to society as it can throw up models that are misleading,
+exploitative, or utterly meaningless. In the case of most cloud software, the
+abstraction is performed by proprietary algorithms, hidden away on a remote
+server somewhere that only its owners can ever see or control. Just ask any
+content creator who's tried to guess what thumbnail image will get them the most
+views, or an SEO consultant who's racked their brain for the right combination
+of keywords to improve their website's search ranking: they'll tell you just how
+futile a guessing game that can be.
 
-It should go without saying that such unlimited scaling of technology is at odds
-with the goal of producing appropriate technology that affords its users greater
-autonomy. Nevertheless, I'm here to argue that it's just as conceivable that
-digital technology might yield greater autonomy for the masses. Once we
-recognize the elements in its design that must be inverted to reverse the flow
-of wealth and power back to its users, it can become a tool to actively combat
-corporate hegemony and capitalistic greed.
+Billions of decisions are being made every second on the basis of such
+cloud-based abstractions, and all for the sake of somebody's model. But _whose_?
+Most of those decisions are the sole prerogative of the algorithm's authors,
+while the overwhelming majority of us are relegated to being the mere _objects
+of their abstractions_, even if we never use the particular cloud software in
+question. Users and non-users alike are seldom granted any knowledge of the
+decisions being made that impact our lives, let alone any influence over how
+those abstractions are formed in the first place. When the phenomenon being
+abstracted away is an entire economic sector or, worse yet, society as a whole,
+we forfeit a tremendous degree of agency over our social lives and our very
+material existence. All that power of abstraction is essentially handed over to
+just a few over-caffeinated engineers and their even fewer corporate managers.
+Once in their hands they'll do whatever they deem necessary for the sake of
+scale, often to the detriment of our communities and ultimately to the sole
+benefit of their shareholders.
+
+It should go without saying that scaling and abstractions of this sort are
+directly at odds with any vision for appropriate technology that respects users'
+individual or collective autonomy.
 
 Runrig's contention is this: technology can aid in our collective liberation,
 but only by strengthening our economic, social, and ecological relationships
@@ -232,6 +300,34 @@ I prefer to think about the ways technology can help to distribute control over 
 In very practical terms, this is about maximizing the contributions that can be integrated into a project from an ever wider base of members. That might take the form of extending a piece of open source software created by another project, rather than starting off on one’s own to recreate their work, or it could mean empowering technical service providers with access to open source tools so that they can in turn contribute their unique insights to the future development of those tools. This is cooperation being favored over competition, in essence. In terms of technology development and especially technology maintenance, widening the circle of cooperation can diffuse costs, by lowering the stakes required to initiate development at the very start, while also averaging out the long-term costs of ownership through shared ownership.
 
 The sooner you can get to a stage of organizing with potential allies to decide on the next course of action, the better situated and resourced you will be to act, and with greater assurances those actions won’t exceed your capacity. It won’t ever be a source of passive income for any one person, but it will add value to the labor and expertise of all those who contribute to the project.
+
+
+With regard to engineers, managers and users, _scalability_ also implies a
+distinct relationship between the number of fulltime salaried professionals a
+company employs versus the number of active users it boasts or some other
+measure of traffic it can verifiably sustain. It's not the absolute number of
+employees or user traffic that matters so much but _the rate at which both
+increase with respect to each other_.
+
+The ratio of these two rates of change is yet another form of scalability,
+except it is beyond the control of even the highest paid engineers and managers,
+perhaps even the company's founders and executives.
+
+a higher order of abstraction meant to scale scalability itself,
+
+While the growth of the startup's labor force is generally
+taken to be a healthy indicator, the goal is still to keep labor costs as low as
+possible even as the overall market-share of users the startup can command grows
+exponentially in proportion. Mere linear growth would in fact be tantamount to a
+startup's _failure_ to scale. Venture capital investors count on a startup's
+user-share rising _geometrically_ as labor costs rise only _arithmetically_.
+That is scalability's essential characteristic, or at least its most vaulted
+claim. It's what most entices VC firms to invest, and consequently lies behind
+the startup's fundamental motivating drive: to maximize the rate at which it can
+capture _users' unpaid attention labor_ with respect to how much _paid technical
+labor_ it must first extract from its workers in order to do so. Scalability,
+defined as such, is nothing less than the Platonic ideal of upwards wealth
+transfer and the consolidation of power.
 
 
 
