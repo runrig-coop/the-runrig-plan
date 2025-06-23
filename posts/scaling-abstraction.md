@@ -306,6 +306,60 @@ That's the task Runrig aims to fulfill.
    come to know each other's preferences, strengths and weaknesses, you'll grow
    your shared capacity to innovate, adapt, and trust one another. 
 
+### Software developers on abstraction
+- Rich Hickey
+  - [The Value of
+    Values](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/ValueOfValuesLong.md),
+    GOTO; Conference 2012
+    - > And then you have to stop doing place-oriented programming. Because as
+      > we will see, it is not a fit for the models we are trying to build. So
+      > this use of place to create values [...] is an implementation detail. Of
+      > course we have to use places. Our computers have memory and they have
+      > disks. But what is important is that our program is not _about_ places.
+      > It is information technology. It is not "technology technology". We have
+      > taken abstractions of the technology, and raised them up to being what
+      > the program is about, and that is an error.
+
+    - > So two words that I think are very important are "memory" and "records".
+      > We have to remember: these words had meanings before we started to try
+      > to emulate them with tiny computers. We used these words for millennia
+      > prior to that. And we have not only co-opted them, but I think that we
+      > are starting to believe our own myths about what memory and records are.
+      > They are what our programs say they are, as opposed to what they
+      > _really_ are.
+      > 
+    - > Real memory is a cognitive abstraction over how our brains work. And
+      > some of the characteristics about it that are really interesting are the
+      > fact that it is associative. If your friend gets a new phone number, it
+      > does not go into your brain and find the phone number neurons for your
+      > friend, and overwrite them with the new phone number. That is not how
+      > memory works. You get the new phone number. It is some novelty. And your
+      > brain accommodates it, and what was there before. So it is associative.
+      > There is some connection between my friend and the phone number, and
+      > those numbers. But it is also open. It is not a place. Your friend's
+      > phone number is not a place in your brain. And memory is about that
+      > activity, acquiring your friend's phone number when he changes it.
+      > 
+    - > And record keeping existed before we had computers. Records are
+      > enduring. People did not go back to their parchments and scrub them out
+      > when there were new facts. They did not go back to their stone tablets
+      > and pave them over with concrete and then re-etch them. They just wrote
+      > new pieces of paper, and carved new stones. They are enduring, so we
+      > keep them around. And they are accreting. If you have new information in
+      > the old record keeping systems, you added it to what you had already.
+      > You did not go and erase it.
+  - [Are We There
+    Yet?](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet.md)
+    > ![SLIDE: "Civilization advances by extending the number of important
+      operations which we can perform without thinking about them." ~ Alfred
+      North
+      Whitehead](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet/00.12.08.jpg?raw=true)
+- Joe Armstrong
+  - ["The Mess We're In"](https://www.youtube.com/watch?v=lKXe3HUG2l4)
+- Austin Wade Smith on legibility
+  - [Undualing](https://mirror.xyz/austinwadesmith.eth/1wdm8BNkLJWnnzwshtYEmHYlHaXxRF3bLEt4y4-9OE8) (11 Apr 2023)
+  - [Commons Sense - The Social Life of Ecological ↔ Digital Linkages](https://mirror.xyz/austinwadesmith.eth/J2Ac0fFG1XbEHLch5c_TQy2OxfFjebK6BnJpHJKbgFg) (28 Jun 2023)
+
 ### Anarchist & Marxist views on abstraction
 - See _Grundrisse_, Introduction § 3, ["The Method of Political
   Economy"](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch01.htm#loc3)
@@ -364,10 +418,6 @@ $$
 
 
 ### scratch
-> Civilization advances by extending the number of important operations which we
-can perform without thinking about them.
-
-![](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet/00.12.08.jpg?raw=true)
 
 $3^2$
 
