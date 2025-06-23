@@ -137,6 +137,32 @@ Once in their hands they'll do whatever they deem necessary for the sake of
 scale, often to the detriment of our communities and ultimately to the sole
 benefit of their shareholders.
 
+That imbalance of control is the quantity that so much of our modern tech
+infrastructure is specifically designed to scale up. Another implicit assumption
+of scalability is that however a company's market share is measured to rise –
+e.g., the number of active users, payments processed or total revenues – that
+value is expected to scale at a _geometric_ rate with respect to the number of
+engineers and managers it must hire to achieve the increase. A mere _linear_
+rate of growth is likely to be seen as an abject failure. Whether the key metric
+is expressed in users or dollars, if it's to be compared against the number of
+employees or other operating costs, it must indicate some unequal exchange of
+socioeconomic value. In other words, _scalability is often just a measure of
+social control_.
+
+Social control is nothing new, of course, and by no means requires computational
+scalability. Ancient bureaucrats did just fine with their law books, abacuses,
+_quipu_, and clay tablets for millennia before its invention. In fact, the
+degree of control provided by this form of scaling is so far in excess of what
+those engineers, managers, and shareholders can ever hope to exercise, at least
+with anything like conscious intent. As with many forms of industrialization, it
+is the overwhelming bluntness of the tool, the haphazard way it is wielded, and
+the comparably narrow scope of its objectives that makes scaling technologies
+capable of such unprecedented harm. Like an ocean trawler that obliterates
+square miles of seafloor habitat and all the marine life it sustains, just to
+throw out three quarters of its catch in the end, scalability can wreak utter
+havoc across wide swathes of our society, wasting untold resources, while its
+operators scarcely pay any notice.
+
 It should go without saying that scaling and abstractions of this sort are
 directly at odds with any vision for appropriate technology that respects users'
 individual or collective autonomy.
