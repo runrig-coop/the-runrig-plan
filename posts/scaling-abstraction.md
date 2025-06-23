@@ -333,6 +333,17 @@ The sooner you can get to a stage of organizing with potential allies to decide 
    come to know each other's preferences, strengths and weaknesses, you'll grow
    your shared capacity to innovate, adapt, and trust one another. 
 
+### Anarchist & Marxist views on abstraction
+- See _Grundrisse_, Introduction § 3, ["The Method of Political
+  Economy"](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch01.htm#loc3)
+  on Marx's explication of concrete vs abstract forms of analysis, the most
+  notable of course being concrete labor vs abstract labor.
+- James C. Scott, _Seeing Like a State_
+  - > The value of the cadastral map to the state lies in its abstraction and universality. In principle, at least, the same objective standard can be applied throughout the nation, regardless of local context, to produce a complete and unambiguous map of all landed property. The completeness of the cadastral map depends, in a curious way, on its abstract sketchiness, its lack of detail—its thinness. Taken alone, it is essentially a geometric representation of the borders or frontiers between parcels of land. What lies inside the parcel is left blank—unspecified—since it is not germane to the map plotting itself.
+  - epubcfi(/6/24!/4/232,/1:0,/1:614)
+- Murray Bookchin
+  - > For Marxian theory, the reduction of concrete labor into abstract labor is a historical as well as theoretical desideratum. Abstract labor may be a creature of capitalism but, like capitalism itself, it is a necessary "moment" in the dialectic of history. Not only is it a medium for rendering exchange ratios possible on an extensive scale, but, from an even larger perspective, it becomes part of the technical substrate of freedom. By its very plasticity, abstract labor renders human activity interchangeable, the rotation of industrial tasks possible, and the use of machinery flexible. Its capacity to flow through the veins of industry as mere undifferentiated human energy renders the manipulation and reduction of the working day possible and, concurrently, the expansion of the "realm of freedom" at the expense of the "realm of necessity." If Marx's communism was meant to be a "society of artists," he was not prepared to recognize that the colors on their canvases might be limited to varying tints of gray.<sup>[[source]](https://theanarchistlibrary.org/library/murray-bookchin-the-ecology-of-freedom#:~:text=For%20Marxian%20theory%2C%20the,varying%20tints%20of%20gray)</sup>
+
 ### Playing w/ $\LaTeX$
 
 $$
