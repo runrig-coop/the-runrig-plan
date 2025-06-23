@@ -32,12 +32,16 @@ and without consequence. Up there in the cloud, scale itself is only limited to
 the largest number you can fit into a [64-bit register] – although that limit,
 too, can be easily abstracted away.
 
+[64-bit register]:
+    https://tromp.github.io/blog/2023/11/24/largest-number
+
 When the object of scaling is economic productivity or market dynamics,
 computational abstraction becomes an accelerant for capital's race towards
 infinite growth. This secret sauce – abstraction coupled to a business model
 meant for rapid market growth and capital accumulation – is what business
 analysts or techno-optimists typically infer by the neologism: _scalability_.
 
+## The Physicality of Information
 Before going too much further, I should point out that in addition to the
 economic sense of the word, scalability has another more technical usage, where
 scale can be measured by empirical observation or even evaluated by mathematical
@@ -95,6 +99,7 @@ vehicles, and other devices, _this too is the cloud falling back down to earth_.
 [extracting the conflict minerals]:
     https://arstechnica.com/tech-policy/2024/03/apple-and-other-firms-dont-have-to-compensate-victims-of-forced-child-labor/
 
+## A Measure of Social Control
 Beyond the clear perils to our planet's climate and natural ecosystems, rapid
 scaling also threatens our social and cultural ecosystems. When big tech
 companies talk about scalability, they might have in mind scaling the production
@@ -163,6 +168,7 @@ throw out three quarters of its catch in the end, scalability can wreak utter
 havoc across wide swathes of our society, wasting untold resources, while its
 operators scarcely pay any notice.
 
+## Socializing Our Computational Abstractions
 It should go without saying that scaling and abstractions of this sort are
 directly at odds with any vision for appropriate technology that respects users'
 individual or collective autonomy.
@@ -249,12 +255,6 @@ __organize bulwarks of worker power__ that are more resilient to rent-seeking
 efforts and other forms of attack.
 
 
-
-
-
-
-[64-bit register]:
-    https://tromp.github.io/blog/2023/11/24/largest-number
 
 
 ## Draft Notes
