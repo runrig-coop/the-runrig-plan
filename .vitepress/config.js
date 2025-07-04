@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { fileURLToPath, URL } from 'node:url';
 import footnote_plugin from 'markdown-it-footnote';
 import { defineConfig } from 'vitepress';
 import { Feed } from 'feed';
@@ -115,7 +116,6 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" style="display:inline-block;"/></a>',
       copyright: 'Except where noted, content on this site is licensed by its authors under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution-ShareAlike 4.0 International Deed (CC BY-SA 4.0)</a>.',
     },
   },
@@ -126,6 +126,18 @@ export default defineConfig({
     config(md) {
       md.use(footnote_plugin);
     }
+  },
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPFooter\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/RRFooter.vue', import.meta.url)
+          )
+        }
+      ],
+    },
   },
   async transformHead(ctx) {
     const { frontmatter: fm, relativePath } = ctx.pageData;
