@@ -29,7 +29,7 @@ const posts = computed(() => props.data.map((post) => {
     <a v-for="(post, i) of posts" :key="`post-${i}`" :href="post.url">
       <header>
         <h1>{{ post.title }}</h1>
-        <h2 v-if="post.subtitle">{{ post.subtitle }}</h2>
+        <p v-if="post.subtitle">{{ post.subtitle }}</p>
       </header>
       <ul v-if="post.author || post.date">
         <li v-if="post.author">{{ post.author }}</li>
@@ -56,6 +56,7 @@ a {
   text-underline-offset: 0;
   border-bottom: 1px solid var(--rr-c-divider);
   margin-bottom: 3rem;
+  padding: 0 0 .75rem 0;
 }
 a:hover {
   box-shadow: 0 .75px .25px var(--rr-c-divider);
@@ -66,28 +67,30 @@ a:hover p {
   transition: color 200ms;
 }
 header {
-  margin-bottom: .75rem
+  margin-bottom: 1.5rem
 }
 h1 {
   font-size: 3rem;
   line-height: 3rem;
   color: var(--rr-c-text-1);
 }
-h2 {
+header > p {
   border: none;
-  margin: .5rem 0 0 0;
+  margin: .75rem 0 0 0;
   padding: 0;
   color: var(--rr-c-text-2);
   letter-spacing: -0.02em;
   line-height: 28px;
   font-size: 24px;
+  font-weight: 600;
   max-width: 80%;
 }
 ul, li {
   all: unset;
+  font-weight: 400;
 }
 ul {
-  margin: 0 0 .75rem 0;
+  margin: 1.5rem 0 .75rem 0;
   list-style: none;
   padding-left: 0;
 }
@@ -99,8 +102,7 @@ li:nth-child(2) {
   color: var(--rr-c-text-1);
   color: var(--rr-c-text-2);
 }
-p {
-  margin: 1.5rem 0;
+a > p {
   color: var(--rr-c-text-2);
   transition: color 200ms;
 }
