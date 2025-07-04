@@ -30,6 +30,14 @@ via [RSS Feed], [Atom], and [JSON Feed].
 
 <RRNewsletterForm/>
 
+## Follow
+You can also follow Runrig on Mastodon as [@runrig@social.coop] or on Bluesky as
+[@runrig.bsky.social], where I'll try to post when the newsletter comes out,
+when workshops are scheduled, or other events are planned.
+
+[@runrig@social.coop]: https://social.coop/@runrig
+[@runrig.bsky.social]: https://bsky.app/profile/runrig.bsky.social
+
 ## Chat
 Whether you have general questions and suggestions, requests for mutual aid tech
 support, or just want to chat with folks in the community, you can join the
