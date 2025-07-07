@@ -371,6 +371,50 @@ That's the task Runrig aims to fulfill.
 - Murray Bookchin
   - > For Marxian theory, the reduction of concrete labor into abstract labor is a historical as well as theoretical desideratum. Abstract labor may be a creature of capitalism but, like capitalism itself, it is a necessary "moment" in the dialectic of history. Not only is it a medium for rendering exchange ratios possible on an extensive scale, but, from an even larger perspective, it becomes part of the technical substrate of freedom. By its very plasticity, abstract labor renders human activity interchangeable, the rotation of industrial tasks possible, and the use of machinery flexible. Its capacity to flow through the veins of industry as mere undifferentiated human energy renders the manipulation and reduction of the working day possible and, concurrently, the expansion of the "realm of freedom" at the expense of the "realm of necessity." If Marx's communism was meant to be a "society of artists," he was not prepared to recognize that the colors on their canvases might be limited to varying tints of gray.<sup>[[source]](https://theanarchistlibrary.org/library/murray-bookchin-the-ecology-of-freedom#:~:text=For%20Marxian%20theory%2C%20the,varying%20tints%20of%20gray)</sup>
 
+### Karen Hao
+From [Karen Hao's interview on _Democracy Now!_]:
+
+> Altman is very much a product of Silicon Valley. His career was first as a
+> founder of a startup, and then as the president of Y Combinator, which is one
+> of the most famous startup accelerators in Silicon Valley, and then the CEO of
+> OpenAI. And there’s no coincidence that OpenAI ended up introducing the world
+> to the scale-at-all-costs approach to AI development, because that is the way
+> that Silicon Valley has operated in the entire time that Altman came up in it.
+> 
+> And so, he is a very strategic person. He is incredibly good at telling
+> stories about the future and painting these sweeping visions that investors
+> and employees want to be a part of. And so, early on at YC, he identified that
+> AI would be one of the trends that could take off. And he was trying to build
+> a portfolio of different investments and different initiatives to place
+> himself in the center of various different trends, depending on which one took
+> off. He was investing in quantum computing, he was investing in nuclear
+> fusion, he was investing in self-driving cars, and he was developing a
+> fundamental AI research lab. Ultimately, the AI research lab was the ones that
+> started accelerating really quickly, so he makes himself the CEO of that
+> company.
+> 
+> And originally, he started it as a nonprofit to try and position it as a
+> counter to for-profit-driven incentives in Silicon Valley. But within
+> one-and-a-half years, OpenAI’s executives identified that if they wanted to be
+> the lead in this space, they “had to” go for this scale-at-all-costs approach
+> — and “had to” should be in quotes. They thought that they had to do this.
+> There are actually many other ways to develop AI and to have progress in AI
+> that does not take this approach.
+> 
+> But once they decided that, they realized the bottleneck was capital. It just
+> so happened Sam Altman is a once-in-a-generation fundraising talent. He
+> created this new structure, nesting a for-profit arm within the nonprofit, to
+> become this fundraising vehicle for the tens of billions, and ultimately
+> hundreds of billions, that they needed to pursue the approach that they
+> decided on. And that is how we ultimately get to present-day OpenAI, which is
+> one of the most capitalistic companies in the history of Silicon Valley,
+> continuing to raise hundreds of billions, and, Altman has joked, even
+> trillions, to produce a technology that ultimately has a middling economic
+> impact thus far.
+
+[Karen Hao's interview on _Democracy Now!_]:
+    https://www.democracynow.org/2025/7/4/empire_of_ai_karen_hao_on
+
 ### Playing w/ $\LaTeX$
 
 $$
