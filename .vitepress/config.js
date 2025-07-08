@@ -139,13 +139,38 @@ export default defineConfig({
       ],
     },
   },
+
+  /**
+   * VitePress: "[A] build hook to transform the head before generating each
+   * page. It will allow you to add head entries that cannot be statically
+   * added to your VitePress config. You only need to return extra entries,
+   * they will be merged automatically with the existing ones."
+   * @see https://vitepress.dev/reference/site-config#transformhead
+   * 
+   * Tasks performed by this build hook are primarily for Journal entries:
+   *    1. Push the post's content and metadata onto the RSS Feed instance,
+   *      which will be written to disk later by the `buildEnd()` hook.
+   *    2. Append post-specific meta tags to the page <head> by returning a list
+   *      of HeadConfig tuples, which will be merged automatically by VitePress.
+   */
   async transformHead(ctx) {
     const { frontmatter: fm, relativePath } = ctx.pageData;
     const isValidFeedItem = !!fm && typeof fm === 'object'
       && !!fm.title
       && !!fm.date;
+    // All of the following transformations depend on valid frontmatter data,
+    // so if it is absent, an early return will not alter meta tags but will
+    // exclude the page from the RSS feed (e.g., it omits Home and About pages).
     if (!isValidFeedItem) return;
 
+    // Open Graph properties that will be used for both meta tags and RSS feed.
+    const ogTitle = fm.title || title;
+    const ogDescription = fm.description
+      || fm.subtitle
+      || 'New post from Runrig';
+    const ogImage = fm.image || cardImage;
+
+    // Replace all Markdown file extensions & format the <link> tag used by RSS.
     const mdExtRegex = /\.(md|txt|markdown)$/g;
     const link = `${canonical}/${relativePath}`.replace(mdExtRegex, '.html');
 
@@ -158,10 +183,11 @@ export default defineConfig({
       contributor.concat(fm.contributor);
     }
 
+    // The RSS Feed instance takes a JS Date object, not a string.
     const date = fm.date ? new Date(fm.date) : new Date();
 
     // A quick'n'dirty means of replacing all relative links in HTML attributes,
-    // primarily on <a> and <img> elements in the body.
+    // primarily on <a> and <img> elements in the body. Only for RSS.
     const relPathRegex = /(href|src)="([\/#])([\w-_%#~:\/\.]*)"/g
     const relPathReplacer = (match, attr, hashOrSlash, tagOrFrag) => {
       if (attr === 'href' && hashOrSlash === '#') {
@@ -189,18 +215,48 @@ export default defineConfig({
       .toString()
       .replaceAll(relPathRegex, relPathReplacer);
 
-    feed.addItem({
-      title: fm.title,
+    /** @type {import('feed').Item} */
+    const feedItem = {
+      title: ogTitle,
       id: link,
       link,
-      description: fm.description || 'New post from Runrig',
+      description: ogDescription,
       content,
       author,
       contributor,
       date,
-      image: fm.image || cardImage,
-    });
+      image: ogImage,
+    };
+    // Just push the current page onto the RSS Feed instance for now. It will be
+    // written to file separately in the `buildEnd()` VitePress hook below.
+    feed.addItem(feedItem);
+
+    /**
+     * VitePress: "extra entries [...] will be merged automatically with the
+     * existing ones" – i.e., no need to overwrite tags like 'og:type' that
+     * have already been set above as part of the static config.
+     */
+    return [
+      // OPEN GRAPH META TAGS
+      ['meta', { property: 'og:title', content: ogTitle }],
+      ['meta', { property: 'og:url', content: link }],
+      ['meta', { property: 'og:image', content: ogImage }],
+      ['meta', { property: 'og:description', content: ogDescription }],
+
+      // TWITTER CARD META TAGS
+      ['meta', { property: 'twitter:title', content: ogTitle }],
+      ['meta', { property: 'twitter:image', content: ogImage }],
+      ['meta', { property: 'twitter:description', content: ogDescription }],
+    ];
   },
+  /**
+   * VitePress: "[A] build CLI hook, it will run after build (SSG) finish but
+   * before VitePress CLI process exits."
+   * @see https://vitepress.dev/reference/site-config#buildend
+   * 
+   * Tasks performed by this build hook:
+   *    1. Write RSS Feed to disk, along w/ Atom & JSON Feed.
+   */
   buildEnd() {
 
     const feedDir = `${outDir}/${feedSubdir}`;
