@@ -7,10 +7,10 @@ import * as cheerio from 'cheerio';
 
 const title = 'Runrig';
 const defaultObjectType = 'website';
-const canonical = 'https://www.runrig.org';
+const domain = 'https://www.runrig.org';
 const logo = '/emoji_u1f69c.svg';
-const logoUrl = canonical + logo;
-const cardImage = `${canonical}/open_field_system.png`;
+const logoUrl = domain + logo;
+const cardImage = `${domain}/open_field_system.png`;
 const description = `
   Runrig is a communal farming platform, a libre software project and
   a method of socio-ecological design. It aims for collective sovereignty over
@@ -21,7 +21,7 @@ const description = `
 const team = {
   name: 'The Runrig Team',
   email: 'jamie@runrig.org',
-  link: `${canonical}/about`,
+  link: `${domain}/about`,
 };
 const jamie = {
   name: 'Jamie Gaehring',
@@ -42,7 +42,7 @@ const feedFilenameEntries = [
 const fromEntries = (obj, [k, v]) => ({ ...obj, [k]: v });
 
 // Filter out the RSS feed and transform the feeds into consistent URLs.
-const toFeedUrl = filename => `${canonical}/${feedSubdir}/${filename}`;
+const toFeedUrl = filename => `${domain}/${feedSubdir}/${filename}`;
 /** @type {{ atom: string, json: string }} */
 const feedLinks = feedFilenameEntries
   .filter(([format]) => format !== 'rss')
@@ -59,8 +59,8 @@ const feedPathnames = feedFilenameEntries
 const feed = new Feed({
   title: 'The Runrig Plan',
   description: 'All bi-weekly publications from Runrig, including The Runrig Plan, The Runrig Journal, and Technical Reports',
-  id: canonical,
-  link: canonical,
+  id: domain,
+  link: domain,
   language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
   image: cardImage,
   favicon: logoUrl,
@@ -78,15 +78,22 @@ export default defineConfig({
   title,
   description,
   head: [
+    /**
+     * HTML LINKS & STANDARD META TAGS
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name#value
+     * 
+     * Because there should only be one canonical link, defer that to the
+     * `transformHead()` build hook below.
+     */
     ['link', { rel: 'icon', href: logo }],
-    ['link', { rel: 'canonical', href: canonical }],
+
     /**
      * OPEN GRAPH META TAGS
      * @see https://ogp.me/
      */
     ['meta', { property: 'og:title', content: title }],
     ['meta', { property: 'og:type', content: defaultObjectType }],
-    ['meta', { property: 'og:url', content: canonical }],
+    ['meta', { property: 'og:url', content: domain }],
     ['meta', { property: 'og:image', content: cardImage }],
     ['meta', { property: 'og:description', content: description }],
 
@@ -155,13 +162,29 @@ export default defineConfig({
    */
   async transformHead(ctx) {
     const { frontmatter: fm, relativePath } = ctx.pageData;
+
+    // Replace all Markdown file extensions & format the <link> tag used by RSS.
+    const mdExtRegex = /\.(md|txt|markdown)$/g;
+    const link = `${domain}/${relativePath}`.replace(mdExtRegex, '.html');
+
+    // Trim any trailing slashes and/or .html extensions for the canonical link.
+    const htmlExtRegex = /(?:\/?(?:index)?(?:.html)?)$/g
+    const canonical = link.replace(htmlExtRegex, '');
+
+
+    // All transformations after this point depend on valid frontmatter data, so
+    // if there is no frontmatter, return early with just the canonical link,
+    // which will be appended to the <head> element w/o altering any other tags.
+    // This will also exclude all non-posts from the RSS feed, which is the
+    // desired behavior for the home page & other non-posts (e.g., /about).
     const isValidFeedItem = !!fm && typeof fm === 'object'
       && !!fm.title
       && !!fm.date;
-    // All of the following transformations depend on valid frontmatter data,
-    // so if it is absent, an early return will not alter meta tags but will
-    // exclude the page from the RSS feed (e.g., it omits Home and About pages).
-    if (!isValidFeedItem) return;
+    if (!isValidFeedItem) {
+      return [
+        ['link', { rel: 'canonical', href: canonical }],
+      ];
+    };
 
     // Open Graph properties that will be used for both meta tags and RSS feed.
     const ogTitle = fm.title || title;
@@ -169,10 +192,6 @@ export default defineConfig({
       || fm.subtitle
       || 'New post from Runrig';
     const ogImage = fm.image || cardImage;
-
-    // Replace all Markdown file extensions & format the <link> tag used by RSS.
-    const mdExtRegex = /\.(md|txt|markdown)$/g;
-    const link = `${canonical}/${relativePath}`.replace(mdExtRegex, '.html');
 
     const author = [];
     if (!!fm.author && typeof fm.author === 'object') author.concat(fm.author)
@@ -193,7 +212,7 @@ export default defineConfig({
       if (attr === 'href' && hashOrSlash === '#') {
         return `href="${link}#${tagOrFrag}"`;
       }
-      return `${attr}="${canonical}${hashOrSlash}${tagOrFrag}"`;
+      return `${attr}="${domain}${hashOrSlash}${tagOrFrag}"`;
     };
     // Use Cheerio.js to isolate the main content of the page w/o the main nav
     // headers, asides, etc. This will render more cleanly w/o stylesheets in
@@ -237,9 +256,16 @@ export default defineConfig({
      * have already been set above as part of the static config.
      */
     return [
+      // HTML LINKS & STANDARD META TAGS
+      ['link', { rel: 'canonical', href: canonical }],
+      ['meta', { name: 'description', content: ogDescription }],
+      ...author.map(a =>
+        ['meta', { name: 'author', content: a.name }]
+      ),
+
       // OPEN GRAPH META TAGS
       ['meta', { property: 'og:title', content: ogTitle }],
-      ['meta', { property: 'og:url', content: link }],
+      ['meta', { property: 'og:url', content: canonical }],
       ['meta', { property: 'og:image', content: ogImage }],
       ['meta', { property: 'og:description', content: ogDescription }],
 
