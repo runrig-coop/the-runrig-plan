@@ -10,7 +10,7 @@ const defaultObjectType = 'website';
 const domain = 'https://www.runrig.org';
 const logo = '/emoji_u1f69c.svg';
 const logoUrl = domain + logo;
-const cardImage = `${domain}/open_field_system.png`;
+const cardImage = `${domain}/open_field_system_all_725x900.png`;
 const description = `
   Runrig is a communal farming platform, a libre software project and
   a method of socio-ecological design. It aims for collective sovereignty over
