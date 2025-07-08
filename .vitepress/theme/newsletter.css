@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* webfont-marker-end */
 
-html {
+html, body, div {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 1.4;
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 16px;
   font-weight: 400;
   color: rgba(60, 60, 67);
   background-color: #fefaf0;
+  width: 100%;
+  margin: 0;
   font-synthesis: style;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,8 +18,30 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-div {
+p, ul, li {
   line-height: 24px;
+  color: rgba(60, 60, 67);
+  background-color: #fefaf0;
+}
+
+p, ul {
+  margin-bottom: 1.125rem;
+}
+
+li {
+  margin-bottom: .625rem;
+}
+
+body > div {
   max-width: 36rem;
   margin: 0 auto 0 auto;
+}
+
+a.embedded-link * {
+  background-color: #fff !important;
+}
+
+a.embedded-link img.link-image {
+  max-height: 36rem;
+  background-color: #fefaf0 !important;
 }
