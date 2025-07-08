@@ -148,9 +148,9 @@ const isPost = computed(() => {
       </RRSection>
       <RRSection id="next" :actions="ctaButtons">
         <template #section-info>
-          <h1 class="name">
+          <h2 class="name">
             <span class="clip">What's Next?</span>
-          </h1>
+          </h2>
           <!-- Using vp-doc class for text-decoration on <a> tags -->
           <p class="text vp-doc">
             <a href="/posts/the-runrig-plan-for-socio-ecological-design">The Runrig Plan</a> is a living document that
