@@ -32,28 +32,29 @@ const jamie = {
 const outDir =  './dist';
 
 const feedSubdir = 'feed';
-const feedFilenameEntries = [
-  ['atom', 'atom.xml'],
-  ['json', 'feed.json'],
-  ['rss', 'rss.xml'],
+// Each format name (per FeedOptions.feedLinks), file name, file extension.
+const feedFmtFileExts = [
+  ['atom', 'atom', 'xml'],
+  ['json', 'feed', 'json'],
+  ['rss', 'rss', 'xml'],
 ];
 
 // Just like Object.fromEntries(), but as a callback Array.reduce() will accept.
 const fromEntries = (obj, [k, v]) => ({ ...obj, [k]: v });
 
 // Filter out the RSS feed and transform the feeds into consistent URLs.
-const toFeedUrl = filename => `${domain}/${feedSubdir}/${filename}`;
+const toFeedUrl = (file, ext) => `${domain}/${feedSubdir}/${file}.${ext}`;
 /** @type {{ atom: string, json: string }} */
-const feedLinks = feedFilenameEntries
+const feedLinks = feedFmtFileExts
   .filter(([format]) => format !== 'rss')
-  .map(([fmt, file]) => [fmt, toFeedUrl(file)])
+  .map(([fmt, file, ext]) => [fmt, toFeedUrl(file, ext)])
   .reduce(fromEntries, {});
 
-// Transform the feeds into consisten file paths that correspond to the URLs.
-const toFeedPathname = filename => `${outDir}/${feedSubdir}/${filename}`;
+// Transform the feeds into consistent file paths that correspond to the URLs.
+const toFeedPathname = (file, ext) => `${outDir}/${feedSubdir}/${file}.${ext}`;
 /** @type {{ atom: string, json: string, rss: string }} */
-const feedPathnames = feedFilenameEntries
-  .map(([fmt, file]) => [fmt, toFeedPathname(file)])
+const feedPathnames = feedFmtFileExts
+  .map(([fmt, file, ext]) => [fmt, toFeedPathname(file, ext)])
   .reduce(fromEntries, {});
 
 const feed = new Feed({
