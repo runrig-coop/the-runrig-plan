@@ -87,6 +87,19 @@ export default defineConfig({
      * `transformHead()` build hook below.
      */
     ['link', { rel: 'icon', href: logo }],
+    /**
+     * Alternate links for discovery of RSS, Atom & JSON feeds
+     * @see https://kevincox.ca/2022/05/06/rss-feed-best-practices/#discovery
+     */
+    ...feedFmtFileExts.map(([fmt, file, ext]) => [
+      'link',
+      {
+        rel: 'alternate',
+        title: `${feed.options.title} (${fmt.toUpperCase()})`,
+        type: `application/${file}+${ext}`,
+        href: toFeedUrl(file, ext),
+      },
+    ]),
 
     /**
      * OPEN GRAPH META TAGS
