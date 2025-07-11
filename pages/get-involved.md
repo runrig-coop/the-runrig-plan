@@ -25,8 +25,8 @@ via [RSS Feed], [Atom], and [JSON Feed].
 
 [Runrig Journal]: /journal
 [RSS Feed]: /feed/rss.xml
-[Atom]: /feed/rss.xml
-[JSON Feed]: /feed/rss.xml
+[Atom]: /feed/atom.xml
+[JSON Feed]: /feed/feed.json
 
 <RRNewsletterForm/>
 
