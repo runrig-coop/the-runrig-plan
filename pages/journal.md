@@ -1,14 +1,19 @@
 <script setup>
 import { data } from './../.vitepress/theme/journal.data.js';
+import RRPostHeader from './../.vitepress/theme/RRPostHeader.vue';
 import RRPostIndex from './../.vitepress/theme/RRPostIndex.vue';
+
+const title = 'The Runrig Journal';
+const subtitle = 'A series exploring the core design principles behind Runrig';
 </script>
 
-# The Runrig Journal
-The Runrig Journal is an ongoing series that explores the design principles and
-methodologies behind [The Runrig Plan]. Most articles will be in the typical
-blog format, intended for a general audience, while other posts will take the
-form of more technical documentation, case studies, tutorials, and even the
-occasional [long-form essay]. To get the latest updates, you can sign up for the
+<RRPostHeader :fm="{ title, subtitle }" />
+
+This ongoing series will explore the core design principles and methodology that
+constitute [The Runrig Plan]. Most articles will be in a typical blog format
+intended for a general audience, while other posts will take the form of more
+technical documentation, case studies, tutorials, and even the occasional
+[long-form essay]. To get the latest updates, you can sign up for the
 [newsletter], subscribe to [RSS], [Atom], or [JSON Feed], or follow Runrig on
 Mastodon as [@runrig@social.coop] or on Bluesky as [@runrig.bsky.social]. The
 goal is a biweekly cadence, but will probably be less frequent as time allows.
