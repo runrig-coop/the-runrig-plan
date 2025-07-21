@@ -9,17 +9,17 @@ outline: [2, 4]
 ---
 
 In the early spring of 2024, I was approached about consulting for a farmer-led
-software project called Farm Flow. At first, I viewed the project as a software
-generalist and independent contractor would. I consciously guarded myself
-against becoming the proverbial "hammer that sees every problem as a nail," each
-in desperate need of driving – that is, I did not want to force it into the
-Runrig framework of software design. I said as much to the software's creator,
-Matthew Fitzgerald of Fitzgerald Organics, on multiple occasions throughout the
-course of our early evaluation. It was no accident, however, that the project's
-underlying requirements and ultimate goals brought it into close alignment with
-my own stated objectives for Runrig. I was introduced to Matthew through Samuel
-Oslund of the 11th Hour Project, and no doubt Sam discerned the affinity between
-our two projects far more readily than I had.[^sam]
+software project called Farm Flow. At first, I viewed the project the way a
+software generalist and independent contractor would. I consciously guarded
+myself against becoming the proverbial "hammer that sees every problem as a
+nail" – that is, I did not want to force Farm Flow into Runrig's model for
+software design. I said as much to the software's creator, Matthew Fitzgerald of
+Fitzgerald Organics, on multiple occasions throughout the course of our early
+evaluation. It was no accident, however, that the project's underlying
+requirements and ultimate goals brought it into close alignment with my own
+stated objectives for Runrig. I was introduced to Matthew through Samuel Oslund
+of the 11th Hour Project, and no doubt Sam discerned the affinity between our
+two projects far more readily than I had.[^sam]
 
 [^sam]: The first time I ever tried to fully explain Runrig to anyone else was
 on a short hike with Samuel on the last day of GOAT 2022. The last in a series
@@ -27,37 +27,48 @@ of momentous conversations, it came at the precise moment when Runrig started
 taking definite shape in my own mind, and I attribute much of Runrig's essential
 characteristics to Sam's astute guidance and constructive feedback.
 
-### The Original Farm Flow Board
-Farm Flow's first implementation was in physical form, a point I took to be one
-of the strongest possible indicators for the effectiveness of any software
-project, a credit to the soundness of its design. It stood as a roughly 72" by
-48" whiteboard in Matthew's high-lofted equipment shed, prepared with a grid of
-about 80 columns by 20 rows, give or take, meticulously etched out in black
-permanent marker. The grid represented the farm's entire growing season of
-planned field actions, with a column for every calendar day and a row for every
-field or planting location. The dates and location names were written in magic
-marker along the top and left-hand edges, respectively, so that the grid
-contents could be erased and repurposed with each new season. Multi-colored
-magnetic discs populated the grid cells at various intervals, demonstrating some
-rather striking patterns, though their precise meaning was not immediately clear
-to the untrained eye. The right-hand fringe of these discs were bounded by
-raised magnetic pushpins (mimicking pushpin thumb-tacks in size and shape),
-which were similarly colored but translucent and smaller in radius, so they
-stood out less prominently than the discs. The pins represented actions that
-were still only planned, while the discs represented those already completed. On
-closer inspection, some discs were even stacked upon others within a single grid
-cell; some actions, though not all, could be performed in the same day in the
-same location, conditions permitting. Running intermittently in vertical lines
-between the discs, you could make out faint numbers inscribed by a blue magic
-marker within each of the individual cells. They indicated rainfall amounts in
-decimal inches and rarely coincided with any placed discs, since the actions
-they would have represented were prohibited by the rain (sometimes for several
-days following, too). The rainfall quantities varied in magnitude as they ran up
-and down the column, though only gradually, since the rows representing
-geographic locations on the farm were grouped by proximity. In the wide open
-space below the grid was a hand-written legend indicating the name of the
-specific field action each color represented, alongside a collection of unused
-discs and pins loosely clustered by color.
+## The Original Farm Flow Board
+Farm Flow's first implementation was in physical form, which was a credit to the
+soundness of its design, by my estimate, since it had already demonstrated its
+effectiveness before any attempt was made to digitize it. I took it to be a
+positive indicator for its potential as a software project, too, so long as a
+compelling case could be made for how that might improve upon the physical
+design or introduce new affordances.
+
+![](/whiteboard_2024-06-09-a.jpg "The original Farm Flow whiteboard")
+
+The physical implementation was a large whiteboard standing roughly 72" wide x
+48" high in Matthew's equipment hangar. It was prepared with a grid of about 80
+columns by 20 rows, give or take, meticulously etched out in black permanent
+marker. The grid represented the farm's entire growing season of planned field
+actions, with a column for every calendar day and a row for every field or
+planting location. The dates and location names were written in magic marker
+along the top and left-hand edges, respectively, so that the grid contents could
+be erased and reassigned with each new season.
+
+Multi-colored magnetic discs populated the grid cells at various intervals,
+demonstrating some rather striking patterns, though their precise meaning was
+not immediately clear to the untrained eye. The rightmost extent of these discs
+– i.e., the column corresponding to the current date – was hemmed in by an array
+of magnetic pins, mimicking pushpin thumb-tacks in size and shape. The pins were
+similarly colored as the discs but translucent and about half their radius, so
+they stood out less prominently than the discs. The pins represented actions
+that were still only planned, while the discs represented those already
+completed. On closer inspection, some discs were even stacked upon others within
+a single grid cell; clearly some actions, if not all, could be performed on the
+same day in the same location, conditions permitting. In the wide open space
+below the grid was a hand-written legend indicating the name of the specific
+field action each color represented, alongside a collection of unused discs and
+pins clustered by color.
+
+Some of the columns were occupied by a line of numbers, one or two digits
+faintly inscribed with a blue magic marker in each of the grid cells. These
+indicated rainfall amounts in decimal inches. They rarely coincided with any
+placed discs, since the actions they would have represented were prohibited by
+the rain (sometimes for several days following, too). The rainfall quantities
+varied in magnitude as they ran up and down the column, though only gradually,
+since the rows representing geographic locations on the farm were grouped by
+proximity.
 
 The key to the whole enterprise was that there was nothing at all arbitrary in
 the arrangement of these field actions. Their precise timing and sequence were
