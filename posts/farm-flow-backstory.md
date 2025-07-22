@@ -109,6 +109,94 @@ achieved none of what actually makes Farm Flow unique. In the end, nothing from
 that effort proved salvageable, since communication with their team was always
 intermittent at best and the source code was never forthcoming. 
 
+## Deciding on a Development Model
+As I said above, I didn't presume Runrig's model of development would be the
+ideal fit for Farm Flow's stated aims, at least not before a careful evaluation.
+Given Matthew's previous track record with third-party developers, I wanted to
+take special care to recommend a development model that best suited his goals,
+even if I turned out not to be the best contractor for the job. At the time,
+funding was provided by [Mad Agriculture], an organization that supports
+regenerative agriculture and cooperative models of land management and
+financing. Both they and Matthew wanted to ensure that the project remained
+farmer-owned and controlled. Matthew also sought to earn some additional revenue
+from the project, so long as it didn't become a second or third fulltime job;
+running a farm is already two fulltime jobs, at least, and Matthew decidedly
+wanted to keep farming. On my end, I made clear that I only do work by contract
+if it is licensed as free and open source software, preferably the GNU Affero
+General Public License (AGPL). Other prospective funding partners also expressed
+interest in the project being free and open source.
+
+Under most standard development models, retaining ownership and control of the
+software will incur at least one of the following two expenses:
+
+1. Lots of your own time and expertise to design and engineer the software
+   yourself, or
+2. Lots of money to pay someone else to do it for you.
+
+More often than not, it's some combination of the two, with the money part
+coming from venture capital and the talent part coming from overworked startup
+employees who've been promised some share of future equity. If in addition you
+want to make a significant profit in return, you'll likely need two more things:
+
+3. A proprietary license on at least some portion of the source code, plus
+4. A reliable means of securing that source code so it cannot be taken illicitly
+   or reverse engineered.
+
+The necessary security can be achieved by running the proprietary code behind a
+server that users cannot access directly, or by compiling the code to a binary
+format for distribution, with some digital rights management (DRM) software
+mixed in for good measure. There are other ways, but those are the most common.
+Users can subscribe to the service in the former case, or purchase a license and
+install the binaries in the latter, but either way, they will never see the
+source code, let alone be able to modify it.
+
+At a glance, a subscription model may seem like the most feasible means of
+yielding revenue from a software project, particularly one that includes some
+sort of web-based server. A proprietary license is not essential to such a
+model, because even if users can self-host a server that's licensed as free
+software, few of them will really want to. Selling managed hosting or support
+has been a viable means of driving a profit for open source software since [Red
+Hat] and [WordPress] pioneered the strategy over two decades ago. A free
+license, however, will naturally limit your margins, since someone is pretty
+sure to offer a competing service if you get too greedy and start charging
+subscription rates far in excess of the costs of actually providing that
+service.
+
+A proprietary license eliminates that ceiling, at least in theory. Red Hat and
+WordPress remain profitable only because they're able to work within those
+margins. Support services are the entirety of their business model and open
+source is their key selling point. It's harder to imagine a significant revenue
+stream for open source support if you're not providing that support fulltime.
+You can hire engineers to do the lion's share of the work for you, but still,
+the margins are essentially capped. If you charge users a subscription fee that
+is too much in excess of what you compensate your workers to maintain that
+service, you could end up with your workers or customers being poached, if not
+an outright revolt on both sides. Either way, your fulltime job will most
+assuredly become that of a product manager, just to have a fighting chance of
+keeping the margins viable and the pitchforks at bay.[^fief]
+
+[^fief]: Not to put too fine a point on it, but I summed this up by telling
+Matthew that it would be hard to create a source of passive income out of Farm
+Flow without one of us exploiting the other. There's a long history of rentier
+relations in both agriculture and technology. In agriculture it is called
+feudalism. More recently, Yanis Varoufakis has made a compelling case that we
+are entering a new era of what he calls [_Technofeudalism_].
+
+All the same, I made the case that _even with a proprietary license_, an
+outsized contribution of Matthew's own time and money would be necessary to
+preserve the level of ownership and control he wanted. So although it would
+probably never be the source of passive income he hoped for, I recommended that
+a _fully_ free – i.e., "copyleft" – license like the AGPL was still his best bet
+for getting the most value from the software while still retaining control of
+its development.
+
+[Mad Agriculture]: https://madagriculture.org/
+[Red Hat]:
+    https://www.redhat.com/en/resources/red-hat-enterprise-linux-subscription-guide
+[WordPress]: https://wordpress.com/support/com-vs-org/
+[_Technofeudalism_]:
+    https://www.yanisvaroufakis.eu/2024/02/04/technofeudalism-a-video-essay-summarising-the-book/
+
 :::warning DRAFT NOTICE
 
 This documents is still in draft; please check back soon to read more!
