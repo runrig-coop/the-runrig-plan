@@ -82,6 +82,33 @@ ticket for the entry of actual values achieved or observed, so that upon
 completion the ticket could be stored in the appropriate folder for future
 reference.
 
+That's the best synopsis I can give in just two paragraphs and it woefully
+oversimplifies the system as Matthew conceived it prior to my involvement. For
+more details, he gave an excellent [presentation on Farm Flow] to the OpenTEAM
+HCD Working Group in 2024 that covers the data analysis and layout of the board.
+
+[presentation on Farm Flow]: https://share.mayfirst.org/s/Bj5FknFttsib2LD
+
+## A Previous Attempt
+Prior to our introduction, Matthew had commissioned another software team
+through Upwork. They produced a fairly generic client-server web application,
+with an SQL database and multi-user access control, plus an iOS app with basic
+form views for updating the activities and locations. The web dashboard offered
+several visualizations of the farm locations and activities, but these didn't
+correspond at all to the unique visual language of the original whiteboard, nor
+did it capture or display the most critical datapoints and processes in the
+SOPs.
+
+This initial prototype was far from a trivial accomplishment; even as typical as
+those features are, they still entail plenty of complexity to develop and
+deploy, which I certainly do appreciate. It's also hard to conceive of a final
+version of Farm Flow that would _not_ require similar functionality for network
+connectivity, remote persistence, multi-device access, and permission-based
+collaboration; outside of those typical requirements, however, the application
+achieved none of what actually makes Farm Flow unique. In the end, nothing from
+that effort proved salvageable, since communication with their team was always
+intermittent at best and the source code was never forthcoming. 
+
 :::warning DRAFT NOTICE
 
 This documents is still in draft; please check back soon to read more!
