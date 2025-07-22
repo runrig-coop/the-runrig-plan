@@ -197,6 +197,67 @@ its development.
 [_Technofeudalism_]:
     https://www.yanisvaroufakis.eu/2024/02/04/technofeudalism-a-video-essay-summarising-the-book/
 
+## The Case for Free Software
+In any software project, the more components you have to build from scratch the
+more time and money you'll need to invest just to reach parity with competing
+applications in terms of basic functionality and feature richness. Right off the
+bat, this will divert resources away from implementing the unique features that
+represent you core value proposition. Furthermore, that doesn't begin to account
+for the long-term cost of maintenance, which will be even higher for proprietary
+portions of the code, since you'll have to cover that cost entirely on your own.
+
+As a proprietary project, you're a small fish in a big pond left to fend for
+yourself. You're up against the vast resources of Silicon Valley and it becomes
+an uphill battle just to break even. If you create a distinct product lucrative
+enough to compete, venture capital will eventually get wise to what you're
+selling and want a piece. That'll happen as soon as you start earning any kind
+of profit worth of notice, especially if that entails taking away a share of
+their users. Unless you're ready to go toe-to-toe, pound-for-pound with Big
+Tech, you run the risk of being out-gunned, undercut, and bought out, all in
+quick succession. At that point, you've wound up exactly in the same predicament
+you originally intended to avoid: someone else owns your IP (or the knock-off
+version that just put you out of business), and now you're just another paying
+subscriber – take it or leave it. Maybe you accept VC investment yourself,
+giving you enough of an edge to survive or cash out while you're still ahead;
+however, that more or less amounts to the same loss of control, unless you're
+incredibly shrewd, and even then, it means you probably haven't sat on a tractor
+in a _very_ long time.
+
+:::info
+
+The following excerpts are taken from earlier documents that still need to be
+more fluidly incorporated into the whole.
+
+:::
+
+The GNU Affero General Public License is a free software license that ensures
+everyone can use the software freely as they wish, so long as any derivative
+works they create can also be used freely by everyone else. This is intended to
+create a virtuous cycle that perpetually enriches the software commons. It is a
+commitment that all contributors make to one another: namely, that they will
+seek to build on each other's work and cooperate for the mutual benefit of all,
+rather than competing against each other, keeping their work siloed, and
+reduplicating each other's efforts in the process. It ensures every contributor
+that they can never be prohibited from using their own contributions to the
+commons. As a software developer, the code you author for one client is code you
+can offer to extend for your next client. As a software sponsor, you're free to
+hire someone else to audit, modify, or improve the software, whether or not you
+or they were involved in its original development. Users who share their
+expertise on forums to help other users, or volunteer their time to documenting
+and submitting bug reports and feature proposals, will never lose access to the
+software. By choosing to work together, contributing openly and freely to the
+same platform, they can all exercise greater control over the project’s
+direction. Collaboration and openness only amplifies each others efforts, it
+never diminishes it.
+
+I am as free to bring whatever software I make to other clients, just as you as
+the sponsor are free to find other developers to continue the work at any point.
+By still choosing to work together, contributing openly and freely to the same
+platform, we all get to exercise greater control over the project’s direction.
+By seeking out other partnerships with like minded groups, such as LiteFarm,
+MadAg, and OpenTEAM, our results may be amplified many times over. Collaboration
+and openness are absolutely essential to making this work.
+
 :::warning DRAFT NOTICE
 
 This documents is still in draft; please check back soon to read more!
