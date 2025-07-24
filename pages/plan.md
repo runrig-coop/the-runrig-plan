@@ -31,12 +31,15 @@ methodology can be seen as threefold:
 
 1. The Runrig Plan will form __a general critique of conventional software
    development methodologies__ – e.g., Agile or Lean development – and how they
-   often come freighted with the implicit assumptions of proprietary technology
-   and capitalistic modes of growth – e.g., concepts like scalability,
-   Software-as-a-Service (SaaS, a.k.a., "the cloud"), and even object-oriented
-   programming (OOP). The hope is to establish a new set of design primitives
-   and computing metaphors that can help to counteract those anti-patterns and
-   more fairly redistribute control over our shared technological inheritance.
+   come freighted with the implicit biases of proprietary technology and
+   capitalistic modes of production. Those biases are borne out in concepts like
+   scalability, Software-as-a-Service (SaaS, a.k.a., "the cloud"), and even
+   object-oriented programming (OOP), which in turn come with deeply embedded
+   assumptions about infinite growth, enclosure, and a dualistic view of
+   humanity's relationship to nature. The hope is to establish a new set of
+   design primitives and computing metaphors that can help to counteract those
+   anti-patterns and more fairly redistribute control over our shared
+   technological inheritance.
 
 2. In a similar vein, it will look at the ways __free & open source software
    ([FOSS]) can transcend the limited scope of _individual_ liberties to
