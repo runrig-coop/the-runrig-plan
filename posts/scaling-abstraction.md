@@ -222,6 +222,12 @@ in their wake.
 
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
+:::warning HERE BE DRAGONS 🐉
+
+Still in very rough state of draft beyond this point...
+
+:::
+
 ## Socializing Our Computational Abstractions
 It should go without saying that scaling and abstractions of the sort described
 above are deeply at odds with any vision for appropriate technology that
