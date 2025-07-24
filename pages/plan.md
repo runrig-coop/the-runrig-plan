@@ -30,37 +30,37 @@ Generally speaking, the purpose of establishing the Runrig Plan as a distinct
 methodology can be seen as threefold:
 
 1. The Runrig Plan will form __a general critique of conventional software
-  development methodologies__ – e.g., Agile or Lean development – and how they
-  often come freighted with the implicit assumptions of proprietary technology
-  and capitalistic modes of growth – e.g., concepts like scalability,
-  Software-as-a-Service (SaaS, a.k.a., "the cloud"), and even object-oriented
-  programming (OOP). The hope is to establish a new set of design primitives and
-  computing metaphors that can help to counteract those anti-patterns and more
-  fairly redistribute control over our shared technological inheritance.
+   development methodologies__ – e.g., Agile or Lean development – and how they
+   often come freighted with the implicit assumptions of proprietary technology
+   and capitalistic modes of growth – e.g., concepts like scalability,
+   Software-as-a-Service (SaaS, a.k.a., "the cloud"), and even object-oriented
+   programming (OOP). The hope is to establish a new set of design primitives
+   and computing metaphors that can help to counteract those anti-patterns and
+   more fairly redistribute control over our shared technological inheritance.
 
 2. In a similar vein, it will look at the ways __free & open source software
-  ([FOSS]) can transcend the limited scope of _individual_ liberties to
-  explicitly _socialize_ the project for software freedom__. This includes
-  [radical participatory design] and can go so far as to blur the lines between
-  the traditional realms of "user experience" (UX) and "developer experience"
-  (DX). It requires leveraging the community's total knowledge and combined
-  skills without privileging one form over another, because our collective
-  expertise can be so much more powerful when it is based on mutual trust and a
-  shared understanding. By designing for (and with) the [shared capabilities of
-  the entire community], design decisions become better contextualized,
-  information systems become more deeply integrated, and the tools we all use
-  become more accessible to more people – or in other words, they become
-  _[convivial tools]_.
+   ([FOSS]) can transcend the limited scope of _individual_ liberties to
+   explicitly _socialize_ the project for software freedom__. This includes
+   [radical participatory design] and can go so far as to blur the lines between
+   the traditional realms of "user experience" (UX) and "developer experience"
+   (DX). It requires leveraging the community's total knowledge and combined
+   skills without privileging one form over another, because our collective
+   expertise can be so much more powerful when it is based on mutual trust and a
+   shared understanding. By designing for (and with) the [shared capabilities of
+   the entire community], design decisions become better contextualized,
+   information systems become more deeply integrated, and the tools we all use
+   become more accessible to more people – or in other words, they become
+   _[convivial tools]_.
 
 3. Finally, through __analysis of Runrig's ongoing work and emerging project
-  proposals__, the plan will address what concrete strategies have worked, which
-  ones have not, and how to adapt those lessons to serve a broader community of
-  farmers, food workers, and technologists. This will be in conjunction with –
-  and mostly synthesized from – the [Runrig Journal], an ongoing series of blog
-  posts, case studies, tutorials, etc. As much as possible, the plan is meant to
-  be an iterative, living document that can incorporate an ever wider scope of
-  perspectives. so if you have any questions, comments, or you'd like to
-  contribute, please [email Jamie].
+   proposals__, the plan will address what concrete strategies have worked,
+   which ones have not, and how to adapt those lessons to serve a broader
+   community of farmers, food workers, and technologists. This will be in
+   conjunction with – and mostly synthesized from – the [Runrig Journal], an
+   ongoing series of blog posts, case studies, tutorials, etc. As much as
+   possible, the plan is meant to be an iterative, living document that can
+   incorporate an ever wider scope of perspectives. so if you have any
+   questions, comments, or you'd like to contribute, please [email Jamie].
 
 [FOSS]: https://www.gnu.org/philosophy/floss-and-foss.html
 [radical participatory design]: https://doi.org/10.1017/dsj.2022.24
