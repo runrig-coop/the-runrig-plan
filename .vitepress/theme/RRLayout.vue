@@ -47,7 +47,7 @@ const ctaButtons = [
   {
     theme: 'brand',
     text: 'Read the Plan',
-    link: '/posts/the-runrig-plan-for-socio-ecological-design',
+    link: '/plan',
   },
   {
     theme: 'alt',
@@ -153,7 +153,7 @@ const isPost = computed(() => {
           </h2>
           <!-- Using vp-doc class for text-decoration on <a> tags -->
           <p class="text vp-doc">
-            <a href="/posts/the-runrig-plan-for-socio-ecological-design">The Runrig Plan</a> is a living document that
+            <a href="/plan">The Runrig Plan</a> is a living document that
             describes the main design principles of the social and ecological
             technologies we are building now and in the near future. We're
             actively seeking partnerships and collaborations with similarly

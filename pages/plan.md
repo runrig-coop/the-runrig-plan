@@ -75,7 +75,7 @@ methodology can be seen as threefold:
 ## Original Documents
 The original plan and its appendices have been archived for reference:
 
-- [The Runrig Plan]
+- [Runrig: A Plan for Socio-ecological Design]
 - [Appendix: Ecology]
 - [Appendix: Architecture]
 
@@ -84,7 +84,8 @@ articles, such as [Illegible Agriculture]. The archived documents will
 eventually be superseded by those updated versions, but the original content
 will be preserved and the links should remain stable.
 
-[The Runrig Plan]: /posts/the-runrig-plan-for-socio-ecological-design.md
+[Runrig: A Plan for Socio-ecological Design]:
+    /posts/the-runrig-plan-for-socio-ecological-design.md
 [Appendix: Ecology]: /posts/the-runrig-plan-appendix-ecology.md
 [Appendix: Architecture]: /posts/the-runrig-plan-appendix-architecture.md
 [Illegible Agriculture]: /posts/illegible-agriculture.md
