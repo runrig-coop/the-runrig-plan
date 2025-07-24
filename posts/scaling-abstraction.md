@@ -1,7 +1,10 @@
 ---
-title: Scaling and Abstraction
-subtitle: A subtitle
-description: A description.
+title: Against Scale
+subtitle: The cloud falling back down to earth
+description: A look at the way scalability perpetuates some of the worst
+    tendencies of neoliberal capitalism, and how Runrig proposes to overturn
+    those harmful dynamics through participatory design and transparent
+    abstractions.
 author: Jamie Gaehring
 date: 2025-07-29
 ---
