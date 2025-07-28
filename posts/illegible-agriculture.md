@@ -77,7 +77,7 @@ is to be a better crop planning notebook or a better store checkout process, not
 a better farmer or better food worker. Deliberately targeting essential
 complexity for removal, as the developers recommended in Newman's anecdote, can
 only be interpreted as a flaw in the design. At least, that's the most
-charitable of understanding why proprietary software so often fails to meet a
+charitable way of explaining why proprietary software so often fails to meet a
 farmer's needs.
 
 To view it from a more overtly political perspective, we might interpret the
