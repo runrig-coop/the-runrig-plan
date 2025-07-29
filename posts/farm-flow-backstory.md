@@ -280,3 +280,24 @@ efforts, it never diminishes it.
 This documents is still in draft; please check back soon to read more!
 
 :::
+
+## Initial Recommendations
+After thorough discussion with Matthew on all of the preceding points, I
+summarized my initial recommendations for developing the Farm Flow application
+as follows:
+
+1. Prioritize the Farm Flow Board and the quickest pathway to developing an
+   implementation that can be demonstrated with high fidelity, even without a
+   supporting backend or network connectivity.
+2. Look for ready-to-use, third-party applications that can be adopted early on
+   then later integrated with the Farm Flow Board, such as [LiteFarm] or
+   [farmOS]. Keep development focused on Farm Flow’s core value proposition of
+   the board and its other unique features.
+3. Assess interest from potential users and funders before deciding on a backend
+   architecture to support the Farm Flow Board as it develops into a more robust
+   dashboard and nerve center for the other core features.
+4. Distribute the costs of ownership and control over development; rather than
+   scaling a product, think in terms of organizing support and strategic reach.
+
+[LiteFarm]: https://www.litefarm.org/
+[farmOS]: https://farmos.org/
