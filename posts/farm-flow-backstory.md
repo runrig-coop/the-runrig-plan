@@ -275,12 +275,6 @@ freely to the same platform, they can all exercise greater control over the
 project’s direction. Collaboration and openness only amplifies each others
 efforts, it never diminishes it.
 
-:::warning DRAFT NOTICE
-
-This documents is still in draft; please check back soon to read more!
-
-:::
-
 ## Initial Recommendations
 After thorough discussion with Matthew on all of the preceding points, I
 summarized my initial recommendations for developing the Farm Flow application
