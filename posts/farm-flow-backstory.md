@@ -207,13 +207,15 @@ bat, this will divert resources away from implementing the unique features that
 represent you core value proposition. Furthermore, that doesn't begin to account
 for the long-term cost of maintenance, which will be even higher for proprietary
 portions of the code, since you'll have to cover that cost entirely on your own.
+Throw in marketing and other overhead costs and you can see where that can
+quickly outstrip the budget for a small, community-driven software project.
 
 As a proprietary project, you're a small fish in a big pond left to fend for
 yourself. You're up against the vast resources of Silicon Valley and it becomes
 an uphill battle just to break even. If you create a distinct product lucrative
 enough to compete, venture capital will eventually get wise to what you're
 selling and want a piece. That'll happen as soon as you start earning any kind
-of profit worth of notice, especially if that entails taking away a share of
+of profit worthy of notice, especially if that entails taking away a share of
 their users. Unless you're ready to go toe-to-toe, pound-for-pound with Big
 Tech, you run the risk of being out-gunned, undercut, and bought out, all in
 quick succession. At that point, you've wound up exactly in the same predicament
@@ -225,40 +227,53 @@ however, that more or less amounts to the same loss of control, unless you're
 incredibly shrewd, and even then, it means you probably haven't sat on a tractor
 in a _very_ long time.
 
-:::info
+As a free software project – or more to the point, as a _part of a free software
+community_ – you can potentially start way out in front of where you'd be if you
+had gone the proprietary route. At the risk of sugarcoating it a bit, it's like
+everyone is first to market, because everyone gets to use each other's stuff and
+improve on each other's efforts. There's still a ton of hard work required and
+plenty of caveats to doing it right, but if you're willing to really lean into
+the cooperative process and engage with the larger community, the rewards can be
+manifold.
 
-The following excerpts are taken from earlier documents that still need to be
-more fluidly incorporated into the whole.
-
-:::
+From a purely economical perspective, you've drastically reduced the amount of
+time and money you need for up front feature parity, as well as long-term
+maintenance. Of course, a lot of boilerplate code is open source and not
+copyleft, so those tools and components would be available to proprietary
+projects, too, not just other free and open source projects. But this is where
+leaning into a _fully free_ software development model, with a copyleft license
+like the GPL or AGPL, can really start to pay off. To start off, you gain access
+to additional free software as an eligible licensee for those components that
+are also copyleft. The most critical part, however, comes from thinking _not
+only_ in terms of simple economic benefits – though don't get me wrong, I'm not
+ruling those out either! – but rather in terms of the community's total social,
+political, and ecological benefits, which are no less tangible and can have far
+greater impact.
 
 The GNU Affero General Public License is a free software license that ensures
-everyone can use the software freely as they wish, so long as any derivative
+everyone can use the software however they see fit, so long as any derivative
 works they create can also be used freely by everyone else. This is intended to
 create a virtuous cycle that perpetually enriches the software commons. It is a
 commitment that all contributors make to one another: namely, that they will
 seek to build on each other's work and cooperate for the mutual benefit of all,
 rather than competing against each other, keeping their work siloed, and
-reduplicating each other's efforts in the process. It ensures every contributor
-that they can never be prohibited from using their own contributions to the
-commons. As a software developer, the code you author for one client is code you
-can offer to extend for your next client. As a software sponsor, you're free to
-hire someone else to audit, modify, or improve the software, whether or not you
-or they were involved in its original development. Users who share their
-expertise on forums to help other users, or volunteer their time to documenting
-and submitting bug reports and feature proposals, will never lose access to the
-software. By choosing to work together, contributing openly and freely to the
-same platform, they can all exercise greater control over the project’s
-direction. Collaboration and openness only amplifies each others efforts, it
-never diminishes it.
+reduplicating each other's efforts in the process.
 
-I am as free to bring whatever software I make to other clients, just as you as
-the sponsor are free to find other developers to continue the work at any point.
-By still choosing to work together, contributing openly and freely to the same
-platform, we all get to exercise greater control over the project’s direction.
-By seeking out other partnerships with like minded groups, such as LiteFarm,
-MadAg, and OpenTEAM, our results may be amplified many times over. Collaboration
-and openness are absolutely essential to making this work.
+The AGPL also ensures every contributor that they will never be prohibited from
+later accessing their own contributions. As outlined above, this is an easy trap
+to fall into with proprietary software, even as its current owner, but this
+often goes overlooked. Luckily, as the developer of software licensed under the
+AGPL, the code that you author and deploy for one client is code you can offer
+to deploy, improve, and extend for your next client. As the sponsor of software
+licensed under the AGPL, you're free to hire someone else to audit, modify, or
+improve the software at any time, whether or not you or they were involved in
+its original development. Users who share their expertise on forums to help
+other users, or who volunteer their time to documenting and submitting bug
+reports and feature proposals, will never lose access to the software they
+worked to make better. By choosing to work together, contributing openly and
+freely to the same platform, they can all exercise greater control over the
+project’s direction. Collaboration and openness only amplifies each others
+efforts, it never diminishes it.
 
 :::warning DRAFT NOTICE
 
