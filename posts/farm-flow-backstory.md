@@ -133,47 +133,48 @@ software will incur at least one of the following two expenses:
    yourself, or
 2. Lots of money to pay someone else to do it for you.
 
-More often than not, it's some combination of the two, with the money part
-coming from venture capital and the talent part coming from overworked startup
-employees who've been promised some share of future equity. If in addition you
-want to make a significant profit in return, you'll likely need two more things:
+More often than not, it's some combination of the two, with the money coming
+from venture capital and the expertise coming from overworked startup employees
+who've been promised a share in the future equity. If you want to recoup any of
+those costs, let alone if you'd like there to be some sizeable equity leftover
+for anyone once all those liabilities have been paid down, you may be inclined
+to reach for two additional mechanisms to guarantee a stable revenue stream:
 
 3. A proprietary license on at least some portion of the source code, plus
-4. A reliable means of securing that source code so it cannot be taken illicitly
-   or reverse engineered.
+4. A reliable means of securing that source code so it cannot be illicitly
+   copied or reverse engineered.
 
 The necessary security can be achieved by running the proprietary code behind a
 server that users cannot access directly, or by compiling the code to a binary
-format for distribution, with some digital rights management (DRM) software
-mixed in for good measure. There are other ways, but those are the most common.
-Users can subscribe to the service in the former case, or purchase a license and
-install the binaries in the latter, but either way, they will never see the
-source code, let alone be able to modify it.
+format before distributing it, plus some digital rights management (DRM)
+software mixed in for good measure. There are other ways, but those are the most
+common. Users can subscribe to the service in the former case, or purchase a
+license and install the binaries in the latter, but either way, they will never
+see the source code, let alone be able to modify it.
 
 At a glance, a subscription model may seem like the most feasible means of
 yielding revenue from a software project, particularly one that includes some
 sort of web-based server. A proprietary license is not essential to such a
 model, because even if users can self-host a server that's licensed as free
-software, few of them will really want to. Selling managed hosting or support
+software, few of them will actually want to. Selling managed hosting or support
 has been a viable means of driving a profit for open source software since [Red
 Hat] and [WordPress] pioneered the strategy over two decades ago. A free
 license, however, will naturally limit your margins, since someone is pretty
 sure to offer a competing service if you get too greedy and start charging
-subscription rates far in excess of the costs of actually providing that
-service.
+subscription rates too far in excess of the costs of providing that service.
 
 A proprietary license eliminates that ceiling, at least in theory. Red Hat and
-WordPress remain profitable only because they're able to work within those
+WordPress remain profitable, but only because they're able to work within those
 margins. Support services are the entirety of their business model and open
 source is their key selling point. It's harder to imagine a significant revenue
 stream for open source support if you're not providing that support fulltime.
 You can hire engineers to do the lion's share of the work for you, but still,
-the margins are essentially capped. If you charge users a subscription fee that
-is too much in excess of what you compensate your workers to maintain that
-service, you could end up with your workers or customers being poached, if not
-an outright revolt on both sides. Either way, your fulltime job will most
-assuredly become that of a product manager, just to have a fighting chance of
-keeping the margins viable and the pitchforks at bay.[^fief]
+the margins are essentially capped. Again, if you overcharge for subscriptions
+or under-compensate your workers to maintain the service, you could end up with
+your workers or customers being poached, if not outright revolt on all fronts.
+Either way, your fulltime job will most assuredly become that of a product
+manager, just to have a fighting chance of keeping the margins viable and the
+pitchforks at bay.[^fief]
 
 [^fief]: Not to put too fine a point on it, but I summed this up by telling
 Matthew that it would be hard to create a source of passive income out of Farm
@@ -186,7 +187,7 @@ All the same, I made the case that _even with a proprietary license_, an
 outsized contribution of Matthew's own time and money would be necessary to
 preserve the level of ownership and control he wanted. So although it would
 probably never be the source of passive income he hoped for, I recommended that
-a _fully_ free – i.e., "copyleft" – license like the AGPL was still his best bet
+a _fully_ free – i.e., ["copyleft"] – license like the AGPL was still his best bet
 for getting the most value from the software while still retaining control of
 its development.
 
@@ -196,6 +197,7 @@ its development.
 [WordPress]: https://wordpress.com/support/com-vs-org/
 [_Technofeudalism_]:
     https://www.yanisvaroufakis.eu/2024/02/04/technofeudalism-a-video-essay-summarising-the-book/
+["copyleft"]: https://www.gnu.org/licenses/copyleft.en.html
 
 ## The Case for Free Software
 In any software project, the more components you have to build from scratch the
