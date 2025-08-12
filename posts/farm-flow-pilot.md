@@ -48,33 +48,18 @@ derivative works be licensed similarly, we both enjoy its protections.
 
 ## Planned Development Cycle
 
-1. __Low Fidelity Board__: Begin with a low fidelity board that meets the
-   minimal requirements for representing Farm Flow’s core data points. Support
-   all essential CRUD operations in terms of both user interactivity and data
-   persistence between sessions. The goal is to take the shortest path to
-   enabling connectivity through LiteFarm integration (Phase 2), while
-   deferring final design decisions until practical data and user feedback can
-   influence the process (Phase 3).
+1. Low Fidelity Board
+2. Connectivity & LiteFarm Integration
+3. High Fidelity Board
 
-2. __Connectivity & LiteFarm Integration__: Integrate the board’s interface,
-   data model, and storage with LiteFarm’s servers. Users must be able to
-   authenticate securely with LiteFarm and synchronize their data upon all CRUD
-   operations. Ensure that data is smoothly synchronized at the start and end
-   of each session and that the sync status is effectively communicated to the
-   user. Once this is achieved, LiteFarm can be effectively used to capture
-   practical data from the field from mobile devices, while also providing a
-   supplemental dashboard for reviewing data from desktop or mobile screens.
+### Phase 1: Low Fidelity Pilot
+Begin with a low fidelity board that meets the minimal requirements for
+representing Farm Flow’s core data points. Support all essential CRUD operations
+in terms of both user interactivity and data persistence between sessions. The
+goal is to take the shortest path to enabling connectivity through LiteFarm
+integration (Phase 2), while deferring final design decisions until practical
+data and user feedback can influence the process (Phase 3).
 
-3. __High Fidelity Board__: Make final design decisions and bring significant
-   enhancements to the visual display and general usability. Design details
-   such as animated transitions and responsiveness to different screen sizes
-   will be fine-tuned, with attention given to the overall user experience
-   (UX). This will be the point at which to settle on a consistent theme and
-   design elements, such as color palette, typography, and spacing. This will
-   hopefully indicate a path towards a distinct brand for Farm Flow in its
-   continued development.
-
-## Phase #1: Low Fidelity Pilot
 A demo of the browser-based app is available at [farm-flow-board.pages.dev]. You
 will need to import a data file to get started, which can be downloaded as JSON
 from the project's GitHub repository: [`crop-2023.json`]. This demo should
@@ -84,6 +69,25 @@ ongoing support.
 [farm-flow-board.pages.dev]: https://farm-flow-board.pages.dev/
 [`crop-2023.json`]:
     https://github.com/runrig-coop/farm-flow-board/blob/main/public/crop-2023.json
+
+### Phase 2: Connectivity & LiteFarm Integration
+Integrate the board’s interface, data model, and storage with LiteFarm’s
+servers. Users must be able to authenticate securely with LiteFarm and
+synchronize their data upon all CRUD operations. Ensure that data is smoothly
+synchronized at the start and end of each session and that the sync status is
+effectively communicated to the user. Once this is achieved, LiteFarm can be
+effectively used to capture practical data from the field from mobile devices,
+while also providing a supplemental dashboard for reviewing data from desktop or
+mobile screens.
+
+### Phase 3: High Fidelity Board
+Make final design decisions and bring significant enhancements to the visual
+display and general usability. Design details such as animated transitions and
+responsiveness to different screen sizes will be fine-tuned, with attention
+given to the overall user experience (UX). This will be the point at which to
+settle on a consistent theme and design elements, such as color palette,
+typography, and spacing. This will hopefully indicate a path towards a distinct
+brand for Farm Flow in its continued development.
 
 
 ## Architecture & Design
