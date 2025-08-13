@@ -52,7 +52,14 @@ derivative works be licensed similarly, we both enjoy its protections.
 2. Connectivity & LiteFarm Integration
 3. High Fidelity Board
 
-![](./img/farm-flow-on-ramps-and-off-ramps.png)
+<a
+  href="./img/farm-flow-on-ramps-and-off-ramps.png"
+  target="_blank"
+  title="Click to Zoom" >
+  <img
+    src="./img/farm-flow-on-ramps-and-off-ramps.png"
+    alt="Flowchart illustrating the 'On-Ramps & Off-Ramps towards a stable & sustainable Farm Flow Pilot Deployment'" />
+</a>
 
 ### Phase 1: Low Fidelity Pilot
 The first phase, as a "lo-fi" implementation, would aim to meet the minimal
