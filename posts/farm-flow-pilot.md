@@ -53,12 +53,17 @@ derivative works be licensed similarly, we both enjoy its protections.
 3. High Fidelity Board
 
 ### Phase 1: Low Fidelity Pilot
-Begin with a low fidelity board that meets the minimal requirements for
-representing Farm Flow’s core data points. Support all essential CRUD operations
-in terms of both user interactivity and data persistence between sessions. The
-goal is to take the shortest path to enabling connectivity through LiteFarm
-integration (Phase 2), while deferring final design decisions until practical
-data and user feedback can influence the process (Phase 3).
+The first phase, as a "lo-fi" implementation, would aim to meet the minimal
+requirements for representing Farm Flow’s core data points. It would support all
+essential CRUD operations in terms of both user interactivity and data
+persistence between sessions, but it would not have a very polished look and
+feel, nor the fine-tuned ergonomics of a finished application (e.g., drag-n-drop
+interactions, tool-tips, animated transitions, etc). The goal was to take the
+shortest path to replicating the essential features of the physical whiteboard
+in order to get feedback from Matthew and move on to Phase 2, which would add
+all essential mobile functionality. Final design decisions would be deferred
+until Phase 3, when real-world dat and practical user feedback would be able to
+influence the process.
 
 A demo of the browser-based app is available at [farm-flow-board.pages.dev]. You
 will need to import a data file to get started, which can be downloaded as JSON
