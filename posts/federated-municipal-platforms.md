@@ -118,6 +118,8 @@ connotations I wish to emphasize. I'll spell those out here because I don't want
 the point to be confused, but feel free to skip to the next section if you just
 want get on with the nuts and bolts of how FMPs work.
 
+<!-- TODO: CyberSyn? -->
+
 The system as a whole borrows heavily from the concept of [platform
 cooperatives], popularized by Trebor Scholz and Nathan Schneider among others.
 But whereas platform co-ops are typically businesses, cooperatively owned by
@@ -132,6 +134,8 @@ being "economized" in just the same way as the [7 Cooperative Principles];
 however, membership and participation in an FMP should not be predicated on a
 person or group entering into a formal professional relationship with other
 members, so long as they demonstrate their commitment to the community.
+
+<!-- FIXME: This and the previous para make a lot of redundant points. -->
 
 In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
 James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
@@ -237,3 +241,277 @@ by Akuno in his [2023 May Day proclamation].
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
+
+
+## How It Works
+
+:::warning NOTICE
+
+Still in draft.
+
+:::
+
+
+### Prior Art
+- Bonfire
+- social.coop
+- May First
+- Coop Cycle
+- Open Food Network & DFC / FDC
+- Sandstorm
+- Inrupt
+- Bluesky / ATProto
+
+
+### Municipal Platform Services
+- Multi-tenant farmOS
+- Multi-user/-farm POD service
+- Bridge to OFN-USA
+- Bridge to GrownBy
+- Grist
+- NocoDB
+- Brinjel
+- Farm Flow Board
+- CoopCycle
+- Rootable
+
+
+### Municipal Group Users
+- Food Hubs/Co-ops
+- Community Ctr's & Food Councils
+- Mutual Aid / Food Rescue
+- CSA & Buying Clubs
+- Wholesale, Distribution & Logistics
+- Restaurants & Grocers
+- Restaurant Workers
+- Food Delivery Workers
+- Farm Owners, Managers, & Workers
+- Community Gardens
+
+
+## Some Practical Examples
+
+:::warning NOTICE
+
+Still in draft.
+
+:::
+
+#### Example: NYC, Hudson Valley, and Tri-state Region
+
+- Food Hubs / Co-ops
+  - Bushwick Food Co-op
+  - Brooklyn Supported Agriculture
+- Community Ctr's & Food Councils
+  - East Flatbush Group?
+  - Group in Harlem Tianna connected me with
+  - Sixth St Community Ctr
+  - Chester Agricultural Ctr
+  - May Day Space
+  - Woodbine
+- Mutual Aid / Food Rescue
+  - Bushwick Ayuda Mutua
+  - Woodbine
+  - Ridgewood Presbyterian
+  - Covenant Lutheran Church
+  - In Our Hearts NYC (@iohnyc)
+  - Food Fight Brooklyn (@foodfightbk)
+  - Bed-Stuy Food Not Bombs
+- CSA & Buyers Club
+  - Woodbine
+  - 607 CSA
+  - Green Ave Buyers Club
+  - Rocksteady
+  - ...
+- Wholesale Food Distro & Logistics
+  - Brooklyn Packers
+  - Catskills Agrarian Alliance
+  - Baldor
+  - Tay Shing Corp
+  - Choy Commons
+- Restaurants & Grocers
+  - Burrito Republic
+  - Ridgewood Taco
+  - Good Neighbor
+  - Valentinos
+  - Europa
+- Restaurant & Delivery Workers
+  - FIG-NYC
+  - Los Deliveristas Unidos
+  - El Hormiguero
+- Farm Owners, Managers, & Workers
+  - Rocksteady
+  - Norwich
+  - Rise & Root
+  - ...
+- Community Gardens
+  - Miryam's
+  - Catherine Shadoud
+  - Sunset Garden
+  - Sparrow's Nest (Corona)
+  - Powell St Garden (Brownsville)
+  - Hattie Carthan
+  - La Plaza Cultural
+
+
+## Back to Ecology
+
+:::warning NOTICE
+
+Still in draft.
+
+:::
+
+
+### Main Legal Entities Constituting the Runrig System (from [`/ecology`])
+1. A __data cooperative__ or __data trust__, likely incorporated as a
+   non-profit, whose members are users of the global data provider. They can
+   join through a service platform authorized to provision that storage on the
+   user's behalf, or by directly provisioning space on the data provider
+   themselves. The data coop will have legal custody of the data provider's main
+   servers, but may contract the administration and maintenance of those servers
+   to the worker coop (described in #2 below). It may also hold the licenses to
+   Runrig's core software modules, trademarks, etc., though that could also be
+   delegated to a conservancy, such as the Software Freedom Conservancy or the
+   Commons Conservancy.
+2. A __worker cooperative__ of engineers, designers and system administrators,
+   responsible for the main data provider and core services, under contract to
+   the data cooperative. It is also responsible for maintaining the free
+   libraries, API's and other integrations used by the service platforms,
+   possibly even the application software they use. They are also available on
+   contract to develop custom, sponsored software at the request of one or
+   several service platforms (ideally those solutions will nevertheless be
+   contributed back to the commons and made free to all, not just the sponsoring
+   platform). Hosting and other backend services could also be provided to the
+   service platforms at preferred rates. In the beginning this may be more
+   loosely structured as more of a freelancer's coop, while there may not be
+   much in the way of significant revenues to sustain fulltime worker-owners.
+3. __Service platform cooperatives__, situated in regional foodsheds and serving
+   more localized needs, which may vary widely in scope, purpose and membership.
+   The specifics will be more up to the constituents of those platforms
+   themselves, but there should be some criteria for what platforms are
+   permitted to join the data provider and provision storage on behalf of its
+   users. It is conceivable that they need not be a cooperative, strictly
+   speaking, but it may be desireable place some restrictions on non-cooperative
+   for-profit business, while also including some kind of statement of shared
+   values in any agreements, and possibly provide discounts or other incentives
+   to coops and non-profits.
+
+### Membership Classes (from [`/ecology`])
+1. __Data Members:__ Individuals, farms, collectives or traditional companies
+   who have some amount of their own data stored on the data provider, via a
+   service platform(s) or with a direct membership account. The set of data
+   members should be coterminous with the set of storage user accounts.
+2. __Service Members:__ Platform coops and other service platforms who can join
+   the data cooperative with the right to broker agreements with data members
+   and provision storage for them on the data provider, granting them status of
+   data members in the process. Note that service membership is distinct from
+   any form of membership that entities might hold with a service platform
+   itself, for those platforms which confer any form of membership status; such
+   status is managed by the platforms and not with the purview of the Runrig
+   system. It may be possible, however, for an entity to hold dual membership as
+   both a service member and a data member. if a service member wishes to have
+   storage on the data provider, separate from its constituent userss.
+3. __Worker Members:__ Engineers, designers, etc who develop and maintain the
+   software and underlying infrastructure. Unlike the other membership classes,
+   these are members of separate worker cooperative, not the data cooperative.
+4. __Community Members:__ Trusted supporters and advisors from the community,
+   who may wish to participate in member assemblies and activities, but no
+   voting rights or other privileges, so more symbolic than anything else.
+
+### Service-level Agreements (from [`/ecology`])
+All of this necessitates that care is taken when drafting the terms of service
+and other service-level agreements, both between storage providers and regional
+platforms, and between regional platforms and individual users.
+
+#### Transferral of Rights & Responsibilities (from [`/ecology`])
+There are some potential issues when it comes to how storage and access rights,
+payment accounts and other privileges and obligations can be transferred between
+parties of various membership classes.
+
+For instance, let's say a user joins the data coop through a service platform
+that pays a significant amount for that user's storage space and access on the
+data provider (for instance, for hi-res satellite imagery or other large media
+files). What happens when the user decides to leave the service platform?
+
+There are many ways to go about this, but some possible options that could be
+given to the user at that time:
+
+- Export and delete their data from the data provider.
+- Transfer of payment authorization to another service or to the data coop
+  itself, which could continue billing the user without any interruption of
+  service or costly migrations.
+- Offer free storage and access of their data in exchange for contributing it to
+  the public domain, or participating in an anonymized public research project,
+  with costs to the data coop offset by relevant research funding.
+- Set up an application for "solidarity credits" to host a certain storage limit
+  for a given period of time for reduced cost or free of charge.
+
+
+[`/ecology`]: /posts/the-runrig-plan-appendix-ecology.md
+
+### Three Layers of Autonomy (from `/about` WIP)
+I think I need to re-evaluate whether the "data provider / service platform /
+applications" paradigm still maps onto these other concepts. It's not so much
+about the physical data provider, nor about the particular apps or services. The
+boundaries between all three components can become quite fluid in practice, just
+like any one person might fill multiple roles or member classes.
+
+But there is a concept of federating the individual with the local with the
+global that runs through everything. It applies equally in terms of data,
+services, physical resources, and people, even where the boundaries between them
+becomes blurry.
+
+That's the thing: _a topology of federated autonomy & interdependence_.
+
+|                | Individual       | Local              | Global              |
+| -------------- | ---------------- | ------------------ | ------------------- |
+| Runrig Slogan  | _libre_ software | design methodology | food & tech commons |
+| Biz Model      | feat. dev. gigs  | web platform shop  | "1 Big Data Union"  |
+| Legal Entities | tech consultancy | municipal platform | data trust          |
+| Member Classes | data members     | service members    | worker members      |
+| Tech Stack     | apps & plugins   | service platform   | data provider       |
+
+It's nothing new, but still a minor revelation to see the way the Legal Entities
+row and the Member Classes row are basically flipped in the way they correspond
+to each other. The tech consultant would ideally be a co-operative, but can
+still be an individual, like I am right now, as a worker member of a co-op, my
+job could have an impact globally. That's just my subjective choice of how to
+model it, I guess, but it still seems like a valuable insight. I guess it's
+really about the way the data members, as individual users, are the most
+granular class for joining the One "Big Data Union" or data trust, which by its
+nature is global.
+
+I'm tempted to add the physical, logical, and conceptual layers of data
+independence in there too somehow, but that seems like too far a stretch for a
+metaphor stretched thin enough as it is. Besides, I don't really understand them
+well enough anyways. I do feel, however, like there's some kind of connection.
+
+## ~~scratch~~
+This is meant to reflect a preference for organic structures of computation and
+interface design that enable active collaboration throughout the evolution of a
+software system between users, engineers, designers, as well as other software
+projects, adjacent communities, and non-users who may still interact with the
+tools, so that they tools to their needs, as opposed to more mechanistic,
+hierarchical, 
+
+
+It is a __platform__ like many of the digital platforms we use today, such as Amazon, Facebook, Airbnb, or Netflix.
+
+It is __municipalist__ in the specialized sense of Murray Bookchin's _libertarian municipalism_ or the _New Municipalism_ movements to arise in the last few decades in Catalonia, Bologna
+
+
+> Men, in their struggle with Nature (i.e. in their struggle for freedom) enter
+> into certain relations with each other to win that freedom. But men cannot
+> change Nature without changing themselves. The full understanding of this
+> mutual interpenetration of reflexive movement of men and Nature, mediated by
+> the necessary and developing relations known as society, is the recognition of
+> necessity, not only in Nature but in ourselves and therefore society. Viewed
+> objectively this active subject-object relation is science, viewed
+> subjectively it is art; but as consciousness emerging in active union with
+> practice it is simply concrete living — the whole process of working, feeling,
+> thinking and behaving like a human individual in one world of individuals and
+> Nature.
+> 
+> — Christopher Caudwell, _Illusion & Reality_ (1937)
+
