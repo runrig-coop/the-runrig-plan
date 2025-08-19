@@ -7,6 +7,13 @@ date: 2025-08-26
 outline: [2, 4]
 ---
 
+> It would be fine if freedom were as easy as this, that man was naturally free.
+> But it is not true. Freedom is the product, not of the instincts, but of
+> social relations themselves. Freedom is secreted in the relation of man to
+> man.
+> 
+> — Christopher Caudwell, _Studies in a Dying Culture_ (1937)
+
 As a design methodology, the Runrig Plan prioritizes organic design elements
 that can evolve and that are _necessarily_ enmeshed within a broader ecosystem
 of digital and social technologies, the majority of which are outside the
