@@ -36,14 +36,21 @@ In brief, a __federated municipal platform__, or __FMP__, is a communally owned
 and controlled digital platform for a regional foodshed or bioregion to manage
 its own land, resources, and labor according to its own needs. It can be a host
 for multiple, [liberatory] software applications and services, ranging from
-agricultural software like farmOS or food delivery apps CoopCycle, to generic
-productivity apps like Etherpad or Grist. It all depends on what its community
-of users decide. The FMP can also run headless bridge services, or "webhooks,"
-that integrates its users' data and work flows with other community-based
-platforms, such as the Open Food Network, or with proprietary platforms like
-Shopify. Naturally, it can also "federate" with other FMPs to afford even more
-seamless integration with its neighbors and promote collaboration between
-dispersed or divergent communities.
+agricultural software like [farmOS] or a delivery app [CoopCycle], to generic
+productivity apps like [Etherpad] or [Grist]. It all depends on what its
+community of users decide. An FMP can also run headless bridge services, or
+"webhooks," that integrates its users' data and work flows with other
+community-based platforms, such as the [Open Food Network], or with proprietary
+platforms like Shopify. That way users don't have to double- or triple-enter
+data every time their product catalog is updated. Naturally, an FMP can also
+"federate" with other FMPs to afford even more seamless integration with its
+neighbors and promote collaboration between dispersed or divergent communities.
+
+[farmOS]: https://farmos.org/
+[CoopCycle]: https://coopcycle.org/
+[Etherpad]: https://etherpad.org/
+[Grist]: https://www.getgrist.com/
+[Open Food Network]: https://openfoodnetwork.org/
 
 A federated municipal platform can be defined in a bit more detail by reference
 to its three constituent terms, working backwards from the last:
