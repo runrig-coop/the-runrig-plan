@@ -84,3 +84,99 @@ With Runrig, I plan to work mostly within food and agricultural communities, so
 I've defined the FMP in familiar terms like "foodshed" and "farmers." There's
 nothing about this architecture, however, that couldn't be applied to more
 generic community groups or for different types of activity.
+
+## Political Implications
+These terms import a neutral surface-level meaning that speaks directly to their
+functional definitions, but I chose them deliberately because they carry further
+implications, deriving from a pointedly political context. I spell these out
+here because I don't want the point to be confused, but feel free to skip to the
+next section if you just want get on with the nuts and bolts of how FMPs work.
+
+The system as a whole borrows heavily from the concept of [platform
+cooperatives], popularized by Trebor Scholz and Nathan Schneider in their book
+[_Ours to Hack and to Own: The Rise of Platform Cooperativism_]. But whereas
+platform co-ops are typically businesses, cooperatively owned by individual
+workers, FMPs are intended to represent a broader base of membership, comprised
+of workers, consumers, producers, and others people from the community, with
+both individual and institutional members. I expect an FMP to be held together
+principally on the strength of its social bonds, if not an outright political
+agenda. Even multi-stakeholder cooperatives tend to rely more on shared economic
+and commercial interests, at least in practice if not in theory. To be sure,
+commerce will be a key function of the FMP, and so it risks being "economized"
+in just the same way as the [7 Cooperative Principles]; however, membership and
+participation in an FMP should not be predicated on a person or group entering
+into a formal professional relationship with other members, so long as they
+demonstrate their commitment to the community.
+
+In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
+James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
+socialist construction projects from the early 20th century, namely G. D. H.
+Cole's theory of guild socialism and Otto Neurath's model for economic planning.
+A wider membership base, established not only upon economic but also social and
+political relations, will hopefully afford more opportunities for more
+civic-minded programs of development. A common critique of co-ops is that, while
+they may foster egalitarianism internally, successful ones must still compete in
+capital-dominated markets, and so they tend to reproduce capitalist forms of
+oppression externally.  If a wider membership base can be encouraged, even among
+people who seldom if ever login to the platform, my hope is that can go a long
+ways to mitigate the risk of co-op co-optation. It should go without saying that
+FMP are intended to take an explicitly adversarial stance to [platform
+capitalism], with the ultimate aim being the demise of capitalism as a whole.
+
+Ultimately, that's why the FMP is also a _municipalist_ platform, in the sense
+of Murray Bookchin's [libertarian municipalism] and more recent [municipalist
+projects] such as [Barcelona En Comú]. As a municipality, it might also echo the
+far more radical [Municipios Autónomos Rebeldes Zapatistas], or MAREZs, which
+from 1994 to 2023 represented the smallest unit of local self-governance in the
+autonomous regions of Chiapas.[^marez]
+
+[^marez]: This last reference to the Zapatistas is a stretch, I admit, but I
+    mean it more as an homage than a strict comparison. While I don't equate
+    FMPs or Runrig to MAREZs or the EZLN, I would certainly welcome any positive
+    associations. The same goes for the Spanish CNT-FAI and the DAANES of
+    Rojava, referenced in the following paragraph.
+
+Municipalism should not be mistaken for provincialism, however, which is why the
+FMP must also be a federated or even _federalist_ platform, in the sense of
+[the long-held anarchist principle], although it should more closely resemble
+the explicitly internationalist projects that have developed out of that
+tradition. These range from the syndicalist [CNT-FAI] project of federalized
+communes during the Spanish Revolution to the [Democratic Autonomous
+Administration of North and East Syria] (DAANES, a.k.a. Rojava), inspired by
+Abdullah Öcalan's program of [Democratic Confederalism]. Of course, all this
+should complement the technical sense of a _federated server architecture_. This
+pattern has come to give its name to the [Fediverse], most famously represented
+by the alternative social media application, [Mastodon], and the [myriad others]
+that support some variant of the [ActivityPub] protocol.
+
+
+[platform cooperatives]: https://platform.coop
+[_Ours to Hack and to Own: The Rise of Platform Cooperativism_]:
+    https://nathanschneider.info/books/ours-to-hack/
+[7 Cooperative Principles]: https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
+[_Platform Socialism_]:
+    https://www.techwontsave.us/episode/97_envisioning_platform_socialism_w_james_muldoon
+[platform capitalism]:
+    https://blogs.lse.ac.uk/lsereviewofbooks/2017/02/24/lse-lit-fest-2017-platform-capitalism-by-nick-srnicek/
+[municipalist]:
+    https://www.opendemocracy.net/en/can-europe-make-it/which-municipalism-lets-be-choosy/
+[libertarian municipalism]:
+    https://social-ecology.org/wp/1999/08/thoughts-on-libertarian-municipalism/
+[municipalist projects]:
+    https://www.opendemocracy.net/en/can-europe-make-it/which-municipalism-lets-be-choosy/
+[Barcelona En Comú]: https://barcelonaencomu.cat/
+[Municipios Autónomos Rebeldes Zapatistas]:
+    https://es.wikipedia.org/wiki/Municipios_Aut%C3%B3nomos_Rebeldes_Zapatistas
+[the long-held anarchist principle]:
+    https://theanarchistlibrary.org/library/what-do-anarchists-mean-by-federalism
+[Pierre-Joseph Proudhon]:
+    https://theanarchistlibrary.org/library/pierre-joseph-proudhon-the-principle-of-federation
+[CNT-FAI]: https://libcom.org/tags/federacion-anarquista-iberica-fai
+[Democratic Autonomous Administration of North and East Syria]:
+    https://rojavainformationcenter.org/2023/12/aanes-social-contract-2023-edition/
+[Democratic Confederalism]:
+    https://ocalanbooks.com/#/book/democratic-confederalism
+[Fediverse]: https://fediverse.info/
+[Mastodon]: https://joinmastodon.org/
+[myriad others]: https://delightful.coding.social/delightful-fediverse-clients/
+[ActivityPub]: https://activitypub.rocks/
