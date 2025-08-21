@@ -31,6 +31,7 @@ Federated municipal platforms are intended to be one such architectural pattern,
 one that will play a central role in many of the systems I hope to build with
 Runrig.
 
+## Some Definitions
 In brief, a __federated municipal platform__, or __FMP__, is a communally owned
 and controlled digital platform for a regional foodshed or bioregion to manage
 its own land, resources, and labor according to its own needs. It can be a host
@@ -44,11 +45,8 @@ Shopify. Naturally, it can also "federate" with other FMPs to afford even more
 seamless integration with its neighbors and promote collaboration between
 dispersed or divergent communities.
 
-[liberatory]: https://www.gnu.org/philosophy/free-sw.html
-
-## Some Definitions
-A __federated municipal platform__, or FMP, can be defined by reference to its
-three constituent terms, working backwards from the last:
+A federated municipal platform can be defined in a bit more detail by reference
+to its three constituent terms, working backwards from the last:
 
 - As a __platform__, it will host a suite of software applications and network
   services, like so many of the "cloud" platforms we already interact with every
@@ -100,7 +98,7 @@ I've defined the FMP in familiar terms like "foodshed" and "farmers." There's
 nothing about this architecture, however, that couldn't be applied to more
 generic community groups or for different types of activity.
 
-## Political Implications
+### Political Implications
 These terms import a neutral surface-level meaning that speaks directly to their
 functional definitions, but I chose them deliberately because they carry further
 implications, deriving from a pointedly political context. I spell these out
@@ -164,7 +162,7 @@ pattern has come to give its name to the [Fediverse], most famously represented
 by the alternative social media application, [Mastodon], and the [myriad others]
 that support some variant of the [ActivityPub] protocol.
 
-
+[liberatory]: https://www.gnu.org/philosophy/free-sw.html
 [platform cooperatives]: https://platform.coop
 [_Ours to Hack and to Own: The Rise of Platform Cooperativism_]:
     https://nathanschneider.info/books/ours-to-hack/
