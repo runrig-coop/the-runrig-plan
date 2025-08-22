@@ -293,5 +293,10 @@ as follows:
 4. Distribute the costs of ownership and control over development; rather than
    scaling a product, think in terms of organizing support and strategic reach.
 
+See the [Farm Flow Pilot] and final [Farm Flow Development Strategy] for more
+information on how the project proceeded.
+
 [LiteFarm]: https://www.litefarm.org/
 [farmOS]: https://farmos.org/
+[Farm Flow Pilot]: /posts/farm-flow-pilot
+[Farm Flow Development Strategy]: /posts/farm-flow-strategy
