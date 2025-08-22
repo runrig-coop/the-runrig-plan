@@ -47,10 +47,23 @@ use and modify the software as they like, but with the restriction that any
 derivative works be licensed similarly, we both enjoy its protections. 
 
 ## Planned Development Cycle
+The initial plan to develop the pilot was comprised of three phases, though only
+the first was completed:
 
 1. Low Fidelity Board
-2. Connectivity & LiteFarm Integration
-3. High Fidelity Board
+2. Connectivity & LiteFarm Integration (not completed)
+3. High Fidelity Board (not completed)
+
+After completing Phase 1, as described below, it became clear that as a
+one-person team I was not going to have the total capacity to get the final
+version across the finish line in time for the 2024 planting season.
+
+Matthew and I mapped out several scenarios that could have potentially shortened
+the development cycle. They each came with certain drawbacks, and the
+possibility that certain features might not be completed or within the ideal
+timeframe. I tried to show how these would still leave all completed development
+in relatively stable state where it development could always be resumed again
+without much difficulty. I illustrated these as "on-ramps" and "off-ramps":
 
 <a
   href="./img/farm-flow-on-ramps-and-off-ramps.png"
