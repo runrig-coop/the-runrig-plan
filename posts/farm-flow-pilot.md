@@ -104,6 +104,11 @@ color palette, typography, and spacing. This would have hopefully indicated a
 path towards a distinct brand for Farm Flow in its continued development.
 
 ## Architecture & Design
+The following details are adapted from the project repository's [README] file,
+intended for a more technical audience.
+
+[README]: https://github.com/runrig-coop/farm-flow-board
+
 ### Runrig Design Principles
 The Farm Flow board has been developed in accordance to several of Runrig's
 design principles, most notably:
