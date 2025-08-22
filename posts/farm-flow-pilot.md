@@ -288,3 +288,9 @@ interface OperationTerm {
   name: string;
 }
 ```
+
+## Final Development Strategy
+See the final [Farm Flow Development Strategy] for more information on how the
+project proceeded.
+
+[Farm Flow Development Strategy]: /posts/farm-flow-strategy
