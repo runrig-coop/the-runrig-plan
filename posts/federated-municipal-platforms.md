@@ -81,13 +81,6 @@ to its three constituent terms, working backwards from the last:
   interest or concern – beyond the platform itself – to ensure their long-term
   commitment to each other's mutual success and well-being.
 
-[^userdata]: Collective ownership and control does not apply to purely
-  individual data, only the services and maintenance of those services. Each
-  user's data will always be theirs and theirs alone, to share with only certain
-  other members or the public or to keep it private, however they so choose.
-  This applies on the organizational level, too, although some internal
-  democratization would be encouraged and possibly facilitated by the platform.
-
 - As a __federated__ platform, it will be capable of connecting with other
   platforms just like it. With some due diligence, it could even connect to
   platforms that are _not_ so like itself, such as traditional payment and
@@ -104,6 +97,13 @@ With Runrig, I plan to work mostly within food and agricultural communities, so
 I've defined the FMP in familiar terms like "foodshed" and "farmers." There's
 nothing about this architecture, however, that couldn't be applied to more
 generic community groups or for different types of activity.
+
+[^userdata]: Collective ownership and control does not apply to purely
+  individual data, only the services and maintenance of those services. Each
+  user's data will always be theirs and theirs alone, to share with only certain
+  other members or the public or to keep it private, however they so choose.
+  This applies on the organizational level, too, although some internal
+  democratization would be encouraged and possibly facilitated by the platform.
 
 ### Political Implications
 These terms import a neutral surface-level meaning that speaks directly to their
