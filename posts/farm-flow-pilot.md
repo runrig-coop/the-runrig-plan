@@ -76,24 +76,32 @@ ongoing support.
     https://github.com/runrig-coop/farm-flow-board/blob/main/public/crop-2023.json
 
 ### Phase 2: Connectivity & LiteFarm Integration
-Integrate the board’s interface, data model, and storage with LiteFarm’s
-servers. Users must be able to authenticate securely with LiteFarm and
-synchronize their data upon all CRUD operations. Ensure that data is smoothly
-synchronized at the start and end of each session and that the sync status is
-effectively communicated to the user. Once this is achieved, LiteFarm can be
-effectively used to capture practical data from the field from mobile devices,
+The reason I didn't want to put too much effort into the ergonomics of the lo-fi
+pilot was because the primary method of entry was intended to be LiteFarm's
+mobile application. Part of the benefit of that was it would enable Matthew to
+begin using LiteFarm for data entry before Phase 1 was even finished. Getting a
+first approximation of the board that could connect to "live" data as it came in
+from the field was not only essential to Matthews daily operations, but to the
+design process itself. Matthew's feedback on that complete workflow would be a
+prerequisite for all the most significant design choices.
+
+The first order of business would be to integrate the board’s interface, data
+model, and storage with LiteFarm’s servers. Users needed to authenticate
+securely with LiteFarm and synchronize their data upon all CRUD operations, and
+at the start and end of each session. Once this is achieved, LiteFarm can be
+effectively used to capture practical data from mobile devices in the field,
 while also providing a supplemental dashboard for reviewing data from desktop or
 mobile screens.
 
 ### Phase 3: High Fidelity Board
-Make final design decisions and bring significant enhancements to the visual
-display and general usability. Design details such as animated transitions and
-responsiveness to different screen sizes will be fine-tuned, with attention
-given to the overall user experience (UX). This will be the point at which to
-settle on a consistent theme and design elements, such as color palette,
-typography, and spacing. This will hopefully indicate a path towards a distinct
-brand for Farm Flow in its continued development.
-
+Once the entire workflow was implemented, we would have made final design
+decisions and brought significant enhancements to the board's visual display and
+general usability. Design details such as animated transitions and
+responsiveness to different screen sizes would have been fine-tuned, with
+attention given to the overall user experience (UX). This would have been the
+point at which to settle on a consistent theme and design elements, such as
+color palette, typography, and spacing. This would have hopefully indicated a
+path towards a distinct brand for Farm Flow in its continued development.
 
 ## Architecture & Design
 ### Runrig Design Principles
