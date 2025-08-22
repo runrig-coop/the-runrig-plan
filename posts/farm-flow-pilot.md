@@ -66,11 +66,11 @@ in relatively stable state where it development could always be resumed again
 without much difficulty. I illustrated these as "on-ramps" and "off-ramps":
 
 <a
-  href="./img/farm-flow-on-ramps-and-off-ramps.png"
+  href="/farm-flow-on-ramps-and-off-ramps.png"
   target="_blank"
   title="Click to Zoom" >
   <img
-    src="./img/farm-flow-on-ramps-and-off-ramps.png"
+    src="/farm-flow-on-ramps-and-off-ramps.png"
     alt="Flowchart illustrating the 'On-Ramps & Off-Ramps towards a stable & sustainable Farm Flow Pilot Deployment'" />
 </a>
 
