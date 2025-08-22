@@ -288,11 +288,3 @@ interface OperationTerm {
   name: string;
 }
 ```
-
-
-:::warning DRAFT NOTICE
-
-This documents is still in draft; please check back soon to read more!
-
-:::
-
