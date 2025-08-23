@@ -229,3 +229,26 @@ capitalism, where technocratic _rent-seeking_ is the order of the day, we can
 still choose not to reproduce those dynamics with our labor and technology.
 Instead, let's use them to __organize bulwarks of worker power__ that are more
 resilient to such rent-seeking efforts, as well as other forms of attack.
+
+Much of this is just a convoluted restatement of mutual aid's basic tenets, and
+I'm by no means the first to apply them to food and technology. I reframe them
+this way as a response to specific critiques about free software and cooperative
+technology. Namely, there's a view that truly robust, maintainable software must
+be amply funded through capital investments, public grants, or large donations
+from private foundations – at least, for halfway decent software anyone wants to
+use. It's not surprising to hear this charge coming from the startup industry,
+but skepticism of this sort is also prevalent among many in the free software
+and regenerative agriculture communities.
+
+It might be easy to dismiss those claims as a symptom of the "non-profit
+industrial complex," and there may even be a bit of truth in that, but I do
+sympathize with the concern and can fully relate to the pragmatic outlook it
+speaks from. The high-minded ideals of software freedom and cooperative
+economics must be balanced against the need for fair compensation that pays
+developers and support staff to deliver the kind of safe, reliable, easy-to-use
+software that users deserve. It's a tough nut to crack, when you take a
+realistic account of all the labor, expertise, and long-term commitments needed
+to accommodate every one of those concerns. Alternative funding models do exist,
+but they're poorly attested even within free software circles, let alone the
+among broader coalition of supporters you would need from food & agriculture
+networks. All of this is central to the work Runrig aims to accomplish.
