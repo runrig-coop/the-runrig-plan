@@ -195,60 +195,19 @@ in their wake.
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
 ## Socializing Our Computational Abstractions
-It should go without saying that scaling and abstractions of this sort are
-directly at odds with any vision for appropriate technology that respects users'
-individual or collective autonomy.
+It should go without saying that scaling and abstractions of the sort described
+above are deeply at odds with any vision for appropriate technology that
+respects users' autonomy. Nevertheless, I still contend that abstraction can
+also play a critical role in overturning those injustices. That is my whole
+purpose with Runrig, after all – to develop the methodologies, relationships,
+and infrastructure needed to bring more liberatory technologies into my own
+community, and then, hopefully, to share them with others.
 
-Runrig's contention is this: technology can aid in our collective liberation,
-but only by strengthening our economic, social, and ecological relationships
-_first_, before deciding on any abstractions or scaling algorithms or data
-models. Once we've established the necessary cohesion for collective decision
-making, then, and only then, can we begin to scale our systems of economic and
-social reproduction. This can be done incrementally, starting off with very
-small communities or social units that grow larger over time as each iteration
-expands the capacity for collective action. Don't let it be misconstrued that
-only once we're living in perfect peace and harmony can we overthrow capitalism!
-
-Digital technology can facilitate liberation at any step along the way, but
-organizers would be wise to adopt only those technologies that they control and
-they can maintain by their own means and under their own power, even at the
-earliest phases of organizing. Community control as a prerequisite to adoption
-would be an automatic limiting factor to both scale and functionality, because
-maintaining technology independently does come at a cost, especially if you are
-not relying on any existing proprietary software or corporate cloud services.
-However, this should be seen as a healthy, _humanizing_ dose of parsimony, not a
-shortcoming. After all, the costs are shared by the entire community, not each
-individual left to their own devices. That spreads out the costs, of course, but
-it also reduces or eliminates certain costs by pooling the community's
-collective resources, both monetary and non-monetary. Someone might have
-technical skills they can share towards the development or maintenance of some
-technology. Others might have an old laptop they were about to throw out that
-could be repurposed for a server. Meanwhile, someone else may have a little
-extra time to perform a simple manual task that obviates the need to run some
-little bit of costly technology altogether. These savings may not add up to
-much, they may not be contributed uniformly among all members, and some people
-may find it easier to toss a little extra cash in the pot, all of which is fine.
-Pooling shared resources like this, however, does double duty of strengthening
-social bonds and builds the collective capabilities, and if it saves a few
-bucks, all the better! It all goes straight back into a virtuous cycle that
-becomes less and less constrained by financial costs and more and more
-autonomous over time.
-
-Much of this is just a crude restatement of mutual aid's basic tenets, and their
-application to food and technology is hardly anything new. I bring them up here
-because they address specific critiques about free software and cooperative
-technology, namely that it cannot be developed sustainably without accepting
-venture capital, or least by adopting some of its methods like raising capital
-and scaling production. Skepticism like this is common even within open source
-communities, and it is understandable. The ideals of software freedom and
-cooperativism must be balanced against guaranteeing that software developers and
-maintainers are compensated fairly for their labor and that users are provided
-with secure and reliable applications – preferably really nice applications! –
-and that's no trivial nut to crack. What alternatives do exist are poorly
-attested within open source circles, and I'd say there's a lack of rigorous
-arguments that go deeply enough into addressing specific, practical concerns.
-That's the task Runrig aims to fulfill.
-
+It was with that in mind that I first proposed the table below as a
+rebuttal to the various abstractions imposed by venture capital funding
+models. They've been normalized to such a degree in the tech industry that they
+are taken for granted by most free software maintainers and advocates, including
+myself at times.
 
 |            Runrig Methodology |     | Venture Capitalism      |
 | ----------------------------: | --- | :---------------------- |
@@ -257,25 +216,16 @@ That's the task Runrig aims to fulfill.
 | ___Expanding_ PARTICIPATION__ | vs. | _Consolidating MARKETS_ |
 |       __WORKER-_organizing___ | vs. | _RENT-seeking_          |
 
-
-Original formulation:
-> - Organize __support__ and __reach__
->     - vs. _capital accumulation_ and _marketing_
-> - Distribute __costs__ and __control__
->     - vs. _scaling_ and _infinite growth_
-
-
-Technology does not have to be scalable in order to help large numbers of people,
-
-Technology does not have to be scalable, nor is it obligated to _scale our
-social and economic production_ systems, all for the sake of making our
-communities more efficient machines for _capital accumulation_. We can choose to
-__distribute control__ of our economic and social production more evenly, while
-also __diffusing the costs__ of maintaining those systems. Instead of
-_consolidating markets_ into fewer and fewer hands, we can __expand the zone of
-participation__, along with our capacity for collective action. And although we
-still live under capitalism where technocratic _rent-seeking_ pervades our
-economic lives whether we have a Facebook account or not, we can choose not to
-reproduce those dynamics with our labor and technology. Instead, let's use them to
-__organize bulwarks of worker power__ that are more resilient to rent-seeking
-efforts and other forms of attack.
+Technology does not have to blindly _scale the production and reproduction of
+our socio-economic systems_, to the exclusion of all other concerns. It's not
+obliged to turn our communities into more efficient resource pumps for _capital
+accumulation_. We can choose different abstractions and only decide to scale
+them when we have group consensus. We can co-develop new abstractions for
+__distributing control__ of our production systems more evenly, while also
+__diffusing the costs__ of maintaining them. Instead of _consolidating markets_
+into fewer and fewer hands, we can __expand the zone of participation__, along
+with our capacity for collective action. And although we live for now under
+capitalism, where technocratic _rent-seeking_ is the order of the day, we can
+still choose not to reproduce those dynamics with our labor and technology.
+Instead, let's use them to __organize bulwarks of worker power__ that are more
+resilient to such rent-seeking efforts, as well as other forms of attack.
