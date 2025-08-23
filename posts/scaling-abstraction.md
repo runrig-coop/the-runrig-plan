@@ -261,3 +261,326 @@ to accommodate every one of those concerns. Alternative funding models do exist,
 but they're poorly attested even within free software circles, let alone the
 among broader coalition of supporters you would need from food & agriculture
 networks. All of this is central to the work Runrig aims to accomplish.
+
+
+:::warning HERE BE DRAGONS 🐉
+
+Still in very rough state of draft beyond this point...
+
+:::
+
+## Draft Notes
+### Software developers on abstraction
+- Rich Hickey
+  - [The Value of
+    Values](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/ValueOfValuesLong.md),
+    GOTO; Conference 2012
+    - > And then you have to stop doing place-oriented programming. Because as
+      > we will see, it is not a fit for the models we are trying to build. So
+      > this use of place to create values [...] is an implementation detail. Of
+      > course we have to use places. Our computers have memory and they have
+      > disks. But what is important is that our program is not _about_ places.
+      > It is information technology. It is not "technology technology". We have
+      > taken abstractions of the technology, and raised them up to being what
+      > the program is about, and that is an error.
+
+    - > So two words that I think are very important are "memory" and "records".
+      > We have to remember: these words had meanings before we started to try
+      > to emulate them with tiny computers. We used these words for millennia
+      > prior to that. And we have not only co-opted them, but I think that we
+      > are starting to believe our own myths about what memory and records are.
+      > They are what our programs say they are, as opposed to what they
+      > _really_ are.
+      > 
+    - > Real memory is a cognitive abstraction over how our brains work. And
+      > some of the characteristics about it that are really interesting are the
+      > fact that it is associative. If your friend gets a new phone number, it
+      > does not go into your brain and find the phone number neurons for your
+      > friend, and overwrite them with the new phone number. That is not how
+      > memory works. You get the new phone number. It is some novelty. And your
+      > brain accommodates it, and what was there before. So it is associative.
+      > There is some connection between my friend and the phone number, and
+      > those numbers. But it is also open. It is not a place. Your friend's
+      > phone number is not a place in your brain. And memory is about that
+      > activity, acquiring your friend's phone number when he changes it.
+      > 
+    - > And record keeping existed before we had computers. Records are
+      > enduring. People did not go back to their parchments and scrub them out
+      > when there were new facts. They did not go back to their stone tablets
+      > and pave them over with concrete and then re-etch them. They just wrote
+      > new pieces of paper, and carved new stones. They are enduring, so we
+      > keep them around. And they are accreting. If you have new information in
+      > the old record keeping systems, you added it to what you had already.
+      > You did not go and erase it.
+  - [Are We There
+    Yet?](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet.md)
+    > ![SLIDE: "Civilization advances by extending the number of important
+      operations which we can perform without thinking about them." ~ Alfred
+      North
+      Whitehead](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/AreWeThereYet/00.12.08.jpg?raw=true)
+- Joe Armstrong
+  - ["The Mess We're In"](https://www.youtube.com/watch?v=lKXe3HUG2l4)
+- Austin Wade Smith on legibility
+  - [Undualing](https://mirror.xyz/austinwadesmith.eth/1wdm8BNkLJWnnzwshtYEmHYlHaXxRF3bLEt4y4-9OE8) (11 Apr 2023)
+  - [Commons Sense - The Social Life of Ecological ↔ Digital Linkages](https://mirror.xyz/austinwadesmith.eth/J2Ac0fFG1XbEHLch5c_TQy2OxfFjebK6BnJpHJKbgFg) (28 Jun 2023)
+
+### Anarchist & Marxist views on abstraction
+- See _Grundrisse_, Introduction § 3, ["The Method of Political
+  Economy"](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch01.htm#loc3)
+  on Marx's explication of concrete vs abstract forms of analysis, the most
+  notable of course being concrete labor vs abstract labor.
+- James C. Scott, _Seeing Like a State_
+  - > The value of the cadastral map to the state lies in its abstraction and universality. In principle, at least, the same objective standard can be applied throughout the nation, regardless of local context, to produce a complete and unambiguous map of all landed property. The completeness of the cadastral map depends, in a curious way, on its abstract sketchiness, its lack of detail—its thinness. Taken alone, it is essentially a geometric representation of the borders or frontiers between parcels of land. What lies inside the parcel is left blank—unspecified—since it is not germane to the map plotting itself.
+  - epubcfi(/6/24!/4/232,/1:0,/1:614)
+- Murray Bookchin
+  - > For Marxian theory, the reduction of concrete labor into abstract labor is a historical as well as theoretical desideratum. Abstract labor may be a creature of capitalism but, like capitalism itself, it is a necessary "moment" in the dialectic of history. Not only is it a medium for rendering exchange ratios possible on an extensive scale, but, from an even larger perspective, it becomes part of the technical substrate of freedom. By its very plasticity, abstract labor renders human activity interchangeable, the rotation of industrial tasks possible, and the use of machinery flexible. Its capacity to flow through the veins of industry as mere undifferentiated human energy renders the manipulation and reduction of the working day possible and, concurrently, the expansion of the "realm of freedom" at the expense of the "realm of necessity." If Marx's communism was meant to be a "society of artists," he was not prepared to recognize that the colors on their canvases might be limited to varying tints of gray.<sup>[[source]](https://theanarchistlibrary.org/library/murray-bookchin-the-ecology-of-freedom#:~:text=For%20Marxian%20theory%2C%20the,varying%20tints%20of%20gray)</sup>
+
+### Karen Hao
+From [Karen Hao's interview on _Democracy Now!_]:
+
+> Altman is very much a product of Silicon Valley. His career was first as a
+> founder of a startup, and then as the president of Y Combinator, which is one
+> of the most famous startup accelerators in Silicon Valley, and then the CEO of
+> OpenAI. And there’s no coincidence that OpenAI ended up introducing the world
+> to the scale-at-all-costs approach to AI development, because that is the way
+> that Silicon Valley has operated in the entire time that Altman came up in it.
+> 
+> And so, he is a very strategic person. He is incredibly good at telling
+> stories about the future and painting these sweeping visions that investors
+> and employees want to be a part of. And so, early on at YC, he identified that
+> AI would be one of the trends that could take off. And he was trying to build
+> a portfolio of different investments and different initiatives to place
+> himself in the center of various different trends, depending on which one took
+> off. He was investing in quantum computing, he was investing in nuclear
+> fusion, he was investing in self-driving cars, and he was developing a
+> fundamental AI research lab. Ultimately, the AI research lab was the ones that
+> started accelerating really quickly, so he makes himself the CEO of that
+> company.
+> 
+> And originally, he started it as a nonprofit to try and position it as a
+> counter to for-profit-driven incentives in Silicon Valley. But within
+> one-and-a-half years, OpenAI’s executives identified that if they wanted to be
+> the lead in this space, they “had to” go for this scale-at-all-costs approach
+> — and “had to” should be in quotes. They thought that they had to do this.
+> There are actually many other ways to develop AI and to have progress in AI
+> that does not take this approach.
+> 
+> But once they decided that, they realized the bottleneck was capital. It just
+> so happened Sam Altman is a once-in-a-generation fundraising talent. He
+> created this new structure, nesting a for-profit arm within the nonprofit, to
+> become this fundraising vehicle for the tens of billions, and ultimately
+> hundreds of billions, that they needed to pursue the approach that they
+> decided on. And that is how we ultimately get to present-day OpenAI, which is
+> one of the most capitalistic companies in the history of Silicon Valley,
+> continuing to raise hundreds of billions, and, Altman has joked, even
+> trillions, to produce a technology that ultimately has a middling economic
+> impact thus far.
+
+[Karen Hao's interview on _Democracy Now!_]:
+    https://www.democracynow.org/2025/7/4/empire_of_ai_karen_hao_on
+
+### FF Dev Recs
+I prefer to think about the ways technology can help to distribute control over our production systems, while also diffusing the costs of maintaining them. From this perspective, it’s not the product that expands to an ever greater and greater scale, but rather our capacity to organize a larger bloc of mutual support with a stronger commitment to shared values.
+
+In very practical terms, this is about maximizing the contributions that can be integrated into a project from an ever wider base of members. That might take the form of extending a piece of open source software created by another project, rather than starting off on one’s own to recreate their work, or it could mean empowering technical service providers with access to open source tools so that they can in turn contribute their unique insights to the future development of those tools. This is cooperation being favored over competition, in essence. In terms of technology development and especially technology maintenance, widening the circle of cooperation can diffuse costs, by lowering the stakes required to initiate development at the very start, while also averaging out the long-term costs of ownership through shared ownership.
+
+The sooner you can get to a stage of organizing with potential allies to decide on the next course of action, the better situated and resourced you will be to act, and with greater assurances those actions won’t exceed your capacity. It won’t ever be a source of passive income for any one person, but it will add value to the labor and expertise of all those who contribute to the project.
+
+
+## ~~scratch~~
+Digital technology can facilitate liberation at any step along the way, but
+organizers would be wise to adopt only those technologies that they control and
+they can maintain by their own means and under their own power, even at the
+earliest phases of organizing. Community control as a prerequisite to adoption
+would be an automatic limiting factor to both scale and functionality, because
+maintaining technology independently does come at a cost, especially if you are
+not relying on any existing proprietary software or corporate cloud services.
+However, this should be seen as a healthy, _humanizing_ dose of parsimony, not a
+shortcoming. After all, the costs are shared by the entire community, not each
+individual left to their own devices. That spreads out the costs, of course, but
+it also reduces or eliminates certain costs by pooling the community's
+collective resources, both monetary and non-monetary. Someone might have
+technical skills they can share towards the development or maintenance of some
+technology. Others might have an old laptop they were about to throw out that
+could be repurposed for a server. Meanwhile, someone else may have a little
+extra time to perform a simple manual task that obviates the need to run some
+little bit of costly technology altogether. These savings may not add up to
+much, they may not be contributed uniformly among all members, and some people
+may find it easier to toss a little extra cash in the pot, all of which is fine.
+Pooling shared resources like this, however, does double duty of strengthening
+social bonds and builds the collective capabilities, and if it saves a few
+bucks, all the better! It all goes straight back into a virtuous cycle that
+becomes less and less constrained by financial costs and more and more
+autonomous over time.
+
+Much of this is just a crude restatement of mutual aid's basic tenets, and their
+application to food and technology is hardly anything new. I bring them up here
+because they address specific critiques about free software and cooperative
+technology, namely that it cannot be developed sustainably without accepting
+venture capital, or least by adopting some of its methods like raising capital
+and scaling production. Skepticism like this is common even within open source
+communities, and it is understandable. The ideals of software freedom and
+cooperativism must be balanced against guaranteeing that software developers and
+maintainers are compensated fairly for their labor and that users are provided
+with secure and reliable applications – preferably really nice applications! –
+and that's no trivial nut to crack. What alternatives do exist are poorly
+attested within open source circles, and I'd say there's a lack of rigorous
+arguments that go deeply enough into addressing specific, practical concerns.
+That's the task Runrig aims to fulfill.
+
+
+
+With regard to engineers, managers and users, _scalability_ also implies a
+distinct relationship between the number of fulltime salaried professionals a
+company employs versus the number of active users it boasts or some other
+measure of traffic it can verifiably sustain. It's not the absolute number of
+employees or user traffic that matters so much but _the rate at which both
+increase with respect to each other_.
+
+The ratio of these two rates of change is yet another form of scalability,
+except it is beyond the control of even the highest paid engineers and managers,
+perhaps even the company's founders and executives.
+
+a higher order of abstraction meant to scale scalability itself,
+
+While the growth of the startup's labor force is generally
+taken to be a healthy indicator, the goal is still to keep labor costs as low as
+possible even as the overall market-share of users the startup can command grows
+exponentially in proportion. Mere linear growth would in fact be tantamount to a
+startup's _failure_ to scale. Venture capital investors count on a startup's
+user-share rising _geometrically_ as labor costs rise only _arithmetically_.
+That is scalability's essential characteristic, or at least its most vaulted
+claim. It's what most entices VC firms to invest, and consequently lies behind
+the startup's fundamental motivating drive: to maximize the rate at which it can
+capture _users' unpaid attention labor_ with respect to how much _paid technical
+labor_ it must first extract from its workers in order to do so. Scalability,
+defined as such, is nothing less than the Platonic ideal of upwards wealth
+transfer and the consolidation of power.
+
+
+
+
+It should go without saying that unlimited scaling of this sort is at odds with
+the goal of producing technology that affords its users greater autonomy. Again,
+this is not so much an inherent trait of computers or algorithms alone, but
+rather the economic models driving the expansion of that technology.
+
+Alternatively, as Runrig contends, digital technology can be made into a driver
+for distributing control of our economic and social production far more broadly,
+while also diffusing the costs of maintaining them. Rather than scaling those
+systems for their own sake, as mere machines for capital accumulation, we can
+expand the zone of participation, along with our capacity for collective action.
+Instead of consolidating markets into the fewer and fewer hands, we can organize
+our communities for mutual support, strengthening our bonds of interdependence.
+The limited use of technology can help strengthen our relationships among other
+workers
+
+
+
+
+Free software – that is, software that users are free to share, modify, and use
+however they see fit – can be far more than an ethos when done right. It can be
+a powerful strategy for organizing limited resources and disparate contributors
+to develop effective software that can far exceed what's possible with
+proprietary software, even with massive VC funding (eg, Wikipedia). However, it
+requires putting aside a few assumptions that can spill over from proprietary
+business models.
+
+Part of Runrig's methodology is the identification of a few of these anti-patterns, most prevalent within VC-funded startup culture of Silicon Valley, which we recommend to all free software projects
+in search of a pathway to stable development and long-term maintenance, is to 
+
+|            Runrig Methodology |     | Venture Capitalism      |
+| ----------------------------: | --- | :---------------------- |
+|    ___Distributing_ CONTROL__ | vs  | _Scaling PRODUCTION_    |
+|         ___Diffusing_ COSTS__ | vs  | _Accumulating CAPITAL_  |
+| ___Expanding_ PARTICIPATION__ | vs  | _Consolidating MARKETS_ |
+|    __COMMUNITY-_organizing___ | vs  | _RENT-seeking_          |
+
+
+Original formulation:
+> - Organize __support__ and __reach__
+>     - vs. _capital accumulation_ and _marketing_
+> - Distribute __costs__ and __control__
+>     - vs. _scaling_ and _infinite growth_
+
+
+Technology does not have to be infinitely scalable, nor is it obligated to scale
+our social and economic production systems merely the sake of making our
+communities more efficient machines for capital accumulation. We can choose to
+__distribute control__ of our economic and social production more evenly, while
+also __diffusing the costs__ of maintaining those systems. Instead of
+consolidating markets into fewer and fewer hands, we can __expand the zone of
+participation__, along with our capacity for collective action. And although
+digital rent-seeking pervades our networked lives, regardless of whether we
+choose to engage with many of those networks, we can still choose not to
+reproduce those dynamics in our own work and the tools we build for ourselves.
+Instead, let's use them to __organize bulwarks of community power__ that are
+more resilient to rent-seeking efforts and other forms of attack.
+
+
+[^scarcity]: Natural resources are indeed _finite_, in strictly physical terms,
+but their _scarcity_ only emerges within a social context: they are scarce
+because society's total demand exceeds what it is capable of supplying
+universally to all its members. In other words, scarcity is just demand
+outstripping supply, basic Econ 101, but supply and demand are both socially
+determined quantities. To be sure, certain physical limits put constraints on
+precisely _how_ that determination can or cannot be made, but all agency to
+determine whether society suffers under scarcity or thrives in abundance belongs
+to society itself, not to physical law.
+
+
+## Playing w/ $\LaTeX$
+
+$3^2$
+
+$3 \times 3$
+
+$3 + 3 + 3$
+
+
+$$
+\frac {\Delta \textit{Attn}^\textit{Scal.}} {\Delta \textit{Tech}} \times \textit{Operating Capital}
+$$
+
+Or...
+
+$$
+\Delta L_\textit{Attn} = \Delta (L_\textit{Tech})^\textit{Scale}
+$$
+
+Or...
+
+$$
+\textit{Scale} = \log_{(\Delta L_\textit{Tech})}(\Delta L_\textit{Attn})
+$$
+
+Or...
+
+$$
+Scalability = \frac {\Delta L_a^S} {\Delta L_t}
+$$
+
+Or...
+
+$$
+Scalability = \frac{\log_{S}L_{Attn}}{L_{Tech}} 
+$$
+
+
+Or...
+
+$$
+\frac {\Delta L_\textit{Attn.}F_\textit{Scal.}} {\Delta L_\textit{Tech.}} \times Capital
+$$
+
+Original example:
+
+$$
+\sum_{k=3}^5 k^2=3^2 + 4^2 + 5^2 =50
+$$
+
+
+- Scaling == Measure of User-Share or Market-Share
+- Growth == Measure of Company Valuation or Market Capitalization
+
+
