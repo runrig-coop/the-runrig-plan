@@ -9,6 +9,60 @@ author: Jamie Gaehring
 date: 2025-07-29
 ---
 
+A while back, I was compelled to frame what I see as a few of the harmful
+business practices of VC-backed tech startups in contrast with some strategies
+Runrig can promote that oppose them:
+
+|            Runrig Methodology |     | Venture Capitalism      |
+| ----------------------------: | --- | :---------------------- |
+|    ___Distributing_ CONTROL__ | vs. | _Scaling PRODUCTION_    |
+|         ___Diffusing_ COSTS__ | vs. | _Accumulating CAPITAL_  |
+| ___Expanding_ PARTICIPATION__ | vs. | _Consolidating MARKETS_ |
+|       __WORKER-_organizing___ | vs. | _RENT-seeking_          |
+
+The table was part of a [slide presentation] critiquing some proposals to seek
+investors in open source agricultural software, but was informed by consultation
+I had done previously on [Farm Flow's development model]. In the conclusion to my initial recommendations, I wrote:
+
+> I prefer to think about the ways technology can help to distribute control
+> over our production systems, while also diffusing the costs of maintaining
+> them. From this perspective, it’s not the product that expands to an ever
+> greater and greater scale, but rather our capacity to organize a larger bloc
+> of mutual support with a stronger commitment to shared values. [...] In terms
+> of technology development and especially technology maintenance, widening the
+> circle of cooperation can diffuse costs, by lowering the stakes required to
+> initiate development at the very start, while also averaging out the long-term
+> costs of ownership through shared ownership.
+
+
+
+
+In my [previous article], I discussed how ag-tech startups have a penchant for
+oversimplifying the essential complexities of agriculture and regional food
+systems:
+
+> The tendency of proprietary software to oversimplify complex food systems is
+> not meant to facilitate or improve upon existing foodways – i.e., how a
+> community grows its food in accordance with local customs and conditions.
+> Rather, it is meant to render the labor, knowledge, and produce of that
+> community more suitable for mass consumption and capital accumulation. Any
+> costs incurred by shoving inherently complex and richly organic material into
+> simpler commodity forms are deflected back onto the community itself.
+
+This is a trend I've watched worsen over the course of a decade now.
+
+
+
+
+- many-headed hydra vs local maxima in the fitness landscape
+
+
+[previous article]: /posts/illegible-agriculture.md
+[slide presentation]: https://dweb.camp/p/foodweb__response-to-utility-proposal
+[Farm Flow's development model]:
+    /posts/farm-flow-backstory#deciding-on-a-development-model
+
+
 In Silicon Valley, there is a widespread fascination with _scaling_, or to be
 more precise, _digital technologies that scale_. The verb "to scale" in this
 context can take the passive voice, as in digital technologies that "can be
@@ -21,6 +75,8 @@ chips themselves. But scaling is by no means inherent to the nature of
 computation, nor does scaling emerge from digital technology all of its own
 accord. Rather, it is imposed on technology by a mandate from venture capital
 investors to pursue unlimited economic growth.
+
+<!-- TODO: Do I need to distinguish tech/biz origins at all, let alone here? -->
 
 Where information technology does make an original contribution is in
 the form of its unrivaled capacity for _abstraction_, a power that can just as
@@ -43,6 +99,8 @@ computational abstraction becomes an accelerant for capital's race towards
 infinite growth. This secret sauce – abstraction coupled to a business model
 meant for rapid market growth and capital accumulation – is what business
 analysts or techno-optimists typically infer by the neologism: _scalability_.
+
+<!-- TODO: What about the managerial sense of scaling, as a dev process? -->
 
 ## The Physicality of Information
 Before going too much further, I should point out that in addition to the
