@@ -22,12 +22,12 @@ computation, nor does scaling emerge from digital technology all of its own
 accord. Rather, it is imposed on technology by a mandate from venture capital
 investors to pursue unlimited economic growth.
 
-For its own part, information technology does make an original contribution in
+Where information technology does make an original contribution is in
 the form of its unrivaled capacity for _abstraction_, a power that can just as
 well be applied to scaling as to other unrelated tasks or even opposing aims. A
 well-designed computer algorithm can abstract away concrete details of the real
 world – e.g., material goods and services, users, workers, facial expressions,
-social relations, monetary costs, or environmental costs – and whisk them away
+social relations, monetary costs, environmental costs, etc. – and whisk them away
 to the _cloud_. Once in this realm of pure abstraction, properties like color,
 size, and shape become mere numbers or bits. Free of all physical encumbrance,
 our worldly cares assume new virtual bodies, becoming weightless, untethered,
@@ -58,8 +58,8 @@ to the extent that they can be correlated to the economic costs and benefits of
 scalability. There is no applied science for the upper reaches of scalability
 without the vast resources available only to tech companies intent on scaling to
 billions of users and a market capitalization that puts them on the S&P 500.
-That's what funds scientific research into scalability in the first and why it
-gets any significant attention.
+That's what funds scientific research into scalability in the first place and
+why it gets any significant attention.
 
 [^comp-sci]: Scalability is a pretty dry body of literature in the applied
     sciences, but to get a sense, see [Amdahl's Law] and [Gunther's Universal
@@ -143,9 +143,9 @@ material existence. All that power of abstraction is essentially handed over to
 just a few over-caffeinated engineers and their even fewer corporate managers.
 Once in their hands they'll do whatever they deem necessary for the sake of
 scale, often to the detriment of our communities and ultimately to the sole
-benefit of their shareholders.
+benefit of their company's shareholders.
 
-That imbalance of control is the definitive metric of scalability and the
+That imbalance of control is _the definitive metric for scalability_ and the
 primary rationale for scaling up so much tech infrastructure in the first place.
 Another implicit assumption of scalability is that whatever measure is used to
 indicate a company's total market share or asset valuation – e.g., the number of
@@ -155,58 +155,67 @@ managers, etc, needed to achieve said increase. A mere _linear rate_ of growth
 would be seen as an abject failure. Whether the market valuation is expressed in
 users, dollars, or some other unit, in order to be commensurable with the number
 of employees or other operating costs, they both must be measures of
-socioeconomic value in one form or another. Furthermore, putting them in ratio
-implies that together they represent some form of equity, or an unequal exchange
-of socioeconomic value if it's presumed to be positive equity. Put less
-euphemistically, this is a form of extraction, plain and simple. Furthermore, if
-the projected growth rate – e.g., equity over time – must rise geometrically in
-order to be deemed "scalable," then scalability is just an expression for the
+socioeconomic value in one form or another.
+
+Putting assets and liabilities together in a ratio this way also implies that
+what's being scaled represents a form of equity. If we assume a positive equity
+valuation is the desired outcome, it really just amounts to an unequal exchange
+of socioeconomic value, with the difference always flowing upward. Or to put it
+more bluntly, it's a form of wealth extraction, plain and simple. Furthermore,
+if the projected growth rate – e.g., equity over time – must rise geometrically
+in order to be deemed "scalable," then scalability is just an expression for the
 rate at which a technology system can perpetuate and increase socioeconomic
 inequality over time. Given the informational and communicative nature of such
 systems, especially in comparison with pre-digital methods of scaling economic
 production, it must be emphasized that such inequality will be at once economic
 as well as social in nature, effecting both how resources are allocated and who
-controls the allocation process. Scalability, in other words, must be viewed
-essentially as _a measure of extractiveness and social control_.
+controls the allocation process. Scalability, in other words, must also be
+viewed as essentially _a measure of extractiveness and social control_.
 
 Social control and extraction are nothing new, of course, and computers aren't
 unique in their ability to scale them; for millennia prior to the invention of
 integrated circuits, ancient bureaucrats did just fine with their abacuses, law
 books, _quipu_, and clay tablets. Where computerized scaling differs is in the
 _rate of extraction_ and the _degree or granularity of control_ it can achieve
-relative to the amount of effort it requires to implement and enforce, exceeding
-all previous forms by orders of magnitude. In fact, it is so far in excess of
-what all the world's engineers, managers, and shareholders can ever hope to
-master, at least with anything resembling intentionality or competence. In spite
-of its knack at imposing itself on every facet of daily life, digital scaling is
-a sloppy form of control, but it is control made no less powerful or potentially
-dangerous for how ineptly it is wielded. As with many forms of
-industrialization, social control through scalability is most harmful because of
-the sheer bluntness of the tool, the reckless indifference of its owners, and
-the unnecessarily broad sweep of its application to myriad social functions,
-diverse cultures, and complex ecological niches. Like an [ocean trawler] that
-obliterates square miles of seafloor habitat, along with the diversity of marine
-life it sustains, just to harvest a few scallops and discard three quarters of
-its total catch – so, too, scalability can cut across a wide swathe of our
-social and natural environs, wreaking havoc with our lives and wasting untold
-resources, while its operators scarcely pay any notice to the destruction left
-in their wake.
+relative to the amount of effort it requires to implement and enforce. In this
+respect, it exceeds all previous means of scaling by orders of magnitude.
+
+The enormous informational complexity these tools purport to scale is so far in
+excess of what all the world's engineers, managers, and shareholders can ever
+hope to apprehend, at least with the remotest semblance of competence or
+intentionality. Despite the relative ease with which it enables their control
+over nearly all aspects of our daily lives, scalability is a very sloppy means
+of control. And yet, however ineptly they may wield it, it remains a very
+powerful and very dangerous form of control, all the same. As with many forms of
+industrialization, scalability can prove so harmful through the sheer bluntness
+of the tool, even if no malice is intended. Inevitably, it will be applied to a
+needlessly broad swath of social functions, across diverse cultures and with
+reckless indifference, because in spite of any damage it incurs, any greater
+precision would be seen as a mere nuisance to engineers and an unjustified cost
+to the shareholders.
+
+Like an [ocean trawler] that obliterates square miles of seafloor habitat and
+all the diversity of marine life it sustains, just to harvest a few scallops and
+discard three quarters of its total catch – so, too, scalability can cut across
+a wide swathe of our social and natural environs, wreaking havoc with our lives
+and wasting untold resources, while its operators scarcely pay any notice to the
+destruction left in their wake.
 
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
 ## Socializing Our Computational Abstractions
 It should go without saying that scaling and abstractions of the sort described
 above are deeply at odds with any vision for appropriate technology that
-respects users' autonomy. Nevertheless, I still contend that abstraction can
-also play a critical role in overturning those injustices. That is my whole
-purpose with Runrig, after all – to develop the methodologies, relationships,
+respects users' autonomy. Nevertheless, I contend that different abstractions
+can still play a critical role in overturning those injustices. After all, that
+is my entire purpose with Runrig: to develop the methodologies, relationships,
 and infrastructure needed to bring more liberatory technologies into my own
-community, and then, hopefully, to share them with others.
+community, and then with some luck, to share them more widely.
 
-It was with that in mind that I first proposed the table below as a
-rebuttal to the various abstractions imposed by venture capital funding
-models. They've been normalized to such a degree in the tech industry that they
-are taken for granted by most free software maintainers and advocates, including
+It was with that in mind that I first proposed the table below as a rebuttal to
+the various abstractions imposed by venture capital funding models. Exploitative
+abstractions like scaling have been so normalized in the tech industry that they
+are taken for granted even by free software maintainers and advocates, including
 myself at times.
 
 |            Runrig Methodology |     | Venture Capitalism      |
