@@ -9,6 +9,73 @@ author: Jamie Gaehring
 date: 2025-07-29
 ---
 
+At the end of my first round of consultation for the Farm Flow project, I
+offered my initial recommendations for its [development model], then left some
+closing remarks to make clear my own biases that led to those conclusions. I
+don't pretend to put all of my political convictions aside when rendering a
+professional opinion, but I do try to be transparent. Those remarks, under the
+final subheading of "Distributing Cost & Control; Organizing Support & Reach,"
+read in part:
+
+> I’m reluctant to speak in terms of “scaling” product development, as is common
+> today in start-up culture and industry. [I find that scaling] is essentially
+> at odds with the goal of producing technology that affords its users greater
+> autonomy, both individually and collectively. I prefer to think about the ways
+> technology can help to distribute control over our production systems, while
+> also diffusing the costs of maintaining them. From this perspective, it’s not
+> the product that expands to an ever greater and greater scale, but rather our
+> capacity to organize a larger bloc of mutual support with a stronger
+> commitment to shared values.
+> 
+> [...]
+> 
+> In terms of technology development and _especially technology maintenance_,
+> widening the circle of cooperation can diffuse costs, by lowering the stakes
+> required to initiate development at the very start, while also averaging out
+> the long-term costs of ownership through shared ownership.
+
+Roughly 6 months later, following DWeb Camp 2024, I drew upon those early
+assessments and the lessons I took away from my subsequent consultations with
+Farm Flow to formulate [a critique of two emerging proposals] for how to fund
+open source agricultural software projects. Framing Runrig's methods for
+development in sharp contrast with some of the most harmful business practices
+of startup culture, as I saw them, I attempted to distill the above remarks into
+a succinct tabular form:
+
+|            Runrig Methodology |     | Venture Capitalism      |
+| ----------------------------: | --- | :---------------------- |
+|    ___Distributing_ CONTROL__ | vs. | _Scaling PRODUCTION_    |
+|         ___Diffusing_ COSTS__ | vs. | _Accumulating CAPITAL_  |
+| ___Expanding_ PARTICIPATION__ | vs. | _Consolidating MARKETS_ |
+|       __WORKER-_organizing___ | vs. | _RENT-seeking_          |
+
+To be honest, I'm still ambivalent about the whole framing, whether each
+columnar value is truly antithetical to its counterpart or not, but I feel most
+confident on the point about scaling. I almost think I could have filled in the
+entire right-hand column with "scaling" of some type or another, and each
+element in the left-hand column would still pose a distinct, valid alternative
+to the same flawed method of capitalist production, which could be summed up
+rather bluntly as "scale everything, all the time," without much regard for
+particulars.
+
+In my [previous article], I discussed discussed how ag-tech startups have a
+penchant for oversimplifying the essential complexities of agriculture and
+regional food systems. I asserted that this is not meant to improve them at the
+local level, in accordance with the communities own needs, desires, and
+understanding, but rather "to render the labor, knowledge, and produce of that
+community more suitable for mass consumption and capital accumulation." There
+are alternatives, but before exploring those, we need to dispel some of the
+unspoken myths that underwrite our current software methodologies.
+
+No less than when I first presented that table, _scale_ is still at the top of
+my list of tech myths that simply must be jettisoned.
+
+[development model]: /posts/farm-flow-backstory#deciding-on-a-development-model
+[a critique of two emerging proposals]:
+    https://dweb.camp/p/foodweb__response-to-utility-proposal
+[previous article]: /posts/illegible-agriculture.md
+
+## On Scalability
 In Silicon Valley, there is a widespread fascination with _scaling_, or to be
 more precise, _digital technologies that scale_. The verb "to scale" in this
 context can take the passive voice, as in digital technologies that "can be
@@ -212,18 +279,11 @@ is my entire purpose with Runrig: to develop the methodologies, relationships,
 and infrastructure needed to bring more liberatory technologies into my own
 community, and then with some luck, to share them more widely.
 
-It was with that in mind that I first proposed the table below as a rebuttal to
-the various abstractions imposed by venture capital funding models. Exploitative
-abstractions like scaling have been so normalized in the tech industry that they
-are taken for granted even by free software maintainers and advocates, including
-myself at times.
-
-|            Runrig Methodology |     | Venture Capitalism      |
-| ----------------------------: | --- | :---------------------- |
-|    ___Distributing_ CONTROL__ | vs. | _Scaling PRODUCTION_    |
-|         ___Diffusing_ COSTS__ | vs. | _Accumulating CAPITAL_  |
-| ___Expanding_ PARTICIPATION__ | vs. | _Consolidating MARKETS_ |
-|       __WORKER-_organizing___ | vs. | _RENT-seeking_          |
+It was with that in mind that I first proposed the table at the start of this
+article as a rebuttal to the various abstractions imposed by venture capital
+funding models. Exploitative abstractions like scaling have been so normalized
+in the tech industry that they are taken for granted even by free software
+maintainers and advocates, including myself at times.
 
 Technology does not have to blindly _scale the production and reproduction of
 our socio-economic systems_, to the exclusion of all other concerns. It's not
