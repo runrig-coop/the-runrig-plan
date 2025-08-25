@@ -268,6 +268,14 @@ a wide swathe of our social and natural environs, wreaking havoc with our lives
 and wasting untold resources, while its operators scarcely pay any notice to the
 destruction left in their wake.
 
+!["Still frame from David Attenborough's Ocean (2025), depicting an industrial
+bottom trawler decimating the seafloor off the channel coast of southern
+England"](
+./img/ocean-trawler-attenborough-2025.png
+"Still frame from David Attenborough's Ocean (2025), depicting an industrial
+bottom trawler decimating the seafloor off the channel coast of southern
+England")
+
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
 ## Socializing Our Computational Abstractions
