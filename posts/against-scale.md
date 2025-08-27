@@ -366,3 +366,15 @@ to accommodate every one of those concerns. Alternative funding models do exist,
 but they're poorly attested even within free software circles, let alone the
 among broader coalition of supporters you would need from food & agriculture
 networks. All of this is central to the work Runrig aims to accomplish.
+
+I've indicated here a few alternatives to "scaling" as a metaphor – e.g.,
+"diffusing costs" and "distributing control" – but nothing comparable in terms
+of its power for abstraction or a feasible pattern for achieving it. For that,
+we do need to get more specific and talk about architecture, as much as I like
+to make a fuss about putting [_ecology over architecture_]. So next time, I'll
+cut straight to the chase and layout what I believe will be the key
+architectural pattern for much of Runrig's future development: _federated
+municipal platforms_.
+
+[_ecology over architecture_]:
+    /posts/the-runrig-plan-for-socio-ecological-design.html#ecology-over-architecture
