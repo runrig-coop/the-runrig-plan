@@ -247,6 +247,7 @@ _rate of extraction_ and the _degree or granularity of control_ it can achieve
 relative to the amount of effort it requires to implement and enforce. In this
 respect, it exceeds all previous means of scaling by orders of magnitude.
 
+## Info Trawlers
 The enormous informational complexity these tools purport to scale is so far in
 excess of what all the world's engineers, managers, and shareholders can ever
 hope to apprehend, at least with the remotest semblance of competence or
