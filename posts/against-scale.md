@@ -276,6 +276,43 @@ England"](
 bottom trawler decimating the seafloor off the channel coast of southern
 England")
 
+I don't polemicize against scale because I oppose widespread adoption of new and
+effective digital tools. I just don't think that technology should be designed,
+owned, and controlled by a tiny number of elites, who then get to impose it upon
+the masses whether they want it or not. I also think we're past the point of
+reinterpreting "scale" to mean anything else. The metaphor is too embroiled with
+those practices to rehabilitate it now.[^redef]
+
+[^redef]: I don't know if a non-technical audience would appreciate the full
+    extent to which capitalistic exploitation is entangled with the whole
+    concept of technological scalability, but software developers should be able
+    to spot it instantly.
+    
+    Look at any of the most common (or most extreme) approaches to scaling:
+    containerized swarms and clusters, database sharding, MapReduce, data
+    warehouses, data lakes, massively parallel processor arrays, etc. These
+    techniques scale up the number of operations that can be performed or the
+    number of bits that can be stored, but they aren't intended to scale up the
+    complexity of the underlying computing model – some might say that defeats
+    the whole point! And so they do little or nothing to accommodate any greater
+    complexity in the domain model itself, which is where computational control
+    can be handed off to the end user to decide for themselves what programs
+    will positively impact their material lives. For all that massive
+    parallelism and distributed architecture, the potential for human
+    intervention becomes increasingly siloed and extremely centralized. It's
+    analogous to scaling a bitmap image from 32x32 to 64x64 pixels. You can do
+    it easily enough by transforming every single pixel into a homogenous
+    2x2-pixel block, each one a precise replica of the original, but you haven't
+    added any information or finer detail to the image. You just quadrupled the
+    number of bits you now need to store or transmit it. There's no increase in
+    the significance of what's been scaled, no new knowledge, no refinement.
+
+    This is what technological scaling represents today, in essence. Unless all
+    the familiar techniques are rewritten from scratch or tossed out entirely,
+    this is the definition of scaling that technologists are stuck with for the
+    foreseeable future. We must adopt new metaphors if we want to break out of
+    this established pattern.
+
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
 ## Socializing Our Computational Abstractions
