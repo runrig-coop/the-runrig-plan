@@ -9,10 +9,10 @@ author: Jamie Gaehring
 date: 2025-08-29
 ---
 
-At the end of my first round of consultation for the Farm Flow project, I
-offered my initial recommendations for its [development model], then left some
-closing remarks to make clear my own biases that led to those conclusions. I
-don't pretend to put all of my political convictions aside when rendering a
+At the end of my first round of consultations for the Farm Flow project, I
+submitted my recommendations for its [development model] with some closing
+remarks to make clear my own biases that led to those conclusions. I don't
+pretend to put all of my political convictions aside when rendering a
 professional opinion, but I do try to be transparent. Those remarks, under the
 final subheading of "Distributing Cost & Control; Organizing Support & Reach,"
 read in part:
@@ -34,13 +34,14 @@ read in part:
 > required to initiate development at the very start, while also averaging out
 > the long-term costs of ownership through shared ownership.
 
-Roughly 6 months later, following DWeb Camp 2024, I drew upon those early
-assessments and the lessons I took away from my subsequent consultations with
-Farm Flow to formulate [a critique of two emerging proposals] for how to fund
-open source agricultural software projects. Framing Runrig's methods for
-development in sharp contrast with some of the most harmful business practices
-of startup culture, as I saw them, I attempted to distill the above remarks into
-a succinct tabular form:
+Roughly 6 months later, I was putting together a [critique] of two funding
+proposals that emerged from DWeb Camp 2024. I drew upon those early assessments,
+as well as lessons I took away from subsequent Farm Flow consultations, when I
+voiced my misgivings over certain aspects of those plans that adhered to
+conventional development models like scalability. Recycling language from the
+above remarks, I contrasted Runrig's proposed methods with what I saw as some of
+the worst practices of venture capitalism. I then tried to distill it down to
+one succinct table:
 
 |            Runrig Methodology |     | Venture Capitalism      |
 | ----------------------------: | --- | :---------------------- |
@@ -49,49 +50,49 @@ a succinct tabular form:
 | ___Expanding_ PARTICIPATION__ | vs. | _Consolidating MARKETS_ |
 |       __WORKER-_organizing___ | vs. | _RENT-seeking_          |
 
-To be honest, I'm still ambivalent about the whole framing, whether each
-columnar value is truly antithetical to its counterpart or not, but I feel most
-confident on the point about scaling. I almost think I could have filled in the
-entire right-hand column with "scaling" of some type or another, and each
-element in the left-hand column would still pose a distinct, valid alternative
-to the same flawed method of capitalist production, which could be summed up
-rather bluntly as "scale everything, all the time," without much regard for
-particulars.
+To be honest, I'm still quite ambivalent about the this framing. I'm not at all
+confident that each Runrig method correlates perfectly to its VC counterpart in
+a significant or illustrative way, but I do feel most confident on the point
+about scale. I almost think I could have filled in the entire right-hand column
+with "scaling" of one type or another, and each element in the left-hand column
+would still pose a distinct, valid alternative to some aspect of scalability. In
+a way, venture capitalism as a whole can be summed up rather bluntly as "scale
+everything, all the time," without much regard for the particulars.
 
-In my [previous article], I discussed discussed how ag-tech startups have a
-penchant for oversimplifying the essential complexities of agriculture and
-regional food systems. I asserted that this is not meant to improve them at the
-local level, in accordance with the communities own needs, desires, and
-understanding, but rather "to render the labor, knowledge, and produce of that
-community more suitable for mass consumption and capital accumulation." There
-are alternatives, but before exploring those, we need to dispel some of the
-unspoken myths that underwrite our current software methodologies.
+More recently in my article on [Illegible Agriculture], I discussed how ag-tech
+startups have a penchant for oversimplifying the essential complexities of
+agriculture and regional food systems. I asserted that this is not meant to
+improve those systems at the community level, in accordance with users' unique
+needs and desires, or by taking into account local sensibilities. At the end of
+the day, these complex systems must be simplified in order to "render the labor,
+knowledge, and produce of that community more suitable for mass consumption and
+capital accumulation."
 
-No less than when I first presented that table, _scale_ is still at the top of
-my list of tech myths that simply must be jettisoned.
+Scalability, then and now, is at the very top of my list of complexity-erasing
+strategies in today's tech industry that must be re-evaluated, and if no
+redeeming qualities are forthcoming, it ought to be jettisoned from our
+methodologies entirely. Likewise, in our discourse around software development
+it should be relegated to the set of anti-patterns found to be inimical to
+appropriate technology design.
 
 [development model]: /posts/farm-flow-backstory#deciding-on-a-development-model
-[a critique of two emerging proposals]:
-    https://dweb.camp/p/foodweb__response-to-utility-proposal
-[previous article]: /posts/illegible-agriculture.md
+[critique]: https://dweb.camp/p/foodweb__response-to-utility-proposal
+[Illegible Agriculture]: /posts/illegible-agriculture.md
 
-## On Scalability
-In Silicon Valley, there is a widespread fascination with _scaling_, or to be
-more precise, _digital technologies that scale_. The verb "to scale" in this
-context can take the passive voice, as in digital technologies that "can be
-scaled," or an active voice for technologies that facilitate "the scaling of"
-other systems, both digital and non-digital systems alike. If some new tech
-promises "to scale" and "to be scaled" at the same time, all the better. Many a
-would-be founder has exalted the properties of this or that technology for its
-ability to scale, as if by some quasi-magical property latent in the computer
-chips themselves. But scaling is by no means inherent to the nature of
-computation, nor does scaling emerge from digital technology all of its own
-accord. Rather, it is imposed on technology by a mandate from venture capital
-investors to pursue unlimited economic growth.
-
-In _Empire of AI_, Karen Hao points out that, as much as AI hype man Sam Altman
-and others like him are wont to cloak their business prognostications in a veil
-of empirical evidence and physical law, this is mere pseudoscience:
+## Thumbs on the Scale
+In Silicon Valley, there is a widespread fascination with scaling, or to be more
+precise, _digital technologies that scale_. The verb "to scale" in this context
+can take the passive voice, as in digital technologies that "can be scaled," or
+an active voice for technologies that facilitate "the scaling of" other systems.
+The other systems can be digital or non-digital, and if some new tech promises
+"to scale" and "to be scaled" at the same time, all the better. Many a would-be
+founder has exalted the properties of this or that technology for its ability to
+scale without being especially clear on what's being scaled, as if by some
+quasi-magical property latent in the computer chips to scale all they touch. But
+scaling is by no means inherent to the nature of computation, nor does scaling
+emerge from digital technology all of its own accord. Rather, I would argue, it
+is imposed on technology by a mandate from venture capital investors to pursue
+unlimited economic growth. As Karen Hao observes in _Empire of AI_:
 
 > In the end, Moore’s Law was not based on some principle of physics. It was an
 > economic and political observation that Moore made about the rate of progress
@@ -103,21 +104,18 @@ of empirical evidence and physical law, this is mere pseudoscience:
 > exactly the same. It is not a natural phenomenon. It’s a self-fulfilling
 > prophecy.
 
-Where information technology does make an original contribution is in
-the form of its unrivaled capacity for _abstraction_, a power that can just as
-well be applied to scaling as to other unrelated tasks or even opposing aims. A
-well-designed computer algorithm can abstract away concrete details of the real
-world – e.g., material goods and services, users, workers, facial expressions,
-social relations, monetary costs, environmental costs, etc. – and whisk them away
-to the _cloud_. Once in this realm of pure abstraction, properties like color,
+Where information technology does make an original contribution is in its
+unrivaled capacity for _abstraction_, a power that can just as well be applied
+to scaling as to other unrelated tasks or even opposing aims. A well-designed
+computer algorithm can abstract away concrete details of the real world – e.g.,
+material goods and services, users, workers, facial expressions, social
+relations, monetary costs, environmental costs, etc. – and whisk them away to
+the _cloud_. Once in this realm of pure abstraction, properties like color,
 size, and shape become mere numbers or bits. Free of all physical encumbrance,
 our worldly cares assume new virtual bodies, becoming weightless, untethered,
 and without consequence. Up there in the cloud, scale itself is only limited to
 the largest number you can fit into a [64-bit register] – although that limit,
 too, can be easily abstracted away.
-
-[64-bit register]:
-    https://tromp.github.io/blog/2023/11/24/largest-number
 
 When the object of scaling is economic productivity or market dynamics,
 computational abstraction becomes an accelerant for capital's race towards
@@ -125,38 +123,41 @@ infinite growth. This secret sauce – abstraction coupled to a business model
 meant for rapid market growth and capital accumulation – is what business
 analysts or techno-optimists typically infer by the neologism: _scalability_.
 
-## The Physicality of Information
-Before going too much further, I should point out that in addition to the
-economic sense of the word, scalability has another more technical usage, where
-scale can be measured by empirical observation or even evaluated by mathematical
-proof.[^comp-sci] Some might argue that this technical meaning can be considered
-independently from its business connotation, without any reference to
-socioeconomic value statements. That may be true in a purely academic setting,
-but even under such contrived circumstances, I would argue that the term still
-comes freighted with some heavy socioeconomic implications. The physical limits
-and potentials of scalability measured in the laboratory are of interest largely
-to the extent that they can be correlated to the economic costs and benefits of
-scalability. There is no applied science for the upper reaches of scalability
-without the vast resources available only to tech companies intent on scaling to
-billions of users and a market capitalization that puts them on the S&P 500.
-That's what funds scientific research into scalability in the first place and
-why it gets any significant attention.
+[64-bit register]:
+    https://tromp.github.io/blog/2023/11/24/largest-number
 
-[^comp-sci]: Scalability is a pretty dry body of literature in the applied
-    sciences, but to get a sense, see [Amdahl's Law] and [Gunther's Universal
-    Scalability Law]. The theoretical physics behind computational limits is
-    actually a lot more approachable and fun to explore. On her YouTube channel
-    _Up and Atom_, Jade Tan-Holmes gives a fantastic explanation of ["Why Pure
-    Information Gives Off Heat"] according to [Landauer's Principle]. To
-    understand how Planck's constant and the Uncertainty Principle put a hard
-    upper limit on how much information can be transmitted over a fixed period
-    of time, see ["What is the maximum Bandwidth?"] with  Prof. Mike Merrifield
-    and Brady Haran from _Sixty Symbols_. It's far more useful, in my opinion,
-    to get a beginner's intuition for the _physicality of information_ than to
+## The Physicality of Information
+To head off any criticism that I'm focusing exclusively the administrative
+dimensions of scale, I should acknowledge that there is, in fact, a scientific
+context in which "scalability" can denote a real-world quantity that can be
+measured empirically. It requires strict definitions of one's parameters and can
+be said to govern a specific range of phenomena under controlled conditions.
+That still doesn't make it a predictor of planet-wide industrial production
+cycles, subject to the whims of the global economy and the twists and turns of
+geopolitics. Yet even as academic terminology, "scalability" comes freighted
+with some heavy socioeconomic implications. Its physical limits and potentials,
+as measured in the laboratory, may have little predictive power over
+macroeconomic trends, but that's not to say influence doesn't pass the opposite
+direction, from Silicon Valley into the halls of the academy. That's what funds
+scientific research into scalability in the first place: it is significant
+principally as a managerial science for the Nasdaq-100.[^comp-sci]
+
+[^comp-sci]: Academic scalability is a pretty dry body of literature, even as
+    theoretical computer science goes, but to get a sense, see [Amdahl's Law]
+    and [Gunther's Universal Scalability Law]. The theoretical physics behind
+    computational limits is actually a lot more approachable and fun to
+    explore,. in my opinion. On her YouTube channel _Up and Atom_, Jade
+    Tan-Holmes gives a fantastic explanation of ["Why Pure Information Gives Off
+    Heat"] according to [Landauer's Principle]. To understand how Planck's
+    constant and the Uncertainty Principle combine to fix a hard upper limit on
+    the volume of information that can be transmitted over a fixed period of
+    time, see ["What is the maximum Bandwidth?"] with  Prof. Mike Merrifield and
+    Brady Haran from _Sixty Symbols_. It's far more useful, in my opinion, to
+    get a beginner's intuition for the _physicality of information_ than to
     memorize a bunch of equations for scaling systems that have no business
     being that big to start with.
 
-To that point, it remains to be seen if the abstractions of scalability can
+It nevertheless remains to be seen if the abstractions of scalability can
 survive eventual contact with reality – _the cloud falling back down to earth_,
 so to speak. Computational abstractions do incur physical costs and real-world
 consequences, and there are practical limits to the scale of their application,
@@ -193,30 +194,34 @@ the massive scam it has always been from the start.
 
 ## A Measure of Social Control
 Beyond the clear perils to our planet's climate and natural ecosystems, rapid
-scaling also threatens our social and cultural ecosystems. When big tech
-companies talk about scalability, they might have in mind scaling the production
-of our physical needs and wants (e.g., GrubHub, Apple, Tesla), scaling the
-market for those products (e.g., Amazon, AdSense, Square), scaling the creative
-arts and our cultural identities (e.g., Netflix, Spotify, YouTube), or scaling
-the web of social relations bound up in all of that (e.g., Facebook, LinkedIn,
-Tinder). But when these processes are scaled by algorithmic abstraction, some
-essential quality of our social relations will always be lost.
+scaling also poses a dire threat to our social and cultural ecosystems. When big
+tech companies talk about scalability, they might have in mind scaling the
+production of material goods and services (e.g., GrubHub, Apple, Tesla), scaling
+the marketplace for those goods and services (e.g., Amazon, AdSense, Square),
+scaling cultural exchange and artistic expression (e.g., Netflix, Spotify,
+YouTube), or scaling the tenuous fibers of our social relations that get bound
+up in all of that (e.g., Facebook, LinkedIn, Tinder). When these processes are
+scaled by algorithmic abstraction, however, we find that some essential aspect –
+some inherent quality of our culture, of our social relations, of our very
+material well-being – always seems to get lost in the mix.
 
 In many ways, abstraction is just the omission of certain characteristics that
-make real-world phenomena especially inscrutable to meaningful analysis. Those
-details perceived as anomalous, divergent, or simply irrelevant are thrown out
-while other patterns and traits are elevated in their place. All of this is done
-to form a coherent model of whichever dynamics the modeler deems most
-significant. As George Box once put it, "all models are wrong, but some are
-useful," and abstraction can just as easily produce models that are insightful
-and beneficial to society as it can throw up models that are misleading,
+make real-world phenomena especially inscrutable to meaningful analysis. Details
+that are seen as anomalous, divergent, or simply irrelevant to the task at hand
+are thrown out, while other traits or patterns are elevated in their place. All
+of this is done to form a coherent model of whichever dynamics the modeler deems
+most significant. As George Box famously put it, "all models are wrong, but some
+are useful." Abstraction can produce models that are insightful and beneficial
+to society just as easily as it can throw up models that are misleading,
 exploitative, or utterly meaningless. In the case of most cloud software, the
 abstraction is performed by proprietary algorithms, hidden away on a remote
-server somewhere that only its owners can ever see or control. Ask any content
-creator who's tried to guess what thumbnail image will get them the most views,
-or an SEO consultant who's racked their brain for the right combination of
-keywords to improve their website's search ranking, and they'll tell you just
-how futile a guessing game that can be.
+server somewhere that only its owners can ever see or control. The general
+public simply cannot know what intentions may lie behind their algorithmic
+abstractions, either good or ill. Ask any content creator who's tried to guess
+what thumbnail image will get them the most views, or an SEO consultant who's
+racked their brain for the right combination of keywords to improve their
+website's search ranking, and they'll tell you just how futile a guessing game
+that can be.
 
 Billions of decisions are being made every second on the basis of such
 cloud-based abstractions, and all for the sake of somebody's model. But _whose_?
@@ -238,21 +243,22 @@ That imbalance of control is _the definitive metric for scalability_ and the
 primary rationale for scaling up so much tech infrastructure in the first place.
 Another implicit assumption of scalability is that whatever measure is used to
 indicate a company's total market share or asset valuation – e.g., the number of
-active users, payments processed, or revenues – that value is expected to
-increase at a _geometric rate_ with respect to the total number of engineers,
-managers, etc, needed to achieve said increase. A mere _linear rate_ of growth
-would be seen as an abject failure. Whether the market valuation is expressed in
-users, dollars, or some other unit, in order to be commensurable with the number
-of employees or other operating costs, they both must be measures of
-socioeconomic value in one form or another.
+active users, payments processed, quarterly revenues, etc. – that value is
+expected to increase at a _geometric rate_ with respect to the total number of
+employees and capital assets needed to achieve said increase. A mere _linear
+rate_ of growth would be seen as an abject failure. Whether the market valuation
+is expressed in users, dollars, or some other unit, in order to be commensurable
+with the number of employees or other operating costs, they must both be
+regarded as measures of socioeconomic value, in one form or another.
 
 Putting assets and liabilities together in a ratio this way also implies that
-what's being scaled represents a form of equity. If we assume a positive equity
-valuation is the desired outcome, it really just amounts to an unequal exchange
-of socioeconomic value, with the difference always flowing upward. Or to put it
-more bluntly, it's a form of wealth extraction, plain and simple. Furthermore,
-if the projected growth rate – e.g., equity over time – must rise geometrically
-in order to be deemed "scalable," then scalability is just an expression for the
+what's being scaled represents a form of equity. It essentially amounts to an
+unequal exchange of socioeconomic value, and if we assume naturally that a
+positive equity valuation is the desired outcome, the critical difference in
+value always flows upward. To put it more bluntly, it's a form of wealth
+extraction, plain and simple, where the rich only get richer. Furthermore, if
+the projected growth rate (e.g., equity over time) must rise geometrically in
+order to be deemed "scalable," then scalability is just an expression for the
 rate at which a technology system can perpetuate and increase socioeconomic
 inequality over time. Given the informational and communicative nature of such
 systems, especially in comparison with pre-digital methods of scaling economic
@@ -261,35 +267,37 @@ as well as social in nature, effecting both how resources are allocated and who
 controls the allocation process. Scalability, in other words, must also be
 viewed as essentially _a measure of extractiveness and social control_.
 
-Social control and extraction are nothing new, of course, and computers aren't
+Social control and extractivism are nothing new, of course, and computers aren't
 unique in their ability to scale them; for millennia prior to the invention of
 integrated circuits, ancient bureaucrats did just fine with their abacuses, law
 books, _quipu_, and clay tablets. Where computerized scaling differs is in the
-_rate of extraction_ and the _degree or granularity of control_ it can achieve
+_rate of extraction_ and the _degree_ or _granularity of control_ it can achieve
 relative to the amount of effort it requires to implement and enforce. In this
 respect, it exceeds all previous means of scaling by orders of magnitude.
 
 ## Info Trawlers
 The enormous informational complexity these tools purport to scale is so far in
 excess of what all the world's engineers, managers, and shareholders can ever
-hope to apprehend, at least with the remotest semblance of competence or
-intentionality. Despite the relative ease with which it enables their control
-over nearly all aspects of our daily lives, scalability is a very sloppy means
-of control. And yet, however ineptly they may wield it, it remains a very
-powerful and very dangerous form of control, all the same. As with many forms of
-industrialization, scalability can prove so harmful through the sheer bluntness
-of the tool, even if no malice is intended. Inevitably, it will be applied to a
-needlessly broad swath of social functions, across diverse cultures and with
-reckless indifference, because in spite of any damage it incurs, any greater
-precision would be seen as a mere nuisance to engineers and an unjustified cost
-to the shareholders.
+hope to apprehend – at least with any semblance of competence or intentionality.
+Despite the relative ease with which it enables their control over nearly every
+aspect of our daily lives, scalability is a very sloppy means of control. The
+people wielding it don't know or care about the full detail being erased in the
+act of scaling, so long as it doesn't hurt their bottom line. And yet, however
+ineptly they may wield this power, it remains a very dangerous form of control.
+As with many forms of industrialization, scalability can prove all the more
+harmful through the sheer bluntness of the tool, even when no malice is
+intended. Inevitably, this immense power will be applied to a needlessly wide
+range of social functions, across diverse cultures and with reckless
+indifference, because in spite of what damage it may incur, any greater
+precision would only be seen as an unjustified cost to shareholders and a mere
+nuisance to engineers.
 
-Like an [ocean trawler] that obliterates square miles of seafloor habitat and
-all the diversity of marine life it sustains, just to harvest a few scallops and
-discard three quarters of its total catch – so, too, scalability can cut across
-a wide swathe of our social and natural environs, wreaking havoc with our lives
-and wasting untold resources, while its operators scarcely pay any notice to the
-destruction left in their wake.
+Like an [ocean trawler] that obliterates square miles of seafloor habitat, along
+with the full diversity of marine life it sustains, all just to harvest a few
+scallops and discard three quarters of its total catch – so, too, scalability
+can cut across a wide swath of our social and natural environs, wreaking havoc
+with our lives and wasting untold resources, all while its operators scarcely
+pay any notice to the destruction left in their wake.
 
 !["Still frame from David Attenborough's Ocean (2025), depicting an industrial
 bottom trawler decimating the seafloor off the channel coast of southern
@@ -302,9 +310,12 @@ England")
 I don't polemicize against scale because I oppose widespread adoption of new and
 effective digital tools. I just don't think that technology should be designed,
 owned, and controlled by a tiny number of elites, who then get to impose it upon
-the masses whether they want it or not. I also think we're past the point of
-reinterpreting "scale" to mean anything else. The metaphor is too embroiled with
-those practices to rehabilitate it now.[^redef]
+the masses whether we want it or not. I also take especial exception when it
+becomes clear that those elites have their heads up their own asses and refuse
+to see the unparalleled damage they are doing to the rest of us. Finally, I
+think we're quite past the point of reinterpreting "scale" to mean anything else
+apart from such wanton devastation. The metaphor is too embroiled with these
+practices to rehabilitate it now.[^redef]
 
 [^redef]: I don't know if a non-technical audience would appreciate the full
     extent to which capitalistic exploitation is entangled with the whole
@@ -339,16 +350,14 @@ those practices to rehabilitate it now.[^redef]
 [ocean trawler]: https://www.youtube.com/watch?v=IzG9AwlypaY
 
 ## Socializing Our Computational Abstractions
-It should go without saying that scaling and abstractions of the sort described
-above are deeply at odds with any vision for appropriate technology that
-respects users' autonomy. Nevertheless, I contend that different abstractions
-can still play a critical role in overturning those injustices. After all, that
-is my entire purpose with Runrig: to develop the methodologies, relationships,
-and infrastructure needed to bring more liberatory technologies into my own
-community, and then with some luck, to share them more widely.
+All the same, I still contend that new computational abstractions can just as
+well play a critical role in overturning these injustices. After all, that is my
+entire purpose with Runrig: to develop the necessary methodologies,
+relationships, and infrastructure to bring more liberatory technologies into my
+own community, and then with some luck, to share them more widely.
 
 It was with that in mind that I first proposed the table at the start of this
-article as a rebuttal to the various abstractions imposed by venture capital
+article, as a rebuttal to the various abstractions imposed by venture capital
 funding models. Exploitative abstractions like scaling have been so normalized
 in the tech industry that they are taken for granted even by free software
 maintainers and advocates, including myself at times.
@@ -373,31 +382,31 @@ this way as a response to specific critiques about free software and cooperative
 technology. Namely, there's a view that truly robust, maintainable software must
 be amply funded through capital investments, public grants, or large donations
 from private foundations – at least, for halfway decent software anyone wants to
-use. It's not surprising to hear this charge coming from the startup industry,
-but skepticism of this sort is also prevalent among many in the free software
-and regenerative agriculture communities.
+use. Implicit in this claim is an assumption that good software _must_ be able
+to scale, or else it's either not very good or it can't help very many people.
+It's not surprising to hear this charge coming from the startup industry, but
+beliefs of this sort are almost just as common among advocates for free software
+and regenerative agriculture.
 
-It might be easy to dismiss those claims as a symptom of the "non-profit
-industrial complex," and there may even be a bit of truth in that, but I do
-sympathize with the concern and can fully relate to the pragmatic outlook it
-speaks from. The high-minded ideals of software freedom and cooperative
-economics must be balanced against the need for fair compensation that pays
-developers and support staff to deliver the kind of safe, reliable, easy-to-use
-software that users deserve. It's a tough nut to crack, when you take a
-realistic account of all the labor, expertise, and long-term commitments needed
-to accommodate every one of those concerns. Alternative funding models do exist,
-but they're poorly attested even within free software circles, let alone the
-among broader coalition of supporters you would need from food & agriculture
-networks. All of this is central to the work Runrig aims to accomplish.
+I can fully sympathize with these concerns, and I share the pragmatic outlook
+that I think gives rise to such claims. The high-minded ideals of software
+freedom and cooperative economics must be balanced against fair compensation for
+developers and other support staff so that they can deliver the kind of safe,
+reliable, easy-to-use software that users deserve. It's a tough nut to crack,
+when you take a realistic account of all the labor, expertise, and long-term
+commitments needed to accommodate each and every one of those demands.
+Alternative funding models do exist, but I believe they're poorly attested
+within free software circles, as well as within conventional industries like
+agriculture or whichever sector we choose to address.
 
-I've indicated here a few alternatives to "scaling" as a metaphor – e.g.,
-"diffusing costs" and "distributing control" – but nothing comparable in terms
-of its power for abstraction or a feasible pattern for achieving it. For that,
-we do need to get more specific and talk about architecture, as much as I like
-to make a fuss about putting [_ecology over architecture_]. So next time, I'll
-cut straight to the chase and layout what I believe will be the key
-architectural pattern for much of Runrig's future development: _federated
-municipal platforms_.
+I've indicated here a few alternatives to "scaling" but only as a metaphor
+(e.g., "diffusing costs" or "distributing control"). I've offered nothing
+comparable to scaling in terms of its power for abstraction, let alone a
+feasible design for achieving it. For that, we do need to get more specific and
+talk about architecture, as much as I like to make a fuss about putting
+[_ecology over architecture_]. So next time, I'll cut straight to the chase;
+I'll layout what I believe will be a central architectural pattern for much of
+Runrig's future development: _federated municipal platforms_.
 
 [_ecology over architecture_]:
     /posts/the-runrig-plan-for-socio-ecological-design.html#ecology-over-architecture
