@@ -6,7 +6,7 @@ description: A look at the way scalability perpetuates some of the worst
     those harmful dynamics through participatory design and transparent
     abstractions.
 author: Jamie Gaehring
-date: 2025-07-29
+date: 2025-08-29
 ---
 
 At the end of my first round of consultation for the Farm Flow project, I
