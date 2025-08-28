@@ -89,6 +89,20 @@ computation, nor does scaling emerge from digital technology all of its own
 accord. Rather, it is imposed on technology by a mandate from venture capital
 investors to pursue unlimited economic growth.
 
+In _Empire of AI_, Karen Hao points out that, as much as AI hype man Sam Altman
+and others like him are wont to cloak their business prognostications in a veil
+of empirical evidence and physical law, this is mere pseudoscience:
+
+> In the end, Moore’s Law was not based on some principle of physics. It was an
+> economic and political observation that Moore made about the rate of progress
+> that he could drive his company to achieve, and an economic and political
+> choice that he made to follow it. When he did, Moore took the rest of the
+> computer chip industry with him, as other companies realized it was the most
+> competitive business strategy. OpenAI’s Law, or what the company would later
+> replace with an even more fevered pursuit of so-called scaling laws, is
+> exactly the same. It is not a natural phenomenon. It’s a self-fulfilling
+> prophecy.
+
 Where information technology does make an original contribution is in
 the form of its unrivaled capacity for _abstraction_, a power that can just as
 well be applied to scaling as to other unrelated tasks or even opposing aims. A
@@ -142,12 +156,6 @@ why it gets any significant attention.
     memorize a bunch of equations for scaling systems that have no business
     being that big to start with.
 
-[Amdahl's Law]: https://dl.acm.org/doi/10.1145/1465482.1465560
-[Gunther's Universal Scalability Law]: https://arxiv.org/abs/0808.1431v2
-[Landauer's Principle]: https://en.wikipedia.org/wiki/Landauer%27s_principle
-["Why Pure Information Gives Off Heat"]: https://www.youtube.com/watch?v=XY-mbr-aAZE
-["What is the maximum Bandwidth?"]: https://www.youtube.com/watch?v=0OOmSyaoAt0
-
 To that point, it remains to be seen if the abstractions of scalability can
 survive eventual contact with reality – _the cloud falling back down to earth_,
 so to speak. Computational abstractions do incur physical costs and real-world
@@ -164,10 +172,24 @@ willing to pay millions of dollars in legal fees each year so they can keep
 [extracting the conflict minerals] that power our smartphones, electric
 vehicles, and other devices, _this too is the cloud falling back down to earth_.
 
+I need only to gesture slightly towards the current AI bubble and its [impending
+burst], as its hype finally seems to be fading and this terawatt-hour-expending
+project with its ["scale-at-all-cost"] approach, as Hao calls it, is exposed for
+the massive scam it has always been from the start.
+
+[Amdahl's Law]: https://dl.acm.org/doi/10.1145/1465482.1465560
+[Gunther's Universal Scalability Law]: https://arxiv.org/abs/0808.1431v2
+[Landauer's Principle]: https://en.wikipedia.org/wiki/Landauer%27s_principle
+["Why Pure Information Gives Off Heat"]:
+    https://www.youtube.com/watch?v=XY-mbr-aAZE
+["What is the maximum Bandwidth?"]: https://www.youtube.com/watch?v=0OOmSyaoAt0
 [it will reopen Three Mile Island]:
     https://www.npr.org/2024/09/20/nx-s1-5120581/three-mile-island-nuclear-power-plant-microsoft-ai
 [extracting the conflict minerals]:
     https://arstechnica.com/tech-policy/2024/03/apple-and-other-firms-dont-have-to-compensate-victims-of-forced-child-labor/
+[impending burst]: https://ig.ft.com/ai-data-centres/
+["scale-at-all-cost"]:
+    https://www.democracynow.org/2025/7/4/empire_of_ai_karen_hao_on
 
 ## A Measure of Social Control
 Beyond the clear perils to our planet's climate and natural ecosystems, rapid
