@@ -3,7 +3,7 @@ title: Federated Municipal Platforms
 subtitle: A fundamental design pattern
 description: A description.
 author: Jamie Gaehring
-date: 2025-08-26
+date: 2025-09-09
 outline: [2, 4]
 ---
 
@@ -20,10 +20,10 @@ of digital and social technologies, the majority of which are outside the
 designer's control. I've tried to distill this down to a simple maxim: _ecology
 over architecture_. This is meant to inoculate against a tendency in software to
 fixate on the latest "tech stack," whether that's blockchain, neural networks,
-or whatever database happens to be the latest fad. I don't mean to eschew the
+or whatever database happens to be the current fad. I don't mean to eschew the
 notion of architecture altogether; it just shouldn't represent a hard boundary,
 demarcating the totality of the design space. Architecture must yield to the
-greater ecology the system, which knows no bounds, and so become less
+greater ecology of the system, which knows no bounds, and so become less
 determinate, less mechanistic, more permeable. Good architecture must be able
 and willing to float.
 
@@ -32,10 +32,10 @@ one that will play a central role in many of the systems I hope to build with
 Runrig.
 
 ## Some Definitions
-In brief, a __federated municipal platform__, or __FMP__, is a communally owned
-and controlled digital platform for a regional foodshed or bioregion to manage
-its own land, resources, and labor according to its own needs. It can be a host
-for multiple, [_libre_] software applications and services, ranging from
+In brief, a federated municipal platform, or __FMP__, is a communally owned and
+controlled digital platform for a regional foodshed or bioregion to manage its
+own land, resources, and labor according to its own needs. It can be a host for
+multiple, [_libre_] software applications and services, ranging from
 agricultural software like [farmOS] or the delivery app [CoopCycle], to generic
 productivity apps like [Etherpad] or [Grist]. It all depends on what its
 community of users decide. An FMP can also run headless bridge services, or
@@ -43,11 +43,12 @@ community of users decide. An FMP can also run headless bridge services, or
 community-based platforms, such as the [Open Food Network] and [GrownBy], or
 with proprietary platforms like Shopify. That way users don't have to double- or
 triple-enter data every time their product catalog is updated. Naturally, an FMP
-can also "federate" with other FMPs, affording even more thorough integration
-and promoting collaboration between dispersed or divergent communities.
+can also "federate" with other FMPs, affording even tighter integration and
+promoting collaboration between dispersed or divergent communities.
 
-A federated municipal platform can be defined in a bit more detail by reference
-to its three constituent terms, working backwards from the last:
+To illustrate its finer details, a __federated municipal platform__ can be
+dissected and its three constituent terms inspected more closely, defining them
+one by one:
 
 - As a __platform__, it will host a suite of software applications and network
   services, like so many of the "cloud" platforms we already interact with every
@@ -65,7 +66,7 @@ to its three constituent terms, working backwards from the last:
   and improve it.[^userdata] How exactly those services and their maintenance
   are governed will be up to the user-members collectively, but should adhere to
   democratic principles or some sort of consensus procedure. Members will
-  therefore have to get to know one another other, if they don't already, either
+  therefore have to get to know one another, if they don't already, either
   remotely or in person. To keep this from becoming too unwieldy or
   over-bureaucratized, it will require at least a few 10s of members, perhaps
   100s, but ideally not beyond a few 1,000s or at most 10,000s. Ideally all
@@ -78,15 +79,16 @@ to its three constituent terms, working backwards from the last:
 
 - As a __federated__ platform, it will be capable of connecting with other
   platforms just like it. With some due diligence, it could even connect to
-  platforms that are _not_ so like itself, such as traditional payment and
-  e-commerce platforms (e.g., Shopify, Squarespace, PayPal) or corporate cloud
-  storage services (e.g., iCloud, Dropbox, Airtable). Perhaps most importantly,
-  this means users aren't restricted from joining more than one platform,
-  switching between them, or leaving entirely. Their data can easily follow them
-  with just a simple authorization process, whenever they choose. In other
-  words, you're not forced to stay put or move to whatever app holds your data;
-  your data will always come to you. Similarly, sharing your data doesn't force
-  those you share it with to switch to your platform or preferred service.
+  platforms that are _not_ so much like itself, like standard payment processors
+  (PayPal, Cash App, Stripe), proprietary sales platforms (e.g., PayPal,
+  Shopify, Squarespace), or corporate cloud storage services (e.g., iCloud,
+  Dropbox, Airtable). Perhaps most importantly, this means users aren't
+  restricted from joining more than one platform, switching between them, or
+  leaving entirely. Their data can easily follow them with just a simple
+  authorization process, whenever they choose. In other words, you're not forced
+  to stay put or move to whatever app holds your data; your data will always
+  come to you. Similarly, sharing your data doesn't force those you share it
+  with to switch to your platform or preferred service.
 
 With Runrig, I plan to work mostly within food and agricultural communities, so
 I've defined the FMP in familiar terms like "foodshed" and "farmers." There's
@@ -110,10 +112,11 @@ generic community groups or for different types of activity.
 
 ### Political Implications
 These terms import a neutral surface-level meaning that speaks directly to their
-function, which could be stated other ways, granted, but I chose these terms
-purposely because they add further political connotations. I'll spell those out
-here because I don't want the point to be confused, but feel free to skip to the
-next section if you just want get on with the nuts and bolts of how FMPs work.
+function. Granted, other terms could denote more or less the same functionality,
+but I chose these three terms purposely because they add further political
+connotations I wish to emphasize. I'll spell those out here because I don't want
+the point to be confused, but feel free to skip to the next section if you just
+want get on with the nuts and bolts of how FMPs work.
 
 The system as a whole borrows heavily from the concept of [platform
 cooperatives], popularized by Trebor Scholz and Nathan Schneider among others.
@@ -134,15 +137,21 @@ In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
 James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
 socialist construction projects from the early 20th century, namely G. D. H.
 Cole's theory of guild socialism and Otto Neurath's models of economic planning.
-A wider membership base, established not only upon commerce but also strong
-social ties, will hopefully afford opportunities for more civic-minded programs
-to develop. A common critique of co-ops is that, while they may foster
-egalitarianism _internally_, they still must compete in capital-dominated
-markets, and so successful co-ops tend to reproduce capitalistic forms of
-oppression _externally_. If a wider membership base can be encouraged, even
-among people who seldom if ever login to the platform but still maintain social
-relations with the rest of the group, I believe that can go a long ways to
-mitigate the risk of "co-op co-optation."
+A wider membership base, established not only upon commerce but also social
+relations, will hopefully afford opportunities for more civic-minded programs to
+develop. A common critique of co-ops is that, although they may promote virtuous
+behavior _internally_, such as egalitarianism and free association, they must
+still contend within the larger realm of capital-dominated markets, and so
+_externally_, all the same, successful co-ops are encouraged to reproduce
+capitalistic forms of competition, subterfuge, and oppression. Again, this is
+why FMPs must seek out a wider base of membership, even among people who seldom
+login login to the platform (if ever), but who still maintain strong social
+bonds with the rest of the group. This will require both careful vetting and
+active recruitment, to some degree, so that those who might not otherwise be
+inclined to join a digital platform are still invited to participate. In the
+long run, only constant vigilance can fully safeguard against this and other
+forms of moral co-optation, but expanding the sphere of participation can at
+least mitigate the risk of this form of "co-op co-optation" specifically.
 
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
@@ -160,21 +169,32 @@ of Chiapas.[^marez]
 
 Municipalism should not be mistaken for provincialism, however, which is why the
 FMP must be a federated platform, and even a _federalist_ platform. By federated
-I mean the technical sense of a _federated server architecture_. That's when
-servers communicate with other servers as peers, in a peer-to-peer (P2P)
-architecture, as opposed to the more conventional client-server architecture,
-where one end of the exchange is designated as the client (even if that "client"
-is just another server, at least in another context). Federation is the pattern
-that gives its name to the [Fediverse], most famously represented by Mastodon,
-the alternative social media app, along with the myriad other [applications] and
-[services] that support some variant of the [ActivityPub] protocol.
+I mean the technical sense of a _federated server architecture_. Simply put,
+that's when servers communicate with other servers as peers, in what can almost
+be called a peer-to-peer (P2P) architecture, as opposed to the more conventional
+client-server architecture. This is akin to BitTorrent, Apple Airdrop, or even
+Bluetooth, but whereas each of those applications are conceived of like clients,
+just remade as P2P apps so users can communicate directly with one another –
+i.e., without a server relaying messages – federated platforms, on the other
+hand, are conceived of like servers remade as peer nodes in a decentralized
+network, wherein no single server is distinguished as authoritative over the
+others. Typically, they are still thought of as "headless" servers, in that they
+don't necessarily take direct user input from any type of graphical interface.
+They can also continue to act in the role of a traditional server with other
+clients, but those clients are distinct from their federated peers. Federation,
+in this sense, is the pattern that gives its name to the [Fediverse], most
+famously represented by Mastodon, the alternative social media app, along with
+the myriad other [applications] and [services] that support some variant of the
+[ActivityPub] protocol.
 
-By _federalist_ platform, I mean the long-held [anarchist sense of federalism],
-although not so much the utopian aspects often associated with mid-19th century
-thinkers like Proudhon and Guillaume. Rather, I would point to the later
-anarchist projects of the 20th and 21st century, which certainly developed out
-of utopian federalism but took an explicitly internationalist, counter-utopian
-stance. Starting at least as early as the Spanish Civil War, the
+I say _federalist_ platform, in addition to federated, to imply the long-held
+[anarchist sense of federalism]. I would only qualify that I don't especially
+have in mind the more "utopian" aspects of federalism, often associated with
+mid-19th century thinkers like Pierre-Joseph Proudhon or James Guillaume.
+Rather, I would point to much later anarchist projects of the 20th and 21st
+century, which certainly developed out of utopian socialism, but which
+positioned themselves as explicitly internationalist if not outright
+counter-utopianist. Starting at least as early as the Spanish Civil War, the
 anarcho-syndicalists of the [CNT-FAI] established federated communes as a part
 of their revolutionary fight against fascism, supported by the International
 Brigades and a host of left-wing tendencies ranging from libertarian socialists
