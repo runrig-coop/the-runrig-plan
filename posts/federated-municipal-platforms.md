@@ -204,6 +204,15 @@ Abdullah Öcalan, which forms the theoretical and constitutional basis for the
 internationalist, while also firmly rooted in social ecology and the
 municipalist principles of Bookchin, via Öcalan.
 
+Perhaps the closest parallel, encapsulating most (if not all) of what I'm trying
+to infer with these terms, would be Cooperation Jackson in Mississippi, for whom
+Kali Akuno is often a spokesperson. They reject utopianism by adopting a
+conscientious strategy of [dual power], which posits an alternative base of
+socio-economic power, not as a form of escapism, but as a direct threat to the
+current capitalist system. I would recommend that all FMPs endorse the five
+__Basic Principles of Class Struggle or Class Conscious Cooperatives__, laid out
+by Akuno in his [2023 May Day proclamation].
+
 [platform cooperatives]: https://platform.coop
 [7 Cooperative Principles]:
     https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
@@ -225,3 +234,6 @@ municipalist principles of Bookchin, via Öcalan.
 [applications]: https://delightful.coding.social/delightful-fediverse-clients/
 [services]: https://delightful.coding.social/delightful-fediverse-experience/
 [ActivityPub]: https://activitypub.rocks/
+[dual power]: https://blacksocialists.us/dual-power-map
+[2023 May Day proclamation]:
+    https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
