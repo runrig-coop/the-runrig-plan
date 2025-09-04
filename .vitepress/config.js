@@ -8,7 +8,7 @@ import path from 'node:path';
 
 const title = 'Runrig';
 const defaultObjectType = 'website';
-const domain = 'https://www.runrig.org';
+const domain = 'https://runrig-org-git-preview-runrig.vercel.app';
 const logo = '/emoji_u1f69c.svg';
 const logoUrl = domain + logo;
 const cardImage = `${domain}/open_field_system_all_600x745_bg_light.png`;
