@@ -4,6 +4,7 @@ import footnote_plugin from 'markdown-it-footnote';
 import { defineConfig } from 'vitepress';
 import { Feed } from 'feed';
 import * as cheerio from 'cheerio';
+import path from 'node:path';
 
 const title = 'Runrig';
 const defaultObjectType = 'website';
@@ -30,6 +31,7 @@ const jamie = {
 };
 
 const outDir =  './dist';
+const assetsDir = 'assets';
 
 const feedSubdir = 'feed';
 // Each format name (per FeedOptions.feedLinks), file name, file extension.
@@ -76,6 +78,7 @@ export default defineConfig({
   srcDir: './',
   cacheDir: './.cache',
   outDir,
+  assetsDir,
   title,
   description,
   head: [
@@ -211,7 +214,25 @@ export default defineConfig({
     const ogDescription = fm.description
       || fm.subtitle
       || 'New post from Runrig';
-    const ogImage = fm.image || cardImage;
+
+    /**
+     * Check if the frontmatter specifies an image to use for Open Graph, etc.
+     * This isn't the ideal way to match up the original filename with the
+     * asset's hashed absolute path, but it works for now.
+     * @see https://github.com/vuejs/vitepress/issues/3161#issuecomment-3254215750
+     */
+    let ogImage = cardImage;
+    const imgExtRE = /\.(?:png$)|(?:jpg$)|(?:jpeg$)/;
+    if (typeof fm.image === 'string' && imgExtRE.test(fm.image)) {
+      const imgExt = path.extname(fm.image);
+      const imgBase = path.basename(fm.image, imgExt);
+      const imgRoot = `/${assetsDir}/${imgBase}`;
+      const imgUrl = ctx.assets
+        // An 8-char dot-hash is placed just before the file extension, e.g.:
+        // /assets/ocean-trawler-attenborough-2025.BcF9LlhV.png
+        .find(str => str.startsWith(imgRoot) && str.endsWith(imgExt));
+      if (imgUrl) ogImage = `${domain}${imgUrl}`;
+    }
 
     const author = [];
     if (!!fm.author && typeof fm.author === 'object') author.concat(fm.author)
