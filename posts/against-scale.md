@@ -5,6 +5,7 @@ description: A look at the way scalability perpetuates some of the worst
     tendencies of neoliberal capitalism, and how Runrig proposes to overturn
     those harmful dynamics through participatory design and transparent
     abstractions.
+image: /ocean-trawler-attenborough-2025.png
 author: Jamie Gaehring
 date: 2025-08-29
 ---
