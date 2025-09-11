@@ -24,12 +24,12 @@ or whatever database happens to be the current fad. I don't mean to eschew the
 notion of architecture altogether; it just shouldn't represent a hard boundary,
 demarcating the totality of the design space. Architecture must yield to the
 greater ecology of the system, which knows no bounds, and so become less
-determinate, less mechanistic, more permeable. Good architecture must be able
-and willing to float.
+determinate, less mechanistic, more permeable. Good architecture must be able to
+float.
 
-Federated municipal platforms are intended to be one such architectural pattern,
-one that will play a central role in many of the systems I hope to build with
-Runrig.
+The __federated municipal platform__ is intended to be one such architectural
+pattern, one that will play a central role in many of the systems I hope to
+build with Runrig.
 
 ## Some Definitions
 In brief, a federated municipal platform, or __FMP__, is a communally owned and
