@@ -176,6 +176,10 @@ const isPost = computed(() => {
 </template>
 
 <style>
+.vp-doc p strong {
+  font-weight: 700;
+}
+
 .rr-home section .text {
   max-width: 42em;
   margin-bottom: 32px;
