@@ -288,3 +288,12 @@ worked to make better. By choosing to work together, contributing openly and
 freely to the same platform, they can all exercise greater control over the
 project’s direction. Collaboration and openness only amplifies each others
 efforts, it never diminishes it.
+
+## A Closing Provocation
+It is not enough that the source code be made available for free/_gratis_,
+assuming you know how to read it; everyone deserves free/_libre_ software
+applications to provide the information and services they depend upon. Public
+domain and non-restrictive licenses only amount to more free labor for Big Tech.
+Today, we need copyleft licenses, across the board and without reservation. Call
+it what you will, but we have to be clear: software that merely _permits_ will
+no longer suffice; _we demand software that liberates!_
