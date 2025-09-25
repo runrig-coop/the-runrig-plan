@@ -43,6 +43,86 @@ still seems to gets lost. For this very practical reason, as well as the ideals
 that set free software apart, we need more than just open source software. In
 this critical moment, we must champion software freedom explicitly.
 
+## A Russian Reversal
+As a personal aside, I had zero interest in technology before I realized that
+_open source software_ could also mean _software freedom_. I was a confirmed
+Luddite all throughout my late teens and early twenties. Technology first
+demanded I have a cell phone, then a smartphone, and that I keep them with me at
+all times ready to respond to calls, text messages, emails, social media alerts,
+chat notifications. I had to pay to upgrade them every 2 years, if not sooner.
+The hardware was expensive and brittle, while the software was buggy, intrusive,
+laden with ads, malware, and numerous [dark patterns]. When some piece of tech
+didn't work for me, that was my problem. Certainly none of the companies who
+developed, sold, or administered the technology seemed obliged to help me. After
+a while it began to feel like a bad Yakov Smirnoff joke (a.k.a. a [Russian
+reversal]): _"In Soviet Russia, you don't use app, app uses you!"_ – except
+dystopian ironies of this sort are only really possible in
+America.[^final-straw]
+
+![](./img/smirnoff-what-a-country.gif)
+
+[^final-straw]: For me, the final straw came when a computer salesperson tried
+  to bait-and-switch me into buying a Windows PC that I really couldn't afford,
+  but which I badly needed in order to keep my job, find housing (I faced a
+  pending eviction at the time), and maintain my relationships with remote
+  friends and family. In a fit of pique and largely out of spite, I determined
+  instead to build my own computer out of parts and install it with Linux. I was
+  seriously pessimistic I could make it work; it seemed just as likely it would
+  be my last futile attempt to cope with modernity, before I bugged out entirely
+  for the Pine Barrens or upstate somewhere to become a hermit. Yet the whole
+  process was surprisingly easy to pull off – almost _disappointingly_ so. Up to
+  that moment, it had never occurred to me that technology could actually _work
+  for me_, rather than making me work for it with my limited time and money. If
+  it didn't work for me, I could find or build something else that did. There
+  was a vast pool of common resources out there to draw upon, and most
+  importantly, a thriving community that offered all the support I would ever
+  need. It was quite the revelation.
+
+If you've ever felt, like I did, that you were no longer a _user of_ some
+software application but were instead being _used by_ it, it's very likely that
+the offending app included at least a one or two software libraries that would
+be considered open source. That does not mean the same libraries were _free
+software_. The software developer, as the _direct_ user of those libraries, may
+have enjoyed some degree of freedom to use them as they alone saw fit, but if
+they could use them to make an app that restricted your freedom as the _end_
+user, then the libraries themselves should not be considered _free software_.
+
+Legalists might call it a paradox or a contradiction, but if we take seriously
+Fannie Lou Hamer's admonition that "nobody's free until everybody's free," and
+if a software license claims to enshrine the freedom of all its users, then the
+one freedom it _must prohibit_ is the licensee's ability to curtail another
+person's freedom to use the very same software as they see fit. This is the
+"viral" licensing requirement often described as _copyleft_, and it is more or
+less what distinguishes open source from free software. When a software library
+is licensed as copyleft, any software application that incorporates it is
+legally obliged to adopt a compatible copyleft license as well.
+
+Don't worry if the technical distinction between a library and an application
+eludes you, because you don't need to understand what libraries the developer
+used, how exactly they used them, or even if the libraries could be considered
+open source or not; you _know_ if some piece of software encroaches on your
+freedom, and your testament is all that's needed to deem it unfree. The tangle
+of licensing agreements matters if you take the issue to court, but most of us
+will never do that. The ultimate determination of freedom is a personal
+assessment and a moral choice, not a mere technical evaluation. Insofar as one
+person's freedom should not encroach upon another's, free software constitutes a
+social project, too, as Richard Stallman pointed out [way back in 1998]:
+
+> For the Open Source movement, the issue of whether software should be open
+> source is a practical question, not an ethical one. As one person put it,
+> "Open source is a development methodology; free software is a social
+> movement." For the Open Source movement, nonfree software is a suboptimal
+> solution. For the Free Software movement, nonfree software is a social problem
+> and free software is the solution.
+
+In other words, it's all about social control, or who _controls_ versus who _is
+controlled_, a distinction I think Smirnoff would grasp almost immediately.
+
+[dark patterns]: https://en.wikipedia.org/wiki/Dark_pattern
+[Russian reversal]: https://en.wikipedia.org/wiki/In_Soviet_Russia
+[way back in 1998]:
+    https://www.gnu.org/philosophy/free-software-for-freedom.html
+
 ## Deciding on a Development Model
 As I said above, I didn't presume Runrig's model of development would be the
 ideal fit for Farm Flow's stated aims, at least not before a careful evaluation.
