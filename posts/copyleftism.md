@@ -7,6 +7,42 @@ date: 2025-09-30
 outline: [2, 4]
 ---
 
+In the late 1990s, even as Linux was becoming the _de facto_ operating system of
+the world wide web, software developers were still having a hard time convincing
+their bosses and investors that _free software_ was good for business. Instead
+of understanding it to mean _free_ as in "free speech," the way Richard Stallman
+and the Free Software Foundation always intended it, the higher-ups only ever
+heard _free_ as in "free lunch."
+
+To make it an easier pill to swallow, developers like Eric S. Raymond rebranded
+it as _open source_ software. Open source is a nebulous term, almost willfully
+unintuitive to non-specialists, yet it has a vaguely positive ring to it that's
+pleasing to the ear and distinct enough to pass muster with the marketing
+department. By most accounts, the rebrand succeeded in making open source
+software more appealing to Silicon Valley founders and funders. To the general
+public's ears, however, open source sounds even more obscure and alienating than
+free software ever was. People may still appreciate open source as a positive
+good when examples are laid out and its benefits are explained, but they rarely
+feel qualified to advocate on its behalf or demand open source alternatives for
+their own personal use.
+
+On the other hand, people of all stripes know what "freedom" is. Goodness knows,
+if you set out trying to inform somebody in America in 2025 what freedom is or
+is not, you're far more likely to be told, _"You're wrong!"_ than to hear them
+say, "I don't understand." If they have any experience using software – and who
+doesn't these days? – then they're also perfectly well equipped to tell you
+whether one particular piece software makes them free or not, or whether this
+software respects their freedom more than that software.
+
+To that effect, there is a growing interest in software that fosters greater
+freedom by granting ownership and control to users at both the individual and
+community level. By my own estimation, that call is especially loud today among
+farming associations and food policy makers, and it grows louder every day. When
+we advocate for the adoption of _open source_ software, however, the message
+still seems to gets lost. For this very practical reason, as well as the ideals
+that set free software apart, we need more than just open source software. In
+this critical moment, we must champion software freedom explicitly.
+
 ## Deciding on a Development Model
 As I said above, I didn't presume Runrig's model of development would be the
 ideal fit for Farm Flow's stated aims, at least not before a careful evaluation.
