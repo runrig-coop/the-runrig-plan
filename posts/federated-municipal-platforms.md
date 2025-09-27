@@ -128,18 +128,35 @@ want get on with the nuts and bolts of how FMPs work.
 
 The system as a whole borrows heavily from the concept of [platform
 cooperatives], popularized by Trebor Scholz and Nathan Schneider among others.
-But whereas platform co-ops are typically businesses, cooperatively owned by
-individual workers, FMPs are intended to represent a broader base of membership,
-comprised of workers, consumers, producers, and other people from the community,
-with both individual and institutional members. I expect an FMP to be held
-together principally on the strength of its social bonds, if not an outright
-political ideology or agenda. Even multi-stakeholder cooperatives tend to rely
-more on shared economic and commercial interests, at least in practice if not in
-theory. To be sure, commerce will be a key function of the FMP, and so it risks
-being "economized" in just the same way as the [7 Cooperative Principles];
-however, membership and participation in an FMP should not be predicated on a
-person or group entering into a formal professional relationship with other
-members, so long as they demonstrate their commitment to the community.
+But whereas platform co-ops are often thought of as business platforms
+cooperatively owned by individual workers,[^platform-coop] FMPs are intended to
+represent a broader base of membership, comprised of workers, consumers,
+producers, and other people from the community, with both individual and
+institutional members. I expect an FMP to be held together principally on the
+strength of its social bonds, if not an outright political ideology or agenda.
+Even multi-stakeholder cooperatives tend to rely more on shared economic and
+commercial interests, at least in practice if not in theory. To be sure,
+commerce will be a key function of the FMP, and so it risks being "economized"
+in just the same way as the [7 Cooperative Principles]; however, membership and
+participation in an FMP should not be predicated on a person or group entering
+into a formal professional relationship with other members, so long as they
+demonstrate their commitment to the community.
+
+[^platform-coop]: To be clear, Scholz and Schneider _do not_ restrict platform
+    co-ops to businesses. Quite the contrary, they have both written extensively
+    about – and contributed directly to the establishment of – numerous
+    real-world examples of platform co-ops that are owned by their users, like
+    [social.coop], in order to share costs and collectively administer the site.
+    They do not limit their definition to those platforms that are exclusively
+    owned by workers to share profits and manage their own labor and production,
+    like [Up&Go], but include many different membership models and even
+    multi-stakeholder formations. Still, I've consciously elected not to use the
+    term "cooperative" because of the emphasis usually placed on a co-op's
+    composition according to membership classes, such as worker-members,
+    producer-members, consumer-members, etc. I'm by no means opposed to co-ops,
+    but I wanted to put more emphasis on geographical and cultural proximity as
+    the basis for its shared interests and commitments; hence, _municipal_
+    rather than _cooperative_.
 
 In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
 James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
@@ -224,6 +241,8 @@ by Akuno in his [2023 May Day proclamation].
 [platform cooperatives]: https://platform.coop
 [7 Cooperative Principles]:
     https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
+[social.coop]: https://wiki.social.coop/wiki/Main_Page
+[Up&Go]: https://colab.coop/work/upandgo/
 [_Platform Socialism_]:
     https://www.techwontsave.us/episode/97_envisioning_platform_socialism_w_james_muldoon
 [libertarian municipalism]:
