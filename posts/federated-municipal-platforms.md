@@ -119,12 +119,13 @@ sharing your data doesn't force those you share it with to switch to your
 platform or preferred service.
 
 ### Political Implications
-These terms import a neutral surface-level meaning that speaks directly to their
-function. Granted, other terms could denote more or less the same functionality,
-but I chose these three terms purposely because they add further political
-connotations I wish to emphasize. I'll spell those out here because I don't want
-the point to be confused, but feel free to skip to the next section if you just
-want get on with the nuts and bolts of how FMPs work.
+These terms import a neutral surface-level meaning, which speaks directly to
+their function. Granted, other terms could denote more or less the same
+functionality, but I chose these three terms purposely because they add further
+political connotations I wish to imply as well. I'll make those politics
+explicit here because I don't want my intentions to be misconstrued, but feel
+free to skip to the next section if you just want get on with the nuts and bolts
+of how FMPs work.
 
 The system as a whole borrows heavily from the concept of [platform
 cooperatives], popularized by Trebor Scholz and Nathan Schneider among others.
@@ -133,14 +134,14 @@ cooperatively owned by individual workers,[^platform-coop] FMPs are intended to
 represent a broader base of membership, comprised of workers, consumers,
 producers, and other people from the community, with both individual and
 institutional members. I expect an FMP to be held together principally on the
-strength of its social bonds, if not an outright political ideology or agenda.
-Even multi-stakeholder cooperatives tend to rely more on shared economic and
-commercial interests, at least in practice if not in theory. To be sure,
-commerce will be a key function of the FMP, and so it risks being "economized"
-in just the same way as the [7 Cooperative Principles]; however, membership and
-participation in an FMP should not be predicated on a person or group entering
-into a formal professional relationship with other members, so long as they
-demonstrate their commitment to the community.
+strength of its social bonds, and in some cases by an outright political
+ideology or agenda. Even multi-stakeholder cooperatives tend to rely more on
+shared economic and commercial interests, at least in practice if not in theory.
+To be sure, commerce will be a key function of the FMP, and so it risks being
+co-opted or "economized" in just the same way as the [7 Cooperative Principles]
+can be; however, membership and participation in an FMP should not be predicated
+on a person or group entering into a formal professional relationship with other
+members, so long as they demonstrate their commitment to the community.
 
 [^platform-coop]: To be clear, Scholz and Schneider _do not_ restrict platform
     co-ops to businesses. Quite the contrary, they have both written extensively
@@ -162,21 +163,22 @@ In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
 James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
 socialist construction projects from the early 20th century, namely G. D. H.
 Cole's theory of guild socialism and Otto Neurath's models of economic planning.
-A wider membership base, established not only upon commerce but also social
-relations, will hopefully afford opportunities for more civic-minded programs to
-develop. A common critique of co-ops is that, although they may promote virtuous
-behavior _internally_, such as egalitarianism and free association, they must
-still contend within the larger realm of capital-dominated markets, and so
-_externally_, all the same, successful co-ops are encouraged to reproduce
-capitalistic forms of competition, subterfuge, and oppression. Again, this is
-why FMPs must seek out a wider base of membership, even among people who seldom
-login login to the platform (if ever), but who still maintain strong social
-bonds with the rest of the group. This will require both careful vetting and
-active recruitment, to some degree, so that those who might not otherwise be
-inclined to join a digital platform are still invited to participate. In the
-long run, only constant vigilance can fully safeguard against this and other
-forms of moral co-optation, but expanding the sphere of participation can at
-least mitigate the risk of this form of "co-op co-optation" specifically.
+A wider membership base, established not only upon commerce but other equally
+important social relations, will hopefully afford opportunities for more
+civic-minded programs to develop. A common critique of co-ops is that, although
+they may promote virtuous behavior _internally_, such as egalitarianism and free
+association, they must still contend within the larger realm of
+capital-dominated markets, and so _externally_, all the same, successful co-ops
+are encouraged to reproduce capitalistic forms of competition, subterfuge, and
+oppression. Again, this is why FMPs must seek out a wider base of membership,
+even among people who seldom login login to the platform (if ever), but who
+still maintain strong social bonds with the rest of the group. This will require
+both careful vetting and active recruitment, to some degree, so that those who
+might not otherwise be inclined to join a digital platform are still invited to
+participate. In the long run, only constant vigilance can fully safeguard
+against this and other forms of moral co-optation, but expanding the sphere of
+participation can at least mitigate the risk of this form of "co-op co-optation"
+specifically.
 
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
@@ -230,13 +232,16 @@ internationalist, while also firmly rooted in social ecology and the
 municipalist principles of Bookchin, via Öcalan.
 
 Perhaps the closest parallel, encapsulating most (if not all) of what I'm trying
-to infer with these terms, would be Cooperation Jackson in Mississippi, for whom
-Kali Akuno is often a spokesperson. They reject utopianism by adopting a
-conscientious strategy of [dual power], which posits an alternative base of
-socio-economic power, not as a form of escapism, but as a direct threat to the
-current capitalist system. I would recommend that all FMPs endorse the five
-__Basic Principles of Class Struggle or Class Conscious Cooperatives__, laid out
-by Akuno in his [2023 May Day proclamation].
+to infer with these terms, is the work already being done by Cooperation Jackson
+in Mississippi, for whom Kali Akuno is often a spokesperson. They reject what he
+calls "entities that exist to press for benefits within the capitalist system,"
+or what I've enumerated here as _economism_ or _utopianism_. Cooperation Jackson
+strives to work outside of the capitalist order by adopting a conscientious
+strategy of [dual power], which posits an alternative base of socio-economic
+power, not as a form of escapism, but as a direct challenge to topple the status
+quo. I would recommend that all FMPs endorse the five __Basic Principles of
+Class Struggle or Class Conscious Cooperatives__, laid out by Akuno in his [2023
+May Day proclamation].
 
 [platform cooperatives]: https://platform.coop
 [7 Cooperative Principles]:
