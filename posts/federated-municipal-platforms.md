@@ -118,7 +118,7 @@ whatever app holds your data; your data will always come to you. Similarly,
 sharing your data doesn't force those you share it with to switch to your
 platform or preferred service.
 
-## Political Implications
+### Political Implications
 These terms import a neutral surface-level meaning that speaks directly to their
 function. Granted, other terms could denote more or less the same functionality,
 but I chose these three terms purposely because they add further political
