@@ -92,11 +92,17 @@ material interest or concern – beyond the platform itself – to ensure their
 long-term commitment to each other's mutual success and well-being.
 
 [^userdata]: Collective ownership and control does not apply to purely
-  individual data, only the services and maintenance of those services. Each
-  user's data will always be theirs and theirs alone, to share with only certain
-  other members or the public or to keep it private, however they so choose.
-  This applies on the organizational level, too, although some internal
-  democratization would be encouraged and possibly facilitated by the platform.
+  individualized or personal data, only shared instances of the software running
+  as services on collective infrastructure. Each user's data will be theirs and
+  theirs alone, until they choose to share it with other members of the
+  platform, or with members of the general public; that choice will _always_ be
+  theirs. Instances of the software users choose to run independently as
+  applications on their own personal devices are also theirs to own and control
+  individually. Ownership and control of these running _instances_ of the
+  software, whether they're cloud servers or phone apps, are distinct from
+  ownership and control of the software itself and its source code, which remain
+  parts of the software commons under the GNU Affero General Public License
+  v3.0, or AGPLv3.
 
 ### Federated
 As a __federated__ platform, it will be capable of connecting with other
