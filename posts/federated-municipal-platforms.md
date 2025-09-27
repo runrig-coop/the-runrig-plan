@@ -55,6 +55,14 @@ To illustrate its finer details, a federated municipal platform can be dissected
 and its three constituent terms inspected more closely, defining them one by
 one.
 
+[_libre_]: https://www.gnu.org/philosophy/free-sw.html
+[farmOS]: https://farmos.org/
+[CoopCycle]: https://coopcycle.org/
+[Etherpad]: https://etherpad.org/
+[Grist]: https://www.getgrist.com/
+[Open Food Network]: https://openfoodnetwork.org/
+[GrownBy]: https://grownby.com/
+
 ### Platform
 As a __platform__, it will host a suite of software applications and network
 services, like so many of the "cloud" platforms we already interact with every
@@ -83,6 +91,13 @@ the absence of geographic closeness, the membership ought to share some other
 material interest or concern – beyond the platform itself – to ensure their
 long-term commitment to each other's mutual success and well-being.
 
+[^userdata]: Collective ownership and control does not apply to purely
+  individual data, only the services and maintenance of those services. Each
+  user's data will always be theirs and theirs alone, to share with only certain
+  other members or the public or to keep it private, however they so choose.
+  This applies on the organizational level, too, although some internal
+  democratization would be encouraged and possibly facilitated by the platform.
+
 ### Federated
 As a __federated__ platform, it will be capable of connecting with other
 platforms just like it. With some due diligence, it could even connect to
@@ -96,21 +111,6 @@ whenever they choose. In other words, you're not forced to stay put or move to
 whatever app holds your data; your data will always come to you. Similarly,
 sharing your data doesn't force those you share it with to switch to your
 platform or preferred service.
-
-[^userdata]: Collective ownership and control does not apply to purely
-  individual data, only the services and maintenance of those services. Each
-  user's data will always be theirs and theirs alone, to share with only certain
-  other members or the public or to keep it private, however they so choose.
-  This applies on the organizational level, too, although some internal
-  democratization would be encouraged and possibly facilitated by the platform.
-
-[_libre_]: https://www.gnu.org/philosophy/free-sw.html
-[farmOS]: https://farmos.org/
-[CoopCycle]: https://coopcycle.org/
-[Etherpad]: https://etherpad.org/
-[Grist]: https://www.getgrist.com/
-[Open Food Network]: https://openfoodnetwork.org/
-[GrownBy]: https://grownby.com/
 
 ## Political Implications
 These terms import a neutral surface-level meaning that speaks directly to their
