@@ -269,3 +269,100 @@ May Day proclamation].
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
+
+
+## Social Architecture
+
+:::warning DRAFT NOTICE
+
+Still a work in progress beyond this point, but a tentative outline:
+
+- One Data Pipeline to Rule Them All!
+- The Rest of the Stack
+- Governance
+- Tech Support
+
+:::
+
+From a strictly technical standpoint, not a lot about this architecture is brand
+spanking new. Examples abound for each of the three architectural patterns
+above. Many of them have a long history of success, even if they still may be
+considered untried in the realm of so-called "enterprise" software. I'll compare
+FMPs with the prior art in greater detail below, but let it suffice to say that
+a lack of novelty is not only acknowledged but intended. A core tenet of
+Runrig's methodology is to provide the [glue] that patches together existing
+applications, services, and platforms, not to start a new greenfield project
+every time the existing solutions could stand to be slightly improved.
+
+What I hope distinguishes FMPs is the combination of these three patterns with a
+methodology and an organizing model for making every service that FMPs provides
+affordable and accessible to the communities who need them most, while also
+being sustainable for the IT professional needed to design, build, deploy, and
+maintain those services.
+
+[glue]: https://en.wikipedia.org/wiki/Glue_code
+
+### One Data Pipeline to Rule Them All!
+
+:::warning DRAFT NOTICE
+
+- a.k.a. universal gateway, interface, or switchboard (a la Greg @ Our Sci)
+- A default UI, if no other client app exists for some or all of the data
+  - ...or a simplified UI for members who don't need the full power of the
+    standard GUI that other members or admins need access to
+  - e.g., so maybe a farmer or driver doesn't want the full CSA dashboard,
+    just wants to check an inbox or notifications tab for order confirmations
+- Can link or route members to external services
+  - ...or wrap all internal/external services in a consistent UI shared by all
+- Middleware, "glue" services, `wontfix` issues
+- Single Sign-On (SSO)
+- Data Independence
+
+:::
+
+
+### Three Layers of Autonomy
+
+:::warning DRAFT NOTICE
+
+- Data Provider
+- Federated Municipal Platforms
+- Client Apps
+
+:::
+
+
+### Governance
+
+:::warning DRAFT NOTICE
+
+- Sweet-spot membership total, a la Dunbar's number
+- Platform members don't have to be tech savvy to know what tools they want
+- If platform is used for commerce, revenue can be "taxed" in order to...
+  - pay recurring costs for hosting etc
+  - sponsor feature dev & other platform improvements
+  - fund community stewards, moderators, working groups, gov councils, etc.
+  - stipends to enable political participation from disadvantaged groups
+  - redistribute wealth thru solidarity shares, sliding scale programs, etc.
+- Platform members own it, not the IT support workers
+
+:::
+
+
+### Technical Support
+
+:::warning DRAFT NOTICE
+
+- Tech team are not members, just hired support
+  - ...unless they're also from community
+- Community can fire the support team, hire another service provider
+  - Likewise, the support team can fire the community as its client
+  - ...so be nice to each other! 🙂
+- More than just coding/hosting:
+  - On-call help desk for remote support
+  - Technical Assistance Providers (TAP) for on-site support
+  - Trusted advisors, consultants, and educators
+  - Facilitators of participatory design projects initiated by the community
+
+:::
+
