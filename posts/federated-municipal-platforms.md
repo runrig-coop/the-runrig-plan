@@ -431,16 +431,99 @@ meantime.
     https://www.eff.org/deeplinks/2019/10/adversarial-interoperability
 
 
-### Three Layers of Autonomy
+### Two Other Layers
+I want to point out here that FMPs are just one layer in the three-layer system
+I envisage for the Runrig system as a whole. FMPs represent perhaps the most
+important layer, and they certainly are the most distinct, but there are certain
+characteristics of the FMP that are only borne out when considered within this
+context. I addressed these in the [initial plan] for Runrig and will return to
+the flesh out other two layers in a separate post, but I'll briefly summarize
+here the relationship between these layers and their relevant components.
 
-:::warning DRAFT NOTICE
+The three layers themselves can be called:
 
-- Data Provider
-- Federated Municipal Platforms
-- Client Apps
+1. Global Data Provider (a.k.a. "One Big Data Union")
+2. Federated Municipal Platforms (a.k.a. the "Glue Services")
+3. Local-first Applications (a.k.a. "Bring Your Own Client")
 
-:::
+In a nutshell, these different layers can help ensure a balance between autonomy
+and equity across individual, local, regional, and global scales.
 
+[initial plan]:
+    /posts/the-runrig-plan-for-socio-ecological-design.md#three-layers-of-autonomy
+
+#### Global Data Provider
+The Data Provider is a global data store of structured, standardized, and
+self-describing data. Users can be allotted a portion of that storage, which is
+theirs to own and control, whether they wish to keep it private or share it with
+other authorized users or share it publicly. This sometimes called a [personal
+online data space (PODS)] or [personal data server (PDS)], or they can be
+referred to more generally a "pod" or [data space]. The benefit of having
+structured data of this sort is that the system for storing it can be entirely
+generic, whether it's farm-related data or an online shopping cart or a
+collection of restaurant reviews. The data provider can safely host any of these
+types of data and, with the data owner's permission, distribute it to a
+multitude of different applications for the owner's own use, or the purpose of
+sharing with other individuals or services.
+
+This could be tremendously beneficial to FMPs by offloading some of the burden
+of storage costs and maintenance, while also offering FMP members with greater
+flexibility in how to access, share, and store their data. A good example of
+this is a typical document file stored in a standard format, which can be hosted
+from a single location but viewed simultaneously from a web browser, a desktop
+file system, or a mobile app, all with the option to share the document with
+fine-grained permissions regarding who can view, edit, or leave separate
+comments.
+
+Data providers of these sorts can be large or small, run by private companies,
+non-profit organizations, or governments, and the standards they support can
+range from the most generic to varying degrees of specificity. An FMP could
+potentially connect to any sort of data provider and wouldn't be limited to just
+one, but a global data provider that is collectively owned and controlled – much
+like the FMP itself, but with a much wider membership – would of course be
+ideal. That would help to distribute costs more equitably at an international
+level while creating a massive base for organizing global solidarity efforts.
+There are a few existing [legal frameworks] for how to codify such a shared data
+system, though I suspect a data trust with some customized provisions for
+including both individual members and regional platforms themselves as trustees
+would be advisable.
+
+Of course, the implementation of such a massive system would take far greater
+time to fully develop than the FMP itself, but some groundwork could be laid by
+careful design of the FMPs themselves, with an iterative approach to the
+deployment of the global data provider.
+
+[personal online data space (PODS)]:https://solidproject.org/get_a_pod
+[personal data server (PDS)]:
+    https://atproto.com/guides/glossary#pds-personal-data-server
+[data space]: https://internationaldataspaces.org/
+[legal frameworks]:
+    https://www.adalovelaceinstitute.org/report/legal-mechanisms-data-stewardship/
+
+#### Local-first Applications
+If the global data provider represents a larger scope of collective autonomy, in
+relationship to the FMP, then local-first applications represent a much smaller,
+individualized form of autonomy.
+
+Local-first software is an approach to software design [first postulated in
+2019] by a group of researchers at Ink & Switch. There's far more to it, but for
+its relevance to FMPs, the most important aspects of local-first software can be
+seen as twofold:
+
+1. Both the software and the data are always localized and self-contained on
+   each user's personal device, enabling fully offline functionality.
+2. Data and functionality can still be shared and synchronized across the
+   network for simultaneous, real-time collaboration with peers.
+
+Local-first applications would be ideal access points for FMP members to
+interact with their own data. The FMP would function as an "always available"
+node for synchronizing across devices and between users. Many of the standards
+and protocols used by the global data provider are well-suited to local-first
+applications as well. The synergy between the data provider and local-first apps
+would offer individuals more freedom to join multiple FMPs, switch between them,
+or leave the network entirely.
+
+[first postulated in 2019]: https://www.inkandswitch.com/essay/local-first/
 
 ### Governance
 
