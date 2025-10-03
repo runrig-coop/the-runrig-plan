@@ -271,7 +271,7 @@ May Day proclamation].
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
 
 
-## Social Architecture
+## A Social Architecture, or Information Ecology
 
 :::warning DRAFT NOTICE
 
@@ -284,41 +284,151 @@ Still a work in progress beyond this point, but a tentative outline:
 
 :::
 
-From a strictly technical standpoint, not a lot about this architecture is brand
-spanking new. Examples abound for each of the three architectural patterns
-above. Many of them have a long history of success, even if they still may be
-considered untried in the realm of so-called "enterprise" software. I'll compare
-FMPs with the prior art in greater detail below, but let it suffice to say that
-a lack of novelty is not only acknowledged but intended. A core tenet of
-Runrig's methodology is to provide the [glue] that patches together existing
-applications, services, and platforms, not to start a new greenfield project
-every time the existing solutions could stand to be slightly improved.
+From a technical standpoint, nothing about this architecture is brand spanking
+new. Prior art exists in separate examples from federated social media, platform
+cooperatives, and digital democracy tools like [Decidem], [Polis], and
+[DemocraciaOS]. I'll compare FMPs with existing solutions in greater detail
+below, but let it suffice to say that a lack of novelty is not only acknowledged
+but intended. What I hope distinguishes FMPs is the combination of these
+patterns with an organizing model that will make essential software services
+accessible and affordable – specifically for the food and farming communities
+that need them most – while also being sustainable for the IT professionals,
+like myself, who ultimately design, build, deploy, and maintain those services.
 
-What I hope distinguishes FMPs is the combination of these three patterns with a
-methodology and an organizing model for making every service that FMPs provides
-affordable and accessible to the communities who need them most, while also
-being sustainable for the IT professional needed to design, build, deploy, and
-maintain those services.
+Federated municipal platforms are meant to serve as a _social architecture_,
+blending digital and social technologies through a comprehensive approach to
+design. In combination, those technologies will be favored that support
+distributed forms of power over the tools themselves and the resources they
+control. To put it a slightly different way, the FMP is designed to promote a
+bottom-up _information ecology_, rather than constructing a top-down information
+architecture – once again, putting "ecology over architecture."
+
+[Decidem]: https://decidim.org/
+[Polis]: https://pol.is/home
+[DemocraciaOS]: https://democraciaos.org/en/
+
+### One Data Pipeline to Rule Them All!
+To look at the FMP in terms of the core features users might be interested in,
+think of it as a __unified data pipeline__ that can push and pull data to and
+from other applications and services.
+
+For example, if a farmer already has an online store that works well for them
+and their customers, the FMP won't force them to migrate away from that
+platform. Instead, it can help them find additional sales outlets that only adds
+to their sales, while automatically updating their catalog or inventory in
+multiple stores whenever they update it in their primary store. Or if that's not
+their jam, it could integrate their store with another tool for managing on-farm
+production and inventory, so that their stock can be incremented when a harvest
+activity is recorded or decremented when an order is placed. These could be
+configured according to how fully automated they wish the process to be, or if
+they prefer to be prompted to approve updates when a change is detected
+elsewhere.
+
+How and where the user interfaces with their data is another aspect meant to
+provide flexibility. In some cases, an FMP member may never login to a website
+or app dedicated to that FMP; they might just continue using integrated
+third-party applications and enjoy the benefits of synchronization. On the
+opposite end of the spectrum, there could be someone who only wants to login to
+their FMP from one site to access a comprehensive dashboard for all of their
+data across multiple platforms. Yet another case are FMP members who can't stand
+logging in at all and don't use any other tools except email and text messaging;
+in that case, the FMP can be configured to send out emails or messages to that
+member, while other members can trigger those messages or send them
+notifications through the interface of their choosing, like the dashboard or
+third-party app. In all of these scenarios, even the member who never logs in,
+they will always enjoy the benefit of a persistent store for all their data that
+is theirs to individually own and control and that runs on infrastructure that
+is communally owned and controlled – that is, the FMP itself. At any later date
+they can choose to access, remove, or transfer their data elsewhere, if they
+choose to leave or join another platform.
+
+A core tenet of Runrig's methodology is to provide the [glue] that fits together
+existing applications, services, and platforms like Lego bricks. I want to
+consciously avoid starting a new greenfield project every time the existing
+tools could merely stand to be improved somewhat. How that improvement is made –
+i.e., how the "glue" gets applied – can play out in various ways. Much of it
+will depend on the effort required and issues of technical compatibility. The
+process will also vary significantly depending on whether the existing tool is
+free & open source software or communal platform, or whether it is a proprietary
+application or closed cloud platform.
 
 [glue]: https://en.wikipedia.org/wiki/Glue_code
 
-### One Data Pipeline to Rule Them All!
+#### Free Software: Tackling `wontfix` Issues
+When the preexisting tool is free or open source software, this might take the
+form of plugin or extension, which might later be contributed back to the
+original software as a core feature.
 
-:::warning DRAFT NOTICE
+Sometimes a little more effort might be required, where a separate server is
+needed to work as an intermediary service that relays and transforms data
+between two existing tools, or the existing tool and some new piece of
+functionality. This is actually where FMPs can truly excel, because these kinds
+of "heavy lifts" are what often get flagged as a `wontfix` issue by more mature
+free software projects. That is the tag commonly applied to GitHub issues that
+represent some feature request or a minor bug that the project's maintainers
+decide is out of scope for the project and so will not be addressed. Sometimes
+those issues are pure nuisance – e.g., yet another request to [add group chat] –
+but sometimes they're valuable features that fall through the cracks for
+small-scale community projects with limited resources. A Runrig middleware that
+can run on an FMP could help fill the gap, thereby relieving some of the strain
+on more mature projects that lack the bandwidth, while serving a niche concern
+that might not have otherwise been addressed. It lifts all boats by essentially
+improving the functionality of the ecosystem as a whole, rather than just
+directing resources to one isolated project.
 
-- a.k.a. universal gateway, interface, or switchboard (a la Greg @ Our Sci)
-- A default UI, if no other client app exists for some or all of the data
-  - ...or a simplified UI for members who don't need the full power of the
-    standard GUI that other members or admins need access to
-  - e.g., so maybe a farmer or driver doesn't want the full CSA dashboard,
-    just wants to check an inbox or notifications tab for order confirmations
-- Can link or route members to external services
-  - ...or wrap all internal/external services in a consistent UI shared by all
-- Middleware, "glue" services, `wontfix` issues
-- Single Sign-On (SSO)
-- Data Independence
+In either of these two scenarios, the added functionality can always be
+reintegrated into previous tools, or taken up and extended as separate projects
+later on, if enough demand exists to support it. As a part of the software
+commons, the potential is limitless.
 
-:::
+[add group chat]: https://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski's_Law
+
+#### Proprietary Platforms: Adversarial Interoperability
+An FMP is not limited to working exclusively with free and open source software,
+but can work with proprietary tools just as well. All that is needed is a public
+API that the FMP can connect to in some way. In many cases, this kind of
+interoperability is supported or even encouraged, even among Big Tech platforms.
+The most straight forward way is through a network request, where the FMP can
+call the existing service, request some data, or post an update. Some platforms,
+like [Shopify] and [Squarespace], provide developers with official toolkits to
+extend the platform's functionality with an app store for plugins and
+extensions, which can be made to relay data between services or add integrations
+with third-party applications. At the very least, there is typically some
+import/export option, which could be automated with a service that could run on
+the FMP platform itself.
+
+In cases where the proprietary platform takes a more hostile stance to data
+portability, or is merely neglectful of its own users and the wider developer
+community, we can deploy what Cory Doctorow has dubbed [adversarial
+interoperability]:
+
+> [Adversarial interoperability is] when you create a new product or service
+> that plugs into the existing ones without the permission of the companies that
+> make them. Think of third-party printer ink, alternative app stores, or
+> independent repair shops that use compatible parts from rival manufacturers to
+> fix your car or your phone or your tractor.
+
+Whether the tactic is benign data portability (through plugins and app stores)
+or adversarial interoperability (through reverse engineering and web-scraping),
+the overarching strategy here should be to migrate away from the proprietary
+platform in favor of a free software alternative. Sorry, I know that violates my
+own previously stated prohibition against migrating between services, but it's
+an important exception, and should only be encouraged for the benefit of the
+user.
+
+The ultimate migration target might be a service hosted by the FMP, or it might
+be a separate free software platform, like [Open Food Network], which the FMP
+facilitates. This strategy goes hand-in-hand with the previous strategy of
+extending and improving the overall ecosystem of free and open source software.
+It allows for a practical approach of meeting users where they're at, instead of
+insisting they adopt free software immediately, and offering a gradual on-ramp
+to free alternatives while offering immediate, tangible benefits in the
+meantime.
+
+[Shopify]: https://apps.shopify.com/
+[Squarespace]: https://developers.squarespace.com/
+[adversarial interoperability]:
+    https://www.eff.org/deeplinks/2019/10/adversarial-interoperability
 
 
 ### Three Layers of Autonomy
