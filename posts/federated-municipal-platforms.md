@@ -528,6 +528,22 @@ or leave the network entirely.
 [first postulated in 2019]: https://www.inkandswitch.com/essay/local-first/
 
 ### Governance
+After looking at the ways a data provider could be deployed on a global scale to
+help diffuse costs, it might be tempting to apply the same rationale to the
+applications and services that run on the platform. If one global platform
+cooperative could achieve the same benefits, all while retaining collective
+ownership and bottom-up control, why go to all the trouble of setting up many,
+federated, municipal-level platforms?
+
+But while it may be true that the necessary digital technologies, on their own,
+could be scaled to such proportions, the same cannot be said for the
+accompanying social technologies.
+
+So much of what I've described so far requires on a tremendous amount of
+introspection and agreement between members of a particular FMP. Since the whole
+point of the FMP is to give all its members greater sovereignty over their
+computing systems and food systems alike, the importance of governance to the
+success of the platform cannot be overemphasized.
 
 :::warning DRAFT NOTICE
 
