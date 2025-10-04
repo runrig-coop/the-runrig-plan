@@ -590,17 +590,66 @@ How and where the geographic boundaries are determined, however, will still
 depend heavily upon the specific context. So again, there's no one-size-fits-all
 solution here, but it can at least provide a useful starting point.
 
-:::warning DRAFT NOTICE
+#### Resource Sharing
+The main issue of FMP governance – excluding other policies that regard the
+community but do not require specific changes to how the platform operates –
+will be in deciding what software it will provide and how to pay for it.
 
-If platform is used for commerce, revenue can be "taxed" in order to...
+Such decisions may include:
 
-  - pay recurring costs for hosting etc
-  - sponsor feature dev & other platform improvements
-  - fund community stewards, moderators, working groups, gov councils, etc.
-  - stipends to enable political participation from disadvantaged groups
-  - redistribute wealth thru solidarity shares, sliding scale programs, etc.
+- Structuring monthly or annual hosting fees among members to pay for the
+  platform's servers and other core utilities.
+- Allocating funds to sponsor new features, plugins, or platform customizations.
+- Hiring technical assistance providers to support members remotely or on-site.
+- Raising additional funds to expand capacity through a dues paying system,
+  public or private grants, crowdfunding initiatives, percentage-based service
+  fees for online sales or other transactions, etc.
+- Electing platform members to act as community stewards or moderators, to form
+  working groups, or form governing councils.
+- Equitable reapportionment of resources through sliding scale programs, CSA
+  solidarity shares, discounted hosting fees for members, etc.
 
-:::
+There are too many governance models, funding options, and tools to address
+here, and I think a wide range of latitude should be given to FMPs to decide
+what works best for them and when to reassess their governing model.
+Nevertheless, there are three resources I would at least recommend consulting:
+
+- __[Enspiral]:__ This cooperative from Aotearoa, New Zealand develops [Loomio],
+  free and open source software for online voting, proposal submissions,
+  transparency, and more. They also make the participatory budgeting tool,
+  [Cobudget], and publish their [Enspiral Handbook] for others to learn from
+  their experience as a cooperative and a self-governing community.
+- __[Community Rule]:__ A beautifully designed "governance toolkit" by Nathan
+  Schneider. You can start with a [rule template] – e.g., Do-ocracy, Consensus,
+  Elected Board, or Benevolent Dictator – or mix-and-match [rules from the
+  library], then publish and share your own unique set of rules. There's also a
+  PDF version of the [Community Rule book] that you can print and share for
+  free. It can be helpful to look at the different configurations as an ongoing
+  decision process, where communities continue to grow, shrink, change, reflect,
+  always evolve, and periodically reset.
+- __[Tyranny of Structurelessness]:__ The classic essay by Jo Freeman, first
+  published in 1971. Based on her experience in the women's liberation movement,
+  Freeman argues for the adoption of _explicit_ governing structures, even when
+  in radically decentralized or horizontalized groups, because otherwise
+  _implicit_ governing structures tend to form, with or without anyone's
+  intention. Unspoken hierarchies of that sort can be especially difficult to
+  address once they've formed, can lead to internal strife, and wind up
+  perpetuating many of the inequities such "structureless" groups claim to
+  oppose.
+
+Voting tools – including but not limited to the ones that Enspiral offers –
+could also be hosted on the FMP, although in many cases that probably won't be
+necessary.
+
+[Enspiral]: https://www.enspiral.com/
+[Loomio]: https://www.loomio.com/
+[Cobudget]: https://cobudget.com/
+[Enspiral Handbook]: https://handbook.enspiral.com/
+[Community Rule]: https://communityrule.info/
+[rule template]: https://communityrule.info/templates/
+[rules from the library]: https://communityrule.info/library/
+[Community Rule book]: https://communityrule.info/book/
+[Tyranny of Structurelessness]: https://www.jofreeman.com/joreen/tyranny.htm
 
 
 ### Technical Support
