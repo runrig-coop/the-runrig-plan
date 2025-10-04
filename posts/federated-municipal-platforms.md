@@ -574,17 +574,31 @@ non-computing resources can be distributed and shared, such as trucking and cold
 storage, in order to lower costs. Similarly, the overall value can increase
 through activities like shared marketing.
 
+#### Geographic Boundaries
+For all of these reasons, the easiest way to achieve equilibrium will most often
+be the establishment of geographical boundaries. After all, the underlying
+economic and social dynamics of an autonomous food system should be rooted in
+place, as I think most people will recognize intuitively. Geographic proximity
+ensures at least some commonality of material needs and wants, in so far as the
+same material resources can be brought to bear on a given operation without
+incurring further transportation costs. By assigning a geographic boundary, it
+can also help avoid more exclusionary methods of limiting membership, based upon
+a member's socioeconomic status or upon the self-selecting tendencies that can
+emerge within a closed sphere of cultural identity.
+
+How and where the geographic boundaries are determined, however, will still
+depend heavily upon the specific context. So again, there's no one-size-fits-all
+solution here, but it can at least provide a useful starting point.
+
 :::warning DRAFT NOTICE
 
-- Sweet-spot membership total, a la Dunbar's number
-- Platform members don't have to be tech savvy to know what tools they want
-- If platform is used for commerce, revenue can be "taxed" in order to...
+If platform is used for commerce, revenue can be "taxed" in order to...
+
   - pay recurring costs for hosting etc
   - sponsor feature dev & other platform improvements
   - fund community stewards, moderators, working groups, gov councils, etc.
   - stipends to enable political participation from disadvantaged groups
   - redistribute wealth thru solidarity shares, sliding scale programs, etc.
-- Platform members own it, not the IT support workers
 
 :::
 
