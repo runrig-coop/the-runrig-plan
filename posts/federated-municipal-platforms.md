@@ -545,6 +545,35 @@ point of the FMP is to give all its members greater sovereignty over their
 computing systems and food systems alike, the importance of governance to the
 success of the platform cannot be overemphasized.
 
+#### The Costs of Administration & Development
+I worry I might oversell what all an FMP can do in practice. Hypothetically, the
+number of applications and services it can host are indeed limitless; the way
+its features can be augmented or customized can go on forever; and its overall
+flexibility is practically infinite. Of course, the first trade-off you'll
+encounter in practice is the material cost of the hardware and power that hosts
+your FMP, as well as the labor to administer and maintain it, plus whatever
+extra development you might want to sponsor for new features, plugins, or other
+forms of customization.
+
+Then again, these material costs can be offset by recruiting more FMP members,
+in order to distribute and diffuse its total cost. Most of the costs to host,
+administer, and maintain the platform will flatten out pretty quickly as the
+number of members increases. Where the most variability of costs then comes into
+play is the extent to which increasing membership increases the demand for
+additional features and customization.
+
+Essentially, it all boils down to an issue of governance, and there's not
+one-size-fits-all solution to solve it. Each FMP will need to determine the
+scope of what it can do, what kind of economic activities it can cater to, what
+aspects of food production and distribution it can manage. Whatever democratic
+process the FMP adopts, the more each member's technological needs and wants
+overlap with their those of their fellow members, the less development should be
+required to meet all members needs and wants equally. Also, by choosing the
+operational scope carefully, the costs can be further offset by the ways
+non-computing resources can be distributed and shared, such as trucking and cold
+storage, in order to lower costs. Similarly, the overall value can increase
+through activities like shared marketing.
+
 :::warning DRAFT NOTICE
 
 - Sweet-spot membership total, a la Dunbar's number
