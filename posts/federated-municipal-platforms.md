@@ -354,7 +354,7 @@ application or closed cloud platform.
 
 [glue]: https://en.wikipedia.org/wiki/Glue_code
 
-#### Free Software: Tackling `wontfix` Issues
+#### Free Software &#x21D4; FMP: Tackling `wontfix` Issues
 When the preexisting tool is free or open source software, this might take the
 form of plugin or extension, which might later be contributed back to the
 original software as a core feature.
@@ -383,7 +383,7 @@ commons, the potential is limitless.
 
 [add group chat]: https://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski's_Law
 
-#### Proprietary Platforms: Adversarial Interoperability
+#### Proprietary Apps &#x21D4; FMP: Adversarial Interoperability
 An FMP is not limited to working exclusively with free and open source software,
 but can work with proprietary tools just as well. All that is needed is a public
 API that the FMP can connect to in some way. In many cases, this kind of
@@ -398,8 +398,8 @@ import/export option, which could be automated with a service that could run on
 the FMP platform itself.
 
 In cases where the proprietary platform takes a more hostile stance to data
-portability, or is merely neglectful of its own users and the wider developer
-community, we can deploy what Cory Doctorow has dubbed [adversarial
+portability, or is willfully neglectful of its own users and the wider developer
+community, we can employ what Cory Doctorow has dubbed [adversarial
 interoperability]:
 
 > [Adversarial interoperability is] when you create a new product or service
@@ -408,22 +408,24 @@ interoperability]:
 > independent repair shops that use compatible parts from rival manufacturers to
 > fix your car or your phone or your tractor.
 
-Whether the tactic is benign data portability (through plugins and app stores)
-or adversarial interoperability (through reverse engineering and web-scraping),
-the overarching strategy here should be to migrate away from the proprietary
-platform in favor of a free software alternative. Sorry, I know that violates my
-own previously stated prohibition against migrating between services, but it's
-an important exception, and should only be encouraged for the benefit of the
-user.
+Whether the tactic employ is one of adversarial interoperability (e.g., via
+reverse engineering and web-scraping) or benevolent data portability (e.g., via
+plugins and app stores), in either case, the larger strategy should enable a
+migration path away from the proprietary platform towards a free software
+alternative in the long run. Users shouldn't be forced into that migration, but
+they should encouraged. Offering a more gradual migration process should only
+help with that encouragement.
 
-The ultimate migration target might be a service hosted by the FMP, or it might
-be a separate free software platform, like [Open Food Network], which the FMP
-facilitates. This strategy goes hand-in-hand with the previous strategy of
-extending and improving the overall ecosystem of free and open source software.
-It allows for a practical approach of meeting users where they're at, instead of
-insisting they adopt free software immediately, and offering a gradual on-ramp
-to free alternatives while offering immediate, tangible benefits in the
-meantime.
+The ultimate migration target itself might be a service hosted by the FMP, or it
+might be a separate free software platform, like [Open Food Network], with which
+the FMP can help establish an automated connection. This strategy goes
+hand-in-hand with the previous strategy of extending and improving the overall
+ecosystem of free and open source software. It is a slow-and-steady, piecemeal
+approach to free software adoption that meets users where they're at, instead of
+insisting they switch everything all at once. In the meantime, they can still
+enjoy the immediate, practical benefits of free software, which even limited
+adoption can afford, while shifting a bit more power away from Big Tech and also
+lifting some of the burden off free software platforms like Open Food Network.
 
 [Shopify]: https://apps.shopify.com/
 [Squarespace]: https://developers.squarespace.com/
