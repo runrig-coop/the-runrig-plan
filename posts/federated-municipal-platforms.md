@@ -272,18 +272,6 @@ May Day proclamation].
 
 
 ## A Social Architecture, or Information Ecology
-
-:::warning DRAFT NOTICE
-
-Still a work in progress beyond this point, but a tentative outline:
-
-- One Data Pipeline to Rule Them All!
-- The Rest of the Stack
-- Governance
-- Tech Support
-
-:::
-
 From a technical standpoint, nothing about this architecture is brand spanking
 new. Prior art exists in separate examples from federated social media, platform
 cooperatives, and digital democracy tools like [Decidem], [Polis], and
