@@ -688,19 +688,40 @@ democracy, regardless the group's size or political persuasion.
 [Jo Freeman essay]: https://www.jofreeman.com/joreen/tyranny.htm
 
 ### Technical Support
+A final optional component of this social architecture is the role of Runrig
+itself. As a distinctly community-led formation, there is no firm requirement
+that I or anyone directly connected to Runrig to take part in the establishment
+of an instance of a _federated municipal platform_. The FMP is an architectural
+framework and a set of patterns, that anyone is free to reproduce without
+express permission or to call whatever they like.
 
-:::warning DRAFT NOTICE
+I propose that there is, however, a beneficial role for software consultants and
+technical assistance providers to be provide support contracts to communities to
+establish their own FMP. I hope to expand Runrig to include a worker cooperative
+of technologists, designers, and advisors that can do precisely that. I urge
+anyone who is interested in joining that effort to [email me] or invite them to
+launch their own cooperative consultancy.
 
-- Tech team are not members, just hired support
-  - ...unless they're also from community
-- Community can fire the support team, hire another service provider
-  - Likewise, the support team can fire the community as its client
-  - ...so be nice to each other! 🙂
-- More than just coding/hosting:
-  - On-call help desk for remote support
-  - Technical Assistance Providers (TAP) for on-site support
-  - Trusted advisors, consultants, and educators
-  - Facilitators of participatory design projects initiated by the community
+Technical consultants specializing in Runrig FMP design could offer any of the
+following services in their own communities or further abroad:
 
-:::
+- Initial platform deployment along with basic applications and services.
+- Ongoing hosting, maintenance, and system administration for the platform,
+  available on a monthly or annual basis.
+- Sponsored development of new features, plugins, middleware, or other forms of
+  platform customization.
+- Remote help desk for added technical support to platform members and community
+  administrators.
+- On-site technical assistance in the form of on-demand calls or continuing
+  support services.
+- Facilitation of participatory design, research, or education projects to meet
+  the community's strategic goals.
+- General software consultation and technology assessments, a la carte.
 
+This is yet another topic I will need to expand upon in a future article, but I
+intend FMPs and Runrig's other methodologies to make free software development
+more sustainable for independent developers like myself. There's no reason this
+can't go hand-in-hand with developing software tools that respect users' freedom
+while offering better design and functionality than what's currently available
+to food communities as free software – even in comparison to the most cutting
+edge proprietary offerings.
