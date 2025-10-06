@@ -81,17 +81,18 @@ services, like so many of the "cloud" platforms we already interact with every
 day (e.g., Amazon, Facebook, Airbnb, Netflix). There may be only one such
 service visible to users, or it might be several distinct applications, but they
 should be closely integrated and able to communicate with each other. In this
-regard, it will be comparable to the way Google Calendar, Drive, and Gmail all
-function as separate apps but also as one integrated platform, simultaneously.
-Farmers, food workers, and other community members will access these services
-via dedicated mobile apps, browser-based web apps, possibly even remote sensors
-or on-board displays in tractors and other vehicles.
+regard, it will be comparable to the way Google Calendar, Drive, Docs, Sheets,
+and Gmail all function as separate apps in their own right, while they are
+simultaneously integrated as single, cohesive platform. Farmers, food workers,
+and other community members will access these services via dedicated mobile
+apps, browser-based web apps, possibly even remote sensors or on-board displays
+in tractors and other vehicles.
 
 ### Municipal
 As a __municipal__ platform, its user-members will share collective ownership
 and control of its services, along with certain responsibilities to maintain and
 improve it.[^userdata] How exactly those services and their maintenance are
-governed will be up to the user-members collectively, but should adhere to
+governed will be up to the user-members collectively, but they should adhere to
 democratic principles or some sort of consensus procedure. Members will
 therefore have to get to know one another, if they don't already, either
 remotely or in person. To keep this from becoming too unwieldy or
@@ -120,15 +121,15 @@ long-term commitment to each other's mutual success and well-being.
 As a __federated__ platform, it will be capable of connecting with other
 platforms just like it. With some due diligence, it could even connect to
 platforms that are _not_ so much like itself, like standard payment processors
-(PayPal, Cash App, Stripe), proprietary sales platforms (e.g., PayPal, Shopify,
-Squarespace), or corporate cloud storage services (e.g., iCloud, Dropbox,
+(PayPal, Cash App, Stripe), proprietary sales platforms (e.g., Shopify, Clover
+POS, Squarespace), or corporate cloud storage services (e.g., iCloud, Dropbox,
 Airtable). Perhaps most importantly, this means users aren't restricted from
-joining more than one platform, switching between them, or leaving entirely.
-Their data can easily follow them with just a simple authorization process,
-whenever they choose. In other words, you're not forced to stay put or move to
-whatever app holds your data; your data will always come to you. Similarly,
-sharing your data doesn't force those you share it with to switch to your
-platform or preferred service.
+joining more than one platform, switching between them, or leaving the platform
+entirely. Their data can easily follow them with just a simple authorization
+process, whenever they choose. In other words, you're not forced to stay put or
+move to whatever app has hold of your data; your data will always come to you.
+Similarly, sharing your data doesn't force those you share it with to switch to
+your platform or preferred service.
 
 ### Political Implications
 These terms import a neutral surface-level meaning, which speaks directly to
