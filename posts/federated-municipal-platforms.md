@@ -161,8 +161,8 @@ their function. Granted, other terms could denote more or less the same
 functionality, but I chose these three terms purposely because they add further
 political connotations I wish to imply as well. I'll make those politics
 explicit here because I don't want my intentions to be misconstrued, but feel
-free to skip to the next section if you just want get on with the nuts and bolts
-of how FMPs work.
+free to skip to the [next section] if you just want get on with the nuts and
+bolts of how FMPs work.
 
 Perhaps the closest parallel encapsulating most of what I'm trying to infer with
 these concepts – although not so much as a _digital_ platform, to my knowledge,
@@ -247,6 +247,7 @@ Abdullah Öcalan, which forms the theoretical and constitutional basis for the
 internationalist, while also firmly rooted in social ecology and the
 municipalist principles of Bookchin, via Öcalan.
 
+[next section]: #a-social-architecture-or-information-ecology
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
