@@ -155,7 +155,7 @@ your platform or preferred service.
 [services]: https://delightful.coding.social/delightful-fediverse-experience/
 [ActivityPub]: https://activitypub.rocks/
 
-### Political Implications
+## Political Implications
 These terms import a neutral surface-level meaning, which speaks directly to
 their function. Granted, other terms could denote more or less the same
 functionality, but I chose these three terms purposely because they add further
@@ -164,6 +164,7 @@ explicit here because I don't want my intentions to be misconstrued, but feel
 free to skip to the next section if you just want get on with the nuts and bolts
 of how FMPs work.
 
+### Platform
 The FMP borrows much of its underlying socioeconomic model from [platform
 cooperatives]. In recent years, social theorists like Trebor Scholz, Nathan
 Schneider, and others have proposed platform cooperativism as a way to
@@ -199,6 +200,7 @@ co-ops; however, membership and participation in an FMP should not be predicated
 on a person or group entering into a formal professional relationship with other
 members, so long as they demonstrate their commitment to the community.
 
+### Municipalist
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
 Municipalism] movement exemplified by groups like _Barcelona En Comú_ and
@@ -213,6 +215,7 @@ against this and other forms of moral co-optation, but expanding the sphere of
 participation can at least mitigate the risk of this form of "co-op co-optation"
 specifically.
 
+### Federalist
 Likewise, municipalism should not be mistaken for provincialism, and so the FMP
 must be a federated – or even a _federalist_ – platform too. I say _federalist_
 not in the republican sense, as Alexander Hamilton might have used it, but in
