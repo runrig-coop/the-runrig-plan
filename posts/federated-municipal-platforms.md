@@ -164,6 +164,18 @@ explicit here because I don't want my intentions to be misconstrued, but feel
 free to skip to the next section if you just want get on with the nuts and bolts
 of how FMPs work.
 
+Perhaps the closest parallel encapsulating most of what I'm trying to infer with
+these concepts – although not so much as a _digital_ platform, to my knowledge,
+but as a _political_ platform – is Cooperation Jackson in Mississippi. Kali
+Akuno, one of their founders and a frequent spokesperson, rejects what he calls
+"entities that exist to press for benefits within the capitalist system," or
+what I allude to below as _economism_ or _utopianism_. Cooperation Jackson
+strives towards a form of [dual power] by establishing a revolutionary base of
+socio-economic power, not as a form of escapism but as a direct challenge to the
+existing capitalist order. I would recommend that FMPs endorse the five __Basic
+Principles of Class Struggle or Class Conscious Cooperatives__, as laid out by
+Akuno in his [2023 May Day proclamation].
+
 ### Platform
 The FMP borrows much of its underlying socioeconomic model from [platform
 cooperatives]. In recent years, social theorists like Trebor Scholz, Nathan
@@ -235,18 +247,9 @@ Abdullah Öcalan, which forms the theoretical and constitutional basis for the
 internationalist, while also firmly rooted in social ecology and the
 municipalist principles of Bookchin, via Öcalan.
 
-Perhaps the closest parallel, encapsulating most (if not all) of what I'm trying
-to infer with these terms, is the work already being done by Cooperation Jackson
-in Mississippi, for whom Kali Akuno is often a spokesperson. They reject what he
-calls "entities that exist to press for benefits within the capitalist system,"
-or what I've enumerated here as _economism_ or _utopianism_. Cooperation Jackson
-strives to work outside of the capitalist order by adopting a conscientious
-strategy of [dual power], which posits an alternative base of socio-economic
-power, not as a form of escapism, but as a direct challenge to topple the status
-quo. I would recommend that all FMPs endorse the five __Basic Principles of
-Class Struggle or Class Conscious Cooperatives__, laid out by Akuno in his [2023
-May Day proclamation].
-
+[dual power]: https://blacksocialists.us/dual-power-map
+[2023 May Day proclamation]:
+    https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
 [platform cooperatives]: https://platform.coop
 [social.coop]: https://wiki.social.coop/wiki/Main_Page
 [Up&Go]: https://colab.coop/work/upandgo/
@@ -266,9 +269,6 @@ May Day proclamation].
     https://rojavainformationcenter.org/2023/12/aanes-social-contract-2023-edition/
 [Democratic Confederalism]:
     https://ocalanbooks.com/#/book/democratic-confederalism
-[dual power]: https://blacksocialists.us/dual-power-map
-[2023 May Day proclamation]:
-    https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
 
 
 ## A Social Architecture, or Information Ecology
