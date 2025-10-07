@@ -140,72 +140,54 @@ explicit here because I don't want my intentions to be misconstrued, but feel
 free to skip to the next section if you just want get on with the nuts and bolts
 of how FMPs work.
 
-The system as a whole borrows heavily from the concept of [platform
-cooperatives], popularized by Trebor Scholz and Nathan Schneider among others.
-But whereas platform co-ops are often thought of as business platforms
-cooperatively owned by individual workers,[^platform-coop] FMPs are intended to
-represent a broader base of membership, comprised of workers, consumers,
-producers, and other people from the community, with both individual and
-institutional members. I expect an FMP to be held together principally on the
-strength of its social bonds, and in some cases by an outright political
-ideology or agenda. Even multi-stakeholder cooperatives tend to rely more on
-shared economic and commercial interests, at least in practice if not in theory.
-To be sure, commerce will be a key function of the FMP, and so it risks being
-co-opted or "economized" in just the same way as the [7 Cooperative Principles]
-can be; however, membership and participation in an FMP should not be predicated
-on a person or group entering into a formal professional relationship with other
-members, so long as they demonstrate their commitment to the community.
+The FMP borrows much of its underlying socioeconomic model from [platform
+cooperatives]. In recent years, social theorists like Trebor Scholz, Nathan
+Schneider, and others have proposed platform cooperativism as a way to
+counteract the dominant paradigm of _platform capitalism_. The latter form is
+well represented by the likes of Amazon, Google, Facebook, Uber, etc., platforms
+we're accustomed to interacting with on a daily basis, while a prime real-world
+example of a platform co-op is [Up&Go]. They're a workers' co-op of professional
+home cleaners, who own and operate the web platform where their customers
+register, schedule services, and pay for everything on the same site. Platform
+co-ops are most often thought of as business platforms of this sort, although
+other examples exist, like social media site [social.coop].
 
-[^platform-coop]: To be clear, Scholz and Schneider _do not_ restrict platform
-    co-ops to businesses. Quite the contrary, they have both written extensively
-    about – and contributed directly to the establishment of – numerous
-    real-world examples of platform co-ops that are owned by their users, like
-    [social.coop], in order to share costs and collectively administer the site.
-    They do not limit their definition to those platforms that are exclusively
-    owned by workers to share profits and manage their own labor and production,
-    like [Up&Go], but include many different membership models and even
-    multi-stakeholder formations. Still, I've consciously elected not to use the
-    term "cooperative" because of the emphasis usually placed on a co-op's
-    composition according to membership classes, such as worker-members,
-    producer-members, consumer-members, etc. I'm by no means opposed to co-ops,
-    but I wanted to put more emphasis on geographical and cultural proximity as
-    the basis for its shared interests and commitments; hence, _municipal_
-    rather than _cooperative_.
+A common critique of co-ops, particularly those engaged in commerce, is that
+even when they promote virtuous behavior _internally_, such as egalitarianism
+and free association among fellow workers, they still must survive within
+markets dominated by capital interests. In order to succeed, therefore, co-ops
+can be impelled to reproduce capitalistic forms of exploitation _externally_,
+even if they don't intend it. To guard against such tendencies, some co-ops
+pledge to uphold the [7 Cooperative Principles] to maintain solidarity with
+other co-ops, trade unions, and the community at large; however, adherence to
+these principles is strictly voluntary in most jurisdictions, with little or no
+enforcement.
 
-In this respect, FMPs skew a bit closer to the "civic platforms" put forth in
+In contrast, FMPs should skew a bit closer to the "civic platforms" put forth in
 James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
 socialist construction projects from the early 20th century, namely G. D. H.
 Cole's theory of guild socialism and Otto Neurath's models of economic planning.
 A wider membership base, established not only upon commerce but other equally
 important social relations, will hopefully afford opportunities for more
-civic-minded programs to develop. A common critique of co-ops is that, although
-they may promote virtuous behavior _internally_, such as egalitarianism and free
-association, they must still contend within the larger realm of
-capital-dominated markets, and so _externally_, all the same, successful co-ops
-are encouraged to reproduce capitalistic forms of competition, subterfuge, and
-oppression. Again, this is why FMPs must seek out a wider base of membership,
-even among people who seldom login login to the platform (if ever), but who
-still maintain strong social bonds with the rest of the group. This will require
-both careful vetting and active recruitment, to some degree, so that those who
-might not otherwise be inclined to join a digital platform are still invited to
-participate. In the long run, only constant vigilance can fully safeguard
-against this and other forms of moral co-optation, but expanding the sphere of
-participation can at least mitigate the risk of this form of "co-op co-optation"
-specifically.
+civic-minded programs to develop. To be sure, commerce will be a key function of
+the FMP, and so it risks being co-opted or "economized" in just the same way as
+co-ops; however, membership and participation in an FMP should not be predicated
+on a person or group entering into a formal professional relationship with other
+members, so long as they demonstrate their commitment to the community.
 
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
 Municipalism] movement exemplified by groups like _Barcelona En Comú_ and
-[Fearless Cities]. As a municipality, it might also echo the far more radical
-_Municipios Autónomos Rebeldes Zapatistas_, or MAREZs, which from 1994 to 2023
-represented the smallest unit of local self-governance in the autonomous regions
-of Chiapas.[^marez]
-
-[^marez]: This last reference to the Zapatistas is a stretch, I admit, but I
-    mean it more as an homage than a strict comparison. While I don't equate
-    FMPs or Runrig to MAREZs or the EZLN, I would certainly welcome any positive
-    associations. The same goes for the Spanish CNT-FAI and the DAANES of
-    Rojava, referenced in the following paragraph.
+[Fearless Cities]. Membership should be extended even to people who may seldom
+login to the platform itself, if ever at all, but who still maintain strong
+social bonds with the rest of the group or play a role in the community. This
+will require some combination of careful vetting, targeted recruitment, popular
+education, and continually active engagement between members to ensure it
+remains an inclusive body while not falling prey by moneyed interests or bad
+faith actors. In the long run, only constant vigilance can fully safeguard
+against this and other forms of moral co-optation, but expanding the sphere of
+participation can at least mitigate the risk of this form of "co-op co-optation"
+specifically.
 
 Municipalism should not be mistaken for provincialism, however, which is why the
 FMP must be a federated platform, and even a _federalist_ platform. By federated
@@ -257,10 +239,10 @@ Class Struggle or Class Conscious Cooperatives__, laid out by Akuno in his [2023
 May Day proclamation].
 
 [platform cooperatives]: https://platform.coop
-[7 Cooperative Principles]:
-    https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
 [social.coop]: https://wiki.social.coop/wiki/Main_Page
 [Up&Go]: https://colab.coop/work/upandgo/
+[7 Cooperative Principles]:
+    https://ica.coop/en/whats-co-op/co-operative-identity-values-principles
 [_Platform Socialism_]:
     https://www.techwontsave.us/episode/97_envisioning_platform_socialism_w_james_muldoon
 [libertarian municipalism]:
