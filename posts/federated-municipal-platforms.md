@@ -118,7 +118,7 @@ long-term commitment to each other's mutual success and well-being.
   v3.0, or AGPLv3.
 
 ### Federated
-As a __federated__ platform, it will be capable of connecting with other
+As a __federated__ platform,[^fedi] it will be capable of connecting with other
 platforms just like it. With some due diligence, it could even connect to
 platforms that are _not_ so much like itself, like standard payment processors
 (PayPal, Cash App, Stripe), proprietary sales platforms (e.g., Shopify, Clover
@@ -130,6 +130,30 @@ process, whenever they choose. In other words, you're not forced to stay put or
 move to whatever app has hold of your data; your data will always come to you.
 Similarly, sharing your data doesn't force those you share it with to switch to
 your platform or preferred service.
+
+[^fedi]: Here I mean the technical sense of a _federated server architecture_.
+    Simply put, that's when servers communicate with other servers as peers, in
+    what can almost be called a peer-to-peer (P2P) architecture, as opposed to
+    the more conventional client-server architecture. This is akin to
+    BitTorrent, Apple Airdrop, or even Bluetooth, but whereas each of those
+    applications are conceived of like clients, just remade as P2P apps so users
+    can communicate directly with one another – i.e., without a server relaying
+    messages – federated platforms, on the other hand, are conceived of like
+    servers remade as peer nodes in a decentralized network, wherein no single
+    server is distinguished as authoritative over the others. Typically, they
+    are still thought of as "headless" servers, in that they don't necessarily
+    take direct user input from any type of graphical interface. They can also
+    continue to act in the role of a traditional server with other clients, but
+    those clients are distinct from their federated peers. Federation, in this
+    sense, is the pattern that gives its name to the [Fediverse], most famously
+    represented by Mastodon, the alternative social media app, along with the
+    myriad other [applications] and [services] that support some variant of the
+    [ActivityPub] protocol.
+
+[Fediverse]: https://fediverse.info/
+[applications]: https://delightful.coding.social/delightful-fediverse-clients/
+[services]: https://delightful.coding.social/delightful-fediverse-experience/
+[ActivityPub]: https://activitypub.rocks/
 
 ### Political Implications
 These terms import a neutral surface-level meaning, which speaks directly to
@@ -189,32 +213,14 @@ against this and other forms of moral co-optation, but expanding the sphere of
 participation can at least mitigate the risk of this form of "co-op co-optation"
 specifically.
 
-Municipalism should not be mistaken for provincialism, however, which is why the
-FMP must be a federated platform, and even a _federalist_ platform. By federated
-I mean the technical sense of a _federated server architecture_. Simply put,
-that's when servers communicate with other servers as peers, in what can almost
-be called a peer-to-peer (P2P) architecture, as opposed to the more conventional
-client-server architecture. This is akin to BitTorrent, Apple Airdrop, or even
-Bluetooth, but whereas each of those applications are conceived of like clients,
-just remade as P2P apps so users can communicate directly with one another –
-i.e., without a server relaying messages – federated platforms, on the other
-hand, are conceived of like servers remade as peer nodes in a decentralized
-network, wherein no single server is distinguished as authoritative over the
-others. Typically, they are still thought of as "headless" servers, in that they
-don't necessarily take direct user input from any type of graphical interface.
-They can also continue to act in the role of a traditional server with other
-clients, but those clients are distinct from their federated peers. Federation,
-in this sense, is the pattern that gives its name to the [Fediverse], most
-famously represented by Mastodon, the alternative social media app, along with
-the myriad other [applications] and [services] that support some variant of the
-[ActivityPub] protocol.
-
-I say _federalist_ platform, in addition to federated, to imply the long-held
-[anarchist sense of federalism]. I would only qualify that I don't especially
-have in mind the more "utopian" aspects of federalism, often associated with
-mid-19th century thinkers like Pierre-Joseph Proudhon or James Guillaume.
-Rather, I would point to much later anarchist projects of the 20th and 21st
-century, which certainly developed out of utopian socialism, but which
+Likewise, municipalism should not be mistaken for provincialism, and so the FMP
+must be a federated – or even a _federalist_ – platform too. I say _federalist_
+not in the republican sense, as Alexander Hamilton might have used it, but in
+the long-held [anarchist sense of federalism]. I would only qualify that I don't
+especially have in mind the more "utopian" aspects of federalism, often
+associated with mid-19th century thinkers like Pierre-Joseph Proudhon or James
+Guillaume. Rather, I would point to much later anarchist projects of the 20th
+and 21st century, which certainly developed out of utopian socialism, but which
 positioned themselves as explicitly internationalist if not outright
 counter-utopianist. Starting at least as early as the Spanish Civil War, the
 anarcho-syndicalists of the [CNT-FAI] established federated communes as a part
@@ -257,10 +263,6 @@ May Day proclamation].
     https://rojavainformationcenter.org/2023/12/aanes-social-contract-2023-edition/
 [Democratic Confederalism]:
     https://ocalanbooks.com/#/book/democratic-confederalism
-[Fediverse]: https://fediverse.info/
-[applications]: https://delightful.coding.social/delightful-fediverse-clients/
-[services]: https://delightful.coding.social/delightful-fediverse-experience/
-[ActivityPub]: https://activitypub.rocks/
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
