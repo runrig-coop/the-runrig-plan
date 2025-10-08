@@ -247,7 +247,7 @@ Abdullah Öcalan, which forms the theoretical and constitutional basis for the
 internationalist, while also firmly rooted in social ecology and the
 municipalist principles of Bookchin, via Öcalan.
 
-[next section]: #a-social-architecture-or-information-ecology
+[next section]: #social-architecture-software-ecology
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
     https://cooperationjackson.org/announcementsblog/buildingclassconsciouscoops
@@ -272,10 +272,10 @@ municipalist principles of Bookchin, via Öcalan.
     https://ocalanbooks.com/#/book/democratic-confederalism
 
 
-## A Social Architecture, or Information Ecology
-From a technical standpoint, nothing about this architecture is brand spanking
-new. Prior art exists in separate examples from federated social media, platform
-cooperatives, and digital democracy tools like [Decidem], [Polis], and
+## Social Architecture, Software Ecology
+From a technical standpoint, very little about this architecture is brand
+spanking new. Prior art exists in separate examples from federated social media,
+platform cooperatives, and digital democracy tools like [Decidem], [Polis], and
 [DemocraciaOS]. I'll compare FMPs with existing solutions in greater detail
 below, but let it suffice to say that a lack of novelty is not only acknowledged
 but intended. What I hope distinguishes FMPs is the combination of these
@@ -305,9 +305,9 @@ that can be said to be _convivial tools_:
     'decisions,'" by which he may was likely inferring universities, hospitals,
     research labs, and public or private administration offices, respectively.
 
-Finally, to put it a slightly different way, the FMP is designed to promote a
-bottom-up _information ecology_, rather than constructing a top-down information
-architecture – once again, putting "ecology over architecture."
+Finally, in a nod to the organic origins of cybernetics, the FMP is designed to
+promote a bottom-up _software ecology_, rather than constructing a top-down
+software architecture – once again, putting "ecology over architecture."
 
 [Decidem]: https://decidim.org/
 [Polis]: https://pol.is/home
