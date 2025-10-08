@@ -180,6 +180,17 @@ const isPost = computed(() => {
   font-weight: 700;
 }
 
+.has-aside .aside-container,
+.has-aside .aside-curtain {
+  width: 320px;
+}
+@media (min-width: 1440px) {
+  .has-aside .aside-container,
+  .has-aside .aside-curtain {
+    width: 512px;
+  }
+}
+
 .rr-home section .text {
   max-width: 42em;
   margin-bottom: 32px;
