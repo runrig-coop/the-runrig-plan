@@ -286,9 +286,26 @@ like myself, who ultimately design, build, deploy, and maintain those services.
 
 Federated municipal platforms are meant to serve as a _social architecture_,
 blending digital and social technologies through a comprehensive approach to
-design. In combination, those technologies will be favored that support
-distributed forms of power over the tools themselves and the resources they
-control. To put it a slightly different way, the FMP is designed to promote a
+design. To borrow from Ivan Illich, FMPs will favor digital or social components
+that can be said to be _convivial tools_:
+
+> Tools foster conviviality to the extent to which they can be easily used, by
+> anybody, as often or as seldom as desired, for the accomplishment of a purpose
+> chosen by the user. The use of such tools by one person does not restrain
+> another from using them equally. They do not require previous certification of
+> the user. Their existence does not impose any obligation to use them. They
+> allow the user to express his meaning in action.[^illich-21]
+
+[^illich-21]: Ivan Illich, _Tools for Conviviality_ (Harper & Row, 1973), 22.
+    Famously, Illich's definition of _tools_ included "all rationally designed
+    devices," such as hand tools, kitchen utensils, industrial machinery,
+    industrial factories themselves, interstate highway highways, and telephone
+    networks. He even included "productive systems for intangible commodities
+    such as those which produce 'education,' 'health,' 'knowledge,' or
+    'decisions,'" by which he may was likely inferring universities, hospitals,
+    research labs, and public or private administration offices, respectively.
+
+Finally, to put it a slightly different way, the FMP is designed to promote a
 bottom-up _information ecology_, rather than constructing a top-down information
 architecture – once again, putting "ecology over architecture."
 
