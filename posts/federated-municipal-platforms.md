@@ -579,7 +579,7 @@ How and where the geographic boundaries are determined, however, will still
 depend heavily upon the specific context. So again, there's no one-size-fits-all
 solution here, but it can at least provide a useful starting point.
 
-#### Resource Sharing
+#### Resource Allocation
 The main issue of FMP governance – excluding other policies that regard the
 community but do not require specific changes to how the platform operates –
 will be in deciding what software it will provide and how to pay for it.
@@ -598,10 +598,13 @@ Such decisions may include:
 - Equitable reapportionment of resources through sliding scale programs, CSA
   solidarity shares, discounted hosting fees for members, etc.
 
-There are too many governance models, funding options, and tools to address
-here, and I think a wide range of latitude should be given to FMPs to decide
-what works best for them and when to reassess their governing model.
-Nevertheless, there are three resources I would at least recommend consulting:
+#### Tool-kits & Guidelines
+There are too many governance models, funding methods, and facilitation tools to
+address the options in full here. As I said above, too, plenty of latitude ought
+to be given to FMP members to decide what works best for them. However, without
+trying to sway the form of governance an FMP might choose, there are still three
+resources I recommend to anyone organizing on democratic principles, whatever
+the nature of their project:
 
 - __[Enspiral]:__ This cooperative from Aotearoa, New Zealand develops [Loomio],
   free and open source software for online voting, proposal submissions,
