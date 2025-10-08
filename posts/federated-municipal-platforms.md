@@ -313,7 +313,7 @@ software architecture – once again, putting "ecology over architecture."
 [Polis]: https://pol.is/home
 [DemocraciaOS]: https://democraciaos.org/en/
 
-### One Data Pipeline to Rule Them All!
+### Unified Data Pipeline
 To look at the FMP in terms of the core features users might be interested in,
 think of it as a __unified data pipeline__ that can push and pull data to and
 from other applications and services.
@@ -360,7 +360,7 @@ application or closed cloud platform.
 
 [glue]: https://en.wikipedia.org/wiki/Glue_code
 
-#### Free Software &#x21D4; FMP: Tackling `wontfix` Issues
+#### FMP &#x21D4; Free Software: Fixing `wontfix` Issues
 When the preexisting tool is free or open source software, this might take the
 form of plugin or extension, which might later be contributed back to the
 original software as a core feature.
@@ -389,7 +389,7 @@ commons, the potential is limitless.
 
 [add group chat]: https://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski's_Law
 
-#### Proprietary Apps &#x21D4; FMP: Adversarial Interoperability
+#### FMP &#x21D4; Unfree Software: Adversarial Interop
 An FMP is not limited to working exclusively with free and open source software,
 but can work with proprietary tools just as well. All that is needed is a public
 API that the FMP can connect to in some way. In many cases, this kind of
