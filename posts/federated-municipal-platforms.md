@@ -176,7 +176,7 @@ existing capitalist order. I would recommend that FMPs endorse the five __Basic
 Principles of Class Struggle or Class Conscious Cooperatives__, as laid out by
 Akuno in his [2023 May Day proclamation].
 
-### Platform
+### What Kind of Platform?
 The FMP borrows much of its underlying socioeconomic model from [platform
 cooperatives]. In recent years, social theorists like Trebor Scholz, Nathan
 Schneider, and others have proposed platform cooperativism as a way to
@@ -212,7 +212,7 @@ co-ops; however, membership and participation in an FMP should not be predicated
 on a person or group entering into a formal professional relationship with other
 members, so long as they demonstrate their commitment to the community.
 
-### Municipalist
+### A Municipalist Platform
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
 Municipalism] movement exemplified by groups like _Barcelona En Comú_ and
@@ -227,7 +227,7 @@ against this and other forms of moral co-optation, but expanding the sphere of
 participation can at least mitigate the risk of this form of "co-op co-optation"
 specifically.
 
-### Federalist
+### A Federalist Platform
 Likewise, municipalism should not be mistaken for provincialism, and so the FMP
 must be a federated – or even a _federalist_ – platform too. I say _federalist_
 not in the republican sense, as Alexander Hamilton might have used it, but in
