@@ -624,7 +624,43 @@ Nevertheless, there are three resources I would at least recommend consulting:
   intention. Unspoken hierarchies of that sort can be especially difficult to
   address once they've formed, can lead to internal strife, and wind up
   perpetuating many of the inequities such "structureless" groups claim to
-  oppose.
+  oppose.[^joreen]
+
+[^joreen]: I encourage anyone who's not already familiar with it to read "The
+    Tyranny of Structurelessness" in its entirety. I want to highlight for now,
+    however, the 7 principles for "democratic structuring," which conclude her
+    essay and which I've paraphrased below. Without prescribing a specific
+    governance model, they address what I think are fundamental characteristics
+    of a practical, _functioning_ democracy, regardless the group's size or
+    political persuasion.
+
+    1. __Delegation of Specific Authority:__ The group selects members to be
+      granted the authority to perform specific tasks on behalf of the group,
+      instead of people self-selecting.
+    2. __Accountability of Delegates:__ Once selected, delegates are held
+      accountable to the group to exercise that authority as the group
+      determines, not the delegate.
+    3. __Sufficient Distribution of Authority:__ Delegate tasks to as many group
+      members as it is reasonable, so authority is exercised through
+      consultation with others, and so more people have a chance how to learn
+      how to perform those tasks.
+    4. __Periodic Rotation of Authority:__ Delegates should be responsible for a
+      task long enough to gain competence and satisfaction from its performance,
+      but not so long that they become possessive or unwilling to relinquish
+      responsibility.
+    5. __Rational Allocation of Authority:__ Ability, interest, and reliability
+      with regard to the specific task should be the main criteria for selecting
+      delegates, not popularity. Group members can learn new skills by
+      apprenticing with a delegate, but not being thrust into the delegate
+      position alone.
+    6. __Equal Diffusion of Information:__ Information should be spread to
+      everyone equally and frequently through proper group channels, not the
+      rumor mill.
+    7. __Equal Access to Resources:__ Equipment, information, and skills that
+      the group needs to function should be shared equally among members. If
+      full equality of access is not practical to achieve from the start, then
+      members must be willing to teach, learn, and share whatever they can so
+      they may fully realize it eventually.
 
 Voting tools – including but not limited to the ones that Enspiral offers –
 could also be hosted on the FMP, although in many cases that probably won't be
@@ -639,42 +675,6 @@ necessary.
 [rules from the library]: https://communityrule.info/library/
 [Community Rule book]: https://communityrule.info/book/
 [Tyranny of Structurelessness]: https://www.jofreeman.com/joreen/tyranny.htm
-
-#### Jo Freeman's Seven Principles of Democratic Structuring
-I encourage anyone who hasn't already to read the aforementioned [Jo Freeman
-essay] in its entirety. I want to highlight for now, however, the 7 principles
-for "democratic structuring," which conclude her essay and which I've
-paraphrased below. Without prescribing a specific governance model, they address
-what I think are fundamental characteristics of a practical, _functioning_
-democracy, regardless the group's size or political persuasion.
-
-1. __Delegation of Specific Authority:__ The group selects members to be granted
-   the authority to perform specific tasks on behalf of the group, instead of
-   people self-selecting.
-2. __Accountability of Delegates:__ Once selected, delegates are held
-   accountable to the group to exercise that authority as the group determines,
-   not the delegate.
-3. __Sufficient Distribution of Authority:__ Delegate tasks to as many group
-   members as it is reasonable, so authority is exercised through consultation
-   with others, and so more people have a chance how to learn how to perform
-   those tasks.
-4. __Periodic Rotation of Authority:__ Delegates should be responsible for a
-   task long enough to gain competence and satisfaction from its performance,
-   but not so long that they become possessive or unwilling to relinquish
-   responsibility.
-5. __Rational Allocation of Authority:__ Ability, interest, and reliability with
-   regard to the specific task should be the main criteria for selecting
-   delegates, not popularity. Group members can learn new skills by apprenticing
-   with a delegate, but not being thrust into the delegate position alone.
-6. __Equal Diffusion of Information:__ Information should be spread to everyone
-   equally and frequently through proper group channels, not the rumor mill.
-7. __Equal Access to Resources:__ Equipment, information, and skills that the
-   group needs to function should be shared equally among members. If full
-   equality of access is not practical to achieve from the start, then members
-   must be willing to teach, learn, and share whatever they can so they may
-   fully realize it eventually.
-
-[Jo Freeman essay]: https://www.jofreeman.com/joreen/tyranny.htm
 
 ### Technical Support
 A final optional component of this social architecture is the role of Runrig
