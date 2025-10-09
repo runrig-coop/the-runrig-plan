@@ -712,7 +712,8 @@ anyone who is interested in joining that effort to [email me] or invite them to
 launch their own cooperative consultancy.
 
 Technical consultants specializing in Runrig FMP design could offer any of the
-following services in their own communities or further abroad:
+services listed below. Note, too, how many of the services correspond to
+specific points of governance over [resource allocation], as observed above:
 
 - Initial platform deployment along with basic applications and services.
 - Ongoing hosting, maintenance, and system administration for the platform,
@@ -734,3 +735,5 @@ can't go hand-in-hand with developing software tools that respect users' freedom
 while offering better design and functionality than what's currently available
 to food communities as free software – even in comparison to the most cutting
 edge proprietary offerings.
+
+[resource allocation]: #resource-allocation
