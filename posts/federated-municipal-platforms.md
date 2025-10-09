@@ -728,6 +728,14 @@ specific points of governance over [resource allocation], as observed above:
   the community's strategic goals.
 - General software consultation and technology assessments, a la carte.
 
+Technical support may be provided remotely, but if the support workers also live
+within the community they serve, they may be eligible – in this limited case –
+for membership in the FMP itself – of course, with some reasonable provisions to
+preclude any conflicts of interest. In all other cases, it must be stressed,
+support workers _will not_ be offered membership in the FMP, nor be granted
+rights enjoyed exclusively by FMP members, even if the consultants constitute
+their own worker cooperative with distinct membership rights thereof.
+
 This is yet another topic I will need to expand upon in a future article, but I
 intend FMPs and Runrig's other methodologies to make free software development
 more sustainable for independent developers like myself. There's no reason this
