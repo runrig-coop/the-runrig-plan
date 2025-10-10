@@ -134,25 +134,38 @@ your platform or preferred service.
 [^fedi]: Here I mean the technical sense of a _federated server architecture_.
     Simply put, that's when servers communicate with other servers as peers, in
     what can almost be called a peer-to-peer (P2P) architecture, as opposed to
-    the more conventional client-server architecture. This is akin to
-    BitTorrent, Apple Airdrop, or even Bluetooth, but whereas each of those
-    applications are conceived of like clients, just remade as P2P apps so users
-    can communicate directly with one another – i.e., without a server relaying
-    messages – federated platforms, on the other hand, are conceived of like
-    servers remade as peer nodes in a decentralized network, wherein no single
-    server is distinguished as authoritative over the others. Typically, they
-    are still thought of as "headless" servers, in that they don't necessarily
-    take direct user input from any type of graphical interface. They can also
-    continue to act in the role of a traditional server with other clients, but
-    those clients are distinct from their federated peers. Federation, in this
-    sense, is the pattern that gives its name to the [Fediverse], most famously
-    represented by Mastodon, the alternative social media app, along with the
-    myriad other [applications] and [services] that support some variant of the
-    [ActivityPub] protocol.
+    the more conventional client-server architecture.
+    
+    Some familiar examples of user-facing P2P applications are BitTorrent, Apple
+    Airdrop, or even Bluetooth, and they can offer a more relatable analog to
+    federated servers. In each of those P2P examples, the peer devices – or
+    "nodes" as they're called – run the same identical software. The software
+    may resemble client software in the case that end users interact with it
+    directly, but it is no longer client software in the truest sense, since
+    each copy of the software is capable of negotiating a connection with any
+    other copy of itself, without the intercession of any server.
+    
+    Federated platforms, on the other hand, are conceived of as servers remade
+    as peer nodes in a decentralized network of servers, wherein no single
+    instance is distinguished as authoritative over the others. Typically, they
+    are still thought of as clientless or "headless" servers, in that they don't
+    need to take commands from any type of graphical interface or other form of
+    direct user input, nor do they act as "clients" to other servers or vice
+    versa. The federated software that runs on one server is once again
+    identical to the software that runs on every other federated peer. A
+    federated server may still continue to act in the role of a traditional
+    server with traditional clients, but those clients are distinct from their
+    federated peers.
+    
+    Federation, in this sense, is the pattern that gives its name to the
+    [Fediverse], most famously represented by Mastodon, the alternative social
+    media app, along with the myriad other [federated apps] and [federated
+    services] that support some variant of the [ActivityPub] protocol.
 
 [Fediverse]: https://fediverse.info/
-[applications]: https://delightful.coding.social/delightful-fediverse-clients/
-[services]: https://delightful.coding.social/delightful-fediverse-experience/
+[federated apps]: https://delightful.coding.social/delightful-fediverse-clients/
+[federated services]:
+    https://delightful.coding.social/delightful-fediverse-experience/
 [ActivityPub]: https://activitypub.rocks/
 
 ## Political Implications
