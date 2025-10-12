@@ -779,3 +779,21 @@ benefit from its use.
 
 [_municipalist_]: #a-municipalist-platform
 [_federation_]: #a-federalist-platform
+
+#### Tech Worker Cooperatives
+Some local activists and I have begun a project to start an FMP here, first, in
+our own community of the Hudson Valley and New York City Metro Area. We'll then
+be able to provide the service to other regions who need that support. If you're
+interested in joining as a worker member, or would like to discuss starting an
+FMP in your region – or if you're our neighbor in the HV/NYC region and want to
+pitch in on this one! – don't hesitate to [email me].
+
+Likewise, I encourage other independent software developers and existing
+cooperatives to seek out partnerships with food workers, farmers, produce
+distributors, delivery drivers, food rescue organizations, and mutual aid groups
+to establish an FMP in their own community. If there ever becomes enough demand
+(🤞🏻), there may be opportunities to offer support contracts to multiple FMPs,
+as well as for the [two other layers] mentioned above.
+
+[email me]: mailto:jamie@runrig.org
+[two other layers]: #two-other-layers
