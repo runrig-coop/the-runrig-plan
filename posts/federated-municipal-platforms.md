@@ -57,25 +57,26 @@ will be readily apparent.
 ## Some Definitions
 In brief, a federated municipal platform, or __FMP__, is a communally owned and
 controlled digital platform, enabling a regional foodshed or bioregion to manage
-its own land, resources, and labor according to its own needs. It can host a
-range of free (or [_libre_]) software applications and services, from dedicated
-food and agricultural software like [farmOS], [CORE-POS], or [CoopCycle], to
-generic productivity apps like [Etherpad], [Nextcloud], [Grist], all of which
-will be determined by a local municipality of users. As a federated platform, it
-can join cooperative networks of FMPs and similar community-based platforms,
-such as the [Open Food Network] and [GrownBy], in order to share knowledge and
-contribute resources to global solidarity efforts. Webhooks or bridge services
-can even automate communications with proprietary platforms like Shopify or
-Stripe; that way, users don't have to double- or triple-enter information every
-time their product catalog is updated or inventories rise and fall. Critically,
-however, even in such cases when FMPs may interact with external, proprietary
-systems like corporate clouds, data originates with the community that produces
-it, and thus remains under its complete control.
+its own land, resources, and labor according to its own needs.[^food] It can
+host a range of free (or [_libre_]) software applications and services, from
+dedicated food and agricultural software like [farmOS], [CORE-POS], or
+[CoopCycle], to generic productivity apps like [Etherpad], [Nextcloud], [Grist],
+all of which will be determined by a local municipality of users. As a federated
+platform, it can join cooperative networks of FMPs and similar community-based
+platforms, such as the [Open Food Network] and [GrownBy], in order to share
+knowledge and contribute resources to global solidarity efforts. Webhooks or
+bridge services can even automate communications with proprietary platforms like
+Shopify or Stripe; that way, users don't have to double- or triple-enter
+information every time their product catalog is updated or inventories rise and
+fall. Critically, however, even in such cases when FMPs may interact with
+external, proprietary systems like corporate clouds, data originates with the
+community that produces it, and thus remains under its complete control.
 
-With Runrig, I plan to work mostly within food and agricultural communities, so
-I've defined the FMP in familiar terms like "foodshed" and "farmers." There's
-nothing about this architecture, however, that couldn't be applied to more
-generic community groups or for different types of activity.
+[^food]: With Runrig, I plan to work mostly within food and agricultural
+    communities, so I've defined the FMP in familiar terms like "foodshed" and
+    "farmers." There's nothing about this architecture, however, that couldn't
+    be applied to more generic community groups or for different types of
+    activity.
 
 To illustrate its finer details, a federated municipal platform can be dissected
 into its three constituent terms, then inspected more closely by defining what
