@@ -697,23 +697,9 @@ necessary.
 [Tyranny of Structurelessness]: https://www.jofreeman.com/joreen/tyranny.htm
 
 ### Technical Support
-A final optional component of this social architecture is the role of Runrig
-itself. As a distinctly community-led formation, there is no firm requirement
-that I or anyone directly connected to Runrig to take part in the establishment
-of an instance of a _federated municipal platform_. The FMP is an architectural
-framework and a set of patterns, that anyone is free to reproduce without
-express permission or to call whatever they like.
-
-I propose that there is, however, a beneficial role for software consultants and
-technical assistance providers to be provide support contracts to communities to
-establish their own FMP. I hope to expand Runrig to include a worker cooperative
-of technologists, designers, and advisors that can do precisely that. I urge
-anyone who is interested in joining that effort to [email me] or invite them to
-launch their own cooperative consultancy.
-
-Technical consultants specializing in Runrig FMP design could offer any of the
-services listed below. Note, too, how many of the services correspond to
-specific points of governance over [resource allocation], as observed above:
+A final component in this social architecture is the role of software developers
+and other tech workers, designers, managers, etc. Technical consultants
+specializing in Runrig FMPs could offer any of the services listed below:
 
 - Initial platform deployment along with basic applications and services.
 - Ongoing hosting, maintenance, and system administration for the platform,
@@ -728,9 +714,12 @@ specific points of governance over [resource allocation], as observed above:
   the community's strategic goals.
 - General software consultation and technology assessments, a la carte.
 
+Note, too, how many of the services above correspond to specific points of
+governance I outlined earlier regarding [resource allocation].
+
 Technical support may be provided remotely, but if the support workers also live
-within the community they serve, they may be eligible – in this limited case –
-for membership in the FMP itself – of course, with some reasonable provisions to
+within the community they serve, they may be eligible – in this one case – for
+membership in the FMP itself – of course, with some reasonable provisions to
 preclude any conflicts of interest. In all other cases, it must be stressed,
 support workers _will not_ be offered membership in the FMP, nor be granted
 rights enjoyed exclusively by FMP members, even if the consultants constitute
