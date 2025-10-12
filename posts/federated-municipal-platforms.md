@@ -208,13 +208,13 @@ your platform or preferred service.
 [Thunderbird]: https://www.thunderbird.net/en-US/mobile/
 
 ## Political Implications
-These terms import a neutral surface-level meaning, which speaks directly to
-their function. Granted, other terms could denote more or less the same
-functionality, but I chose these three terms purposely because they add further
-political connotations I wish to imply as well. I'll make those politics
-explicit here because I don't want my intentions to be misconstrued, but feel
-free to skip to the [next section] if you just want get on with the nuts and
-bolts of how FMPs work.
+These terms import a relatively neutral surface-level meaning, which speaks
+directly to their function. Granted, other terms might denote more or less the
+same functionality, but I chose these three terms purposely, because they add
+further political connotations I wish to imply as well. I'll make those politics
+explicit here because I don't want my intentions to be misconstrued. You can
+feel free nonetheless to skip to the [next section], if you just want get on
+with the nuts and bolts of how FMPs work.
 
 Perhaps the closest parallel encapsulating most of what I'm trying to infer with
 these concepts – although not so much as a _digital_ platform, to my knowledge,
@@ -234,29 +234,29 @@ cooperatives]. In recent years, social theorists like Trebor Scholz, Nathan
 Schneider, and others have proposed platform cooperativism as a way to
 counteract the dominant paradigm of _platform capitalism_. The latter form is
 well represented by the likes of Amazon, Google, Facebook, Uber, etc., platforms
-we're accustomed to interacting with on a daily basis, while a prime real-world
-example of a platform co-op is [Up&Go]. They're a workers' co-op of professional
-home cleaners, who own and operate the web platform where their customers
-register, schedule services, and pay for everything on the same site. Platform
-co-ops are most often thought of as business platforms of this sort, although
-other examples exist, like social media site [social.coop].
+we're accustomed to interacting with on a daily basis. To find a real-world
+exemplar of a platform co-op, we can look to [Up&Go]. They're a workers' co-op
+of professional home cleaners, who own and operate the web platform where their
+customers register, schedule services, and pay for everything on the same site.
+Platform co-ops are most often thought of as business platforms of this sort,
+although other examples exist, like the social media site [social.coop].
 
 A common critique of co-ops, particularly those engaged in commerce, is that
-even when they promote virtuous behavior _internally_, such as egalitarianism
-and free association among fellow workers, they still must survive within
-markets dominated by capital interests. In order to succeed, therefore, co-ops
-can be impelled to reproduce capitalistic forms of exploitation _externally_,
-even if they don't intend it. To guard against such tendencies, some co-ops
-pledge to uphold the [7 Cooperative Principles] to maintain solidarity with
-other co-ops, trade unions, and the community at large; however, adherence to
-these principles is strictly voluntary in most jurisdictions, with little or no
-enforcement.
+even when they promote virtuous behavior _internally_, such as egalitarianism or
+free association among fellow workers, they still must survive within markets
+dominated by capital interests. In order to succeed, therefore, co-ops can be
+impelled to reproduce capitalistic forms of exploitation _externally_, even if
+they don't intend it. To guard against such tendencies, some co-ops pledge to
+uphold the [7 Cooperative Principles] to maintain solidarity with other co-ops,
+trade unions, and the community at large; however, adherence to these principles
+is strictly voluntary in most jurisdictions, with little or no enforcement.
 
+### A Municipalist Platform
 In contrast, FMPs should skew a bit closer to the "civic platforms" put forth in
-James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two
-socialist construction projects from the early 20th century, namely G. D. H.
-Cole's theory of guild socialism and Otto Neurath's models of economic planning.
-A wider membership base, established not only upon commerce but other equally
+James Muldoon's [_Platform Socialism_]. Muldoon takes inspiration from two early
+20th century projects of socialist construction, namely G. D. H. Cole's theory
+of guild socialism and Otto Neurath's model of economic planning. A wider
+membership base for FMPs, established not only upon commerce but other equally
 important social relations, will hopefully afford opportunities for more
 civic-minded programs to develop. To be sure, commerce will be a key function of
 the FMP, and so it risks being co-opted or "economized" in just the same way as
@@ -264,40 +264,50 @@ co-ops; however, membership and participation in an FMP should not be predicated
 on a person or group entering into a formal professional relationship with other
 members, so long as they demonstrate their commitment to the community.
 
-### A Municipalist Platform
 Ultimately, that's why the FMP is also a municipal or _municipalist_ platform,
 in the sense of Murray Bookchin's [libertarian municipalism] or the [New
-Municipalism] movement exemplified by groups like _Barcelona En Comú_ and
+Municipalism] movement exemplified by groups like [_Barcelona En Comú_] and
 [Fearless Cities]. Membership should be extended even to people who may seldom
 login to the platform itself, if ever at all, but who still maintain strong
 social bonds with the rest of the group or play a role in the community. This
 will require some combination of careful vetting, targeted recruitment, popular
 education, and continually active engagement between members to ensure it
 remains an inclusive body while not falling prey by moneyed interests or bad
-faith actors. In the long run, only constant vigilance can fully safeguard
-against this and other forms of moral co-optation, but expanding the sphere of
-participation can at least mitigate the risk of this form of "co-op co-optation"
-specifically.
+faith actors.
+
+In the long run, only constant vigilance can fully safeguard against this and
+other forms of moral co-optation, but expanding the sphere of participation can
+at least mitigate the risk of this form of "co-op co-optation" by market forces
+specifically. That said, a platform might be a municipalist cooperative, like
+Cooperation Jackson, and I welcome that. I differentiate to spur greater
+vigilance, but I nevertheless full-heartedly endorse co-operatives that maintain
+that spirit.
 
 ### A Federalist Platform
 Likewise, municipalism should not be mistaken for provincialism, and so the FMP
 must be a federated – or even a _federalist_ – platform too. I say _federalist_
 not in the republican sense, as Alexander Hamilton might have used it, but in
-the long-held [anarchist sense of federalism]. I would only qualify that I don't
-especially have in mind the more "utopian" aspects of federalism, often
-associated with mid-19th century thinkers like Pierre-Joseph Proudhon or James
-Guillaume. Rather, I would point to much later anarchist projects of the 20th
-and 21st century, which certainly developed out of utopian socialism, but which
-positioned themselves as explicitly internationalist if not outright
-counter-utopianist. Starting at least as early as the Spanish Civil War, the
-anarcho-syndicalists of the [CNT-FAI] established federated communes as a part
-of their revolutionary fight against fascism, supported by the International
-Brigades and a host of left-wing tendencies ranging from libertarian socialists
-to Trotskyists. Even more pertinent is the [Democratic Confederalism] of
-Abdullah Öcalan, which forms the theoretical and constitutional basis for the
-[DAANES] of Northeast Syria, a.k.a. Rojava. Their program is emphatically
-internationalist, while also firmly rooted in social ecology and the
-municipalist principles of Bookchin, via Öcalan.
+the long-held [anarchist sense of federalism].
+
+I would only qualify that I don't have in mind the more "utopian" aspects of
+federalism, often associated with mid-19th century thinkers like Pierre-Joseph
+Proudhon or James Guillaume. Rather, I would point to much later anarchist
+projects of the 20th and 21st century, which certainly developed out of utopian
+socialism but explicitly positioned themselves internationalist in nature, or
+even outright counter-utopian.[^cnt-fai] Specifically, I would point to the
+[Democratic Confederalism] of Abdullah Öcalan, which forms the theoretical and
+constitutional basis for the [DAANES] of Northeast Syria, a.k.a. Rojava. Their
+program is emphatically internationalist, while also firmly rooted in social
+ecology and the municipalist principles of Bookchin, who significantly
+influenced Öcalan's ideas.
+
+This sense of federalism harmonizes quite well with the sense of federated
+server architecture, which I see as a gradated and flexible blend of distributed
+computing and central coordination.[^fedi] Federation enjoys the benefits of a
+large, cohesive network, while allowing a tremendous amount of flexibility
+through localized fine controls. So long as some key protocols are observed,
+groups of varying size and configuration can still unite their efforts and share
+resources, without sacrificing any of their diversity.
 
 [next section]: #social-architecture-software-ecology
 [dual power]: https://blacksocialists.us/dual-power-map
@@ -315,9 +325,9 @@ municipalist principles of Bookchin, via Öcalan.
 [New Municipalism]:
     https://www.opendemocracy.net/en/can-europe-make-it/which-municipalism-lets-be-choosy/
 [Fearless Cities]: https://www.fearlesscities.com/
+[_Barcelona En Comú_]: https://barcelonaencomu.cat/
 [anarchist sense of federalism]:
     https://theanarchistlibrary.org/library/what-do-anarchists-mean-by-federalism
-[CNT-FAI]: https://libcom.org/tags/federacion-anarquista-iberica-fai
 [DAANES]:
     https://rojavainformationcenter.org/2023/12/aanes-social-contract-2023-edition/
 [Democratic Confederalism]:
