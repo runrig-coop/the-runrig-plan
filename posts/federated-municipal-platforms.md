@@ -38,6 +38,22 @@ The __federated municipal platform__ is intended to be one such architectural
 pattern, one that will play a central role in many of the systems I hope to
 build with Runrig.
 
+## A Note to the Reader
+This article should serve primarily as a design document, and so the reader is
+encouraged to move between various top-level sections of the page to their
+specific areas of interest. My hope is you'll be able to get a concise overview
+of the architecture even if you only read the first section of definitions,
+although without reading further, you may not be convinced of its benefits nor
+fully apprised of the means by which it aims to achieve them. Hopefully those
+details will emerge and convince you the further you go.
+
+The document is intended for a general audience, so that a thorough-going
+knowledge of food sovereignty, software design, or political theory is not
+strictly required. Footnotes will sometimes offer helpful background for
+beginners on concepts like server federation, or alternately, they may provide
+technical details that may only appeal to specialists; hopefully the difference
+will be readily apparent.
+
 ## Some Definitions
 In brief, a federated municipal platform, or __FMP__, is a communally owned and
 controlled digital platform, enabling a regional foodshed or bioregion to manage
