@@ -734,3 +734,48 @@ to food communities as free software – even in comparison to the most cutting
 edge proprietary offerings.
 
 [resource allocation]: #resource-allocation
+
+#### Where to Find Support
+As a distinctly community-led formation, there is no firm requirement that I or
+anyone directly connected to Runrig to take part in the establishment of an
+instance of a _federated municipal platform_. The FMP is a set of design
+patterns and an architectural framework, which anyone is free to replicate.
+
+In fact, if a community has members with the technical knowledge and experience
+to deploy an FMP themselves, they're welcome to do so. In a wide enough
+geographical expanse, there ought to be someone with the bit DevOps experience
+needed to get it up and running. They could do it for hire or on the basis of
+mutual aid. If someone lacks the experience but is sufficiently motivated to
+learn, there are people like myself in the wider free software community who
+would willingly offer guidance so they could introduce that knowledge and
+expertise into their regional community.
+
+Nevertheless, remote tech support should be available to provide the expertise
+to anyone who needs it. In fact, remote support is no less encouraged than local
+support, so long as it is done _for hire_, meaning the community retains full
+ownership of the servers, and a license [recommended by the Free Software
+Foundation] is applied to any original software.
+
+As I stated above, the platform's social architecture is designed to be
+[_municipalist_] in nature, not merely provincial. Likewise, FMPs should form a
+[_federation_] of platforms, where each regional FMP can connect to adjacent and
+overlapping regions and even further afield. __Regional sovereignty must go hand
+in hand with international solidarity__, because _none of us are free until
+everybody's free_, to once again paraphrase Fannie Lou Hamer.
+
+The free software community, as a global, virtual network of activists and
+practitioners, should be seen as an ideal gateway for establishing _social
+connectivity_ with other platforms in distant regions, in addition to the
+digital network connectivity that allows them to federate. Employing free
+software engineers and designers from abroad is an excellent way for FMPs to
+cross-pollinate, share what they've learned, and open up direct channels for
+dialogue with like-minded communities around the world.
+
+I am working to organize a Runrig worker cooperative, comprised of
+technologists, designers, and advisors. This will complement the digital commons
+Runrig is building for free software and design artifacts as a dedicated team of
+people to steward that commons, while also making it easier for others to
+benefit from its use. 
+
+[_municipalist_]: #a-municipalist-platform
+[_federation_]: #a-federalist-platform
