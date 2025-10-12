@@ -427,13 +427,13 @@ interoperability]:
 > independent repair shops that use compatible parts from rival manufacturers to
 > fix your car or your phone or your tractor.
 
-Whether the tactic employ is one of adversarial interoperability (e.g., via
-reverse engineering and web-scraping) or benevolent data portability (e.g., via
-plugins and app stores), in either case, the larger strategy should enable a
-migration path away from the proprietary platform towards a free software
-alternative in the long run. Users shouldn't be forced into that migration, but
-they should encouraged. Offering a more gradual migration process should only
-help with that encouragement.
+Whether the tactic is one of adversarial interoperability (e.g., via reverse
+engineering and web-scraping) or benevolent data portability (e.g., via plugins
+and app stores), the long-term strategy in _all cases_ of interop with unfree
+software should be a migration path away from the proprietary platform towards a
+free software alternative, eventually. Users shouldn't be forced into that
+migration, but they should encouraged. Offering a more gradual migration process
+should only help with that encouragement.
 
 The ultimate migration target itself might be a service hosted by the FMP, or it
 might be a separate free software platform, like [Open Food Network], with which
