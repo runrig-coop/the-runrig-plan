@@ -309,6 +309,31 @@ through localized fine controls. So long as some key protocols are observed,
 groups of varying size and configuration can still unite their efforts and share
 resources, without sacrificing any of their diversity.
 
+[^cnt-fai]: Starting at least as early as the Spanish Civil War,
+    anarcho-syndicalists of the [CNT-FAI] established federated communes as a
+    part of their revolutionary fight against fascism, supported by the
+    International Brigades and a host of left-wing tendencies ranging from
+    libertarian socialists to Trotskyists.
+
+    Incidentally, the epigraph for this document, which I first came across in
+    the middle of drafting it, comes from Christopher Caudwell, an English
+    literary critic, Marxist philosopher, and anti-fascist soldier in the
+    British Battalion of the International Brigades. Before those lines could be
+    published, Caudwell was killed at the Battle of Jarama in 1937, defending a
+    hill from Franco's forces so that his comrades could escape to fight another
+    day.
+
+    At the moment I write this, with the dust starting to settle on Gaza City,
+    with ICE brownshirts storming America's cities, his words echo in my ears as
+    an ever-present call for international solidarity. Even more, his deeds
+    stand before me as a reminder that lasting freedom will always be contingent
+    upon a correspondingly steadfast solidarity: _none_ of us can enjoy true
+    freedom unless it is universally shared. It's the same sentiment you can
+    find in the words of [Fannie Lou Hamer] or [Mikhail Bakunin], only put to
+    action. Or as Caudwell himself told a friend in 1936 before joining the
+    Spanish People's Army, "their struggle, if they fail, will certainly be ours
+    to-morrow, and, believing as I do, it seems clear where my duty lies."
+
 [next section]: #social-architecture-software-ecology
 [dual power]: https://blacksocialists.us/dual-power-map
 [2023 May Day proclamation]:
@@ -332,6 +357,11 @@ resources, without sacrificing any of their diversity.
     https://rojavainformationcenter.org/2023/12/aanes-social-contract-2023-edition/
 [Democratic Confederalism]:
     https://ocalanbooks.com/#/book/democratic-confederalism
+[CNT-FAI]: https://libcom.org/tags/federacion-anarquista-iberica-fai
+[Fannie Lou Hamer]:
+    https://stjamesaustin.org/wp-content/uploads/2021/02/Until-I-Am-Free-You-Are-Not-Free-Either-by-FLH.pdf
+[Mikhail Bakunin]:
+    https://theanarchistlibrary.org/library/michail-bakunin-man-society-and-freedom#:~:text=I%20am%20truly%20free%20only%20when%20all%20human%20beings,its%20necessary%20premise%20and%20confirmation
 
 
 ## Social Architecture, Software Ecology
