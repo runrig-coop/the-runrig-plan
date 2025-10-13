@@ -368,9 +368,7 @@ resources, without sacrificing any of their diversity.
 From a technical standpoint, very little about this architecture is brand
 spanking new. Prior art exists in separate examples from federated social media,
 platform cooperatives, and digital democracy tools like [Decidem], [Polis], and
-[DemocraciaOS]. I'll compare FMPs with existing solutions in greater detail
-below, but let it suffice to say that a lack of novelty is not only acknowledged
-but intended. What I hope distinguishes FMPs is the combination of these
+[DemocraciaOS]. What I hope distinguishes FMPs is the combination of these
 patterns with an organizing model that will make essential software services
 accessible and affordable – specifically for the food and farming communities
 that need them most – while also being sustainable for the IT professionals,
