@@ -753,7 +753,7 @@ Such decisions may include:
 
 #### Tool-kits & Guidelines
 There are too many governance models, funding methods, and facilitation tools to
-address the options in full here. As I said above, too, plenty of latitude ought
+address all options here in full. And as I keep saying, plenty of latitude ought
 to be given to FMP members to decide what works best for them. However, without
 trying to sway the form of governance an FMP might choose, there are still three
 resources I recommend to anyone organizing on democratic principles, whatever
@@ -764,6 +764,13 @@ the nature of their project:
   transparency, and more. They also make the participatory budgeting tool,
   [Cobudget], and publish their [Enspiral Handbook] for others to learn from
   their experience as a cooperative and a self-governing community.
+
+  Voting tools – including but not limited to the ones that Enspiral offers –
+  could also be hosted on the FMP, although in many cases that probably won't be
+  necessary. For example, I would recommend most groups use Loomio's cloud
+  service, since it supports their cooperative and customization ought not be
+  required.
+
 - __[Community Rule]:__ A beautifully designed "governance toolkit" by Nathan
   Schneider. You can start with a [rule template] – e.g., Do-ocracy, Consensus,
   Elected Board, or Benevolent Dictator – or mix-and-match [rules from the
@@ -772,23 +779,30 @@ the nature of their project:
   free. It can be helpful to look at the different configurations as an ongoing
   decision process, where communities continue to grow, shrink, change, reflect,
   always evolve, and periodically reset.
-- __[Tyranny of Structurelessness]:__ The classic essay by Jo Freeman, first
-  published in 1971. Based on her experience in the women's liberation movement,
-  Freeman argues for the adoption of _explicit_ governing structures, even when
-  in radically decentralized or horizontalized groups, because otherwise
-  _implicit_ governing structures tend to form, with or without anyone's
-  intention. Unspoken hierarchies of that sort can be especially difficult to
-  address once they've formed, can lead to internal strife, and wind up
-  perpetuating many of the inequities such "structureless" groups claim to
-  oppose.[^joreen]
 
-[^joreen]: I encourage anyone who's not already familiar with it to read "The
-    Tyranny of Structurelessness" in its entirety. I want to highlight for now,
-    however, the 7 principles for "democratic structuring," which conclude her
-    essay and which I've paraphrased below. Without prescribing a specific
-    governance model, they address what I think are fundamental characteristics
-    of a practical, _functioning_ democracy, regardless the group's size or
-    political persuasion.
+- __["The Tyranny of Structurelessness"]:__ This classic essay by Jo Freeman was
+  first published in 1971. Based on her experience in the women's liberation
+  movement, Freeman argues for the adoption of _explicit_ governing structures,
+  even when in radically decentralized or horizontalized groups, because
+  otherwise _implicit_ governing structures tend to form, with or without
+  anyone's intention. Unspoken hierarchies of that sort can be especially
+  difficult to address once they've formed, can lead to internal strife, and
+  wind up perpetuating many of the inequities such "structureless" groups claim
+  to oppose.
+
+  Freeman gives examples of certain governance mechanisms, like sortition and
+  the role of spokesperson, but she isn't prescriptive about governance
+  structure or what mechanisms work best. In her conclusion, she offers seven
+  "Principles of Democratic Structuring" that are well worth reviewing in their
+  own right, though I recommend reading the essay in its entirety. I view them
+  as the necessary _traits_ of democratic structure, without stipulating its
+  final form.[^joreen]
+
+<!-- TODO: connect the li w/ fn -->
+
+[^joreen]: Again, I encourage anyone who's not already familiar with it to read
+    ["The Tyranny of Structurelessness"] in its entirety, but here in paraphrase
+    are her seven "Principles of Democratic Structuring" for reference:
 
     1. __Delegation of Specific Authority:__ The group selects members to be
       granted the authority to perform specific tasks on behalf of the group,
@@ -818,10 +832,6 @@ the nature of their project:
       members must be willing to teach, learn, and share whatever they can so
       they may fully realize it eventually.
 
-Voting tools – including but not limited to the ones that Enspiral offers –
-could also be hosted on the FMP, although in many cases that probably won't be
-necessary.
-
 [Enspiral]: https://www.enspiral.com/
 [Loomio]: https://www.loomio.com/
 [Cobudget]: https://cobudget.com/
@@ -830,7 +840,8 @@ necessary.
 [rule template]: https://communityrule.info/templates/
 [rules from the library]: https://communityrule.info/library/
 [Community Rule book]: https://communityrule.info/book/
-[Tyranny of Structurelessness]: https://www.jofreeman.com/joreen/tyranny.htm
+["The Tyranny of Structurelessness"]:
+    https://www.jofreeman.com/joreen/tyranny.htm
 
 ### Technical Support
 A final component in this social architecture is the role of software developers
