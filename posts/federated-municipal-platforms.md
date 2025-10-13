@@ -720,8 +720,17 @@ a member's socioeconomic status or upon the self-selecting tendencies that can
 emerge within a closed sphere of cultural identity.
 
 How and where the geographic boundaries are determined, however, will still
-depend heavily upon the specific context. So again, there's no one-size-fits-all
-solution here, but it can at least provide a useful starting point.
+depend heavily upon the specific context. As I stated [above](#municipal), an
+FMP will likely require at bare minimum a few 10s of members to be effective,
+perhaps 100s, but ideally not beyond several 1,000s or at most a few 10,000s. In
+contrast to the billions of users most venture capital startups aspire to, such
+differences of scale seem trivial, but they still represent three orders of
+magnitude. It may not matter much when it comes to _managing the scale of
+administrative costs_, but it matters a whole lot in terms of _governing the
+scope of development costs_.
+
+So again, there's no one-size-fits-all solution here, but geography can at least
+provide a helpful starting point.
 
 #### Resource Allocation
 The main issue of FMP governance – excluding other policies that regard the
