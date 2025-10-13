@@ -751,6 +751,12 @@ Such decisions may include:
 - Equitable reapportionment of resources through sliding scale programs, CSA
   solidarity shares, discounted hosting fees for members, etc.
 
+See the section below on [technical support] for a slightly more detailed list
+of the kinds of utilities, development, and other forms of technical assistance
+that FMP members may elect to hire.
+
+[technical support]: #technical-support
+
 #### Tool-kits & Guidelines
 There are too many governance models, funding methods, and facilitation tools to
 address all options here in full. And as I keep saying, plenty of latitude ought
@@ -860,8 +866,10 @@ specializing in Runrig FMPs could offer any of the services listed below:
   the community's strategic goals.
 - General software consultation and technology assessments, à la carte.
 
-Note, too, how many of the services above correspond to specific points of
-governance I outlined earlier regarding [resource allocation].
+Note that many of the services listed above correspond to specific points of
+governance I outlined earlier, regarding [resource allocation]. These are in
+effect what those resources represent, broken down in terms of labor, hardware,
+and energy.
 
 Technical support may be provided remotely, but if the support workers also live
 within the community they serve, they may be eligible – in this one case – for
