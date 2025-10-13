@@ -643,34 +643,69 @@ point of the FMP is to give all its members greater sovereignty over their
 computing systems and food systems alike, the importance of governance to the
 success of the platform cannot be overemphasized.
 
-#### The Costs of Administration & Development
-I worry I might oversell what all an FMP can do in practice. Hypothetically, the
-number of applications and services it can host are indeed limitless; the way
-its features can be augmented or customized can go on forever; and its overall
-flexibility is practically infinite. Of course, the first trade-off you'll
-encounter in practice is the material cost of the hardware and power that hosts
-your FMP, as well as the labor to administer and maintain it, plus whatever
-extra development you might want to sponsor for new features, plugins, or other
-forms of customization.
+It is for this reason that localized control of the FMP is required. To be
+effective, control must be exercised through an explicit governing structure,
+stipulating how decisions are made about its administration and development.
 
-Then again, these material costs can be offset by recruiting more FMP members,
-in order to distribute and diffuse its total cost. Most of the costs to host,
-administer, and maintain the platform will flatten out pretty quickly as the
-number of members increases. Where the most variability of costs then comes into
-play is the extent to which increasing membership increases the demand for
-additional features and customization.
+#### Tradeoffs: Scale vs Scope
+I hope I haven't oversold what an FMP can do in practice, as if there's no limit
+to the degree it can be customized or the number of applications and services it
+can host. In theory, that's true enough of most computers today, insofar as they
+are considered [Turing complete], but there are always tradeoffs.
 
-Essentially, it all boils down to an issue of governance, and there's not
-one-size-fits-all solution to solve it. Each FMP will need to determine the
-scope of what it can do, what kind of economic activities it can cater to, what
-aspects of food production and distribution it can manage. Whatever democratic
-process the FMP adopts, the more each member's technological needs and wants
-overlap with their those of their fellow members, the less development should be
-required to meet all members needs and wants equally. Also, by choosing the
-operational scope carefully, the costs can be further offset by the ways
-non-computing resources can be distributed and shared, such as trucking and cold
-storage, in order to lower costs. Similarly, the overall value can increase
-through activities like shared marketing.
+Of course, the first trade-offs you're likely to encounter come in terms of the
+material cost to operate the FMP. There's the cost of the hardware, electricity,
+and the necessary labor to keep it all running. I'll refer to these as operating
+or administrative costs. On top of that, FMP members might want to sponsor new
+features, plugins, or other forms of customization, which we'll call the
+development costs. If you choose to forgo all development, those costs can be
+mostly eliminated. When it comes to administrative costs, however, the slope of
+cost-savings will inevitably bottom out in a long tail before ever hitting zero.
+
+Then again, the rising slope of administrative costs also tends to level out as
+usage increases, so long as it is carefully managed. Therefore, if an FMP can
+recruit more members and development costs remain constant, it can contribute to
+further cost reductions per member. This is what many startups hope to achieve
+when they talk about _scalability_, but as I discussed in [my previous article],
+the gains can be illusory at best and may obscure the more extractive methods of
+modern platform capitalism.
+
+The reason for scalability's shortcomings is the same reason an FMP is forced to
+consider yet another trade-off at this point: increasing membership may only
+increase administrative costs at a diminishing rate, but it will likely increase
+the demand for more features and application development. Development costs
+hardly ever remain constant, especially "at scale," and they can vary farm more
+than administration costs. In fact, if the functionality expected by users only
+ever _diverges_ as their numbers increase, costs may even rise exponentially.
+
+The primary cost-savings of an FMP, unlike cloud capitalist platforms, is that
+its members can actively promote the _convergence_ of feature expectations. If
+there is sufficient cohesion, and members can agree on a relatively fixed scope
+of functionality the FMP will address – i.e., its set of applications, services,
+and customizations – then that can go a very long ways to keeping even
+development costs low. The only limiting factor is their ability to reach
+_consensus on the scope of functionality_ that the FMP will cover.
+
+In other words, it's all about governance. No one-size-fits-all solution exists,
+and each FMP will need to determine the scope of what it is feasible, what kind
+of economic activities it will facilitate, and what aspects of food production
+and distribution it will manage. To do that, members will first need to decide
+on what governance structure or consensus process they will adopt. The more the
+membership's needs and wants overlap with each other, the fewer distinct
+applications and features will need to be developed and maintained, and the
+lower per member cost of development and administration will fall.
+
+Also, by choosing the operational scope carefully, the costs can be further
+offset by other resources that can be distributed and shared. Beyond the compute
+resources needed for the platform itself, the FMP can facilitate the management
+of [common-pool resources (CPR)], such as trucking and cold storage, in order to
+lower costs. Similarly, the overall value can increase by pooling resources such
+as marketing outlets and agronomic knowledge.
+
+[Turing complete]: https://en.wikipedia.org/wiki/Turing_completeness
+[my previous article]: /posts/against-scale.md
+[common-pool resources (CPR)]:
+    https://en.wikipedia.org/wiki/Common-pool_resource
 
 #### Geographic Boundaries
 For all of these reasons, the easiest way to achieve equilibrium will most often
