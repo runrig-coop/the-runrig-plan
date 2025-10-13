@@ -853,13 +853,12 @@ specializing in Runrig FMPs could offer any of the services listed below:
   available on a monthly or annual basis.
 - Sponsored development of new features, plugins, middleware, or other forms of
   platform customization.
-- Remote help desk for added technical support to platform members and community
-  administrators.
-- On-site technical assistance in the form of on-demand calls or continuing
-  support services.
+- Remote help desk for platform members and community administrators.
+- On-site technical assistance in the form of periodic site visits, training
+  sessions, or custom installations of sensors or on-premise servers.
 - Facilitation of participatory design, research, or education projects to meet
   the community's strategic goals.
-- General software consultation and technology assessments, a la carte.
+- General software consultation and technology assessments, à la carte.
 
 Note, too, how many of the services above correspond to specific points of
 governance I outlined earlier regarding [resource allocation].
