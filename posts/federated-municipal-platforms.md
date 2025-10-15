@@ -19,7 +19,7 @@ outline: [2, 4]
 > social relations themselves. Freedom is secreted in the relation of man to
 > man.
 > 
-> — Christopher Caudwell, _Studies in a Dying Culture_ (1937)
+> — Christopher Caudwell, _Studies in a Dying Culture_ (1938)[^caudwell]
 
 As a design methodology, the Runrig Plan prioritizes organic design elements
 that can evolve and that are _necessarily_ enmeshed within a broader ecosystem
@@ -37,6 +37,29 @@ float.
 The __federated municipal platform__ is intended to be one such architectural
 pattern, one that will play a central role in many of the systems I hope to
 build with Runrig.
+
+[^caudwell]: The epigraph for this document, which I first came across while
+    drafting it, was penned by the English literary critic, Marxist philosopher,
+    and volunteer for the International Brigades in the Spanish Civil War,
+    Christopher Caudwell. Before those lines could be published, however,
+    Caudwell was killed at the Battle of Jarama in 1937, defending a hill
+    against Franco's fascists, so that his comrades could make a safe retreat.
+
+    At the moment I write this, with the dust just starting to settle on Gaza
+    City, and with ICE brownshirts storming America's cities, his words echo in
+    my ears as an ever-present call for international solidarity. Even more, his
+    deeds stand before me as a reminder that lasting freedom will always be
+    contingent upon a correspondingly steadfast solidarity: _none_ of us can
+    enjoy true freedom unless it is universally shared. It's the same sentiment
+    you can find in the words of [Fannie Lou Hamer] or [Mikhail Bakunin], put
+    into action. Or as Caudwell himself told a friend in 1936 before joining the
+    Spanish People's Army, "their struggle, if they fail, will certainly be ours
+    to-morrow, and, believing as I do, it seems clear where my duty lies."
+
+[Fannie Lou Hamer]:
+    https://stjamesaustin.org/wp-content/uploads/2021/02/Until-I-Am-Free-You-Are-Not-Free-Either-by-FLH.pdf
+[Mikhail Bakunin]:
+    https://theanarchistlibrary.org/library/michail-bakunin-man-society-and-freedom#:~:text=I%20am%20truly%20free%20only%20when%20all%20human%20beings,its%20necessary%20premise%20and%20confirmation
 
 ## A Note to the Reader
 This article should serve primarily as a design document, and so the reader is
@@ -293,9 +316,9 @@ I would only qualify that I don't have in mind the more "utopian" aspects of
 federalism, often associated with mid-19th century thinkers like Pierre-Joseph
 Proudhon or James Guillaume. Rather, I would point to much later anarchist
 projects of the 20th and 21st century, which certainly developed out of utopian
-socialism but explicitly positioned themselves internationalist in nature, or
-even outright counter-utopian.[^cnt-fai] Specifically, I would point to the
-[Democratic Confederalism] of Abdullah Öcalan, which forms the theoretical and
+socialism but took an explicitly internationalist position in opposition to
+utopianism.[^cnt-fai] Specifically, I would point to the [Democratic
+Confederalism] of Abdullah Öcalan, which forms the theoretical and
 constitutional basis for the [DAANES] of Northeast Syria, a.k.a. Rojava. Their
 program is emphatically internationalist, while also firmly rooted in social
 ecology and the municipalist principles of Bookchin, who significantly
@@ -314,25 +337,6 @@ resources, without sacrificing any of their diversity.
     part of their revolutionary fight against fascism, supported by the
     International Brigades and a host of left-wing tendencies ranging from
     libertarian socialists to Trotskyists.
-
-    Incidentally, the epigraph for this document, which I first came across in
-    the middle of drafting it, comes from Christopher Caudwell, an English
-    literary critic, Marxist philosopher, and anti-fascist soldier in the
-    British Battalion of the International Brigades. Before those lines could be
-    published, Caudwell was killed at the Battle of Jarama in 1937, defending a
-    hill from Franco's forces so that his comrades could escape to fight another
-    day.
-
-    At the moment I write this, with the dust starting to settle on Gaza City,
-    with ICE brownshirts storming America's cities, his words echo in my ears as
-    an ever-present call for international solidarity. Even more, his deeds
-    stand before me as a reminder that lasting freedom will always be contingent
-    upon a correspondingly steadfast solidarity: _none_ of us can enjoy true
-    freedom unless it is universally shared. It's the same sentiment you can
-    find in the words of [Fannie Lou Hamer] or [Mikhail Bakunin], only put to
-    action. Or as Caudwell himself told a friend in 1936 before joining the
-    Spanish People's Army, "their struggle, if they fail, will certainly be ours
-    to-morrow, and, believing as I do, it seems clear where my duty lies."
 
 [next section]: #social-architecture-software-ecology
 [dual power]: https://blacksocialists.us/dual-power-map
@@ -358,10 +362,6 @@ resources, without sacrificing any of their diversity.
 [Democratic Confederalism]:
     https://ocalanbooks.com/#/book/democratic-confederalism
 [CNT-FAI]: https://libcom.org/tags/federacion-anarquista-iberica-fai
-[Fannie Lou Hamer]:
-    https://stjamesaustin.org/wp-content/uploads/2021/02/Until-I-Am-Free-You-Are-Not-Free-Either-by-FLH.pdf
-[Mikhail Bakunin]:
-    https://theanarchistlibrary.org/library/michail-bakunin-man-society-and-freedom#:~:text=I%20am%20truly%20free%20only%20when%20all%20human%20beings,its%20necessary%20premise%20and%20confirmation
 
 
 ## Social Architecture, Software Ecology
