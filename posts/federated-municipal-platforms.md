@@ -790,30 +790,29 @@ the nature of their project:
   even when in radically decentralized or horizontalized groups, because
   otherwise _implicit_ governing structures tend to form, with or without
   anyone's intention. Unspoken hierarchies of that sort can be especially
-  difficult to address once they've formed, can lead to internal strife, and
-  wind up perpetuating many of the inequities such "structureless" groups claim
+  difficult to address once they've formed. They can lead to internal strife,
+  and often perpetuate many of the inequities such "structureless" groups claim
   to oppose.
 
   Freeman gives examples of certain governance mechanisms, like sortition and
-  the role of spokesperson, but she isn't prescriptive about governance
-  structure or what mechanisms work best. In her conclusion, she offers seven
-  "Principles of Democratic Structuring" that are well worth reviewing in their
-  own right, though I recommend reading the essay in its entirety. I view them
-  as the necessary _traits_ of democratic structure, without stipulating its
-  final form.[^joreen]
-
-<!-- TODO: connect the li w/ fn -->
+  the assignment of a spokesperson, but she doesn't prescribe any one governance
+  structure, nor which mechanisms work best outside of the particular context.
+  In her conclusion, she offers seven _Principles of Democratic Structuring_
+  which are well worth consideration even if you read nothing else, though I
+  still recommend reading the essay in its entirety. As principles go, they're
+  quite flexible, more like the ideal _traits_ that a democratic body should
+  evince, without stipulating a definite form.[^joreen]
 
 [^joreen]: Again, I encourage anyone who's not already familiar with it to read
-    ["The Tyranny of Structurelessness"] in its entirety, but here in paraphrase
-    are her seven "Principles of Democratic Structuring" for reference:
+    ["The Tyranny of Structurelessness"] in its entirety, but here are her seven
+    _Principles of Democratic Structuring_, paraphrased for quick for reference:
 
     1. __Delegation of Specific Authority:__ The group selects members to be
       granted the authority to perform specific tasks on behalf of the group,
-      instead of people self-selecting.
+      rather than members self-selecting to assume wide-ranging authority.
     2. __Accountability of Delegates:__ Once selected, delegates are held
       accountable to the group to exercise that authority as the group
-      determines, not the delegate.
+      determines, not arbitrarily by the delegate's discretion.
     3. __Sufficient Distribution of Authority:__ Delegate tasks to as many group
       members as it is reasonable, so authority is exercised through
       consultation with others, and so more people have a chance how to learn
@@ -828,8 +827,9 @@ the nature of their project:
       apprenticing with a delegate, but not being thrust into the delegate
       position alone.
     6. __Equal Diffusion of Information:__ Information should be spread to
-      everyone equally and frequently through proper group channels, not the
-      rumor mill.
+      everyone equally and frequently through proper group channels. Leaving
+      information to circulate haphazardly through the rumor mill can lead to
+      power imbalances and factionalism.
     7. __Equal Access to Resources:__ Equipment, information, and skills that
       the group needs to function should be shared equally among members. If
       full equality of access is not practical to achieve from the start, then
