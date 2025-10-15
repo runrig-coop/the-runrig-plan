@@ -923,6 +923,8 @@ software engineers and designers from abroad is an excellent way for FMPs to
 cross-pollinate, share what they've learned, and open up direct channels for
 dialogue with like-minded communities around the world.
 
+[recommended by the Free Software Foundation]:
+    https://www.gnu.org/licenses/license-recommendations.html
 [_municipalist_]: #a-municipalist-platform
 [_federation_]: #a-federalist-platform
 
