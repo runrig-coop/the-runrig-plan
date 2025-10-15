@@ -923,22 +923,22 @@ software engineers and designers from abroad is an excellent way for FMPs to
 cross-pollinate, share what they've learned, and open up direct channels for
 dialogue with like-minded communities around the world.
 
-I am working to organize a Runrig worker cooperative, comprised of
-technologists, designers, and advisors. This will complement the digital commons
-Runrig is building for free software and design artifacts as a dedicated team of
-people to steward that commons, while also making it easier for others to
-benefit from its use. 
-
 [_municipalist_]: #a-municipalist-platform
 [_federation_]: #a-federalist-platform
 
 #### Tech Worker Cooperatives
-Some local activists and I have begun a project to start an FMP here, first, in
-our own community of the Hudson Valley and New York City Metro Area. We'll then
-be able to provide the service to other regions who need that support. If you're
-interested in joining as a worker member, or would like to discuss starting an
-FMP in your region – or if you're our neighbor in the HV/NYC region and want to
-pitch in on this one! – don't hesitate to [email me].
+Some local activists and I have begun a project to start an FMP here in our own
+community of the Hudson Valley and New York City Metro Area. We'll then be able
+to provide the service to other regions who need that support. Ultimately, we
+hope to organize a Runrig worker cooperative, comprised of technologists,
+designers, and advisors. This will complement the digital commons Runrig is
+building for free software and design artifacts as a dedicated team of people to
+steward that commons, while also making it easier for others to benefit from its
+use. 
+
+If you're interested in joining as a worker member, or would like to discuss
+starting an FMP in your region – or if you're our neighbor in the HV/NYC region
+and want to pitch in on this one! – don't hesitate to [email me].
 
 Likewise, I encourage other independent software developers and existing
 cooperatives to seek out partnerships with food workers, farmers, produce
