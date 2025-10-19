@@ -46,17 +46,17 @@ this critical moment, we must champion software freedom explicitly.
 ## A Russian Reversal
 As a personal aside, I had zero interest in technology before I realized that
 _open source software_ could also mean _software freedom_. I was a confirmed
-Luddite all throughout my late teens and early twenties. Technology first
+Luddite all throughout my late teens and most of my twenties. Technology first
 demanded I have a cell phone, then a smartphone, and that I keep them with me at
-all times ready to respond to calls, text messages, emails, social media alerts,
-chat notifications. I had to pay to upgrade them every 2 years, if not sooner.
-The hardware was expensive and brittle, while the software was buggy, intrusive,
+all times ready to respond to calls, text messages, emails, social media, chat
+notifications. I had to pay to upgrade phones every 2 years, if not sooner. The
+hardware was expensive and fragile, while the software was buggy, intrusive,
 laden with ads, malware, and numerous [dark patterns]. When some piece of tech
 didn't work for me, that was my problem. Certainly none of the companies who
 developed, sold, or administered the technology seemed obliged to help me. After
 a while it began to feel like a bad Yakov Smirnoff joke (a.k.a. a [Russian
 reversal]): _"In Soviet Russia, you don't use app, app uses you!"_ – except
-dystopian ironies of this sort are only really possible in
+dystopian ironies of this sort are only really possible in late capitalist
 America.[^final-straw]
 
 ![](./img/smirnoff-what-a-country.gif)
@@ -104,9 +104,10 @@ open source or not; you _know_ if some piece of software encroaches on your
 freedom, and your testament is all that's needed to deem it unfree. The tangle
 of licensing agreements matters if you take the issue to court, but most of us
 will never do that. The ultimate determination of freedom is a personal
-assessment and a moral choice, not a mere technical evaluation. Insofar as one
-person's freedom should not encroach upon another's, free software constitutes a
-social project, too, as Richard Stallman pointed out [way back in 1998]:
+assessment and a moral choice, not a mere technical evaluation or legal opinion.
+Insofar as one person's freedom should not encroach upon another's, free
+software constitutes a social project, too, as Richard Stallman pointed out [way
+back in 1998]:
 
 > For the Open Source movement, the issue of whether software should be open
 > source is a practical question, not an ethical one. As one person put it,
@@ -124,21 +125,22 @@ controlled_, a distinction I think Smirnoff would grasp almost immediately.
     https://www.gnu.org/philosophy/free-software-for-freedom.html
 
 ## Free as in Pragmatic
-Putting ideals aside for a moment, the task of developing, maintaining, and
-deploying free software does of course incur costs, like any software project.
-If not managed carefully, those can be come quite high and rather quickly. But
-to better explain the practical and economical merits of free software, I want
-to pay careful attention to its philosophical and ethical foundations, what are
-referred to as the [Four Freedoms]. I believe a great deal of pragmatism can be
+Putting ideals aside for one moment, the task of developing, maintaining, and
+deploying free software does incur costs, of course, like any software project.
+If not managed carefully, those can grow quite high and rather quickly at that.
+But to better explain the practical and economical merits of free software, I
+want to pay careful attention to its philosophical and ethical foundations, what
+are referred to as the [Four Freedoms] by Stallman and the Free Software
+Foundation (FSF) he helped to found. I believe a great deal of pragmatism can be
 gleaned from these ideals, but only if we evaluate free software's costs and
 benefits on its own terms, looking at what each of its enumerated freedoms
-actually entails:
+actually requires:
 
-0. The freedom to run the program as you wish, for any purpose.[^zeroth]
-1. The freedom to study how the program works, and change it so it does your
+1. The freedom to run the program as you wish, for any purpose.[^zeroth]
+2. The freedom to study how the program works, and change it so it does your
    computing as you wish.
-2. The freedom to redistribute copies so you can help others.
-3. The freedom to distribute copies of your modified versions to others.
+3. The freedom to redistribute copies so you can help others.
+4. The freedom to distribute copies of your modified versions to others.
 
 [^zeroth]: As noted by the Free Software Foundation: "The reason they are
     numbered 0, 1, 2 and 3 is historical. Around 1990 there were three freedoms,
@@ -149,16 +151,16 @@ actually entails:
 
 All four can be associated with certain costs, from the cost of the hardware and
 electricity to run the software to the human expertise and labor necessary to
-study and change it. Yet they remain freedoms because they also impart economic
-value: the freedom to use the software to achieve something of value as you see
-fit. That can be a use value, something of immediate use to you, or it can be of
-value for the purpose of exchange, if it is some liberty that can be transferred
-somehow to others. I say "some liberty" and "transferred somehow," but the
-significance of its exchange value depends critically on what constitutes that
-value in the first place, as well as the precise means by which it can be
-transferred. Accordingly, I'll argue that while it is possible to derive some
-form of exchange value from any of the Four Freedoms and its associated costs,
-only the first two freedom are present clear _use values_ to ordinary users.
+study and change it. Yet they remain freedoms because they also impart
+socioeconomic value: the freedom to use the software to achieve something of
+value as you see fit. That can be a use value, something of immediate use to
+you, or it can be of value for the purpose of exchange, if it is some liberty
+that can be transferred somehow to others. I say "some liberty" and "transferred
+somehow," but the significance of its exchange value depends critically on what
+constitutes that value in the first place, as well as the precise means by which
+it can be transferred. Accordingly, I argue that while it is possible to derive
+some form of exchange value from any of the Four Freedoms and its associated
+costs, only the first two freedom present clear _use values_ to ordinary users.
 
 When it comes to assessing the economic feasibility of free software, there is a
 tendency to place undue emphasis on the Second and Third Freedoms concerning
@@ -177,8 +179,8 @@ or other conditions), with the full force of law to back those rights up.
 
 It is a mistake, however, to assume software's value must be tied to its
 distribution or that no other form of value can be realized without a license or
-patent. Software, like many other forms of economic activity that don't so
-blatantly depend upon intellectual property law, can be used to generate revenue
+patent. Software – like so many other forms of economic activity that _do not_
+depend on IP law to vouchsafe their profitability – can still generate value
 by lowering the relative costs to produce and consume it, while also maximizing
 the value its users derive from it. As I indicated above, managing those
 tradeoffs is no mean feat. Even among proprietary software companies, so long as
@@ -198,9 +200,9 @@ most sensitive data. Even expert DevOps engineers, who may run some of their own
 personal services, typically draw a line somewhere. I don't know of anyone who
 would advocate against using any and all servers we don't have full control
 over, at least anyone who hasn't disavowed digital technology completely. So
-long as the Internet continues to exist, there will be demand people who want to
-run servers for other people. If they're good at it, they will probably get
-people to pay them money for it.
+long as the Internet continues to exist, there will be a need for people willing
+to run servers for other people. If they're any good at it, those other people
+may even be willing to pay them money in exchange for doing it.
 
 
 [Four Freedoms]:
