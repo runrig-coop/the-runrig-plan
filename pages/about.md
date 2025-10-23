@@ -31,4 +31,4 @@ feedback, and other support [via email], if that's your preference.
 [DWeb]: https://dwebcamp.org
 [me]: https://jgaehring.com
 [get involved]: ./get-involved
-[via email]: mailto:jamie@rurnig.org
+[via email]: mailto:jamie@runrig.org

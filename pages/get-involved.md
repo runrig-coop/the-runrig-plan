@@ -13,7 +13,7 @@ email me at [jamie@runrig.org]. Feel free to reach out on general inquiries or
 feedback there, too, or sign up to the newsletter below for biweekly content and
 updates on the project.
 
-[jamie@runrig.org]: mailto:jamie@rurnig.org
+[jamie@runrig.org]: mailto:jamie@runrig.org
 
 ## Newsletter
 About every two weeks, I try to post a new article, technical report, or even
