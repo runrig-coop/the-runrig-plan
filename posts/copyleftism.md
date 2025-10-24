@@ -50,33 +50,69 @@ and server costs, which can vanish quickly if you don't have the freedom to
 choose. Free software predates open source, and the latter was only ever meant
 to empower capitalists, not the people. The time to abandon it is long overdue.
 
-## Free Users or Open Software?
-In the late 1990s, even as Linux was becoming the _de facto_ operating system of
-the world wide web, software developers were still having a hard time convincing
-their bosses and investors that _free software_ was good for business. Instead
-of understanding it to mean _free_ as in "free speech," the way Richard Stallman
+## Open Software? Or Free Users?
+In the late 1990s, Linux was becoming the _de facto_ operating system of the
+world wide web, yet software developers were still having a hard time convincing
+their managers and investors that _free software_ was good for business. Instead
+of interpreting it to mean _free_ as in "free speech," the way Richard Stallman
 and the Free Software Foundation always intended it, the higher-ups only ever
 heard _free_ as in "free lunch."
 
 To make it an easier pill to swallow, developers like Eric S. Raymond rebranded
 it as _open source_ software. Open source is a nebulous term, almost willfully
-unintuitive to non-specialists, yet it has a vaguely positive ring to it that's
+unintuitive to non-specialists. Yet it has a vaguely positive ring to it that's
 pleasing to the ear and distinct enough to pass muster with the marketing
 department. By most accounts, the rebrand succeeded in making open source
-software more appealing to Silicon Valley founders and funders. To the general
-public's ears, however, open source sounds even more obscure and alienating than
-free software ever was. People may still appreciate open source as a positive
-good when examples are laid out and its benefits are explained, but they rarely
-feel qualified to advocate on its behalf or demand open source alternatives for
-their own personal use.
+software more appealing to Silicon Valley executives. Over the [last 10 years],
+Google, Facebook, and Oracle have all ranked among the top 10 contributors to
+the Linux kernel; even Microsoft, that bogeyman of open source, ranked a
+respectable 36th place, [admitting in 2020] that they were "on the wrong side of
+history" about open source two decades earlier.
+
+To the general public's ears, however, open source sounds even more obscure and
+alienating than free software ever was. When the benefits of open source are
+explained and examples laid before them, most people can appreciate the positive
+good it represents, but they rarely feel qualified to advocate on its behalf or
+demand open source alternatives for their own personal use.
 
 On the other hand, people of all stripes know what "freedom" is. Goodness knows,
-if you set out trying to inform somebody in America in 2025 what freedom is or
-is not, you're far more likely to be told, _"You're wrong!"_ than to hear them
-say, "I don't understand." If they have any experience using software – and who
-doesn't these days? – then they're also perfectly well equipped to tell you
-whether one particular piece software makes them free or not, or whether this
-software respects their freedom more than that software.
+if you set out trying to inform somebody in America in 2025 what freedom is,
+you're far more likely to be told, _"No, you're wrong!"_ than to hear them say,
+"But I don't understand..." That visceral knowledge, combined with even the
+least amount of experience as the end user of modern software, fully qualifies
+anyone with a pulse to evaluate the freedom they gain from a piece of software:
+does using it make them more or less free than not using it, or does it respect
+their freedom more or less than some other piece of software?
+
+I should add, too, that _open source_ is routinely confused with _open data_.
+They are distinct concepts, but it is forgivable when the same companies that
+nowadays boast of their contributions to open source are the same ones
+surveilling their users, collecting users' private data, and legitimizing it all
+with opaque terms of service. Permissive data agreements may not follow
+_intrinsically_ from permissive software agreements, but too often they follow
+all the same.
+
+I've spoken to developers working with indigenous users who were wary of
+attempts to steal or exploit their traditional knowledge. They were therefore
+suspicious of open source software because of how it has often been conflated
+with open data. In their case, I believe, there really was no cause for concern,
+since the tribes held at least legal – if not physical – ownership of the
+servers and personal devices that ran the software, which also happened to be
+free software, too. It was a failure of communication, mainly, and one I suspect
+could have been averted by describing the system in terms of software freedom,
+rather than open source. It would have been less jargon and much more to the
+point.
+
+Nevertheless, open source remains the term _du jour_ among developers, even as
+users become increasingly – and rightfully – suspicious of attempts to
+"open-wash" extractive data projects. To be sure, sharing data has its place,
+but "openly" sharing is still not the same as "freely" sharing, and users are
+smart enough to know the difference when faced with a choice.
+
+[last 10 years]:
+    https://insights.linuxfoundation.org/project/korg/contributors?timeRange=custom&start=2015-01-01&end=2024-12-31&auth=success
+[admitting in 2020]:
+    https://www.theverge.com/2020/5/18/21262103/microsoft-open-source-linux-history-wrong-statement
 
 ## A Russian Reversal
 As a personal aside, I had zero interest in technology before I realized that
