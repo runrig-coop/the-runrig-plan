@@ -651,10 +651,10 @@ to the degree it can be customized or the number of applications and services it
 can host. In theory, that's true enough of most computers today, insofar as they
 are considered [Turing complete], but there are always tradeoffs.
 
-Of course, the first trade-offs you're likely to encounter come in terms of the
-material cost to operate the FMP. There's the cost of the hardware, electricity,
-and the necessary labor to keep it all running. I'll refer to these as operating
-or administrative costs. On top of that, FMP members might want to sponsor new
+Of course, the first trade-offs you're likely to encounter will come in terms of
+material costs to operate the FMP, like the costs of hardware, electricity, and
+the necessary labor to keep it all running. I'll refer to these as operating or
+administrative costs. On top of that, FMP members might want to sponsor new
 features, plugins, or other forms of customization, which we'll call the
 development costs. If you choose to forgo all development, those costs can be
 mostly eliminated. When it comes to administrative costs, however, the slope of
