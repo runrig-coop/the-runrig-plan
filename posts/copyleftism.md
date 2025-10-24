@@ -128,28 +128,28 @@ developed, sold, or administered the technology seemed obliged to help me. After
 a while it began to feel like a bad Yakov Smirnoff joke (a.k.a. a [Russian
 reversal]): _"In Soviet Russia, you don't use app, app uses you!"_ – except
 dystopian ironies of this sort are only really possible in late capitalist
-America.[^final-straw]
+America.
 
 ![](./img/smirnoff-what-a-country.gif)
 
-[^final-straw]: For me, the final straw came when a computer salesperson tried
-  to bait-and-switch me into buying a Windows PC that I really couldn't afford,
-  but which I badly needed in order to keep my job, find housing (I faced a
-  pending eviction at the time), and maintain my relationships with remote
-  friends and family. In a fit of pique and largely out of spite, I determined
-  instead to build my own computer out of parts and install it with Linux. I was
-  seriously pessimistic I could make it work; it seemed just as likely it would
-  be my last futile attempt to cope with modernity, before I bugged out entirely
-  for the Pine Barrens or upstate somewhere to become a hermit. Yet the whole
-  process was surprisingly easy to pull off – almost _disappointingly_ so. Up to
-  that moment, it had never occurred to me that technology could actually _work
-  for me_, rather than making me work for it with my limited time and money. If
-  it didn't work for me, I could find or build something else that did. There
-  was a vast pool of common resources out there to draw upon, and most
-  importantly, a thriving community that offered all the support I would ever
-  need. It was quite the revelation.
+For me, the final straw came in 2012, when a computer salesperson tried to
+bait-and-switch me into buying a Windows PC that I really couldn't afford, but
+which I badly needed in order to keep my job, find housing (I faced a pending
+eviction at the time), and maintain my relationships with remote friends and
+family. In a fit of pique and largely out of spite, I determined instead to
+build my own computer out of parts and install it with Linux. I was seriously
+pessimistic I could make it work; it seemed just as likely it would be my last
+futile attempt to cope with modernity, before I bugged out entirely for the Pine
+Barrens or upstate somewhere to become a hermit. Yet the whole process was
+surprisingly easy to pull off – almost _disappointingly_ so. Up to that moment,
+it had never occurred to me that technology could actually _work for me_, rather
+than making me work for it with my limited time and money. If it didn't work for
+me, I could find or build something else that did. There was a vast pool of
+common resources out there to draw upon, and most importantly, a thriving
+community that offered all the support I would ever need. It was quite the
+revelation.
 
-If you've ever felt, like I did, that you were no longer a _user of_ some
+If you've ever felt, like I once did, that you were no longer a _user of_ some
 software application but were instead being _used by_ it, it's very likely that
 the offending app included at least a one or two software libraries that would
 be considered open source. That does not mean the same libraries were _free
