@@ -3,10 +3,54 @@ title: In Defense of Copyleftism
 subtitle: The inversion of control
 description: Le logiciel libre est mort, vive le logiciel libre!
 author: Jamie Gaehring
-date: 2025-09-30
+date: 2025-10-30
 outline: [2, 4]
 ---
 
+With each passing year, people seem a little more concerned about Big Tech and
+how proprietary software companies impinge upon our rights. It has become
+increasingly clear how they make us less free as individuals, while eroding what
+few remaining democratic institutions we have left between us. It can take many
+forms and may effect each of us to varying degrees, but eventually it reaches us
+all. We've seen abundant examples of corporate and government surveillance,
+strategic disinformation campaigns, domestic and foreign election interference,
+monopolies or oligopolies on global trade, robotic police dogs and lethal
+military drones – just do a search for "algorithmic wage discrimination against
+nurses" if you don't yet feel a tiny knot of righteous indignation, slowly
+tightening in your chest.
+
+Correspondingly, there is a growing call for technology that fosters greater
+freedom by granting ownership and control to its users, both individually and
+collectively. By my own estimation, that call is especially loud today among
+farming associations and food policy makers, and it grows louder every day. That
+clarion call should be echoed, in quick succession, by the sympathetic demand
+for _free & open source software_, or FOSS, but FOSS alternatives lag behind in
+adoption, all the same.
+
+The switch to FOSS is understandably hard for individual users, but it can be
+almost as difficult when an organized group, like a small- to mid-sized farm or
+non-profit institution – i.e., something larger than mere individuals or an
+informal group of users, but still small peanuts compared to Big Tech – is
+deciding on what tools to adopt, or even when they undertake to develop new
+software for themselves. I won't downplay the challenges involved in that task,
+which are by no means trivial, but I think they are only made harder when people
+don't entirely appreciate what they stand to gain in the struggle for software
+freedom, much less what they stand to lose. This misunderstanding is
+exacerbated, in my view, by confusion around _open source_ software: what it is
+and how it overlaps with the concept of _free software_. It makes the final
+choice between free, open, and proprietary options all the more difficult.
+
+What I'm proposing here, in this article, is that we dispose of the term _open
+source_ altogether and insist upon either _free software_ – full stop – or
+better yet, unambiguous equivalents like _libre_ software, _copyleft_ licensing,
+software _freedom_, or software _liberation_. There are plenty of pragmatic
+reasons to frame software freedom for what it is, too, and not as mere openness,
+because it makes plain that what's at stake is bigger than mere licensing fees
+and server costs, which can vanish quickly if you don't have the freedom to
+choose. Free software predates open source, and the latter was only ever meant
+to empower capitalists, not the people. The time to abandon it is long overdue.
+
+## Free Users or Open Software?
 In the late 1990s, even as Linux was becoming the _de facto_ operating system of
 the world wide web, software developers were still having a hard time convincing
 their bosses and investors that _free software_ was good for business. Instead
@@ -33,15 +77,6 @@ say, "I don't understand." If they have any experience using software – and wh
 doesn't these days? – then they're also perfectly well equipped to tell you
 whether one particular piece software makes them free or not, or whether this
 software respects their freedom more than that software.
-
-To that effect, there is a growing interest in software that fosters greater
-freedom by granting ownership and control to users at both the individual and
-community level. By my own estimation, that call is especially loud today among
-farming associations and food policy makers, and it grows louder every day. When
-we advocate for the adoption of _open source_ software, however, the message
-still seems to gets lost. For this very practical reason, as well as the ideals
-that set free software apart, we need more than just open source software. In
-this critical moment, we must champion software freedom explicitly.
 
 ## A Russian Reversal
 As a personal aside, I had zero interest in technology before I realized that
