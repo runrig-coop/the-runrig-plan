@@ -224,40 +224,19 @@ All four can be associated with certain costs, from the cost of the hardware and
 electricity to run the software to the human expertise and labor necessary to
 study and change it. Yet they remain freedoms because they also impart
 socioeconomic value: the freedom to use the software to achieve something of
-value as you see fit. That can be a use value, something of immediate use to
-you, or it can be of value for the purpose of exchange, if it is some liberty
-that can be transferred somehow to others. I say "some liberty" and "transferred
-somehow," but the significance of its exchange value depends critically on what
-constitutes that value in the first place, as well as the precise means by which
-it can be transferred. Accordingly, I argue that while it is possible to derive
-some form of exchange value from any of the Four Freedoms and its associated
-costs, only the first two freedom present clear _use values_ to ordinary users.
+value as you see fit.
 
 When it comes to assessing the economic feasibility of free software, there is a
 tendency to place undue emphasis on the Second and Third Freedoms concerning
-distribution. The fear is that by granting users the freedom to
-distribute your software, all the value you could hope to exchange will walk out
-the door with it, and thereby all your potential revenue. This assumes the
-software's commodity value – whatever that comprises and however you intend to
-earn revenue from it – is somehow inextricably linked to the precise thing being
-distributed, whether that's the source code or an executable program or software
-embedded on some device. The exchange value, it follows, can thus only be
-realized by controlling its distribution. When software's distribution is
-controlled by a proprietary license, its exchange value can be realized in a
-fairly straightforward manner: namely, a state authority grants the intellectual
-property holder exclusive rights to copy and distribute the software (for a fee
-or other conditions), with the full force of law to back those rights up.
-
-It is a mistake, however, to assume software's value must be tied to its
-distribution or that no other form of value can be realized without a license or
-patent. Software – like so many other forms of economic activity that _do not_
-depend on IP law to vouchsafe their profitability – can still generate value
-by lowering the relative costs to produce and consume it, while also maximizing
-the value its users derive from it. As I indicated above, managing those
-tradeoffs is no mean feat. Even among proprietary software companies, so long as
-they're _not_ a gigantic monopoly, _not_ wholly subsidized by venture capital,
-and they _do_ actually turn a profit, then they probably remain competitive in
-large part because of how they optimize value for costs.
+distribution. The fear is that by granting users the freedom to distribute your
+software, all the value you could hope to exchange will walk out the door with
+it, and thereby all your potential revenue. It is a mistake, however, to assume
+software's value must be tied to its distribution or that no other form of value
+can be realized without a license or patent. Software – like so many other forms
+of economic activity that _do not_ depend on IP law to vouchsafe their
+profitability – can still generate value by lowering the relative costs to
+produce and consume it, while also maximizing the value its users derive from
+it.
 
 The reason is pretty simple: people don't want to run their own servers. Of the
 hundreds if not thousands of servers we all interact with every day, there are
