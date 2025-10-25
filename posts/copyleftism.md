@@ -284,6 +284,47 @@ may even be willing to pay them money in exchange for doing it.
 [local-first software]: https://www.inkandswitch.com/local-first-software/
 
 
+:::warning HERE BE DRAGONS 🐉 
+
+Work in progress beyond this point; needs segue to older FF material.
+
+:::
+
+
+When an organized group of users – as a worker co-op, producer co-op, small
+business, or non-profit – determines amongst themselves to create software that
+meets their needs without compromising their freedom, they may look to existing
+software business models in order to sustain project. What they're likely to
+find can be generalized into two broad categories: the proprietary subscription
+model, or open source support model...
+
+
+So then, why can't the license just _add further value_, on top of the use value
+of developing and administering the applications and services for others?
+
+
+The license, in that case, is not responsible for being their main value
+proposition, but rather, to protect their margins and prevent someone from
+undercutting them
+
+
+The cost of distribution is mostly in terms of security and integrity checks
+(e.g., managing packages and package repositories, installing patches,
+provisioning computing resources, replicating services, payment gateways, code
+signing, checksums, LTS cycles, CI config, rollbacks, etc), typically an upfront
+cost, and so it flattens out dramatically as the distribution volume increases.
+The same is true for counter-distribution...
+
+:::warning Draft Notice
+
+The following 2 sections are copied directly from [Farm Flow Backstory] and need
+to be revised for this context.
+
+:::
+
+[Farm Flow Backstory]: /posts/farm-flow-backstory.md
+
+
 ## Deciding on a Development Model
 As I said above, I didn't presume Runrig's model of development would be the
 ideal fit for Farm Flow's stated aims, at least not before a careful evaluation.
