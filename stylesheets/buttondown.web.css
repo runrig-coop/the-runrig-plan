@@ -1,3 +1,14 @@
+/* 
+ * BUTTON DOWN: Web Archive CSS
+ * @see https://docs.buttondown.com/customizing-web-design
+ * 
+ * These styles are added to the Buttondown web archive stylesheets via:
+ * Settings > Design > Archive Design > Customize > CSS
+ * 
+ * They should match the `next` branch of `the-runrig-plan` GitHub repo:
+ * https://github.com/runrig-coop/the-runrig-plan/blob/next/stylesheets/buttondown.web.css
+ */
+
 /* webfont-marker-begin */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* webfont-marker-end */
