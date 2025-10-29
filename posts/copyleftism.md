@@ -7,48 +7,72 @@ date: 2025-10-30
 outline: [2, 4]
 ---
 
-With each passing year, people seem a little more concerned about Big Tech and
-how proprietary software companies impinge upon our rights. It has become
-increasingly clear how they make us less free as individuals, while eroding what
-few remaining democratic institutions we have left between us. It can take many
-forms and may effect each of us to varying degrees, but eventually it reaches us
-all. We've seen abundant examples of corporate and government surveillance,
-strategic disinformation campaigns, domestic and foreign election interference,
-monopolies or oligopolies on global trade, robotic police dogs and lethal
-military drones – just do a search for "algorithmic wage discrimination against
-nurses" if you don't yet feel a tiny knot of righteous indignation, slowly
-tightening in your chest.
+With each passing year, it becomes a bit clearer to the general public how Big
+Tech and their proprietary software platforms make us less free as individuals,
+while simultaneously eroding what few democratic institutions we have left
+collectively. These infringements take many forms and may effect each of us to
+varying degrees, but they impact all of us in the end. We've seen abundant
+examples of corporate and government surveillance, strategic disinformation
+campaigns, domestic and foreign election interference, monopolies or oligopolies
+on global trade, robotic police dogs and lethal military drones – just do a
+search for "algorithmic wage discrimination against nurses" if you don't yet
+feel a tiny knot of righteous indignation, slowly tightening in your chest.
 
-Correspondingly, there is a growing call for technology that fosters greater
-freedom by granting ownership and control to its users, both individually and
-collectively. By my own estimation, that call is especially loud today among
-farming associations and food policy makers, and it grows louder every day. That
-clarion call should be echoed, in quick succession, by the sympathetic demand
-for _free & open source software_, or FOSS, but FOSS alternatives lag behind in
-adoption, all the same.
+People therefore seek alternatives, and so with each year the call for more
+appropriate, more liberatory technology grows louder too. They want tools that
+foster greater freedom to users, granting them more control over the hardware
+and software they use each day. They want ownership of those assets, in fact, if
+not individually, then at least collectively and by democratic principles. You
+might think such circumstances would in turn predispose more people to adopt
+_free software_ – that is, software that may be used freely by anyone, or
+plainly _software freedom_. Oddly enough though, I haven't noticed a
+corresponding uptick in the adoption of free software, aside from a few outliers
+like Signal or apps exclusively intended for technology professionals.
 
-The switch to FOSS is understandably hard for individual users, but it can be
-almost as difficult when an organized group, like a small- to mid-sized farm or
-non-profit institution – i.e., something larger than mere individuals or an
-informal group of users, but still small peanuts compared to Big Tech – is
-deciding on what tools to adopt, or even when they undertake to develop new
-software for themselves. I won't downplay the challenges involved in that task,
-which are by no means trivial, but I think they are only made harder when people
-don't entirely appreciate what they stand to gain in the struggle for software
-freedom, much less what they stand to lose. This misunderstanding is
-exacerbated, in my view, by confusion around _open source_ software: what it is
-and how it overlaps with the concept of _free software_. It makes the final
-choice between free, open, and proprietary options all the more difficult.
+Free & open source software – a.k.a. FOSS, but more often referred to simply as
+_open source_ – has a reputation for being difficult to adopt. I'm entirely
+sympathetic when it comes to individual users, but I'm disappointed when the
+rare opportunity arises for a larger group to make a collective decision, but
+nevertheless elects for proprietary software. I've seen this happen where there
+were clear incentives and an express interest in open technology, and even a
+willingness to invest resources into the development of custom features that the
+group could spec out themselves and fully control. Yet they still hesitated to
+take an open approach. The decision may have been attributed to insufficient
+resources or support, network effects that were perceived as disadvantageous,
+the feared loss of productivity or some competitive advantage, or just sheer
+apprehension over the newness of it all. 
 
-What I'm proposing here, in this article, is that we dispose of the term _open
-source_ altogether and insist upon either _free software_ – full stop – or
-better yet, unambiguous equivalents like _libre_ software, _copyleft_ licensing,
-software _freedom_, or software _liberation_. There are plenty of pragmatic
-reasons to frame software freedom for what it is, too, and not as mere openness,
-because it makes plain that what's at stake is bigger than mere licensing fees
-and server costs, which can vanish quickly if you don't have the freedom to
-choose. Free software predates open source, and the latter was only ever meant
-to empower capitalists, not the people. The time to abandon it is long overdue.
+I won't deny or downplay the potential challenges involved here; they're real,
+and they're myriad, but I think they're incorrectly assessed. When a group of
+users have a chance to coordinate their efforts behind an independent software
+project, most of the presumed downsides – the network effects, costs of support,
+productivity, etc. – can be far lower if they adopt a strategy based on free
+software than if they went the proprietary route, even as owners of the
+intellectual property (IP). In some cases, those downsides may be entirely
+inverted as upsides, with positive gains that wouldn't otherwise be possible.
+
+Most of all, I think users hesitate to adopt free software, _per se_, because
+they don't appreciate what all they stand to gain in their struggle for software
+freedom, much less what they stand to lose. This misunderstanding is only
+exacerbated when its proponents, like myself, add to the confusion by calling it
+_open source_, without a preliminary understanding of how that doesn't perfectly
+overlap with all the precepts of _free software_.
+
+Recognizing the advantages of software freedom – with zero knowledge of what the
+source code does or why it should be "open," whatever that means – should not
+only be sufficient to convince users, but should make it simpler, too, with far
+more clarity concerning its advantages over proprietary software. Those
+advantages aren't just a matter of principle either. Users stand to make
+concrete, practical gains that they can immediately appreciate, so long as the
+full scope of possibilities are made known.
+
+I propose that we dispose of the terms _open source_ and _FOSS_ altogether, and
+that we insist upon either _free software_ – full stop – or better yet, one of
+its less ambiguous equivalents like _libre_ software, _copyleft_ licensing,
+software _freedom_, or even software _liberation_. The history of free software
+predates open source by a decade or more, and the latter was only chosen because
+it appealed to corporations, not ordinary people. I say the time to abandon it
+is long overdue.
 
 ## Open Software? Or Free Users?
 In the late 1990s, Linux was becoming the _de facto_ operating system of the
