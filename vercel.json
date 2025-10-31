@@ -12,6 +12,15 @@
       ]
     }
   ],
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "draft/*": true,
+      "preview/*": true,
+      "theme/*": true,
+      "*": false
+    }
+  },
   "redirects": [
     {
       "source": "/contact(.*)",
