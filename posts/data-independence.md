@@ -94,7 +94,7 @@ conceptual or logical layers that touch application development and user space.
   https://doi.org/10.1145/320434.320440
 - Hugh Darwen and C. J. Date. ["The Third Manifesto"] SIGMOD Rec. 24, 1 (March
   1995), 39–49. https://doi.org/10.1145/202660.202667
-- C. J. Date. [_Introduction to Database Systems, 8th Edition_], (2004).
+- C. J. Date. _Introduction to Database Systems, 8th Edition_, (2004).
 - Ben Moseley & Peter Marks. ["Out of the Tar Pit"], 2006.
 
 
@@ -104,8 +104,6 @@ conceptual or logical layers that touch application development and user space.
     https://github.com/papers-we-love/papers-we-love/blob/main/design/out-of-the-tar-pit.pdf
 [A relational model of data for large shared data banks]:
     https://dl.acm.org/doi/10.1145/362384.362685
-[_Introduction to Database Systems, 8th Edition_]:
-    ./2025-02-22_CJ%20Date%20on%20Data%20Independence.md
 ["The Third Manifesto"]: https://dl.acm.org/doi/abs/10.1145/202660.202667
 [The entity-relationship model—toward a unified view of data]:
     https://dl.acm.org/doi/10.1145/320434.320440
