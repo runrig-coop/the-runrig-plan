@@ -5,6 +5,21 @@ date: 2025-12-31
 outline: [2, 4]
 ---
 
+:::warning HERE BE DRAGONS 🐉 
+
+Still in a ___very___ rough state of draft...
+
+- Errata from a [copyleftism] draft.
+- Check w/ L. Villa about publishing transcript.
+- Consider merging "local maxima in the fitness landscape" from [DWeb slides].
+
+:::
+
+[copyleftism]:
+    https://github.com/runrig-coop/the-runrig-plan/tree/draft/copyleft/posts/copyleftism.md
+[DWeb slides]: https://dweb.camp/p/foodweb__response-to-utility-proposal
+
+
 In 2016, Luis Villa gave a fantastic presentation titled ["Free as in ... ?"] at
 the Free Software Foundations's annual Libre Planet conference. Borrowing from
 the _capability approach_, a theory of justice and human rights developed by
