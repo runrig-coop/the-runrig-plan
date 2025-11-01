@@ -30,6 +30,13 @@ Still in a ___very___ rough state of draft...
 - __From Replaceable to Extensible:__ 
   - _Corollary: Glue code becomes configuration._
 - __Social Abstraction:__ <!-- add heuristics form draft/soc-abstr branch -->
+- __Iterative Social Process:__ Like an iterative software development process,
+  social technologies should be designed and deployed by a swift succession of
+  small, iterative changes. This will afford a tight feedback loop, early
+  opportunities to reflect on newly acquired information from previous
+  iterations, and the ability to adapt to new or changing requirements with
+  ease. Social design iterations should match tempo with technology development
+  iterations, roughly speaking.
 
 to work with existing software projects and brownfield applications to work on
 classic [`wontfix`] issues
