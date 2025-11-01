@@ -287,3 +287,72 @@ resources that could be dumped into SQL and replicated more readily.
     https://en.wikipedia.org/wiki/Distributed_hash_table
 [Concurrent Hash Trie]: https://en.wikipedia.org/wiki/Merkle_tree
 
+
+## A Note on Data Independence
+
+:::warning Draft Notice
+
+This section is based on errata from [FMP § "Two Other Layers"]. It was
+originally meant to summarize some concepts from earlier personal notes to
+conclude that section with some more context for the technical benefits of the
+global data provider and local-first apps.
+
+:::
+
+[FMP § "Two Other Layers"]: ./federated-municipal-platforms.md#two-other-layers
+
+Those with a background in systems design and data architecture should note the
+central role that standards and protocols play in connecting these two layers
+with the FMP, as well as in federated communication between multiple FMPs and
+other third-party platforms.
+
+This gets to another critical aspect of the FMP's social architecture, but also
+the Runrig Plan more generally: __data independence__.
+
+To achieve data independence, a system for storing and retrieving persistent
+data should maintain a formal separation between the physical representation of
+the data, such as its address in memory or location on a physical disk, and the
+logical representation of data, such as the form of an SQL query statement. As a
+rule of thumb, good data independence means that if the model for the physical
+layer changes, it should not force a breaking change in how the logical layer
+must be subsequently modelled – i.e., migrating your data from a floppy disk to
+a solid-state drive won't require you to rewrite all your SQL queries. 
+
+Data independence is as old a concept as databases. It was a major concern of
+[E. F. Codd's seminal paper] from 1970, where he established the relational
+model that has informed every database that ever supported some variant of
+SQL[^sql] in the past 50 years. In fact, it was a concern of many data
+scientists of the 60s and 70s; however, in most realms of system design today,
+it is regarded as a more-or-less solved problem. Modern hardware and database
+engines are just expected to provide data independence on a fundamental level,
+which most software developers never have to worry about.
+
+But when Codd was establishing these principles, databases were typically kept
+in one place, even if it spanned several shelves or rooms worth of magnetic tape
+spools, colocated with the only computers that accessed them. Disk access was
+many orders of magnitude slower than anything modern drives are capable of
+today. That was the main limiting factor for any physical representation of the
+data and the models employed for its storage and retrieval. Distributed
+computing was a problem of time-sharing on a single, gargantuan mainframe
+computer, via many separate user terminals. Whatever latencies or
+inconsistencies may have arisen from the physical distance between users, or the
+process interrupts required by time-sharing, those were still negligible
+compared to the constraints of accessing the physical medium of storage.
+
+So when data scientists spoke of the physical layer, they mainly restricted
+their attention to the database itself: the disks or tape comprising its storage
+medium, the physical mechanisms that spun up and aligned the medium to where an
+electronic sensor could accurately read its data into memory or transmit it
+elsewhere, plus the programs and subroutines that modelled and controlled all
+those physical operations.
+
+not sharded databases spread out across every continent with edge servers
+negotiating transactions between the database and any person with a smartphone.
+
+[^sql]: Later academics have been [quick to point out] that even SQL and its
+    various implementations don't meet all of Codd's criteria perfectly, but for
+    the most part, modern database engines provide sufficient data independence.
+
+[E. F. Codd's seminal paper]: https://dl.acm.org/doi/10.1145/362384.362685
+[quick to point out]: https://dl.acm.org/doi/abs/10.1145/202660.202667
+
