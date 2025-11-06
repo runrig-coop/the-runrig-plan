@@ -295,7 +295,7 @@ login to the platform itself, if ever at all, but who still maintain strong
 social bonds with the rest of the group or play a role in the community. This
 will require some combination of careful vetting, targeted recruitment, popular
 education, and continually active engagement between members to ensure it
-remains an inclusive body while not falling prey by moneyed interests or bad
+remains an inclusive body while not falling prey to moneyed interests or bad
 faith actors.
 
 In the long run, only constant vigilance can fully safeguard against this and
@@ -554,9 +554,9 @@ and equity across individual, local, regional, and global scales.
 The Data Provider is a global data store of structured, standardized, and
 self-describing data. Users can be allotted a portion of that storage, which is
 theirs to own and control, whether they wish to keep it private or share it with
-other authorized users or share it publicly. This sometimes called a [personal
-online data space (PODS)] or [personal data server (PDS)], or they can be
-referred to more generally a "pod" or [data space]. The benefit of having
+other authorized users or share it publicly. This is sometimes called a
+[personal online data space (PODS)] or [personal data server (PDS)], or they can
+be referred to more generally as a "pod" or [data space]. The benefit of having
 structured data of this sort is that the system for storing it can be entirely
 generic, whether it's farm-related data or an online shopping cart or a
 collection of restaurant reviews. The data provider can safely host any of these
@@ -672,7 +672,7 @@ The reason for scalability's shortcomings is the same reason an FMP is forced to
 consider yet another trade-off at this point: increasing membership may only
 increase administrative costs at a diminishing rate, but it will likely increase
 the demand for more features and application development. Development costs
-hardly ever remain constant, especially "at scale," and they can vary farm more
+hardly ever remain constant, especially "at scale," and they can vary far more
 than administration costs. In fact, if the functionality expected by users only
 ever _diverges_ as their numbers increase, costs may even rise exponentially.
 
@@ -889,7 +889,7 @@ edge proprietary offerings.
 
 #### Where to Find Support
 As a distinctly community-led formation, there is no firm requirement that I or
-anyone directly connected to Runrig to take part in the establishment of an
+anyone directly connected to Runrig must take part in the establishment of an
 instance of a _federated municipal platform_. The FMP is a set of design
 patterns and an architectural framework, which anyone is free to replicate.
 
