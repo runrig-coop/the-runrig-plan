@@ -11,7 +11,7 @@ description: A federated municipal platform, or FMP, is a communally owned &
     contribute to global solidarity efforts.
 author: Jamie Gaehring
 date: 2025-10-09
-outline: [2, 4]
+outline: [2, 3]
 ---
 
 > It would be fine if freedom were as easy as this, that man was naturally free.
