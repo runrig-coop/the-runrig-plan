@@ -55,41 +55,54 @@ From the Float proposal template:
 
 :::
 
-To sum up, here is our working definition for the type of Federated Municipal
-Platform (FMP) that we propose to pilot for the Hudson Valley & New York City
-Metro Area, as a collaboration between the [Catskills Agrarian Alliance] (CAA)
-and Runrig, along with other [Float] participants that wish to collaborate:
+- __Project Title__: "Piloting a Federated Municipal Platform for the Hudson
+  Valley & NYC Metro Area"
+- __Project Team__: Jamie Gaehring, and others TBD
 
-> A federated municipal platform, or FMP, is a communally owned & controlled
-> digital platform, enabling a regional foodshed or bioregion to manage its own
-> land, resources, and labor according to its own needs. It can host a range of
-> free software applications & services, from dedicated food & agricultural
-> software to generic productivity apps, all determined by a local municipality
-> of users. As a federated platform, it can simultaneously cooperate with other
-> community-based platforms to share resources and contribute to global
-> solidarity efforts.
+### Problem Statement
+Small-to-midsize farms, regional food hubs, and grassroots food organizations
+face distinct challenges if they wish to cooperate with one another on the
+shared task of agricultural production and food distribution in their region,
+while making the most of modern information technologies like they're accustomed
+to using nowadays.
 
-Refer to the [FMP design doc] for more details on the specific architectural
-and social attributes of a Federated Municipal Platform.
+Taken separately, these groups can seldom afford the same enterprise-grade,
+proprietary software packages or bespoke, white-label services available to
+larger producers and distributors, such as the specialized ERP or CRM software
+often required at their scale. Taken together, communities are confronted by
+coordination costs that explode as participation rises, compounded by the lower
+quality of generic alternatives offered by proprietary cloud platforms (for
+little to no cost, perhaps, except surrendering the right to control their own
+data or privacy), varying and unequal access to technology or to the training
+needed to use it effectively, incompatible data formats and exchange protocols
+that can lead to vendor lock-in and information silos, until widespread digital
+coordination across a large, contiguous foodshed or bioregion can seem all but
+unattainable.
 
-This specific deployment will be incredibly modest in comparison to that big
-picture, but is intended to provide a kernel of infrastructure that the CAA can
-own and control from the very start, then expand the platform to meet their
-needs, all at their own pace. Runrig, other Float participants, and members of
-the free software community will provide digital stewardship, consultation, and
-other technical services along the way.
+### Project Statement
+A [federated municipal platform], or FMP, is a communally owned & controlled
+digital platform, enabling a regional foodshed or bioregion to manage its own
+land, resources, and labor according to its own needs. Under the stewardship of
+the [Catskills Agrarian Alliance] (CAA) and Runrig, we propose to pilot an FMP
+for the Hudson Valley and New York City Metro Area, comprising the necessary
+tools for the CAA to conduct its own internal data analytics concerning its
+multi-farm CSA, wholesale distribution network, and community organizing
+initiatives. This initial deployment will provide a kernel of infrastructure
+that will be shared and controlled by the over 40 farms and producers who
+participate in the CAA's programs and beyond.
 
-That "kernel of infrastructure" will in fact represent a small proportion of the
-overall time/effort/budget that goes into this project, roughly 20-30% I would
-estimate at the moment, while a greater proportion will go to a participatory
-research / design / analytics clinic (30 - 40%), followed by some critical
-service integrations with CAA's existing tech tools, as well as possible
-integrations with tooling and services offered by other Float participants (30 -
-40%), if the community finds them helpful.
+Following this, Runrig and other Float participants will have an opportunity to
+engage with the CAA and the FMP membership through participatory design and
+research clinics, curating a suite of free software tools that can facilitate
+their collective operations. Finally, as a federated platform, there will be an
+opportunity to extend the FMP to integrate with third-party platforms its
+members already use or other compatible platforms they may wish to explore,
+thereby enabling a far greater degree of coordination while meeting communities
+of users where they are at and at their own pace.
 
-[Float]: https://float.ag/
-[FMP design doc]:
+[federated municipal platform]:
     https://www.runrig.org/posts/federated-municipal-platforms.html
+[Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 
 ### Project Background & History
 Here are some helpful links for background on the origins of this project:
@@ -228,6 +241,14 @@ From the Float proposal template:
 >   100 words)
 
 :::
+
+That "kernel of infrastructure" will in fact represent a small proportion of the
+overall time/effort/budget that goes into this project, roughly 20-30% I would
+estimate at the moment, while a greater proportion will go to a participatory
+research / design / analytics clinic (30 - 40%), followed by some critical
+service integrations with CAA's existing tech tools, as well as possible
+integrations with tooling and services offered by other Float participants (30 -
+40%), if the community finds them helpful.
 
 ## Participation
 
