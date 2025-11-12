@@ -104,6 +104,22 @@ of users where they are at and at their own pace.
     https://www.runrig.org/posts/federated-municipal-platforms.html
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 
+### Theme & Values Alignment
+In keeping with Float's values, goals, and its theme for this participatory
+funding round, __Bridging Tech & Food Sovereignty__, the object of this project
+is to facilitate the adoption of liberatory software and development
+methodologies to an already robust food sovereignty network represented by the
+CAA. From its origins, Runrig has been a project to bridge the unfortunate
+divide between these two movements, a history we've documented in the essay,
+["Hedgerows in the Sky: Concerning knowledge enclosures and how they may be
+truly leveled"]. This proposal represents an opportunity to bring those designs
+into practice in a truly bottom-up approach that centers the contiguous
+communities of technology users and food producers and consumers of a particular
+locale.
+
+["Hedgerows in the Sky: Concerning knowledge enclosures and how they may be
+    truly leveled"]: https://www.runrig.org/posts/hedgerows
+
 ### Project Background & History
 Here are some helpful links for background on the origins of this project:
 
