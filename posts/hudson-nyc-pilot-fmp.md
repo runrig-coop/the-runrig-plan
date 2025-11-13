@@ -15,9 +15,9 @@ This proposal is still VERY rough, just some notes I've cobbled together from
 exchanges with colleagues & stakeholders. I'll work on adapting it to the Float
 Proposal Template over the next couple days.
 
-From the Float proposal template:
+From the [Float] proposal template:
 
-> The theme for [Float’s] pilot round is __Bridging Tech and Food Sovereignty
+> The theme for Float’s pilot round is __Bridging Tech and Food Sovereignty
 > Movements__.
 > 
 > Funded activities should be accomplished over the course of four months,
@@ -74,8 +74,7 @@ members already use or other compatible platforms they may wish to explore,
 thereby enabling a far greater degree of coordination while meeting communities
 of users where they are at and at their own pace.
 
-[federated municipal platform]:
-    https://www.runrig.org/posts/federated-municipal-platforms.html
+[federated municipal platform]: /posts/federated-municipal-platforms.html
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 
 ### Theme & Values Alignment
@@ -92,7 +91,7 @@ communities of technology users and food producers and consumers of a particular
 locale.
 
 ["Hedgerows in the Sky: Concerning knowledge enclosures and how they may be
-    truly leveled"]: https://www.runrig.org/posts/hedgerows
+    truly leveled"]: /posts/hedgerows
 
 ### Shared Learnings
 
@@ -140,7 +139,7 @@ Here are some helpful links for background on the origins of this project:
 
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 [Federated Municipal Platforms: A fundamental design pattern]:
-    https://www.runrig.org/posts/federated-municipal-platforms.html
+    /posts/federated-municipal-platforms.html
 [Technical Interview with Tianna Kennedy of the CAA]:
     https://www.youtube.com/watch?v=Lm6eFME6OpY
 [The MAIA Project]: https://github.com/skywoman/multifarm-aggregation-info-arch/
