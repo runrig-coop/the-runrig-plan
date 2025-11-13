@@ -95,14 +95,31 @@ locale.
 
 ### Shared Learnings
 
-::: details TODO
+A key element of Runrig, as a larger program, is [The Runrig Plan], an
+alternative design methodology for the sustainable and ethical development of
+free software and other appropriate technologies. Runrig is committed to
+providing thorough documentation, a spirit of openness, and _jeu libre_ (or
+"free play") throughout the proposed project, in accordance to the principles
+expressed there:
 
-From the Float proposal template:
+> Continuous experimentation and free play, _jeu libre_, when practiced
+> throughout the lifecycle of a project like Runrig, can have tremendous
+> potential that cannot be overstated. The evolution of a software system is
+> only one factor in the evolution of the broader social and natural systems in
+> which it is embedded. Experiments may succeed, or they may fail; _ad hoc_
+> measures may eventually find wider adoption as a general solution, or they'll
+> only ever serve a tiny niche of user scenarios; freely sharing some bit of
+> knowledge or a particular technique may be recognized and reciprocated, or
+> that datum will merely fade into the background hum of information and
+> culture. Regardless, each one of these outcomes will be metabolized within an
+> open system of communal stewardship. The small lessons and incremental
+> progress each one marks will be contributed back to the whole, always in one
+> form or another, so that it continues to nurture and expand the commons.
 
-> What will the Float community learn or gain as a result of your explorations
-> and/or execution of the project? (up to 100 words)
+That is why this very proposal, once submitted, will also be included in the
+plan as a record of its success or failure.
 
-:::
+[The Runrig Plan]: ../pages/plan.md
 
 ### Future Goals of the Project
 
