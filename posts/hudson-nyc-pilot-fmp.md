@@ -101,31 +101,28 @@ locale.
 
 ### Shared Learnings
 
-A key element of Runrig, as a larger program, is [The Runrig Plan], an
-alternative design methodology for the sustainable and ethical development of
-free software and other appropriate technologies. Runrig is committed to
-providing thorough documentation, a spirit of openness, and _jeu libre_ (or
-"free play") throughout the proposed project, in accordance to the principles
-expressed there:
+Runrig's [design methodologies] generally – and the FMP architecture
+specifically – strive to overcome the shortcomings of contemporary open source
+practices, going beyond what limited gains might be achieved by this or that
+software license and confronting the broader social and ecological challenges to
+the development of sustainable, ethical, and liberatory technologies. FMPs
+represent the culmination of nearly a decade working with free software for food
+and agriculture, conducted entirely out in the open and well documented as
+matter of public record.
 
-> Continuous experimentation and free play, _jeu libre_, when practiced
-> throughout the lifecycle of a project like Runrig, can have tremendous
-> potential that cannot be overstated. The evolution of a software system is
-> only one factor in the evolution of the broader social and natural systems in
-> which it is embedded. Experiments may succeed, or they may fail; _ad hoc_
-> measures may eventually find wider adoption as a general solution, or they'll
-> only ever serve a tiny niche of user scenarios; freely sharing some bit of
-> knowledge or a particular technique may be recognized and reciprocated, or
-> that datum will merely fade into the background hum of information and
-> culture. Regardless, each one of these outcomes will be metabolized within an
-> open system of communal stewardship. The small lessons and incremental
-> progress each one marks will be contributed back to the whole, always in one
-> form or another, so that it continues to nurture and expand the commons.
+While the constituent parts of the FMP's software architecture are all tried and
+tested methods, they have yet to be practiced in concert with one another or in
+combination with _deliberately collaborative social tools & techniques_ that are
+essential to activating new efficiencies and realizing their full potential for
+mass organization.
 
-That is why this very proposal, once submitted, will also be included in the
-plan as a record of its success or failure.
+We hope that the element of participation in Float's own funding approach,
+coupled with the design primitives and methods of Runrig's FMP architecture and
+CAA's community organizing work, can unlock these new possibilities to be shared
+among this rounds cohort of practitioners and the wider free software and
+farming communities.
 
-[The Runrig Plan]: ../pages/plan.md
+[design methodologies]: ../pages/plan.md#why-a-new-methodology
 
 ### Future Goals of the Project
 
