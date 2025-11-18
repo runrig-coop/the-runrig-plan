@@ -54,27 +54,33 @@ coordination across a large, contiguous foodshed or bioregion can seem all but
 unattainable.
 
 ### Project Statement
-A [federated municipal platform], or FMP, is a communally owned & controlled
-digital platform, enabling a regional foodshed or bioregion to manage its own
-land, resources, and labor according to its own needs. Under the stewardship of
-the [Catskills Agrarian Alliance] (CAA) and Runrig, we propose to pilot an FMP
-for the Hudson Valley and New York City Metro Area, comprising the necessary
-tools for the CAA to conduct its own internal data analytics concerning its
-multi-farm CSA, wholesale distribution network, and community organizing
-initiatives. This initial deployment will provide a kernel of infrastructure
-that will be shared and controlled by the over 40 farms and producers who
-participate in the CAA's programs and beyond.
+Under the stewardship of the [Catskills Agrarian Alliance] (CAA) and [Runrig],
+we propose to pilot a novel design for community-controlled digital platforms in
+the Hudson Valley and New York City Metro Area.
 
-Following this, Runrig and other Float participants will have an opportunity to
-engage with the CAA and the FMP membership through participatory design and
-research clinics, curating a suite of free software tools that can facilitate
-their collective operations. Finally, as a federated platform, there will be an
-opportunity to extend the FMP to integrate with third-party platforms its
-members already use or other compatible platforms they may wish to explore,
-thereby enabling a far greater degree of coordination while meeting communities
-of users where they are at and at their own pace.
+A [federated municipal platform], or FMP, is a software architecture and social
+technology meant to enable a regional foodshed or bioregion to manage its own
+land, resources, and labor according to its own needs. For the proposed pilot
+Runrig will deploy a self-hosted, _libre_, no-code database, which will allow
+CAA to better integrate and contextualize their 10 years of historical data with
+their ongoing multi-farm CSA, wholesale distribution network, and community
+organizing initiatives.
+
+Following this, Runrig will conduct a participatory design and research clinic
+with the CAA, along with the 40+ farms and producers who participate in the
+CAA's programs. During the clinic, FMP members will begin curating a suite of
+free software tools that can coordinate their collective operations, unify
+information workflows between the disparate third-party services they already
+use, and learn about free software options that can simplify individual members'
+own data management tasks while sharing the costs of maintenance collectively.
+
+In the final phase, we will begin implementation of that suite, targeting the
+features that will afford the greatest early return of value to the FMP's total
+membership, while also looking ahead to future applications and enhancements
+they can sustain in the long term as a community.
 
 [federated municipal platform]: /posts/federated-municipal-platforms.html
+[Runrig]: https://www.runrig.org/
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 
 ### Theme & Values Alignment
