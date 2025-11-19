@@ -511,11 +511,5 @@ open approach with this funding proposal?
 
 ### Participation in discovery round
 
-::: details TODO
-
-From the Float proposal template:
-
-> If your proposal is not selected, would you like it to be automatically
-> included in the “Discovery” co-budgeting round, which is set to follow?
-
-:::
+If not selected for this round, we absolutely wish to be included in the
+“Discovery” co-budgeting round, which is set to follow.
