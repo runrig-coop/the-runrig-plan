@@ -29,11 +29,29 @@ From the [Float] proposal template:
 
 ## Summary
 
+::: details INSTRUCTIONS
+
+> - __Project Team:__ Names of the individual(s) that will steward the project.
+>   You will share about their affiliations and qualifications later.
+> - __Collaborating Projects/Organizations:__ If applicable, existing projects
+>   or organizations that will collaborate to accomplish this project.
+> - __Project Title:__ Provide a clear and concise title for your project.
+
+:::
+
 - __Project Title__: "Piloting a Federated Municipal Platform for the Hudson
   Valley & NYC Metro Area"
 - __Project Team__: Jamie Gaehring, and others TBD
 
 ### Problem Statement
+
+::: details INSTRUCTIONS
+
+> In 2-3 sentences, provide a high-level overview of the problem(s) this project
+> would help address.
+
+:::
+
 Small-to-midsize farms, regional food hubs, and grassroots food organizations
 face distinct challenges if they wish to cooperate with one another on the
 shared task of agricultural production and food distribution in their region,
@@ -54,6 +72,15 @@ coordination across a large, contiguous foodshed or bioregion can seem all but
 unattainable.
 
 ### Project Statement
+
+::: details INSTRUCTIONS
+
+> In 3-5 sentences - an elevator pitch - provide a high-level overview of what
+> the project hopes to accomplish, and how that would effectively address the
+> issues described in the problem statement.
+
+:::
+
 Under the stewardship of the [Catskills Agrarian Alliance] (CAA) and [Runrig],
 we propose to pilot a novel design for community-controlled digital platforms in
 the Hudson Valley and New York City Metro Area.
@@ -84,6 +111,16 @@ they can sustain in the long term as a community.
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 
 ### Theme & Values Alignment
+
+::: details INSTRUCTIONS
+
+> - __Theme Alignment:__ Describe the project’s alignment with Float’s pilot
+>   theme: Bridging Tech & Food Sovereignty (up to 100 words).
+> - __Alignment with Float’s Values and Goals:__ Describe the project’s
+>   alignment with Float’s values and goals (up to 100 words).
+
+:::
+
 In keeping with Float's values, goals, and its theme for this participatory
 funding round, __Bridging Tech & Food Sovereignty__, the object of this project
 is to facilitate the adoption of liberatory software and development
@@ -100,6 +137,13 @@ locale.
     truly leveled"]: /posts/hedgerows
 
 ### Shared Learnings
+
+::: details INSTRUCTIONS
+
+> What will the Float community learn or gain as a result of your explorations
+> and/or execution of the project? (up to 100 words)
+
+:::
 
 Runrig's [design methodologies] generally – and the FMP architecture
 specifically – strive to overcome the shortcomings of contemporary open source
@@ -126,13 +170,15 @@ farming communities.
 
 ### Future Goals of the Project
 
-::: warning TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > If you receive additional funding, through Float or from another source, how
 > would you deploy it. And, what are the long-term dreams for the project? (up
 > to 100 words)
+
+:::
+
+::: warning FIXME
 
 Move large portions of this to the [Project Impacts](#project-impacts) below,
 since it far exceeds the suggested 100-word limit, clocking in at a whopping 421
@@ -309,9 +355,7 @@ the cycle going.
 
 ### Project Description
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Describe your project in detail (up to 400 words).
 
@@ -319,9 +363,7 @@ From the Float proposal template:
 
 ### Measurable Outputs
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Describe the measurable outputs, if any, which could serve as a reasonable
 > proxy for project success, or describe why this is difficult for this project
@@ -331,9 +373,7 @@ From the Float proposal template:
 
 ### Anticipated Challenges
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Share any anticipated challenges that could keep the project from
 > accomplishing aims, and how you plan to mitigate them (up to 200 words).
@@ -342,12 +382,10 @@ From the Float proposal template:
 
 ### Team Expertise
 
-::: details TODO
+::: details INSTRUCTIONS
 
-From the Float proposal template:
-
-> Describe your expertise, extra special gifts, and
-> affiliations of the Project Team (up to 200 words).
+> Describe your expertise, extra special gifts, and affiliations of the Project
+> Team (up to 200 words).
 
 :::
 
@@ -355,9 +393,7 @@ From the Float proposal template:
 
 ### Anticipated Impacts
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Describe the project’s anticipated impacts across interdependent scales
 > (individuals, farmers, and users; communities and territories; ecosystems;
@@ -367,9 +403,7 @@ From the Float proposal template:
 
 ### Key Beneficiaries
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Who specifically benefits, and how? (up to 200 words)
 
@@ -377,9 +411,7 @@ From the Float proposal template:
 
 ### Unintended Consequences
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > What if you are wrong? What are potential consequences - downsides, risks, or
 > possible harms that could result from implementing or attempting to implement
@@ -399,9 +431,7 @@ them helpful.
 
 ### Key Milestones and Deliverables
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Provide a clear timeline for your project with key milestones and deliverables
 > (up to 200 words).
@@ -410,9 +440,7 @@ From the Float proposal template:
 
 ### Budget
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Provide a detailed budget for your project. 
 
@@ -420,9 +448,7 @@ From the Float proposal template:
 
 ### Budget Narrative
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > Explain how the requested funds will be used to achieve your objectives (up to
 > 100 words).
@@ -431,9 +457,7 @@ From the Float proposal template:
 
 ### Additional Resourcing
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > To help inform future Float funding rounds, beyond funding, what other
 > resources or support would be helpful for your project's success? (e.g.,
@@ -446,9 +470,7 @@ From the Float proposal template:
 
 ### Overall Involvement
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > In 2-3 sentences, describe the overall level of the project team members’
 > involvement in the Float community.
@@ -457,9 +479,7 @@ From the Float proposal template:
 
 ### Peer Feedback Involvement
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > In 3-5 sentences, please describe, in a general way, the sort of feedback
 > project team members have been able to provide to other projects, if they have
@@ -470,9 +490,7 @@ From the Float proposal template:
 
 ### Project Peer Feedback
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > If applicable, describe the feedback you have received from other Float
 > participants, and how this has affected the shape of your project and/or
@@ -482,9 +500,7 @@ From the Float proposal template:
 
 ### Openness to Collaboration
 
-::: details TODO
-
-From the Float proposal template:
+::: details INSTRUCTIONS
 
 > If your project is looking for collaborators, in general or with particular
 > skills or aptitudes, please say so here (up to 100 words).
