@@ -59,17 +59,16 @@ while making the most of modern information technologies like we've all grown
 accustomed to using nowadays.
 
 Taken separately, these groups can seldom afford the same enterprise-grade,
-proprietary software packages or bespoke, white-label services available to
-larger producers and distributors, such as the specialized ERP or CRM software
-often required at their scale. Taken together, communities are confronted by
+proprietary software packages or white-label services available to larger
+producers and distributors, such as the specialized ERP or CRM software often
+required at their scale. Taken together, communities are confronted by
 coordination costs that explode as participation rises, compounded by the lower
 quality of generic alternatives offered by proprietary cloud platforms (for
-little to no cost, perhaps, except surrendering the right to control their own
-data or privacy), varying and unequal access to technology or to the training
-needed to use it effectively, incompatible data formats and exchange protocols
-that can lead to vendor lock-in and information silos, until widespread digital
-coordination across a large, contiguous foodshed or bioregion can seem all but
-unattainable.
+little to no cost besides surrendering control their data or privacy), varying
+and unequal access to technology or to the expertise needed to use it
+effectively, incompatible data formats and exchange protocols that can lead to
+vendor lock-in and information silos, until widespread digital coordination
+across a large, contiguous foodshed or bioregion can seem all but unattainable.
 
 ### Project Statement
 
@@ -81,13 +80,14 @@ unattainable.
 
 :::
 
-Under the stewardship of the [Catskills Agrarian Alliance] (CAA) and [Runrig],
-we propose to pilot a novel design for community-controlled digital platforms in
-the Hudson Valley and New York City Metro Area.
+Under the stewardship of the [Catskills Agrarian Alliance], or __CAA__, and
+[Runrig], we propose to pilot a novel design for community-controlled digital
+platforms, wih the first deployment in the Hudson Valley and New York City Metro
+Area.
 
 A [federated municipal platform], or FMP, is a software architecture and social
 technology meant to enable a regional foodshed or bioregion to manage its own
-land, resources, and labor according to its own needs. For the proposed pilot
+land, resources, and labor according to its own needs. For the proposed pilot,
 Runrig will deploy a self-hosted, _libre_, no-code database, which will allow
 CAA to better integrate and contextualize their 10 years of historical data with
 their ongoing multi-farm CSA, wholesale distribution network, and community
@@ -156,9 +156,9 @@ matter of public record.
 
 While the constituent parts of the FMP's software architecture are all tried and
 tested methods, they have yet to be practiced in concert with one another or in
-combination with _deliberately collaborative social tools & techniques_ that are
-essential to activating new efficiencies and realizing their full potential for
-mass organization.
+combination with the _deliberately collaborative social tools & techniques_ that
+are essential to activating new efficiencies and realizing their full potential
+for mass organization.
 
 We hope that the element of participation in Float's own funding approach,
 coupled with the design primitives and methods of Runrig's FMP architecture and
