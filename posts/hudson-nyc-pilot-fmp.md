@@ -245,23 +245,17 @@ analytics with fresh data as it comes in. All this will allow the CAA to better
 integrate and contextualize that historical data with their ongoing multi-farm
 CSA, wholesale distribution network, and community organizing initiatives.
 
-::: warning FIXME
-
-Replace "clinic" w/ PAR and/or design discovery.
-
-:::
-
-Following this, Runrig will conduct a participatory design and research clinic
-with the CAA, along with the 40+ farms and producers who participate in the
-CAA's programs. During the clinic, FMP members will begin curating a suite of
-free software tools that can coordinate their collective operations, unify
-information workflows between the disparate third-party services they already
-use, and learn about free software options that can simplify individual members'
-own data management tasks while sharing the costs of maintenance collectively.
-In the course of cleaning the CAA's historical data, Runrig also prepared a
-pseudonymized copy of the data that can be used in future mutual aid work by
-data analysts in the regional community who have volunteered to produce a more
-rigorous analysis to aid in the CAA's operations.
+Following this, Runrig will conduct a series of participatory design and
+research clinics with the CAA, along with the 40+ farms and producers who
+participate in the CAA's programs. During these clinics, FMP members will begin
+curating a suite of free software tools that can coordinate their collective
+operations, unify information workflows between the disparate third-party
+services they already use, and learn about free software options that can
+simplify individual members' own data management tasks while sharing the costs
+of maintenance collectively. In the course of cleaning the CAA's historical
+data, Runrig also prepared a pseudonymized copy of the data that can be used in
+future mutual aid work by data analysts in the regional community who have
+volunteered to produce a more rigorous analysis to aid in the CAA's operations.
 
 In the final phase, we will begin the implementation of that suite, targeting
 the features that will afford the greatest early return of value to the FMP's
