@@ -9,19 +9,11 @@ drafted: 2025-10-31
 outline: [2, 4]
 ---
 
-::: warning HERE BE DRAGONS 🐉
+::: info
 
-This proposal is still VERY rough, just some notes I've cobbled together from
-exchanges with colleagues & stakeholders. I'll work on adapting it to the Float
-Proposal Template over the next couple days.
-
-From the [Float] proposal template:
-
-> The theme for Float’s pilot round is __Bridging Tech and Food Sovereignty
-> Movements__.
-> 
-> Funded activities should be accomplished over the course of four months,
-> between December 2025 and the end of March 2026. 
+The following proposal was originally planned for submission to the inaugural
+round of [Float], a funding lab for open agroecological technologies. The theme
+for the round was _Bridging Tech and Food Sovereignty Movements_.
 
 :::
 
