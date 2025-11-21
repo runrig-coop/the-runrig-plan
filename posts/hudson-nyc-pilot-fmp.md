@@ -461,11 +461,36 @@ Notes from internal comms w/ team members and stakeholders:
 
 :::
 
-::: warning TODO
+The pilot will be conducted in three staged phases.
 
-200 words
+#### Phase 1: Instantiate Platform & Deploy No-code DB
+- _Time Range:_ __Jan 5 - Feb 13__
+- _Duration:_ __6 weeks__
 
-:::
+Deploy a self-hosted, [_libre_], no-code database that will enable the CAA to
+manage and contextualize their 10 years of historical data with their ongoing
+operations.
+
+#### Phase 2: Participatory Design & Research Series
+- _Time Range:_ __Feb 16 - Apr 24__
+- _Duration:_ __10 weeks__
+
+A series of participatory design and research clinics with various segments of
+the FMP membership – i.e., the CAA and its partners – to devise a roadmap and
+iterative course of development for the next two years, leading to the curation
+of a suite of free software tools, integrations, and extensions for their
+collective decision making and the coordinated management of shared resources.
+
+#### Phase 3: Application & Integration Development
+- _Time Range:_ __Apr 27 - Jun 30__
+- _Duration:_ __9 weeks__
+
+Targeted implementation and deployment of a select few applications and features
+among that suite, which promise to yield the greatest early return of value in
+the short time allowed to benefit the FMP's total membership.
+
+[_libre_]: https://www.gnu.org/philosophy/free-sw.html
+[Project Description]: #project-description
 
 ### Budget
 
