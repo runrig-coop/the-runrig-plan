@@ -192,6 +192,23 @@ farming communities.
 
 :::
 
+The second stage of this pilot project is meant to be a highly generative phase
+of design and discovery. The expectation is that some portion of that generated
+output will yield immediate gains for the FMP membership when it is implemented
+in the third phase; however, the far greater share of that design schema should
+provide a framework for many further iterations and years to come.
+
+The FMP architecture also represents a design pattern that can be reproduced in
+other regions and with other communities, but it is nevertheless just one of
+[three layers] in the total scheme envisioned in the [Runrig Plan]. Ultimately,
+FMPs are intended to be the intermediate, _regional_ layer that rests upon a
+broader, _global_ substrate of cooperative data infrastructure, while more
+decentralized, _local_ applications can be tailored to suit more individualized
+use cases.
+
+[three layers]: ./federated-municipal-platforms#two-other-layers
+[Runrig Plan]: ../pages/plan
+
 ### Project Background & History
 
 ::: warning DRAFT NOTE
