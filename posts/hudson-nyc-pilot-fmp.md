@@ -279,6 +279,55 @@ Here are some helpful links for background on the origins of this project:
 
 :::
 
+For the first phase of the proposed pilot, Runrig will deploy a self-hosted
+no-code database, such as [Grist], [NocoDB], or [BaseRow], which are all free
+software alternatives to proprietary services like Airtable or Notion. In
+previous mutual aid work with the CAA, Runrig has cleaned and aggregated 10
+years of the CAA's historical data from disparate data sources into a compact
+SQLite file, which can now be used to seed the database with little additional
+effort. SQL queries that Runrig has already prepared can be incorporated into
+the user-friendly GUI of the no-code database so that CAA staff can run those
+analytics with fresh data as it comes in. All this will allow the CAA to better
+integrate and contextualize that historical data with their ongoing multi-farm
+CSA, wholesale distribution network, and community organizing initiatives.
+
+Following this, Runrig will conduct a participatory design and research clinic
+with the CAA, along with the 40+ farms and producers who participate in the
+CAA's programs. During the clinic, FMP members will begin curating a suite of
+free software tools that can coordinate their collective operations, unify
+information workflows between the disparate third-party services they already
+use, and learn about free software options that can simplify individual members'
+own data management tasks while sharing the costs of maintenance collectively.
+In the course of cleaning the CAA's historical data, Runrig also prepared a
+pseudonymized copy of the data that can be used in future mutual aid work by
+data analysts in the regional community who have volunteered to produce a more
+rigorous analysis to aid in the CAA's operations.
+
+In the final phase, we will begin the implementation of that suite, targeting
+the features that will afford the greatest early return of value to the FMP's
+total membership, while also looking ahead to future applications and
+enhancements they can sustain as a community in the long term. To give a sense
+of implementation targets, the CAA has expressed interest in adopting CRM
+software, which could be as simple as implementing the [Grist CRM template],
+installing another _libre_ server on the FMP, such as [Frappe CRM] or [EspoCRM],
+or at the very least preparing their historical data to import to an external
+service. We'll also look at ways to automate synchronization between the no-code
+database and CSAware, a 3rd party service the CAA currently uses to manage its
+CSA subscriptions, pick-up sites, and payments. Along the way, we'll try
+wherever we can to achieve compliance with data standards and protocols like the
+[DFC Standard] or [Common Farm Conventions], which will open up future avenues
+for data portability and service integrations with other external platforms like
+Open Food Network or Shopify, that already support such standards.
+
+[Grist]: https://www.getgrist.com/
+[NocoDB]: https://www.nocodb.com/
+[BaseRow]: https://baserow.io/
+[Frappe CRM]: https://frappe.io/crm
+[EspoCRM]: https://www.espocrm.com/
+[DFC Standard]: https://dfc-standard.org/
+[Common Farm Conventions]:
+    https://our-sci.gitlab.io/conventions/common_farm_conventions/wiki/
+
 ### Measurable Outputs
 
 ::: details INSTRUCTIONS
