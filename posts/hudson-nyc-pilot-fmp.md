@@ -39,6 +39,12 @@ From the [Float] proposal template:
 
 :::
 
+::: warning FIXME
+
+Decide on team / collabs
+
+:::
+
 - __Project Title__: "Piloting a Federated Municipal Platform for the Hudson
   Valley & NYC Metro Area"
 - __Project Team__: Jamie Gaehring, and others TBD
@@ -98,6 +104,12 @@ For this pilot, Runrig will work in close partnership with the CAA to deploy an
 FMP that will serve the farms, producers, and similarly aligned grassroots
 organizations participating in the CAA's programs, spanning the Hudson Valley and
 New York City metro area:
+
+::: warning FIXME
+
+Should probably just get rid of this stuff; irrelevant here.
+
+:::
 
 - Multi-farm CSA program with 40+ local food producers & 30+ pick-up locations
 - Wholesale distribution network for local restaurants & institutional buyers
@@ -213,7 +225,9 @@ use cases.
 
 ::: warning DRAFT NOTE
 
-Project background not required here, but leftover for ref from Hylo chat.
+Project background not required here, but leftover for ref from Hylo
+chat... _however,_ some of this may be useful for the [Team
+Expertise](#team-expertise) section below.
 
 :::
 
@@ -258,6 +272,12 @@ analytics with fresh data as it comes in. All this will allow the CAA to better
 integrate and contextualize that historical data with their ongoing multi-farm
 CSA, wholesale distribution network, and community organizing initiatives.
 
+::: warning FIXME
+
+Replace "clinic" w/ PAR and/or design discovery.
+
+:::
+
 Following this, Runrig will conduct a participatory design and research clinic
 with the CAA, along with the 40+ farms and producers who participate in the
 CAA's programs. During the clinic, FMP members will begin curating a suite of
@@ -289,6 +309,7 @@ Open Food Network or Shopify, that already support such standards.
 [Grist]: https://www.getgrist.com/
 [NocoDB]: https://www.nocodb.com/
 [BaseRow]: https://baserow.io/
+[Grist CRM template]: https://support.getgrist.com/lightweight-crm/
 [Frappe CRM]: https://frappe.io/crm
 [EspoCRM]: https://www.espocrm.com/
 [DFC Standard]: https://dfc-standard.org/
@@ -341,6 +362,12 @@ least half – will be dedicated to participatory design and discovery work.
 
 > Describe your expertise, extra special gifts, and affiliations of the Project
 > Team (up to 200 words).
+
+:::
+
+::: warning TODO
+
+200 words; see [Project Background & History](#project-background-history).
 
 :::
 
@@ -420,6 +447,12 @@ without sacrificing collective autonomy.
 
 :::
 
+::: warning TODO
+
+200 words
+
+:::
+
 ### Unintended Consequences
 
 ::: details INSTRUCTIONS
@@ -430,97 +463,27 @@ without sacrificing collective autonomy.
 
 :::
 
-## Project Plan
-
-::: warning DRAFT NOTE
-
-The following notes will be incorporated into the template sections further
-below.
-
-:::
-
-- A pilot FMP stewarded by CAA & Runrig (see "Development Goals" below for
-  more details)
-- Think of it like a "digital backbone" for safely integrating data from other
-  platforms (e.g., CSAware, Shopify, etc) and safely sharing it w/ CAA members &
-  partner orgs
-- Not meant to move your data or workflows away from your existing tools like
-  CSAware, just make those workflows run more smoothly & effectively; e.g.:
-  - Less data entry, esp. repetitive copy'n'paste tasks
-  - But also an escape hatch for when you do need to leave other platforms
-    like CSAware
-- Whenever possible, the platform's data will be redundant and synced with
-  your pre-existing data sources (e.g., CSAware) to make data migration a
-  non-issue.
-- Your platform data is always portable, from Day 1; i.e., you can:
-  - Hit `EJECT` button (metaphorically) to walk away easily w/ your data
-    safely in tow, or
-  - Hit `ABORT` to shut it down securely & delete entirely if you just don't
-    want or need it any more.
-
-That "kernel of infrastructure" will in fact represent a small proportion of the
-overall time/effort/budget that goes into this project (I'd est. ~20-30%, atm),
-while a greater proportion will go to a participatory research / design /
-analytics clinic (~30-40%), followed by some critical service integrations with
-CAA's existing tech tools, as well as possible integrations with tooling and
-services offered by other Float participants (~30-40%), if the community finds
-them helpful.
-
-### Grist Database (or a similarly free Airtable-like clone)
-
-- Host historical data for 607 CSA Orders (2015-24) in a web-based, free &
-  open source "no-code database" akin to Airtable; examples:
-  - [Grist] (Jamie's recommendation)
-  - [NocoDB]
-  - [BaseRow]
-- Create member accounts for CAA/607 team members to securely access the
-  specific data they need
-- Segment data so it can granted separate permissions and pseudonymized for
-  non-CAA/607 partners w/o sharing personally identifying information (PII)
-  or other private data.
-- Create dedicated views and tables to meet the operational needs of CAA/607
-  team members.
-- Add user-friendly utilities for running member retention analytics, but
-  also for modifying/adjusting the analysis.
-
-[Grist]: https://www.getgrist.com/
-[NocoDB]: https://www.nocodb.com/
-[BaseRow]: https://baserow.io/
-
-### Data Analytics Hackathon/PAR
-
 ::: warning TODO
 
-Point out how this is "generative" for reproducing the conditions for more
-refined feature development – the engine that keeps filling the bucket, keeps
-the cycle going.
+Notes from internal comms w/ team members and stakeholders:
+
+> - Not meant to move your data or workflows away from your existing tools like
+>   CSAware, just make those workflows run more smoothly & effectively; e.g.:
+>   - Less data entry, esp. repetitive copy'n'paste tasks
+>   - But also an escape hatch for when you do need to leave other platforms
+>     like CSAware
+> - Whenever possible, the platform's data will be redundant and synced with
+>   your pre-existing data sources (e.g., CSAware) to make data migration a
+>   non-issue.
+> - Your platform data is always portable, from Day 1; i.e., you can:
+>   - Hit `EJECT` button (metaphorically) to walk away easily w/ your data
+>     safely in tow, or
+>   - Hit `ABORT` to shut it down securely & delete entirely if you just don't
+>     want or need it any more.
 
 :::
 
-- Develop further analytics utilities & scripts that can be incorporated
-  into the Grist database.
-- Conduct a more comprehensive review in the style of a hackathon or as
-  Participatory Action Research (or PAR, a la Paolo Freire) to identify
-  areas of greatest need and potential improvement to food sovereignty
-  initiatives in the region.
-- Use pseudonymized data and its derivatives, which we can open up to
-  collaboration with other trusted members of the community.
-
-### Data Integrations / Webhooks
-
-- Automate synchronization and other operations between Grist and CSAware to
-  reduce the need for duplication of data entry efforts and other repetitive
-  tasks.
-- Explore other options like the [DFC Standard] or [Common Farm Conventions]
-  to leverage existing utilities for sharing data with other external
-  platforms like Open Food Network, Shopify, soil labs, etc.
-- Find ways to bring other interested partners online and how to port their
-  existing data from the services they currently use.
-
-[DFC Standard]: https://dfc-standard.org/
-[Common Farm Conventions]:
-    https://our-sci.gitlab.io/conventions/common_farm_conventions/wiki/
-
+## Project Plan
 
 ### Key Milestones and Deliverables
 
@@ -531,11 +494,29 @@ the cycle going.
 
 :::
 
+::: warning TODO
+
+200 words
+
+:::
+
 ### Budget
 
 ::: details INSTRUCTIONS
 
 > Provide a detailed budget for your project. 
+
+:::
+
+::: warning TODO
+
+That "kernel of infrastructure" will in fact represent a small proportion of the
+overall time/effort/budget that goes into this project (I'd est. ~20-30%, atm),
+while a greater proportion will go to a participatory research / design /
+analytics clinic (~30-40%), followed by some critical service integrations with
+CAA's existing tech tools, as well as possible integrations with tooling and
+services offered by other Float participants (~30-40%), if the community finds
+them helpful.
 
 :::
 
@@ -548,6 +529,15 @@ the cycle going.
 
 :::
 
+
+::: warning TODO
+
+- design & discovery
+- social tech
+- compensating ppl for their time (equity)
+
+:::
+
 ### Additional Resourcing
 
 ::: details INSTRUCTIONS
@@ -555,6 +545,12 @@ the cycle going.
 > To help inform future Float funding rounds, beyond funding, what other
 > resources or support would be helpful for your project's success? (e.g.,
 > technical expertise, community feedback, mentorship) (up to 100 words)
+
+:::
+
+::: warning TODO
+
+100 words
 
 :::
 
@@ -570,6 +566,12 @@ the cycle going.
 
 :::
 
+::: warning TODO
+
+200 words
+
+:::
+
 ### Peer Feedback Involvement
 
 ::: details INSTRUCTIONS
@@ -577,6 +579,12 @@ the cycle going.
 > In 3-5 sentences, please describe, in a general way, the sort of feedback
 > project team members have been able to provide to other projects, if they have
 > had the opportunity to do so.
+
+:::
+
+::: warning TODO
+
+3-5 sentences
 
 :::
 
@@ -591,12 +599,24 @@ the cycle going.
 
 :::
 
+::: warning TODO
+
+100 words
+
+:::
+
 ### Openness to Collaboration
 
 ::: details INSTRUCTIONS
 
 > If your project is looking for collaborators, in general or with particular
 > skills or aptitudes, please say so here (up to 100 words).
+
+:::
+
+::: warning FIXME
+
+Below is leftover from Hylo chat notes; adapt it to proposal instructions.
 
 :::
 
@@ -621,4 +641,4 @@ open approach with this funding proposal?
 ### Participation in discovery round
 
 If not selected for this round, we absolutely wish to be included in the
-“Discovery” co-budgeting round, which is set to follow.
+"Discovery" co-budgeting round, which is set to follow.
