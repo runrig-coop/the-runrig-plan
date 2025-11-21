@@ -305,18 +305,15 @@ Open Food Network or Shopify, that already support such standards.
 
 :::
 
-::: warning DRAFT NOTES
-
-- Any time CAA saves on repetitive copy'n paste tasks, integrating data between
-  proprietary cloud platforms and sheets
-- Higher levels of engagement from producer partners in the CAA, including
-  participation in collective decision-making processes and transparency
-  mechanisms for shared finances.
-- Improved reporting to the CAA's institutional and funding partners based on
-  integrated historical & real-time data concerning their operations and total
-  impact.
-
-:::
+Any amount of time that the CAA saves on repetitive copy-n-paste tasks – as they
+do currently whenever they need to merge and compare recent subscriptions with
+their historical data – will represent an immediate gain. As a corollary, that
+should also show an improvement in their reporting, in terms of the granularity
+and frequency of what they're able to report to institutional partners, as well
+as transparency with their membership. The most valuable indicator we hope to
+observe will be higher levels of engagement from their producer partners, such
+as participation in collective decision-making processes, governance, and
+oversight.
 
 ### Anticipated Challenges
 
