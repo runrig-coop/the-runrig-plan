@@ -502,15 +502,20 @@ the short time allowed to benefit the FMP's total membership.
 
 ::: warning TODO
 
-That "kernel of infrastructure" will in fact represent a small proportion of the
-overall time/effort/budget that goes into this project (I'd est. ~20-30%, atm),
-while a greater proportion will go to a participatory research / design /
-analytics clinic (~30-40%), followed by some critical service integrations with
-CAA's existing tech tools, as well as possible integrations with tooling and
-services offered by other Float participants (~30-40%), if the community finds
-them helpful.
+Estimate line item costs
 
 :::
+
+| #   | Description                                                    |  Cost |
+| --- | :------------------------------------------------------------- | ----: |
+| 1   | VPS provisioning & hosting fees for first 2 years of operation |     $ |
+| 2   | Initial platform configuration & deployment                    |     $ |
+| 3   | No-code database deployment & seeding                          |     $ |
+| 4   | Hosting & performance of design & research series              |     $ |
+| 5   | Stipends for equitable FMP member participation                |     $ |
+| 6   | Application & feature development                              |     $ |
+| 7   | Preparation of 2-year roadmap and community guidance documents |     $ |
+|     | __TOTAL__                                                      | __$__ |
 
 ### Budget Narrative
 
