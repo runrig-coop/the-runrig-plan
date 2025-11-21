@@ -352,12 +352,34 @@ Open Food Network or Shopify, that already support such standards.
 
 :::
 
+::: warning DRAFT NOTES
+
+- Any time CAA saves on repetitive copy'n paste tasks, integrating data between
+  proprietary cloud platforms and sheets
+- Higher levels of engagement from producer partners in the CAA, including
+  participation in collective decision-making processes and transparency
+  mechanisms for shared finances.
+- Improved reporting to the CAA's institutional and funding partners based on
+  integrated historical & real-time data concerning their operations and total
+  impact.
+
+:::
+
 ### Anticipated Challenges
 
 ::: details INSTRUCTIONS
 
 > Share any anticipated challenges that could keep the project from
 > accomplishing aims, and how you plan to mitigate them (up to 200 words).
+
+:::
+
+::: warning DRAFT NOTES
+
+- An FMP offers an abundance of options and a wide range of latitude in the kind
+  of features and applications it can incorporate; ambitions must be tempered
+  somewhat for this initial phase, while keeping the greater vision in sight so
+  we can continue to home in on it for the long term.
 
 :::
 
