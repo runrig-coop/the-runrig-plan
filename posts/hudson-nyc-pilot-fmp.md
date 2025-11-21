@@ -324,14 +324,16 @@ oversight.
 
 :::
 
-::: warning DRAFT NOTES
+An FMP offers an abundance of options and a wide range of latitude in the kind
+of features and applications it can incorporate; ambitions must be tempered
+somewhat for this initial phase, while keeping the greater vision in sight so we
+can continue to home in on it for the long term.
 
-- An FMP offers an abundance of options and a wide range of latitude in the kind
-  of features and applications it can incorporate; ambitions must be tempered
-  somewhat for this initial phase, while keeping the greater vision in sight so
-  we can continue to home in on it for the long term.
-
-:::
+It also cannot be understated how so much of this design is intended as a form
+of _social technology_, not just digital technology. As such, much depends upon
+the overall commitment and mutual trust of the project's many participants and
+stakeholders. That is why such a large proportion of the time and budget – at
+least half – will be dedicated to participatory design and discovery work.
 
 ### Team Expertise
 
