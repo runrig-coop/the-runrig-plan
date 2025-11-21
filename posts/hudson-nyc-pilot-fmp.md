@@ -102,39 +102,12 @@ efforts.
 
 For this pilot, Runrig will work in close partnership with the CAA to deploy an
 FMP that will serve the farms, producers, and similarly aligned grassroots
-organizations participating in the CAA's programs, spanning the Hudson Valley and
-New York City metro area:
-
-::: warning FIXME
-
-Should probably just get rid of this stuff; irrelevant here.
-
-:::
-
-- Multi-farm CSA program with 40+ local food producers & 30+ pick-up locations
-- Wholesale distribution network for local restaurants & institutional buyers
-- Mutual aid & other community organizing initiatives
-- Land access and stewardship projects
-- Educational & incubator programs in agroecology
-
-The pilot will be implemented in three staged phases, detailed further below in
-the [Project Description]:
-
-1. Deploy a self-hosted, [_libre_], no-code database that will enable the CAA to
-   manage and contextualize their 10 years of historical data with their ongoing
-   operations.
-2. A participatory design and research clinic to curate a suite of free software
-   tools that can coordinate shared resources and collective decision making,
-   with a long-term plan for its incremental and iterative development.
-3. Targeted implementation and deployment of those applications and features
-   identified to yield the greatest early return of value in the short time
-   allowed to benefit the FMP's total membership.
+organizations participating in the CAA's programs, spanning the Hudson Valley
+and New York City metro area.
 
 [Runrig]: https://www.runrig.org/
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
 [federated municipal platform]: /posts/federated-municipal-platforms.html
-[_libre_]: https://www.gnu.org/philosophy/free-sw.html
-[Project Description]: #project-description
 
 ### Theme & Values Alignment
 
