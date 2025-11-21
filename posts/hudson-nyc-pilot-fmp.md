@@ -51,13 +51,6 @@ Decide on team / collabs
 
 ### Problem Statement
 
-::: details INSTRUCTIONS
-
-> In 2-3 sentences, provide a high-level overview of the problem(s) this project
-> would help address.
-
-:::
-
 Small-to-midsize farms, regional food hubs, and grassroots food organizations
 face distinct challenges if they wish to cooperate with one another on the
 shared task of agricultural production and food distribution in their region,
@@ -77,14 +70,6 @@ vendor lock-in and information silos, until widespread digital coordination
 across a large, contiguous foodshed or bioregion can seem all but unattainable.
 
 ### Project Statement
-
-::: details INSTRUCTIONS
-
-> In 3-5 sentences - an elevator pitch - provide a high-level overview of what
-> the project hopes to accomplish, and how that would effectively address the
-> issues described in the problem statement.
-
-:::
 
 Under the stewardship of the [Catskills Agrarian Alliance], or __CAA__, and
 [Runrig], we propose to pilot a novel design for community-controlled digital
@@ -111,15 +96,6 @@ and New York City metro area.
 
 ### Theme & Values Alignment
 
-::: details INSTRUCTIONS
-
-> - __Theme Alignment:__ Describe the project’s alignment with Float’s pilot
->   theme: Bridging Tech & Food Sovereignty (up to 100 words).
-> - __Alignment with Float’s Values and Goals:__ Describe the project’s
->   alignment with Float’s values and goals (up to 100 words).
-
-:::
-
 In keeping with Float's values, goals, and its theme for this participatory
 funding round, __Bridging Tech & Food Sovereignty__, the object of this project
 is to facilitate the adoption of liberatory software and development
@@ -136,13 +112,6 @@ locale.
     truly leveled"]: /posts/hedgerows
 
 ### Shared Learnings
-
-::: details INSTRUCTIONS
-
-> What will the Float community learn or gain as a result of your explorations
-> and/or execution of the project? (up to 100 words)
-
-:::
 
 Runrig's [design methodologies] generally – and the FMP architecture
 specifically – strive to overcome the shortcomings of contemporary open source
@@ -168,14 +137,6 @@ farming communities.
 [design methodologies]: ../pages/plan.md#why-a-new-methodology
 
 ### Future Goals of the Project
-
-::: details INSTRUCTIONS
-
-> If you receive additional funding, through Float or from another source, how
-> would you deploy it. And, what are the long-term dreams for the project? (up
-> to 100 words)
-
-:::
 
 The second stage of this pilot project is meant to be a highly generative phase
 of design and discovery. The expectation is that some portion of that generated
@@ -226,12 +187,6 @@ Here are some helpful links for background on the origins of this project:
 ## Project Details
 
 ### Project Description
-
-::: details INSTRUCTIONS
-
-> Describe your project in detail (up to 400 words).
-
-:::
 
 For the first phase of the proposed pilot, Runrig will deploy a self-hosted
 no-code database, such as [Grist], [NocoDB], or [BaseRow], which are all free
@@ -285,14 +240,6 @@ Open Food Network or Shopify, that already support such standards.
 
 ### Measurable Outputs
 
-::: details INSTRUCTIONS
-
-> Describe the measurable outputs, if any, which could serve as a reasonable
-> proxy for project success, or describe why this is difficult for this project
-> specifically (up to 100 words).
-
-:::
-
 Any amount of time that the CAA saves on repetitive copy-n-paste tasks – as they
 do currently whenever they need to merge and compare recent subscriptions with
 their historical data – will represent an immediate gain. As a corollary, that
@@ -304,13 +251,6 @@ as participation in collective decision-making processes, governance, and
 oversight.
 
 ### Anticipated Challenges
-
-::: details INSTRUCTIONS
-
-> Share any anticipated challenges that could keep the project from
-> accomplishing aims, and how you plan to mitigate them (up to 200 words).
-
-:::
 
 An FMP offers an abundance of options and a wide range of latitude in the kind
 of features and applications it can incorporate; ambitions must be tempered
@@ -341,14 +281,6 @@ least half – will be dedicated to participatory design and discovery work.
 ## Project Impacts
 
 ### Anticipated Impacts
-
-::: details INSTRUCTIONS
-
-> Describe the project’s anticipated impacts across interdependent scales
-> (individuals, farmers, and users; communities and territories; ecosystems;
-> economies - up to 400 words).
-
-:::
 
 The particular applications and services that comprise this pilot deployment may
 represent a modest improvement to the existing capabilities of the CAA and its
@@ -454,13 +386,6 @@ Notes from internal comms w/ team members and stakeholders:
 
 ### Key Milestones and Deliverables
 
-::: details INSTRUCTIONS
-
-> Provide a clear timeline for your project with key milestones and deliverables
-> (up to 200 words).
-
-:::
-
 The pilot will be conducted in three staged phases.
 
 #### Phase 1: Instantiate Platform & Deploy No-code DB
@@ -525,7 +450,6 @@ Estimate line item costs
 > 100 words).
 
 :::
-
 
 ::: warning TODO
 
