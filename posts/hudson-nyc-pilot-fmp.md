@@ -85,30 +85,44 @@ Under the stewardship of the [Catskills Agrarian Alliance], or __CAA__, and
 platforms, wih the first deployment in the Hudson Valley and New York City Metro
 Area.
 
-A [federated municipal platform], or FMP, is a software architecture and social
-technology meant to enable a regional foodshed or bioregion to manage its own
-land, resources, and labor according to its own needs. For the proposed pilot,
-Runrig will deploy a self-hosted, _libre_, no-code database, which will allow
-CAA to better integrate and contextualize their 10 years of historical data with
-their ongoing multi-farm CSA, wholesale distribution network, and community
-organizing initiatives.
+A [federated municipal platform], or __FMP__, is a communally owned & controlled
+digital platform, enabling a regional foodshed or bioregion to manage its own
+land, resources, and labor according to its own needs. It can host a range of
+free software applications & services, from dedicated food & agricultural
+software to generic productivity apps, all determined by a local municipality of
+users. As a federated platform, it can simultaneously cooperate with other
+community-based platforms to share resources and contribute to global solidarity
+efforts.
 
-Following this, Runrig will conduct a participatory design and research clinic
-with the CAA, along with the 40+ farms and producers who participate in the
-CAA's programs. During the clinic, FMP members will begin curating a suite of
-free software tools that can coordinate their collective operations, unify
-information workflows between the disparate third-party services they already
-use, and learn about free software options that can simplify individual members'
-own data management tasks while sharing the costs of maintenance collectively.
+For this pilot, Runrig will work in close partnership with the CAA to deploy an
+FMP that will serve the farms, producers, and similarly aligned grassroots
+organizations participating in the CAA's programs, spanning the Hudson Valley and
+New York City metro area:
 
-In the final phase, we will begin implementation of that suite, targeting the
-features that will afford the greatest early return of value to the FMP's total
-membership, while also looking ahead to future applications and enhancements
-they can sustain in the long term as a community.
+- Multi-farm CSA program with 40+ local food producers & 30+ pick-up locations
+- Wholesale distribution network for local restaurants & institutional buyers
+- Mutual aid & other community organizing initiatives
+- Land access and stewardship projects
+- Educational & incubator programs in agroecology
 
-[federated municipal platform]: /posts/federated-municipal-platforms.html
+The pilot will be implemented in three staged phases, detailed further below in
+the [Project Description]:
+
+1. Deploy a self-hosted, [_libre_], no-code database that will enable the CAA to
+   manage and contextualize their 10 years of historical data with their ongoing
+   operations.
+2. A participatory design and research clinic to curate a suite of free software
+   tools that can coordinate shared resources and collective decision making,
+   with a long-term plan for its incremental and iterative development.
+3. Targeted implementation and deployment of those applications and features
+   identified to yield the greatest early return of value in the short time
+   allowed to benefit the FMP's total membership.
+
 [Runrig]: https://www.runrig.org/
 [Catskills Agrarian Alliance]: https://www.catskillsagrarianalliance.org/
+[federated municipal platform]: /posts/federated-municipal-platforms.html
+[_libre_]: https://www.gnu.org/philosophy/free-sw.html
+[Project Description]: #project-description
 
 ### Theme & Values Alignment
 
