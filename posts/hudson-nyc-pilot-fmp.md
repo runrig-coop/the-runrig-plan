@@ -428,10 +428,31 @@ Estimate line item costs
 | 2   | Initial platform configuration & deployment                    |     $ |
 | 3   | No-code database deployment & seeding                          |     $ |
 | 4   | Hosting & performance of design & research series              |     $ |
-| 5   | Stipends for equitable FMP member participation                |     $ |
+| 5   | Stipends for equitable FMP member participation                | $2400 |
 | 6   | Application & feature development                              |     $ |
 | 7   | Preparation of 2-year roadmap and community guidance documents |     $ |
-|     | __TOTAL__                                                      | __$__ |
+|     | __TOTAL__                                               | ¯\\\_(ツ)\_/¯ |
+
+
+::: danger SCRATCH CALCULATIONS
+
+4 farms * 2 staff * 4 sessions * 90 min = 2880 min = 48 pHrs
+48 * $50 = $2400
+
+
+4 ppl / sesh (avg) * 1 sesh / wk * 10 wks * 90 min / sesh = 40 pHrs
+40 pHrs * $50 = $2000
+
+
+2.5 ppl / sesh (avg) * 1.5 sesh / wk * 10 wks * 90 min / sesh = 3375 min = 56.25 pHrs
+56.25 pHrs* $50 = $2812.5
+
+
+$150 / person for 3 hr session
+$250 / org for 3 hr session
+
+:::
+
 
 ### Budget Narrative
 
