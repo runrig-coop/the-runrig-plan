@@ -6,7 +6,6 @@ description: Part of the Float Participatory Funding Project
 author: Jamie Gaehring
 date: 2025-11-20
 drafted: 2025-10-31
-outline: [2, 4]
 ---
 
 ::: info
