@@ -1,0 +1,3 @@
+# This can be copied as `.envrc` for use with Nix Flakes dev environments. If
+# that doesn't make sense, feel free to ignore and have a nice day! :-)
+use flake
