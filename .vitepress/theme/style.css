@@ -1,0 +1,8 @@
+/* Targets markdown image notation, in-lines & centers them. */
+p:has(> img:only-child) {
+  text-align: center;
+  margin: auto;
+}
+p > img {
+  display: inline-block;
+}

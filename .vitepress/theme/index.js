@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import RRCalendar from './RRCalendar.vue'
 import RRLayout from './RRLayout.vue'
 import RRNewsletterForm from './RRNewsletterForm.vue'
+import './style.css'
 import './vars.css'
 import './vars-overrides.css'
 
