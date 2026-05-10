@@ -4,15 +4,15 @@ subtitle: A proposal to pilot a Federated Municipal Platform for the Hudson
     Valley & NYC Metro Area
 description: Part of the Float Participatory Funding Project
 author: Jamie Gaehring
-date: 2025-11-20
+date: 2026-05-12
 drafted: 2025-10-31
 ---
 
 ::: info
 
-The following proposal was originally planned for submission to the inaugural
-round of [Float], a funding lab for open agroecological technologies. The theme
-for the round was _Bridging Tech and Food Sovereignty Movements_.
+The following proposal was originally drafted in Nov 2025 and planned for
+submission to the [Float] funding lab. The theme for that inaugural round was
+_Bridging Tech and Food Sovereignty Movements_.
 
 :::
 
